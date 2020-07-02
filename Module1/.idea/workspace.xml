@@ -13,6 +13,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,6 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_5_html_form_va_table/bai_tap" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,7 +58,8 @@
       <workItem from="1593644986770" duration="2525000" />
       <workItem from="1593651249554" duration="21927000" />
       <workItem from="1593685649814" duration="294000" />
-      <workItem from="1593691741385" duration="12077000" />
+      <workItem from="1593691741385" duration="12242000" />
+      <workItem from="1593706361331" duration="1859000" />
     </task>
     <servers />
   </component>
