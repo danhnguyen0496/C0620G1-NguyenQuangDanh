@@ -30,6 +30,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_5_html_form_va_table/bai_tap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_5_html_form_va_table\bai_tap" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,7 +54,9 @@
       <workItem from="1593594516415" duration="1849000" />
       <workItem from="1593608445461" duration="7444000" />
       <workItem from="1593644986770" duration="2525000" />
-      <workItem from="1593651249554" duration="10505000" />
+      <workItem from="1593651249554" duration="21927000" />
+      <workItem from="1593685649814" duration="294000" />
+      <workItem from="1593691741385" duration="12077000" />
     </task>
     <servers />
   </component>
