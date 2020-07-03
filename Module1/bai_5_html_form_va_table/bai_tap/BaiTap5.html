@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            width: 80%;
+            background-color: #aeb1b4;
+        }
+
+        th, td {
+            border: 1px solid #2c2c2c;
+            padding: 10px;
+        }
+
+        th {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <h2 style="text-align: center">A test table with merged cells</h2>
+    <br>
+    <tr>
+        <th></th>
+        <th colspan="2">Average</th>
+        <th rowspan="2">Red eyes</th>
+    </tr>
+    <tr>
+        <td></td>
+        <th>Height</th>
+        <th>Weight</th>
+    </tr>
+    <tr>
+        <th>Males</th>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+    </tr>
+    <tr>
+        <th>Females</th>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+    </tr>
+</table>
+</body>
+</html>

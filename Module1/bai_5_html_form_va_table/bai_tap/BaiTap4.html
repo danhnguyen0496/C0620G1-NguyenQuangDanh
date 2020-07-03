@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+
+</head>
+<body>
+<form action="/action_page.php" style="width: 500px; margin-left: 300px">
+    <h1 style="color: blue;margin-bottom: 0px; background-color: bisque; text-align: center">Đăng ký học viên</h1>
+    <div style="background-color: burlywood">
+        <label>Họ và tên</label>
+        <input style="margin-left: 23px" type="text" name="yourname" placeholder="">
+        <br>
+        <br>
+        <label>Ngày sinh</label>
+        <input style="margin-left: 20px" type="text" name="yourname" placeholder="">
+        <br>
+        <br>
+        <label>Giới tính</label>
+        <input type="radio" name="gender"/> Nam
+        <input type="radio" name="gender"/> Nữ
+        <br>
+        <br>
+        <lable>Địa chỉ</lable>
+        <textarea cols="35" rows="4"></textarea>
+        <br>
+        <br>
+        <label>Lớp</label>
+        <select style="margin-left: 22px">
+            <option>Java</option>
+            <option>PHP</option>
+            <option>Javascrip</option>
+            <option>C++</option>
+        </select>
+        <br>
+        <br>
+        <label>Email</label>
+        <input style="margin-left: 10px" type="text" name="youremail" placeholder=""/>
+        <br>
+        <br>
+        <lable>Số điện thoại</lable>
+        <input type="text" name="yourtelephone" placeholder=""/>
+        <br>
+        <br>
+        <input style="margin-left: 60px" type="submit" name="submit" value="Đăng ký"/>
+        <input type="reset" name="reset" value="Nhập lại"/>
+    </div>
+</form>
+</body>
+</html>
