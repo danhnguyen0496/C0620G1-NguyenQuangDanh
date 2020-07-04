@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="" />
+    <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../NQD-NcPt/Test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD-NcPt/Test.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NQD-NcPt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +62,11 @@
       <workItem from="1593685649814" duration="294000" />
       <workItem from="1593691741385" duration="12242000" />
       <workItem from="1593706361331" duration="2010000" />
-      <workItem from="1593737615589" duration="16592000" />
+      <workItem from="1593737615589" duration="17188000" />
+      <workItem from="1593777279762" duration="77000" />
+      <workItem from="1593830004315" duration="1364000" />
+      <workItem from="1593831682354" duration="75000" />
+      <workItem from="1593844619137" duration="2776000" />
     </task>
     <servers />
   </component>
@@ -67,13 +74,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1593763469643">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1593777350565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593763469643" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593777350565" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1593759962840">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1593759962840" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593847468794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593847468794" />
   </component>
 </project>

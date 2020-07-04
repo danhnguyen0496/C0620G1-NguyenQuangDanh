@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Market Research Survey</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #eaebed;
+            padding: 8px;
+        }
+
+        tr:nth-child(1) {
+            background: #aeb1b4;
+        }
+
+        tr:nth-child(3) {
+            background: #aeb1b4;
+        }
+    </style>
 </head>
 <body>
 <form action="/action_page.php">
-<h2>Market Research Survey</h2>
+    <h2>Market Research Survey</h2>
     <h5>Please take a few moments to complete this satisfaction survey.</h5>
     <strong> What is your age arange ?</strong> <br>
     <select style="width: 400px">
@@ -34,13 +52,14 @@
     <input type="text" name="comment"/>
     <br>
     <br>
-    <strong>Which of the following products have your purchased in the last 2 months. Please check all that apply.</strong><br>
+    <strong>Which of the following products have your purchased in the last 2 months. Please check all that
+        apply.</strong><br>
     <input type="checkbox" name="product 1"/>
     <label>Product 1</label> <br>
     <input type="checkbox" name="product 2"/>
     <label>Product 2</label> <br>
     <input type="checkbox" name="product 3"/>
-       <label>Product 3</label>
+    <label>Product 3</label>
     <br>
     <br>
     <strong>How often would you use our new product ?</strong> <br>
@@ -49,8 +68,50 @@
     <input type="radio" name="pr"/> Monthly <br>
     <br>
     <br>
+    <strong> What would you pay for the new product.</strong> <br>
+    <label>$</label>
+    <input style="width: 100px" type="number" name="money" placeholder=""> .
+    <input style="width: 40px" type="number" name="money" placeholder=""> <br>
+    <label style="margin-left: 12px">Dollars</label>
+    <label style="margin-left: 70px">Cents</label>
+
+    <br>
+    <br>
     <strong>What futures would you like to see in the new product ?</strong> <br>
-    <textarea cols="50" rows="4"></textarea>
+    <textarea cols="50" rows="4"></textarea> <br>
+    <label> Please your level of agreement with the following statements</label><br>
+    <table>
+        <tr>
+            <td></td>
+            <td>Strongly Disagree</td>
+            <td>Disagree</td>
+            <td>Agree</td>
+            <td>Strongly Agree</td>
+        </tr>
+        <tr>
+            <th>Ours products are priced fairly</th>
+            <td><input type="radio" name="rd1"/> 1</td>
+            <td><input type="radio" name="rd2"/> 2</td>
+            <td><input type="radio" name="rd3"/> 3</td>
+            <td><input type="radio" name="rd4"/> 4</td>
+        </tr>
+        <tr>
+            <th>Ours products are high quality</th>
+            <td><input type="radio" name="rd1"/> 1</td>
+            <td><input type="radio" name="rd2"/> 2</td>
+            <td><input type="radio" name="rd3"/> 3</td>
+            <td><input type="radio" name="rd4"/> 4</td>
+        </tr>
+        <tr>
+            <th>You would recommend our product to a friend or coworker</th>
+            <td><input type="radio" name="rd1"/> 1</td>
+            <td><input type="radio" name="rd2"/> 2</td>
+            <td><input type="radio" name="rd3"/> 3</td>
+            <td><input type="radio" name="rd4"/> 4</td>
+        </tr>
+    </table>
+    <br>
+    <input type="submit" name="Submit" value="Submit"/>
 </form>
 </body>
 </html>
