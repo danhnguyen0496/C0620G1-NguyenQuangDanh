@@ -1,0 +1,11 @@
+let inputmarkToan;
+let inputmarkLy;
+let inputmarkHoa;
+inputmarkToan = prompt("Nhập điểm môn Toán");
+inputmarkLy = prompt("Nhập điểm môn Lý");
+inputmarkHoa =prompt("Nhập điểm môn Hóa");
+let markToan = parseInt(inputmarkToan);
+let markLy = parseInt(inputmarkLy);
+let markHoa = parseInt(inputmarkHoa);
+let Average = (markToan + markLy + markHoa)/3;
+document.write("Điểm trung bình 3 môn là " + Average);

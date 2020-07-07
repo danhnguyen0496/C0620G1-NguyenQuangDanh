@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../NQD-NcPt/Test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD-NcPt/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/Test.css" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD-NcPt/Test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD-NcPt/Test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,11 +33,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_tap_ly_thuyet_va_case_study1/Module1_Nguyễn Quang Danh" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_tap_ly_thuyet_va_case_study1\Module1_Nguyễn Quang Danh" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_5_html_form_va_table\bai_tap" />
     </key>
   </component>
@@ -66,7 +67,15 @@
       <workItem from="1593777279762" duration="77000" />
       <workItem from="1593830004315" duration="1364000" />
       <workItem from="1593831682354" duration="75000" />
-      <workItem from="1593844619137" duration="2776000" />
+      <workItem from="1593844619137" duration="9004000" />
+      <workItem from="1593878440766" duration="4986000" />
+      <workItem from="1593906797593" duration="9581000" />
+      <workItem from="1593939534117" duration="13537000" />
+      <workItem from="1593992892284" duration="608000" />
+      <workItem from="1593997101647" duration="20152000" />
+      <workItem from="1594036302197" duration="5755000" />
+      <workItem from="1594043996073" duration="8153000" />
+      <workItem from="1594080615511" duration="641000" />
     </task>
     <servers />
   </component>
@@ -74,17 +83,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1593777350565">
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594046829090">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593777350565" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1593759962840">
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1594046829090" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1594046846036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1593759962840" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593847468794">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594046846036" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1594039462360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593847468794" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594039462360" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594046834848">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1594046834848" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1594080873214">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1594080873214" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593854907491">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593854907491" />
   </component>
 </project>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng Dụng Chuyển Đổi Tiền Tệ</title>
+    <style>
+        .amount {
+            margin-left: 0px;
+            padding: 8px;
+            width: 180px;
+        }
+
+        .currency {
+            margin-left: 50px;
+            padding: 8px;
+            width: 230px;
+        }
+
+        #amount {
+            margin-left: 75px;
+        }
+
+        #fromCurrency {
+            margin-left: 179px;
+        }
+
+        #toCurrency {
+            margin-left: 179px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <strong>
+        <lable id="amount">Amount</lable>
+        <lable id="fromCurrency">From Currency</lable>
+        <lable id="toCurrency">To Currency</lable>
+    </strong>
+    <br>
+    <br>
+    <input id="nhapTien" class="amount" type="text" name="amount" placeholder=""/>
+    <select class="currency" id="from">
+        <option value="vnd"> Viet Nam</option>
+    </select>
+    <select class="currency" id="to">
+        <option value="eng"> Bảng Anh </option>
+        <option value="usd"> USD</option>
+    </select>
+    <button class="currency" type="button" name="convert" onclick="(doiTien())">Convert</button>
+    <br>
+    <br>
+    <label style="color: blue">Result</label>
+    <p id="result" style="color: red"></p>
+    <script>
+        function doiTien() {
+            let nhapTien = document.getElementById("nhapTien").value;
+            let to = document.getElementById("to").value;
+            let ketQua = 0;
+            if (to === "eng") {
+                ketQua = nhapTien/29000;
+            } else {
+                ketQua = nhapTien/23000;
+            }
+            document.getElementById("result").innerHTML= ketQua;
+        }
+    </script>
+</form>
+</body>
+</html>

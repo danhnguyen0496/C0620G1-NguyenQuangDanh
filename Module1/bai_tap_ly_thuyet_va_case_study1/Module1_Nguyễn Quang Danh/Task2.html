@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module1_Nguyễn Quang Danh</title>
+    <style>
+        .a {
+            padding: 2px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <lable>Họ và tên</lable>
+    <input id="s1" class="a" type="text"/>
+    <br>
+    <br>
+    <lable>Số CMND</lable>
+    <input id="s2" class="a" type="number"/>
+    <br>
+    <br>
+    <lable>Ngày tháng năm sinh</lable>
+    <input id="s3" class="a" type="date"/>
+    <br>
+    <br>
+    <lable>Email</lable>
+    <input id="s4" class="a" type="text"/>
+    <br>
+    <br>
+    <lable>Địa chỉ</lable>
+    <input id="s5" class="a" type="text"/>
+    <br>
+    <br>
+    <lable>Select Customer</lable>
+    <select id="s6" class="a">
+        <option id="s61" value="diamond">Diamond</option>
+        <option id="s62" value="platinum">Platinum</option>
+        <option id="s63" value="gold">Gold</option>
+        <option id="s64" value="silver">Silver</option>
+        <option id="s66" value="member">Member</option>
+    </select>
+    <br>
+    <br>
+    <lable>Giảm giá</lable>
+    <input id="s7" class="a" type="text"/>
+    <br>
+    <br>
+    <lable>Số lượng đi kèm</lable>
+    <input id="s8" class="a" type="number"/>
+    <br>
+    <br>
+    <lable>Số ngày thuê</lable>
+    <input id="s9" class="a" type="number"/>
+    <br>
+    <br>
+    <lable>Loại dịch vụ</lable>
+    <select id="s10" class="a">
+        <option id="s101" value="villa">Villa</option>
+        <option id="s102" value="house">House</option>
+        <option id="s103" value="room">Room</option>
+    </select>
+    <br>
+    <br>
+    <lable>Loại phòng thuê</lable>
+    <select id="s11" class="a">
+        <option id="s111" value="vip">Vip</option>
+        <option id="s112" value="business">Business</option>
+        <option id="s113" value="normal">Normal</option>
+    </select>
+    <br>
+    <br>
+    <lablel>Bảng giá</lablel>
+    <select id="s12" class="a">
+        <option id="s121">Villa 500$/ 1 ngày</option>
+        <option id="s122">House 300$/1 ngày</option>
+        <option id="s123">Room 100$/1 ngày</option>
+    </select>
+    <br>
+    <br>
+    <button type="button" onclick="confirm()">Confirm</button>
+    <input type="reset" name="Reset" value="Reset"/>
+    <p id="s13">Xác nhận thông tin></p>
+    <script>
+        function confirm () {
+            let name = document.getElementById("s1").value;
+            let soCmnd = document.getElementById("s2").value;
+            let date = document.getElementById("s3").value;
+            let email = document.getElementById("s4").value;
+            let address = document.getElementById("s5").value;
+            document.getElementById("s13").innerHTML= "Họ và tên: " + name + "Số CMND: " + soCmnd;
+        }
+    </script>
+</form>
+</body>
+</html>
