@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+<form>
+    <lable>Amount</lable>
+    <lable>From Currency</lable>
+    <lable>To Currency</lable>
+    <br>
+    <input id="s1" type="text"/>
+    <select>
+        <option id="s2" value="vnd">VietNam</option>
+    </select>
+    <select id="s">
+        <option id="s3" value="usd">USD</option>
+        <option id="s4" value="eng">Bảng Anh</option>
+    </select>
+    <button type="button" onclick="changeMoney()">Convert</button>
+    <br>
+    <p id="s5">Result</p>
+    <script>
+        function changeMoney() {
+            let giaTriTien = document.getElementById("s1").value;
+            let to = document.getElementById("s").value;
+            let ketQua = 0;
+            if (to === "usd") {
+                ketQua = giaTriTien / 23000;
+            } else
+                ketQua = giaTriTien / 29000;
+            document.getElementById("s5").innerHTML= ketQua;
+        }
+    </script>
+</form>
+</body>
+</html>

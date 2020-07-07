@@ -34,11 +34,11 @@
     <br>
     <lable>Select Customer</lable>
     <select id="s6" class="a">
-        <option id="s61" value="diamond">Diamond</option>
-        <option id="s62" value="platinum">Platinum</option>
-        <option id="s63" value="gold">Gold</option>
-        <option id="s64" value="silver">Silver</option>
-        <option id="s66" value="member">Member</option>
+        <option id="s61" value="Diamond">Diamond</option>
+        <option id="s62" value="Platinum">Platinum</option>
+        <option id="s63" value="Gold">Gold</option>
+        <option id="s64" value="Silver">Silver</option>
+        <option id="s65" value="Member">Member</option>
     </select>
     <br>
     <br>
@@ -56,39 +56,85 @@
     <br>
     <lable>Loại dịch vụ</lable>
     <select id="s10" class="a">
-        <option id="s101" value="villa">Villa</option>
-        <option id="s102" value="house">House</option>
-        <option id="s103" value="room">Room</option>
+        <option id="s101" value="Villa">Villa</option>
+        <option id="s102" value="House">House</option>
+        <option id="s103" value="Room">Room</option>
     </select>
     <br>
     <br>
     <lable>Loại phòng thuê</lable>
     <select id="s11" class="a">
-        <option id="s111" value="vip">Vip</option>
-        <option id="s112" value="business">Business</option>
-        <option id="s113" value="normal">Normal</option>
+        <option id="s111" value="Vip">Vip</option>
+        <option id="s112" value="Business">Business</option>
+        <option id="s113" value="Normal">Normal</option>
     </select>
     <br>
     <br>
     <lablel>Bảng giá</lablel>
     <select id="s12" class="a">
-        <option id="s121">Villa 500$/ 1 ngày</option>
-        <option id="s122">House 300$/1 ngày</option>
-        <option id="s123">Room 100$/1 ngày</option>
+        <option id="s121" value="500">Villa 500$/ 1 ngày</option>
+        <option id="s122" value="300">House 300$/1 ngày</option>
+        <option id="s123" value="100">Room 100$/1 ngày</option>
     </select>
     <br>
     <br>
     <button type="button" onclick="confirm()">Confirm</button>
     <input type="reset" name="Reset" value="Reset"/>
-    <p id="s13">Xác nhận thông tin></p>
+    <p id="s13">Xác nhận thông tin</p>
     <script>
-        function confirm () {
+        function confirm() {
             let name = document.getElementById("s1").value;
             let soCmnd = document.getElementById("s2").value;
             let date = document.getElementById("s3").value;
             let email = document.getElementById("s4").value;
             let address = document.getElementById("s5").value;
-            document.getElementById("s13").innerHTML= "Họ và tên: " + name + "Số CMND: " + soCmnd;
+            let loaiKhachHang = document.getElementById("s6").value;
+            if ("s6" === "s61") {
+                loaiKhachHang = "Diamond";
+            } else if ("s6" === "s62") {
+                loaiKhachHang = "Platinum";
+            } else if ("s6" === "s63") {
+                loaiKhachHang = "Gold";
+            } else if ("s6" === "s64") {
+                loaiKhachHang = "Silver";
+            } else if ("s6" === "s65") {
+                loaiKhachHang = "Member";
+            }
+            let disCount = document.getElementById("s7").value;
+            let soLuongDiKem = document.getElementById("s8").value;
+            let soNgayThue = document.getElementById("s9").value;
+            let loaiDichVu = document.getElementById("s10").value;
+            if ("s10" === "s101") {
+                loaiDichVu = "Villa";
+            } else if ("s10" === "s102") {
+                loaiDichVu = "House";
+            } else if ("s10" === "s103") {
+                loaiDichVu = "Room";
+            }
+            let loaiPhongThue = document.getElementById("s11").value;
+            if ("s11" === "s111") {
+                loaiPhongThue = "Vip";
+            } else if ("s11" === "s112") {
+                loaiPhongThue = "Business";
+            } else if ("s11" === "s113") {
+                loaiPhongThue = "Normal";
+            }
+            let bangGia = document.getElementById("s12").value;
+            if ("s12" === "s121") {
+                bangGia = 500;
+            } else if ("s12" === "s122") {
+                bangGia = 300;
+            } else if ("s12" === "s123") {
+                bangGia = 100;
+            }
+            let cost = bangGia * soNgayThue * (1 - disCount / 100);
+
+            document.getElementById("s13").innerHTML = "Họ và tên: " + name + "<br>Số CMND: " + soCmnd
+                + "<br> Ngày tháng năm sinh:" + date + "<br> Email: " + email + "<br> Địa chỉ: " + address +
+                "<br> Loại khách hàng: " + loaiKhachHang + "<br> Giảm giá: " + disCount +
+                "<br> Số lượng đi kèm:" + soLuongDiKem + "<br> Số ngày thuê: " + soNgayThue +
+                "<br> Loại dịch vụ: " + loaiDichVu + "<br> Loại phòng thuê: " + loaiPhongThue +
+                "<br> Bảng giá: " + bangGia + "<br> Tổng chi phí: " + cost;
         }
     </script>
 </form>

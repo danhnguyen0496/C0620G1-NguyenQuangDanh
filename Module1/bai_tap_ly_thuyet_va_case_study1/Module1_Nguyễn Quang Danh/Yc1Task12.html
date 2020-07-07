@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case Study1</title>
+</head>
+<body>
+<script>
+    let name = prompt("Họ và tên ");
+    let cmnd = prompt("Số CMND ");
+    let birthday = prompt("Ngày tháng năm sinh");
+    let email = prompt("Email");
+    let address = prompt("Địa chỉ");
+    let typeCustomer = prompt("Loại khách hàng");
+    let disCount = prompt("Giảm giá");
+    let amount = prompt("Số lượng đi kèm");
+    let rentDays = prompt("Số ngày thuê");
+    let typeServices = prompt("Loại dịch vụ");
+    let typeRoom = prompt("Loại thuê phòng");
+    let total = typeServices * rentDays * (1 - disCount / 100);
+    alert("Họ và tên: " + name + "\n" +
+        "Số CMND: " + cmnd + "\n" +
+        "Ngày tháng năm sinh: " + birthday + "\n" +
+        "Email: " + email + "\n" +
+        "Địa chỉ: " + address + "\n" +
+        "Loại khách hàng: " + typeCustomer + "\n" +
+        "Giảm giá: " + disCount + "\n" +
+        "Số lượng: " + amount + "\n" +
+        "Số ngày thuê: " + rentDays + "\n" +
+        "Loại dịch vụ: " + typeServices + "\n" +
+        "Loại phòng thuê: " + typeRoom + "\n" +
+        "Chi phí: " + total);
+</script>
+</body>
+</html>
