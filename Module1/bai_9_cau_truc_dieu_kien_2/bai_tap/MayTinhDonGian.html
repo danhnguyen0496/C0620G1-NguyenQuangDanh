@@ -5,6 +5,32 @@
     <title>Máy Tính Đơn Giản</title>
 </head>
 <body>
-<input type="button"
+<input id="c1" type="text" value=""/> <br>
+<input id="c2" type="button" value="1" onclick="nhap(this.value)"/>
+<input id="c3" type="button" value="2" onclick="nhap(this.value)"/>
+<input id="c4" type="button" value="3" onclick="nhap(this.value)"/>
+<input id="c5" type="button" value="+" onclick="nhap(this.value)"/> <br>
+<input id="c6" type="button" value="4" onclick="nhap(this.value)"/>
+<input id="c7" type="button" value="5" onclick="nhap(this.value)"/>
+<input id="c8" type="button" value="6" onclick="nhap(this.value)"/>
+<input id="c9" type="button" value="-" onclick="nhap(this.value)"/> <br>
+<input id="c10" type="button" value="7" onclick="nhap(this.value)"/>
+<input id="c11" type="button" value="8" onclick="nhap(this.value)"/>
+<input id="c12" type="button" value="9" onclick="nhap(this.value)"/>
+<input id="c13" type="button" value="*" onclick="nhap(this.value)"/> <br>
+<input id="c14" type="button" value="C" onclick="nhap(this.value)"/>
+<input id="c15" type="button" value="0" onclick="nhap(this.value)"/>
+<input id="c16" type="button" value="=" onclick="bang()"/>
+<input id="c17" type="button" value="/" onclick="nhap(this.value)"/>
+<script>
+    function nhap(giaTri) {
+        document.getElementById("c1").value += giaTri ;
+    }
+    function bang() {
+        let string = document.getElementById("c1").value;
+        result = eval(string);
+        document.getElementById("c1").value = result;
+    }
+</script>
 </body>
 </html>
