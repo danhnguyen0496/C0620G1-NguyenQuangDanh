@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chương trình tính lãi ngân hàng</title>
+</head>
+<body>
+<script>
+    // Số tiền lãi = Số tiền gửi x lãi suất (%năm)/12 x số tháng gửi.
+    let soTienGui = parseFloat(prompt("Nhâp số tiền gửi ngân hàng"));
+    let laiSuat = parseFloat(prompt("Nhâp lãi suất ngân hàng"));
+    let soThang = parseFloat(prompt("Nhâp số tháng gửi tiền"));
+    let tienLai = soTienGui * laiSuat * soThang;
+    alert("Tiền lãi là " + tienLai);
+</script>
+</body>
+</html>

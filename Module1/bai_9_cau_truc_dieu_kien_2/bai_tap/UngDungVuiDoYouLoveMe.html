@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng Dụng Vui Do You Love Me</title>
+</head>
+<body>
+<h1 style="margin-left: 500px; margin-top: 200px"> Do you love me ? </h1>
+<input id="yes" type="button" value="Yes" style="margin-left: 540px" onclick="dongY()">
+<input id="no" type="button" value="No" style="margin-left: 60px; position: absolute; left: 50px; top: 40px" onmouseover="noHover()"/>
+<script>
+    function dongY() {
+        alert("Yes, you are right <3 <3");
+    }
+    function noHover () {
+        let x = Math.round(Math.random() * window.innerWidth);
+        let y = Math.round(Math.random() * window.innerHeight);
+        document.getElementById("no").style.left = x + 'px';
+        document.getElementById("no").style.top = y + 'px';
+    }
+</script>
+</body>
+</html>

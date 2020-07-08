@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giải phương trình bậc 1</title>
+</head>
+<body>
+<script>
+    // ax + b = 0
+    let a = parseFloat(prompt("Nhập vào giá trị a"));
+    let b = parseFloat(prompt("Nhập vào giá trị b"));
+    if (a === 0) {
+        if (b === 0) {
+            alert("Phương trình vô số nghiệm");
+        } else {
+            alert("Phương trình vô nghiệm");
+        }
+    } else {
+        x = -b/a;
+        alert("Phương trình có nghiệm là x = " + x);
+    }
+</script>
+</body>
+</html>

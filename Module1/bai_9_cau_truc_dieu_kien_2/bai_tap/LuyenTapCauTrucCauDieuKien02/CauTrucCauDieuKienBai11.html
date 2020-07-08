@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Viết chương trình tính thuế thu nhập cá nhân</title>
+</head>
+<body>
+<script>
+    let mucLuong = parseFloat(prompt("Nhập vào mức lương cần tính thuế thu nhập cá nhân"));
+    if (mucLuong<80) {
+        if (mucLuong>=52) {
+            thueTncn = (30/100)*mucLuong;
+            alert("Thuế thu nhập cá nhân cần phải trả là " + thueTncn);
+        } else if (mucLuong>=32) {
+            thueTncn = (25/100)*mucLuong;
+            alert("Thuế thu nhập cá nhân cần phải trả là " + thueTncn);
+        } else if (mucLuong>=18) {
+            thueTncn = (20/100)*mucLuong;
+            alert("Thuế thu nhập cá nhân cần phải trả là " + thueTncn);
+        } else if (mucLuong>=10) {
+            thueTncn = (15/100)*mucLuong;
+            alert("Thuế thu nhập cá nhân cần phải trả là " + thueTncn);
+        } else if (mucLuong>=5) {
+            thueTncn = (10/100)*mucLuong;
+            alert("Thuế thu nhập cá nhân cần phải trả là " + thueTncn);
+        }
+    } else {
+        thueTncn = (35/100)*mucLuong;
+        alert("Thuế thu nhập cá nhân cần phải trả là " + thueTncn);
+    }
+</script>
+</body>
+</html>
