@@ -30,21 +30,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_9_cau_truc_dieu_kien_2/bai_tap/LuyenTapCauTrucCauDieuKien02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_10_cau_truc_lap_1/thuc_hanh" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucVoiCauDieuKien" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\thuc_hanh" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_10_cau_truc_lap_1\thuc_hanh" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucCauDieuKien02" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_tap_ly_thuyet_va_case_study1\Module1_Nguyễn Quang Danh" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_8_cau_truc_dieu_kien_1\thuc_hanh" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_5_html_form_va_table\bai_tap" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucVoiCauDieuKien" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\thuc_hanh" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap" />
     </key>
   </component>
   <component name="RunManager">
@@ -94,7 +94,9 @@
       <workItem from="1594083513229" duration="21101000" />
       <workItem from="1594124159636" duration="8356000" />
       <workItem from="1594158408424" duration="5393000" />
-      <workItem from="1594169943860" duration="15231000" />
+      <workItem from="1594169943860" duration="20899000" />
+      <workItem from="1594211624149" duration="9577000" />
+      <workItem from="1594256541056" duration="9575000" />
     </task>
     <servers />
   </component>
@@ -122,13 +124,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1594046834848" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1594163253420">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1594194682686">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1594163253420" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593854907491">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1594194682686" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594199571422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593854907491" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1594199571422" />
   </component>
 </project>
