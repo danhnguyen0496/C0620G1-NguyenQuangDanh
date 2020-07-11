@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiện Thị Các Số Nguyên Tố Đầu Tiên</title>
+</head>
+<body>
+<p id="value"></p>
+<script>
+    // Kiểm tra điều kiện có phải số nguyên tố không
+    function isPrime(n) {
+        let flag = true;
+        for (let i = 2; i < n; i++) {
+            if (n % i == 0) {
+                flag = false;
+                break;
+            }
+        }
+        if (flag) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    // Khai báo và gắn vào vòng lắp while để in ra số nguyên tố
+    let number = prompt("Nhập vào số lượng sô nguyên tố cần in ra"); // Nhập số lượng số nguyên tố
+    let count = 0; // Khai báo biến count và gắn = 0, kiểm tra xem biến bằng với giá trị number hay chưa
+    let soNguyenTo = 2; // Gắn số nguyên tô = 2
+    let ketQua = "";
+    while (count < number) {
+        if (isPrime(soNguyenTo)) {
+            count++;
+            ketQua += soNguyenTo + " ";
+        }
+        soNguyenTo ++;
+    }
+    document.getElementById("value").innerText = ketQua;
+</script>
+</body>
+</html>

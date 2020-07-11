@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In Day Fibonacci</title>
+</head>
+<body>
+<script>
+    let number = parseInt(prompt("Nhập vào số lượng số Fibonacci cần in "));
+    let f1 = 0;
+    let f2 = 1;
+    let count = 0;
+    while (count < number) {
+        f2 = f2 + f1;
+        f1 = f2 - f1;
+        count++;
+        document.write(f1 + " ");
+    }
+</script>
+</body>
+</html>

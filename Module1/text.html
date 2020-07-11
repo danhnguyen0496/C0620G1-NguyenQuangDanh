@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let  numbers  =  parseInt ( prompt ( 'enter the number of fibonacci number to display' ) ) ;
+    let count = 0;
+    let fibo1 = 1;
+    let fibo2 = 1;
+    let result = "";
+    while (count < numbers) {
+        result += `${fibo1} `;
+        fibo2 += fibo1;
+        fibo1 = fibo2 - fibo1;
+        count++;
+    }
+    document.write(result);
+</script>
+</body>
+</html>

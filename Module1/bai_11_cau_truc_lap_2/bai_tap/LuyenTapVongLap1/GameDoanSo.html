@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Đoán Số</title>
+</head>
+<body>
+<button id="play" onclick="play()">Chơi</button>
+<button type="reset" onclick="reset()">Chơi lại</button>
+<script>
+    function play() {
+        let khoang = parseInt(prompt("Nhập khoảng"));
+        let soDung = Math.round(Math.random()) * khoang;
+        let i = 0;
+        while (i < 3) {
+            let soDoan = parseInt(prompt("Nhập số bạn đoán"));
+            if (soDoan === soDung) {
+                alert("Bạn đã đoạn đúng" + soDoan);
+                break;
+            } else if (soDoan > soDung) {
+                alert("Bạn cần phải nhập số nhỏ hơn");
+            } else if (soDoan < soDung) {
+                alert("Bạn cần phải nhập số lớn hơn");
+            }
+            i++;
+        }
+        if (i === 3)
+            alert("Bạn đã hết lượt");
+        }
+
+</script>
+</body>
+</html>

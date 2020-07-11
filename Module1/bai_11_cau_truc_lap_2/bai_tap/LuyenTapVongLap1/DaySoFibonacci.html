@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day So Fibonacci</title>
+</head>
+<body>
+<script>
+    // Chuỗi Fibonacci: 0 1 1 2 3 5 8 13 21 34
+    let number = parseInt(prompt("Nhập vào số lượng Fibonacci cần hiện thị"));
+    let fiBo1 = 0;
+    let fiBo2 = 1;
+    let count = 0;
+    while (count < number) {
+        fiBo2 = fiBo1 + fiBo2;
+        fiBo1 = fiBo2 - fiBo1;
+        count++;
+        document.write(fiBo1 + " ");
+    }
+</script>
+</body>
+</html>

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="" />
+    <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/NQD-NcPt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/BaiTapTaoBangNangCaoBanCoVua.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/BaiTapTaoBangNangCaoLichThang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/Test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/Untitled-1.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +41,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_10_cau_truc_lap_1/thuc_hanh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NQD - Document" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -42,6 +54,7 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_8_cau_truc_dieu_kien_1\thuc_hanh" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucVoiCauDieuKien" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\thuc_hanh" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap" />
@@ -96,7 +109,10 @@
       <workItem from="1594158408424" duration="5393000" />
       <workItem from="1594169943860" duration="20899000" />
       <workItem from="1594211624149" duration="9577000" />
-      <workItem from="1594256541056" duration="9575000" />
+      <workItem from="1594256541056" duration="20027000" />
+      <workItem from="1594299205321" duration="12474000" />
+      <workItem from="1594342562834" duration="26017000" />
+      <workItem from="1594387576008" duration="658000" />
     </task>
     <servers />
   </component>
@@ -116,18 +132,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594046846036" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1594183330859">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1594388192196">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594183330859" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594388192196" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1594387933634">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594387933634" />
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594046834848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1594046834848" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1594194682686">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1594280738929">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1594194682686" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1594280738929" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594199571422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

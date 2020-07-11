@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm Tra Số Nguyên Tố</title>
+</head>
+<body>
+<p id="value"></p>
+<script>
+    function kiemTraSoNguyenTo(number) {
+        // let flag = true;
+        // for (let i = 2; i < number; i++) {
+        //     if (number % i === 0) {                      // có thể giản thể đoạn này được
+        //         flag = false;
+        //     }
+        // }
+        // if (flag) {                                    // có thể giản thể đoạn này được
+        //     return true;
+        // } else {
+        //     return false;
+        // }
+
+        let flag = true;
+        if (number < 2) {
+            flag = false;
+        } else if (number === 2) {
+            flag = true;
+        } else if (number % 2 === 0) {
+            flag = false;
+        } else if (number > 2) {
+            for (let i = 3; i < number; i++) {
+                if (number % i === 0) {
+                    flag = false;
+                    break;
+                }
+            }
+        }
+        if (flag) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    let nhapSo = parseInt(prompt("Nhập vào số lượng số nguyên tố cần in ra"));
+    let count = 0;
+    let a = 2;
+    let rerult = " ";
+    while (count < nhapSo) {
+        if (kiemTraSoNguyenTo(a)) {
+            count++;
+            rerult += a + " ";
+        }
+        a++;
+    }
+document.getElementById("value").innerText = rerult;
+</script>
+</body>
+</html>
