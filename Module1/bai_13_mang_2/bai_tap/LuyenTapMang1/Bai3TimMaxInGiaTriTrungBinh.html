@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm Max Và In Giá Trị Trung Bình</title>
+</head>
+<body>
+<script>
+    // let daySo = [3, 4, 5, 2, 6, 1, 4, 7, 0, 10, 12];
+    // let max = daySo[0];
+    // let index = 0;
+    // let sum = 0;
+    // let mean = " ";
+    // for (let i =0; i < daySo.length; i++) {
+    //     if (daySo[i] > max) {
+    //         max = daySo[i];
+    //         index = i;
+    //     }
+    //     sum += daySo[i];
+    // }
+    // mean = sum/daySo.length;
+    // document.write("Giá trị max là: " + max + " tại vị trị " + index + "<br>");
+    // document.write("Giá trị trung bình là: " + mean);
+
+    let daySo = [];
+    for (let j = 0; j < 10; j++) {                           // mảng gồm 10 phần tử tự cho
+        let data = parseInt(prompt("Nhập vào giá trị"));
+        daySo.push(data);
+    }
+    let max = daySo[0];
+    let index = 0;
+    let sum = 0;
+    let mean = " ";
+    for (let i =0; i < daySo.length; i++) {
+        if (daySo[i] > max) {
+            max = daySo[i];
+            index = i;
+        }
+        sum += daySo[i];
+    }
+    mean = sum/daySo.length;
+    document.write("Giá trị max là: " + max + " tại vị trị " + index + "<br>");
+    document.write("Giá trị trung bình là: " + mean);
+</script>
+</body>
+</html>

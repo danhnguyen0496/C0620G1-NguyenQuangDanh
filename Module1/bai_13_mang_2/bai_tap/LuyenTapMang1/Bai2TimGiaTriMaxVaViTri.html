@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khời Tạo Mảng Tìm Giá Trị Max Và Vị Trí</title>
+</head>
+<body>
+<script>
+    // let daySo = [2, 7, 5, 10, 45, 23, 32, 1, 5, 63];
+    // let max = daySo[0];
+    // let index = 0;
+    // for (let i = 0; i < daySo.length; i++) {
+    //     if (max < daySo[i]) {
+    //         max = daySo[i];
+    //         index = i;
+    //     }
+    // }
+    // document.write("Max: " + max + " at position " + index);
+
+    let daySo = [];
+    for (let i = 0; i < 10; i++) {
+        let data = parseInt(prompt("Nhập vào giá trị"));
+        daySo.push(data);
+    }
+    let max = daySo[0];
+    let index = 0;
+    for (let j = 0; j < daySo.length; j++) {
+        if (max < daySo[j]) {
+            max = daySo[j];
+            index = j;
+        }
+    }
+    document.write("Max: " + max + " at position " + index);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khởi Tạo Mảng Nhập Mảng Và Đảo Ngược Phần Tử</title>
+</head>
+<body>
+<script>
+    // let arr = [3, 1, 4, 5, 2, 9, 13, 16, 12];
+    // let first = 0;
+    // let last = arr.length - 1;
+    // while (first < last) {
+    //     let a = arr[first];
+    //     arr[first] = arr[last];
+    //     arr[last] = a;
+    //     first++;
+    //     last--;
+    // }
+    // document.write(arr);
+
+    let n = parseInt(prompt("Nhập độ dài của mảng"));
+    let arr = new Array(n);
+        for (let i = 0; i < arr.length; i++) {
+            let data = parseInt(prompt("Nhập vào giá trị"));
+            arr[i] = data;
+        }
+    let first = 0;
+    let last = arr.length - 1;
+    while (first < last) {
+        let a = arr[first];
+        arr[first] = arr[last];
+        arr[last] = a;
+        first++;
+        last--;
+    }
+    document.write(arr);
+</script>
+</body>
+</html>

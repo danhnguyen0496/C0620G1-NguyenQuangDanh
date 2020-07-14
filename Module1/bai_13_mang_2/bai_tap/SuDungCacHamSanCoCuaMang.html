@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sử Dụng Các Hàm Sẵn Có Của Mảng</title>
+</head>
+<body>
+<script>
+    // Bài 1: Nối tất cả các phần tử trong một mảng chuỗi lại với nhau
+
+    // let myColor = ["Red", "Green", "White", "Black"];
+    // document.write(myColor.join() + "<hr>");
+    // document.write(myColor.toString());
+
+
+    // Bài 2: Viết một chương trình nhận một số nhập vào và chèn dấu (-) giữa 2  số chẵn
+    // let num = window.prompt();
+    // let str = num.toString();
+    // let result = [str[0]];
+    // for (let x = 1; x < str.length; x++) {
+    //     if (str[x - 1] % 2 === 0 && str[x] % 2 === 0) {
+    //         result.push('-', str[x]);
+    //     } else {
+    //         result.push(str[x]);
+    //     }
+    // }
+    // document.write(result.join('') + " <hr>");
+
+    //Bài 3. Nhập vào một chuỗi và chuyển các ký tự chữ thường trong chuỗi vừa nhập sang thành dạng chữ hoa
+
+    let str = prompt("Mời các bạn nhập vào đây hihi: ");  // The Quick Brown Fox
+    let UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let LOWER = 'abcdefghijklmnopqrstuvwxyz';
+    let result = [];
+    for (let x = 0; x < str.length; x++) {
+        if (UPPER.indexOf(str[x]) !== -1) {
+            result.push(str[x].toLowerCase());
+        } else if (LOWER.indexOf(str[x]) !== -1) {
+            result.push(str[x].toUpperCase());
+        } else {
+            result.push(str[x]);
+        }
+    }
+    document.write(result.join(''));
+
+</script>
+</body>
+</html>

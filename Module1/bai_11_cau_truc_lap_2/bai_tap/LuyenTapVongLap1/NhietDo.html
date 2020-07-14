@@ -6,20 +6,45 @@
 </head>
 <body>
 <script>
-    let nhietDo = prompt("Nhiệt độ cần nhập");
-    if (nhietDo >= 20 && nhietDo <= 100) {
-        alert("Thông tin nhiệt độ là " + nhietDo + " độ");
+    // let nhietDo = prompt("Nhiệt độ cần nhập");
+    // if (nhietDo >= 20 && nhietDo <= 100) {
+    //     alert("Thông tin nhiệt độ là " + nhietDo + " độ");
+    // }
+    // while (nhietDo > 100) {
+    //     alert("Giảm nhiệt độ");
+    //     nhietDo = prompt("Nhiệt độ cần nhập");
+    //     alert("Thông tin nhiệt độ " + nhietDo + " độ");
+    // }
+    // while (nhietDo < 20) {
+    //     alert("Tăng nhiệt độ");
+    //     nhietDo = prompt("Tăng độ cần nhập");
+    //     alert("Thông tin nhiệt độ " + nhietDo + " độ");
+    // }
+
+    // let nhietDo = " ";
+    // do {
+    //     nhietDo = parseInt(prompt("Nhập thông tin nhiệt độ"));
+    //     if (nhietDo > 100) {
+    //         nhietDo = parseInt(prompt("Giảm nhiệt độ"));
+    //         alert("Thông tin nhiệt độ " + nhietDo + " độ");
+    //     }
+    //     if (nhietDo < 10) {
+    //         nhietDo = parseInt(prompt("Tăng nhiệt độ"));
+    //         alert("Thông tin nhiệt độ " + nhietDo + " độ");
+    //     }
+    // } while (nhietDo > 100 || nhietDo < 10);
+    // document.write("Thông tin nhiệt độ: " + nhietDo + "độ");
+
+    let nhietDo = parseInt(prompt("Nhập thông tin nhiệt độ"));
+    while (nhietDo > 100 || nhietDo < 10) {
+        if (nhietDo > 100) {
+            nhietDo = parseInt(prompt("Giảm nhiệt độ"));
+        }
+        if (nhietDo < 10) {
+            nhietDo = parseInt(prompt("Tăng nhiệt độ"));
+        }
     }
-    while (nhietDo > 100) {
-        alert("Giảm nhiệt độ");
-        nhietDo = prompt("Nhiệt độ cần nhập");
-        alert("Thông tin nhiệt độ " + nhietDo + " độ");
-    }
-    while (nhietDo < 20) {
-        alert("Tăng nhiệt độ");
-        nhietDo = prompt("Tăng độ cần nhập");
-        alert("Thông tin nhiệt độ " + nhietDo + " độ");
-    }
+    document.write("Thông tin nhiệt độ: " + nhietDo + " độ");
 
 </script>
 </body>

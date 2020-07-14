@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = new Array(10);
+    for (let i = 0; i < 10; i++) {
+        arr[i] = prompt("Nhập vào phần tử của mảng");
+    }
+    let kiemTra = prompt("Nhập vào phần tử cần kiểm tra ");
+    for (let k = 0; k < arr.length; k++) {
+        if (kiemTra === arr[k]) {
+            arr.splice(k, 1);
+            arr.push(0);
+        }
+    }
+    document.write(arr);
+
+</script>
+</body>
+</html>

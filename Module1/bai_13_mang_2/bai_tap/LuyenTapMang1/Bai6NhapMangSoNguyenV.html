@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Số Nguyên V</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    for (let i = 0; i < 10; i++) {
+        let data = prompt("Nhập vào giá trị");
+        arr.push(data);
+    }
+    let check = false;
+    for (let j = 0; j < arr.length; j++) {
+        if (arr[j] === "V") {
+            document.write("V is in the array");
+            check = true;
+            break;
+        }
+    }
+    if (!check) {
+        document.write("V is not in the array");
+    }
+</script>
+</body>
+</html>

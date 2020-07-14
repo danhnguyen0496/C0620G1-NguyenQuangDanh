@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ Điển</title>
+</head>
+<body>
+<script>
+    let traTu = prompt("Nhập vào từ cần tra nghĩa");
+    let arrAnh = ["go", "school", "day", "monday"];
+    let arrViet = ["đi", "trường học", "ngày", "thứ hai"];
+    let check = false;
+    for (let i = 0; i < arrAnh.length; i++) {
+        if (traTu === arrAnh[i]) {
+            alert(arrAnh[i] = arrViet[i]);
+            check = true;
+            break;
+        }
+        // if (i === arrAnh.length -1) {
+        //     alert("Không tìm thấy");
+        // }
+    }
+    if (!check) {
+        alert("Không tìm thấy");
+    }
+
+</script>
+</body>
+</html>

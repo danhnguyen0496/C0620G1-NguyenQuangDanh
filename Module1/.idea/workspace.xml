@@ -2,6 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/BangCuuChuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/BangCuuChuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/BangDuLieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/BangDuLieu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Dem1Den100.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Dem1Den100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/GameDoanSo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/GameDoanSo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/GiaiThua.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/GiaiThua.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/HinhChuNhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/HinhChuNhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/In20SoNguyenToDauTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/In20SoNguyenToDauTien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/InDayFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/InDayFibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/InFizzBuzz.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/InFizzBuzz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/InHinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/InHinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/InSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/InSoNguyenTo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/KiemTraSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/KiemTraSoNguyenTo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/LapDoWhile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/LapDoWhile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/LapFor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/LapFor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/NhietDo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/NhietDo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/SoFibonacciChia5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/SoFibonacciChia5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/TinhTongSoNguyen.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/TinhTongSoNguyen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Tong30SoTN.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Tong30SoTN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/TongFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/TongFibonacci.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/NQD-NcPt.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/misc.xml" beforeDir="false" />
@@ -41,7 +60,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NQD - Document" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_13_mang_2/bai_tap/LuyenTapMang1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -54,6 +73,7 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_8_cau_truc_dieu_kien_1\thuc_hanh" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_13_mang_2\bai_tap\LuyenTapMang1" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucVoiCauDieuKien" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\thuc_hanh" />
@@ -113,6 +133,12 @@
       <workItem from="1594299205321" duration="12474000" />
       <workItem from="1594342562834" duration="26017000" />
       <workItem from="1594387576008" duration="658000" />
+      <workItem from="1594538530077" duration="659000" />
+      <workItem from="1594544895469" duration="15042000" />
+      <workItem from="1594597225467" duration="1738000" />
+      <workItem from="1594602301707" duration="20937000" />
+      <workItem from="1594645327138" duration="12660000" />
+      <workItem from="1594688637274" duration="18807000" />
     </task>
     <servers />
   </component>
@@ -132,10 +158,74 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594046846036" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1594388192196">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1594634377725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594388192196" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594634377725" />
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1594659640538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594659640538" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1594659640537">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594659640537" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1594659640537">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594659640537" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1594659640538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594659640538" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1594659640538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594659640538" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1594659640538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594659640538" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1594659640538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594659640538" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1594659640538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594659640538" />
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom" timestamp="1594659640538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594659640538" />
+    <state width="1345" height="223" key="GridCell.Tab.2.center" timestamp="1594659640538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1594659640538" />
+    <state width="1345" height="223" key="GridCell.Tab.2.left" timestamp="1594659640538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1594659640538" />
+    <state width="1345" height="223" key="GridCell.Tab.2.right" timestamp="1594659640538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1594659640538" />
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom" timestamp="1594659640539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594659640539" />
+    <state width="1345" height="223" key="GridCell.Tab.3.center" timestamp="1594659640539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1594659640539" />
+    <state width="1345" height="223" key="GridCell.Tab.3.left" timestamp="1594659640539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1594659640539" />
+    <state width="1345" height="223" key="GridCell.Tab.3.right" timestamp="1594659640539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1594659640539" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1594387933634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -144,13 +234,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1594046834848" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1594280738929">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1594629588930">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1594280738929" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594199571422">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1594629588930" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594647488388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1594199571422" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1594647488388" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bai_tap_ly_thuyet_va_case_study1/Module1_Nguyễn Quang Danh/YeuCau2.html</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yêu Cầu 2</title>
+</head>
+<body>
+<script>
+    // let name = "Nguyễn Quang Danh";
+    // let cmnd = "123456789";
+    // let birthday = "05/04/1996";
+    // let email = "nguyenquangdanh1996@gmail.com";
+    // let address = "Hòa Khánh, Liên Chiểu, Đà Nẵng";
+    // let typeCustomer = "Diamond";
+    // let disCount = 10;
+    // let amount = 4;
+    // let rentDays = 2;
+    // let typeServices = "Villa";
+    // let typeRoom = "Vip";
+    // let total = 500 * rentDays * (1 - disCount / 100);
+    // alert("Họ và tên: " + name + "\n" +
+    //     "Số CMND: " + cmnd + "\n" +
+    //     "Ngày tháng năm sinh: " + birthday + "\n" +
+    //     "Email: " + email + "\n" +
+    //     "Địa chỉ: " + address + "\n" +
+    //     "Loại khách hàng: " + typeCustomer + "\n" +
+    //     "Giảm giá: " + disCount + "\n" +
+    //     "Số lượng: " + amount + "\n" +
+    //     "Số ngày thuê: " + rentDays + "\n" +
+    //     "Loại dịch vụ: " + typeServices + "\n" +
+    //     "Loại phòng thuê: " + typeRoom + "\n" +
+    //     "Chi phí: " + total);
+
+    let name = prompt("Họ và tên ");
+    let cmnd = prompt("Số CMND ");
+    let birthday = prompt("Ngày tháng năm sinh");
+    let email = prompt("Email");
+    let address = prompt("Địa chỉ");
+    let typeCustomer = prompt("Loại khách hàng" + "\n" +
+        "1. Diamond" + "\n" +
+        "2. Platinum" + "\n" +
+        "3. Gold" + "\n" +
+        "4. Silver" + "\n" +
+        "5. Member");
+    let disCount = prompt("Giảm giá");
+    let amount = prompt("Số lượng đi kèm");
+    let rentDays = prompt("Số ngày thuê");
+    let typeServices = prompt("Loại dịch vụ" + "\n" +
+        "1. Villa" + "\n" +
+        "2. House" + "\n" +
+        "3. Room");
+    let typeRoom = prompt("Loại thuê phòng" + "\n" +
+        "1. Vip" + "\n" +
+        "2. Business" + "\n" +
+        "3. Normal");
+    let total = 500 * rentDays * (1 - disCount / 100);
+    alert("1. Họ và tên: " + name + "\n" +
+        "2. Số CMND: " + cmnd + "\n" +
+        "3. Ngày tháng năm sinh: " + birthday + "\n" +
+        "4. Email: " + email + "\n" +
+        "5. Địa chỉ: " + address + "\n" +
+        "6. Loại khách hàng: " + typeCustomer + "\n" +
+        "7. Giảm giá: " + disCount + "\n" +
+        "8. Số lượng: " + amount + "\n" +
+        "9. Số ngày thuê: " + rentDays + "\n" +
+        "10. Loại dịch vụ: " + typeServices + "\n" +
+        "11. Loại phòng thuê: " + typeRoom + "\n" +
+        "12. Chi phí: " + total);
+    let choose = parseInt(prompt("1. Hiện thị toàn bộ thông tin khách hàng" + "\n" +
+        "2. Chỉnh sửa thông tin khách hàng" + "\n" +
+        "3. Hiện thị giảm giá sau khi được giảm giá"));
+    switch (choose) {
+        case 1:
+            alert("Họ và tên: " + name + "\n" +
+                "Số CMND: " + cmnd + "\n" +
+                "Ngày tháng năm sinh: " + birthday + "\n" +
+                "Email: " + email + "\n" +
+                "Địa chỉ: " + address + "\n" +
+                "Loại khách hàng: " + typeCustomer + "\n" +
+                "Giảm giá: " + disCount + "\n" +
+                "Số lượng: " + amount + "\n" +
+                "Số ngày thuê: " + rentDays + "\n" +
+                "Loại dịch vụ: " + typeServices + "\n" +
+                "Loại phòng thuê: " + typeRoom + "\n" +
+                "Chi phí: " + total);
+            break;
+        case 2:
+            let chooseEdit = parseInt(prompt("1. Họ và tên: " + name + "\n" +
+                "2. Số CMND: " + cmnd + "\n" +
+                "3. Ngày tháng năm sinh: " + birthday + "\n" +
+                "4. Email: " + email + "\n" +
+                "5. Địa chỉ: " + address + "\n" +
+                "6. Loại khách hàng: " + typeCustomer + "\n" +
+                "7. Giảm giá: " + disCount + "\n" +
+                "8. Số lượng: " + amount + "\n" +
+                "9. Số ngày thuê: " + rentDays + "\n" +
+                "10. Loại dịch vụ: " + typeServices + "\n" +
+                "11. Loại phòng thuê: " + typeRoom + "\n" +
+                "12. Chi phí: " + total));
+            switch (chooseEdit) {
+                case 1:
+                    name = prompt("Enter the name");
+                    break;
+                case 2:
+                    cmnd = prompt("Enter the cmnd");
+                    break;
+                case 3:
+                    birthday = prompt("Enter the birthday");
+                    break;
+                case 4:
+                    email = prompt("Enter the email");
+                    break;
+                case 5:
+                    address = prompt("Enter the address");
+                    break;
+                case 6:
+                    typeCustomer = prompt("Enter the typeCustomer");
+                    break;
+                case 7:
+                    disCount = prompt("Enter the disCount");
+                    break;
+                case 8:
+                    amount = prompt("Enter the amount");
+                    break;
+                case 9:
+                    rentDays = prompt("Enter the rentDays");
+                    break;
+                case 10:
+                    typeServices = prompt("Enter the typeServices");
+                    break;
+                case 11:
+                    typeRoom = prompt("Enter the typeRoom");
+                    break;
+                case 12:
+                    total = prompt("Enter the total");
+                    break;
+                default:
+                    alert("Failed");
+            }
+            alert("Họ và tên: " + name + "\n" +
+                "Số CMND: " + cmnd + "\n" +
+                "Ngày tháng năm sinh: " + birthday + "\n" +
+                "Email: " + email + "\n" +
+                "Địa chỉ: " + address + "\n" +
+                "Loại khách hàng: " + typeCustomer + "\n" +
+                "Giảm giá: " + disCount + "\n" +
+                "Số lượng: " + amount + "\n" +
+                "Số ngày thuê: " + rentDays + "\n" +
+                "Loại dịch vụ: " + typeServices + "\n" +
+                "Loại phòng thuê: " + typeRoom + "\n" +
+                "Chi phí: " + total);
+            break;
+        case 3:
+            let money = 0;
+            if (typeServices === "Villa") {
+                money = 500;
+            } else if (typeServices === "House") {
+                money = 300;
+            } else if (typeServices === "Room") {
+                money = 100;
+            }
+            // Giảm giá theo địa chỉ
+            let giamGia = 0;
+            if (address === "Đà Nẵng") {
+                giamGia += 20;
+            } else if (address === "Huế") {
+                giamGia += 10;
+            } else if (address === "Quảng Nam") {
+                giamGia += 5;
+            }
+            // Giảm giá theo số ngày thuê
+            if (rentDays > 7) {
+                giamGia += 30;
+            } else if (rentDays >= 5) {
+                giamGia += 20;
+            } else if (rentDays >= 2) {
+                giamGia += 10;
+            }
+            // Giảm giá theo loại khách hàng
+            if (typeCustomer === "Diamond") {
+                giamGia += 15;
+            } else if (typeCustomer === "Platinum ") {
+                giamGia += 10;
+            } else if (typeCustomer === "Gold") {
+                giamGia += 5;
+            } else if (typeCustomer === "Silver") {
+                giamGia += 2;
+            } else if (typeCustomer === "Member") {
+                giamGia += 0;
+            }
+            //Giảm giá theo tuổi và địa chỉ
+            let age = 0;
+            if (age >= 30 && address === "Đà Nẵng") {
+                giamGia += 2;
+            } else if ( age>=20 && address ==="Đà Nẵng") {
+                giamGia +=1;
+            }
+            alert("Tổng chi phí " + (total = money * rentDays - giamGia));
+            break;
+        default:
+            alert("Failed");
+    }
+</script>
+</body>
+</html>

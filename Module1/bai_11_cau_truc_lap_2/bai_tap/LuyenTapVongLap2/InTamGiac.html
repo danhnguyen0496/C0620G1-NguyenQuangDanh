@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In Tam Giác </title>
+</head>
+<body>
+<script>
+
+    // Tam giác vuông thuận
+
+    // for (let i = 1; i <= 5; i++) {
+    //     for ( let j =1; j <= i; j++) {
+    //         document.write("*");
+    //     }
+    //     document.write("<br>");
+    // }
+    // <br>
+
+
+    // Tam giác vuông thuận ngược
+    // for (let i = 1; i <= 5; i++) {
+    //     for ( let j =i; j <= 5; j++) {
+    //         document.write("*");
+    //     }
+    //     document.write("<br>");
+    // }
+    // <br>
+
+    // Tam giác vuông nghịch
+
+    // for (let i = 1; i <= 5; i++) {
+    //     for (let j = 1; j <= 5; j++) {
+    //         if (j <= 5 - i) {
+    //             document.write("&nbsp&nbsp&nbsp&nbsp");
+    //         } else {
+    //             document.write("*&nbsp&nbsp");
+    //         }
+    //     }
+    //     document.write("<br>");
+
+    // }
+
+    // Tam giác cân
+    // for (let i = 1; i <= 5; i++) {
+    //     for (let j = 1; j <= i; j++) {
+    //         if (j <= 5 - i) {
+    //             document.write("&nbsp&nbsp&nbsp&nbsp");
+    //         } else {
+    //             document.write("*&nbsp&nbsp");
+    //         }
+    //     }
+    //     document.write("<br>");
+    // }
+    // ------------------------------------------------------------------------------------------------------------
+    //-------------------------------------------------------------------------------------------------------------
+
+    // Tam giác vuông
+    // *
+    // **
+    // ***
+    // ****
+    // *****
+    // for (let i = 1; i <= 5; i++) {
+    //     for (let j = 1; j <= i; j++) {
+    //         document.write("*");
+    //     }
+    //     document.write("<br>");
+    // }
+    // --------------------------------------------------------------
+    // *****
+    // ****
+    // ***
+    // **
+    // *
+    // for (let i = 1; i <= 5; i++) {
+    //     for (let j = i; j <= 5; j++) {
+    //         document.write("*");
+    //     }
+    //     document.write("<br>");
+    // }
+    //----------------------------------------------------------------
+    //     *
+    //    **
+    //   ***
+    //  ****
+    // *****
+    // for (let i = 1; i <= 5; i++) {
+    //     for (let j = 5 - i; j > 0; j--) {
+    //         document.write("&nbsp&nbsp")
+    //     }
+    //     for (let h = 1; h <= i; h++) {
+    //         document.write("*");
+    //     }
+    //     document.write("<br>");
+    // }
+    //----------------------------------------------------------------
+    // *****
+    //  ****
+    //   ***
+    //    **
+    //     *
+    for (let i = 5; i > 0; i--) {
+        for (let j = 5 - i; j > 0; j--) {
+            document.write("&nbsp&nbsp");
+        }
+        for (let g = 6 - i; g <= 5; g++) {
+            document.write("*")
+        }
+        document.write("<br>");
+    }
+    //----------------------------------------------------------------
+    // Hình chữ nhật
+    // **************
+    // *            *
+    // *            *
+    // **************
+
+</script>
+</body>
+</html>

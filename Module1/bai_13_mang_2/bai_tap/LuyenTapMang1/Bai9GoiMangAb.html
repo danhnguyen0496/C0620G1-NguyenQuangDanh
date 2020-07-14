@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="Ghép mảng"</p>
+<script>
+    let a = new Array(10);
+    for (let i = 0; i < a.length; i++) {
+        a[i] = parseInt(prompt("Nhập vào giá trị của mảng 1"));
+    }
+    let b = new Array(10);
+    for (let j = 0; j < b.length; j++) {
+        b[j] = parseInt(prompt("Nhập vào giá trị của mảng 2"));
+    }
+    let c = a.concat(b);
+    document.getElementById("Ghép mảng").innerHTML = c;
+
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hình Trái Tim</title>
+</head>
+<body>
+<h1> If you love me please click here!!</h1>
+<input type="button" onclick="abc()" value="Do you love me?" style="color: lightpink">
+<p id="traiTim" style="color: deeppink"></p>
+<script>
+    function abc() {
+        let inra="";
+        for (i = 1; i < 7; i++) {
+            for (j = 1; j <= 7; j++) {
+                if (((i === 1 && (j === 1 || j === 4 || j === 7)) || (i === 4 && (j === 1 || j === 7))
+                    || (i === 5 && (j <= 2 || j >= 6) || (i === 6 && (j <= 3 || j >= 5))))) {
+                    inra+=("&nbsp&nbsp&nbsp&nbsp")
+                } else {
+                    inra +=("**")
+                }
+            }
+            inra +=("<br>")
+        }
+        document.getElementById("traiTim").innerHTML=inra;
+    }
+</script>
+​
+</body>
+</html>
