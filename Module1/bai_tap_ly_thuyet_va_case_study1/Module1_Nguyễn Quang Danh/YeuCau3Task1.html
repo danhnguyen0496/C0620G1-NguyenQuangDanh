@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yêu Cầu 3</title>
+</head>
+<body>
+<script>
+    let name = prompt("Input Name: ");
+    check = false;
+    do {
+        let cmnd = prompt("Input CMND: ");
+        if (!isNaN(cmnd)) {
+            cmnd = Number.parseFloat(cmnd);
+        }
+        if (!Number.isInteger(cmnd)) {
+            alert("Cmnd không định dạng");
+            continue;
+        }
+        if (cmnd < 10000000 || cmnd > 99999999) {
+            alert("Cmnd không định dạng");
+            continue;
+        } else {
+            check = true;
+        }
+    } while (!check);
+    check = false;
+    do {
+        let birthday = prompt("Input birthday: ");
+        if (birthday.charAt(2) === "/" && birthday.charAt(5) === "/") {
+            let day = birthday.substring(0, 2);
+            let month = birthday.substring(3, 5);
+            let year = birthday.substring(6, 10);
+            if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
+                day = Number.parseFloat(day);
+                month = Number.parseFloat(month);
+                year = Number.parseFloat(year);
+                if (Number.isInteger(day) && Number.isInteger(month) && Number.isInteger(year)) {
+                    if (day < 32 && month < 13 && year > 1950) {
+                        check = true;
+                    }
+                }
+            }
+        }
+        if (!check) {
+            alert("Birthday is incorrect ")
+        }
+    } while (!check);
+    check = false;
+
+    do {
+        let countAt = 0;
+        let count = 0;
+        let email = prompt("Input Email: ");
+        for (let i = 0; i < email.length; i++) {
+            if (email.charAt(i) === "@") {
+                countAt++;
+                for (let j = i + 1; j < email.length; j++) {
+                    if (email.charAt(j) === ".") {
+                        count++;
+                    }
+                }
+            }
+        }
+        if (countAt !== 1 || count < 1) {
+            alert("Email is incorrect");
+        } else {
+            check = true;
+        }
+    } while (!check);
+    check = false;
+    let address = prompt("Input Address: ");
+    let typeCustomer = parseInt(prompt("Input TypeCustomer" + "\n" +
+        "1. Diamond" + "\n" +
+        "2. Platinum" + "\n" +
+        "3. Gold" + "\n" +
+        "4. Silver" + "\n" +
+        "5. Member"));
+    let disCount = prompt("Input Discount: ");
+
+    do {
+        let quantityInclude = prompt("Input quantityInclude: ");
+        if (!isNaN(quantityInclude)) {
+            quantityInclude = Number.parseFloat(quantityInclude);
+            if (Number.isInteger(quantityInclude) && quantityInclude>0) {
+                check = true;
+            }
+        }
+        if (!check) {
+            alert("quantityInclude is incorrect");
+        }
+    } while (!check);
+    check = false;
+
+
+    do {
+        let rentDays = prompt("Input RentDays");
+        if (!isNaN(rentDays)) {
+            rentDays= Number.parseFloat(rentDays);
+            if (Number.isInteger(rentDays) && rentDays>0 ) {
+                check = true;
+            }
+        }
+        if (!check) {
+            alert("rentDays is incorrect");
+        }
+    } while (!check);
+    check =false;
+
+
+    let typeServices = parseInt(prompt("Input typeServices" + "\n" +
+        "1. Villa" + "\n" +
+        "2. House" + "\n" +
+        "3. Room"));
+    let typeRoom = parseInt(prompt("Input typeRoom" + "\n" +
+        "1. Vip" + "\n" +
+        "2. Business" + "\n" +
+        "3. Normal"));
+    let total = 500 * rentDays * (1 - disCount / 100);
+    alert("1. Họ và tên: " + name + "\n" +
+        "2. Số CMND: " + cmnd + "\n" +
+        "3. Ngày tháng năm sinh: " + birthday + "\n" +
+        "4. Email: " + email + "\n" +
+        "5. Địa chỉ: " + address + "\n" +
+        "6. Loại khách hàng: " + typeCustomer + "\n" +
+        "7. Giảm giá: " + disCount + "\n" +
+        "8. Số lượng: " + quantityInclude + "\n" +
+        "9. Số ngày thuê: " + rentDays + "\n" +
+        "10. Loại dịch vụ: " + typeServices + "\n" +
+        "11. Loại phòng thuê: " + typeRoom + "\n" +
+        "12. Chi phí: " + total);
+</script>
+</body>
+</html>
