@@ -17,10 +17,16 @@
     // }
     // document.write("Max: " + max + " at position " + index);
 
-    let daySo = [];
-    for (let i = 0; i < 10; i++) {
-        let data = parseInt(prompt("Nhập vào giá trị"));
-        daySo.push(data);
+    // let daySo = [];
+    // for (let i = 0; i < 10; i++) {
+    //     let data = parseInt(prompt("Nhập vào giá trị"));
+    //     daySo.push(data);
+    // }
+
+    let n = parseInt(prompt("Nhập chiều dài của mảng"));
+    let daySo = new Array(n);
+    for (let i = 0; i < daySo.length; i++) {
+        daySo[i] =parseInt(prompt("Nhập vào phần tử của mảng"));
     }
     let max = daySo[0];
     let index = 0;

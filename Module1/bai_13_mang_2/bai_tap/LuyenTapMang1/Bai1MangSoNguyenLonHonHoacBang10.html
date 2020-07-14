@@ -13,14 +13,28 @@
     //     }
     // }
 
-    let number = [];
-    for (let i = 0; i < 10; i++) {
-        let nhapSo = parseInt(prompt("Nhập vào giá trị"));
-        number.push(nhapSo);
-        if (number[i] >= 10) {
-            document.write(number[i] + " ");
+    // let number = [];
+    // for (let i = 0; i < 10; i++) {
+    //     let nhapSo = parseInt(prompt("Nhập vào giá trị"));
+    //     number.push(nhapSo);
+    //     if (number[i] >= 10) {
+    //         document.write(number[i] + " ");
+    //     }
+    // }
+
+    let arr = new Array(10);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt("Nhập vào phần tử của mảng"));
+    }
+    let count =0;
+    for (let j = 0; j < arr.length; j++) {
+        if (arr[j] >= 10) {
+            document.write("Những số lớn hơn hoặc bằng 10 là " + arr[j] + "<br>");
+            count += 1;
         }
     }
+    document.write("Có " + count + " số lớn hơn hoặc bằng 10");
+
 </script>
 </body>
 </html>

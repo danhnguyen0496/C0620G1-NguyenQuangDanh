@@ -22,23 +22,29 @@
     // document.write("Giá trị max là: " + max + " tại vị trị " + index + "<br>");
     // document.write("Giá trị trung bình là: " + mean);
 
-    let daySo = [];
-    for (let j = 0; j < 10; j++) {                           // mảng gồm 10 phần tử tự cho
-        let data = parseInt(prompt("Nhập vào giá trị"));
-        daySo.push(data);
+    // let daySo = [];
+    // for (let j = 0; j < 10; j++) {                           // mảng gồm 10 phần tử tự cho
+    //     let data = parseInt(prompt("Nhập vào giá trị"));
+    //     daySo.push(data);
+    // }
+
+    let n = parseInt(prompt("Nhập vào chiều dài của mảng"));
+    let daySo = new Array(n);
+    for (let j = 0; j < daySo.length; j++) {
+        daySo[j] = parseInt(prompt("Nhập vào phần tử của mảng"));
     }
     let max = daySo[0];
     let index = 0;
     let sum = 0;
     let mean = " ";
-    for (let i =0; i < daySo.length; i++) {
+    for (let i = 0; i < daySo.length; i++) {
         if (daySo[i] > max) {
             max = daySo[i];
             index = i;
         }
         sum += daySo[i];
     }
-    mean = sum/daySo.length;
+    mean = sum / daySo.length;
     document.write("Giá trị max là: " + max + " tại vị trị " + index + "<br>");
     document.write("Giá trị trung bình là: " + mean);
 </script>

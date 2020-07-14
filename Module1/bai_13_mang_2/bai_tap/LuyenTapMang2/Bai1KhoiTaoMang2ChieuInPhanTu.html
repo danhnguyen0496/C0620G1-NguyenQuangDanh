@@ -6,13 +6,20 @@
 </head>
 <body>
 <script>
-    let a = [
-        [1, 2, 1, 24],
-        [8, 11, 9, 4],
-        [7, 0, 7, 27],
-        [7, 4, 28, 14],
-        [3, 10, 26, 7]
-    ];
+    // let a = [
+    //     [1, 2, 1, 24],
+    //     [8, 11, 9, 4],
+    //     [7, 0, 7, 27],
+    //     [7, 4, 28, 14],
+    //     [3, 10, 26, 7]
+    // ];
+
+    // for (let i in a) {
+    //     console.log("row " + i);
+    //     for (let j in a[i]) {
+    //         console.log(a[i][j]);
+    //     }
+    // }
 
     // for (let i = 0; i < a.length; i++) {
     //     document.write("row" + i + "<br>");
@@ -21,12 +28,19 @@
     //     }
     // }
 
-    for (let i in a)
-    {
-        console.log("row " + i);
-        for (let j in a[i])
-        {
-            console.log(a[i][j]);
+    let n = parseInt(prompt("Nhập vào chiều dài của mảng cha"));
+    let arr = new Array(n);
+    for (let i = 0; i < arr.length; i++) {
+        let m = parseInt(prompt("Nhập chiều dài của mảng con"));
+        arr[i] = new Array(m);
+        for (let j = 0; j < arr[i].length; j++) {
+            arr[i][j] = parseInt(prompt("Nhập phần tử mảng con"));
+        }
+    }
+    for (let h = 0; h < arr.length; h++) {
+        document.write("row " + h + "<br>");
+        for (let k = 0; k < arr[h].length; k++) {
+            document.write(arr[h][k] + "<br>");
         }
     }
 

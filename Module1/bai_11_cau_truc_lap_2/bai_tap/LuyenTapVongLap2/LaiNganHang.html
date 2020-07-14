@@ -6,13 +6,14 @@
 </head>
 <body>
 <script>
-    let laiMe = 0;
-    let laiCon;
     let tienGui = parseInt(prompt("Nhập số tiền gửi ngân hàng"));
-    let thangGui = parseInt(prompt("Nhập số tháng gửi tiền ngân hàng"));
-    let laiSuat = parseInt(prompt("Nhập lại suất hàng tháng"));
-    laiMe = thangGui* tienGui * laiSuat;
-        laiCon = l
+    let thangVay = parseInt(prompt("Nhập số tháng vay tiền ngân hàng"));
+    let laiSuat = parseInt(prompt("Nhập lãi suất hàng tháng"));
+    let tongTien = tienGui;
+    for (let i = 0; i < thangVay; i++) {
+        tongTien += tienGui * laiSuat
+    }
+    alert(tongTien);
 </script>
 </body>
 </html>

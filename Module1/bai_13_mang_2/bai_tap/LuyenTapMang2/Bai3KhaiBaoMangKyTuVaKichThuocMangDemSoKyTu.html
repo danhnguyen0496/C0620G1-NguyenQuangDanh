@@ -6,10 +6,23 @@
 </head>
 <body>
 <script>
-    let String = ["a", "b", "c", "d"];
+    // let String = ["a", "b", "c", "d"];
+    // let count = 0;
+    // for (let i = 0; i < String.length; i++) {
+    //     if (typeof String[i] === "string") {
+    //         count += 1;
+    //     }
+    // }
+    // document.write(count);
+
+    let n = parseInt(prompt("Nhập vào chiều dài của mảng"));
+    let arr = new Array(n);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = prompt("Nhập vào phần tử của mảng");
+    }
     let count = 0;
-    for (let i = 0; i < String.length; i++) {
-        if (typeof String[i] === "string") {
+    for (let j = 0; j < arr.length; j++) {      // let arr = [1,2,3,4,"a","b"];
+        if (!isNaN(arr[j])) {                   // if (typeof arr[j] === "number")  cho trước 1 mảng thì sử dụng được
             count += 1;
         }
     }

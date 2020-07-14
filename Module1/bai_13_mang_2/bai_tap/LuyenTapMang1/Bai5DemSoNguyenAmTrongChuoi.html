@@ -6,19 +6,26 @@
 </head>
 <body>
 <script>
-    let arr = [];
-    for (let i = 0; i < 5; i++) {
-        let data = parseInt(prompt("Nhập vào giá trị"));
-        arr.push(data);
+    // let arr = [];
+    // for (let i = 0; i < 5; i++) {
+    //     let data = parseInt(prompt("Nhập vào giá trị"));
+    //     arr.push(data);
+    // }
+
+
+    let n = parseInt(prompt("Nhập vào độ dài của mảng"));
+    let arr = new Array(n);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt("Nhập vào phần tử của mảng"));
     }
     let count = 0;                                   // biến đếm
     for (let j = 0; j < arr.length; j++) {
         if (arr[j] < 0) {
-            count+=1;
-            alert(arr[j]);
+            count += 1;
+            // alert(arr[j]);
         }
     }
-    document.write(count);
+    document.write("Có " + count + " số nguyên âm");
 
 </script>
 </body>

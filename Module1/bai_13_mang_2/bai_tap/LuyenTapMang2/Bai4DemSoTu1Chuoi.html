@@ -6,15 +6,16 @@
 </head>
 <body>
 <script>
-    let n = parseInt(prompt("Nhập vào chiều dài của mảng"));
+    let n = parseInt(prompt("Độ dài của mảng"));
     let arr = new Array(n);
     for (let i = 0; i < arr.length; i++) {
-        arr[i] = parseInt(prompt("Nhập vào phần tử của mảng"));
+        arr[i] = prompt("Nhập chuỗi");
     }
+    alert(arr);
     let count = 0;
     for (let j = 0; j < arr.length; j++) {
-        if (typeof arr[j] === "number") {
-            count += 1;
+        if (typeof arr[j] === "string") {
+            count +=1;
         }
     }
     document.write(count);
