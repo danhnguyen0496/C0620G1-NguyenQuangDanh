@@ -60,24 +60,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_tap_ly_thuyet_va_case_study1/Module1_Nguyễn Quang Danh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_15_ham_2/bai_tap/LuyenTapSuDungHam2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_13_mang_2\bai_tap\LuyenTapMang1" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucVoiCauDieuKien" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\thuc_hanh" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_tap_ly_thuyet_va_case_study1\Module1_Nguyễn Quang Danh" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_10_cau_truc_lap_1\thuc_hanh" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucCauDieuKien02" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_8_cau_truc_dieu_kien_1\thuc_hanh" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_15_ham_2\bai_tap\LuyenTapSuDungHam2" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_13_mang_2\bai_tap\LuyenTapMang1" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucVoiCauDieuKien" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\thuc_hanh" />
     </key>
   </component>
   <component name="RunManager">
@@ -142,6 +142,11 @@
       <workItem from="1594716126098" duration="6051000" />
       <workItem from="1594729199567" duration="6845000" />
       <workItem from="1594738439642" duration="7025000" />
+      <workItem from="1594775086737" duration="17734000" />
+      <workItem from="1594817139249" duration="5566000" />
+      <workItem from="1594822770650" duration="8820000" />
+      <workItem from="1594861078764" duration="12110000" />
+      <workItem from="1594880925481" duration="1264000" />
     </task>
     <servers />
   </component>
@@ -161,10 +166,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594046846036" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1594634377725">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1594818843377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594634377725" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594818843377" />
     <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1594659640538">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

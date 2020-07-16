@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Game Đoán Số</title>
 </head>
 <body>
-$END$
+<button onclick="choi()">Chơi</button>
+<button type="reset" onclick="reset">Chơi lại</button>
+<script>
+    function choi() {
+        let i = 1;
+        let khoang = parseInt(prompt("Nhập vào khoảng cần đoán"));
+        let soDung = Math.round(Math.random()) * khoang;
+        while (i < 3) {
+            let soDoan = parseInt(prompt("Nhập vào số đoán"));
+            if (soDoan > soDung) {
+                alert("Số bạn nhập lớn hơn số đúng, giảm lại");
+            }
+            if (soDoan < soDung) {
+                alert("Số bạn nhập nhỏ hơn số đúng, tăng lên");
+            }
+            if (soDoan === soDung) {
+                alert("Chúc mừng bạn đã đoán trúng " + soDoan);
+                break;
+            }
+            i++;
+        }
+        if (i === 3) {
+            alert("Bạn đã nhập quá số lần quy định, 3 lần");
+        }
+    }
+
+</script>
 </body>
 </html>

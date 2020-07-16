@@ -2,9 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Fibonacci Chia Hết Cho 5</title>
 </head>
 <body>
-$END$
+<script>
+    let number = parseInt(prompt("Nhập vào giá trị"));
+    let count = 0;
+    let f1 = 0;
+    let f2 = 1;
+    while (count < number) {
+        f2 = f1 + f2;
+        f1 = f2 - f1;
+        count++;
+        if (f1 % 5 === 0) {
+            document.write(f1 + " ");
+            break;
+        }
+    }
+
+
+    // let  number  =  parseInt ( prompt ( "Enter the number of Fibonacci to display" ) ) ;
+    // let fiBo1 = 0;
+    // let fiBo2 = 1;
+    // let count = 0;
+    // while (count < number) {
+    //     fiBo2 = fiBo1 + fiBo2;
+    //     fiBo1 = fiBo2 - fiBo1;
+    //     count++;
+    //     if (fiBo1 % 5 === 0) {
+    //         if (fiBo1 === 0) continue;
+    //         result = document.write(fiBo1);
+    //         break;
+    //     }
+    // }
+</script>
 </body>
 </html>

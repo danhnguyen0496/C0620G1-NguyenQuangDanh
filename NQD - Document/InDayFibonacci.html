@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>In Dãy Fibonacci</title>
 </head>
 <body>
-$END$
+<script>
+    // In chuỗi Fibonacci
+    // Chuỗi Fibonacci: 0 1 1 2 3 5 8 13 21 34 55 89
+
+    let number = parseInt(prompt("Nhập vào số lượng số Fibonacci cần in"));
+    let f1 = 0;
+    let f2 = 1;
+    let count = 0;
+    while (count<number) {
+        f2 = f1 + f2;
+        f1 = f2 - f1;
+        count++;
+        document.write(f1 + " ");
+    }
+</script>
 </body>
 </html>

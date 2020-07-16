@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Tính Tống Số Tự Nhiên</title>
 </head>
 <body>
-$END$
+<script>
+    // Tính tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên
+
+    let number = parseInt(prompt("Nhập số lượng số tự nhiên cần tính tổng"));
+    let count = 0;
+    let sum = 0;
+    let i = 7;
+    while (count < number) {
+        if (i%7 ===0) {
+            count+=1;
+            sum+=i;
+            // document.write(sum + " ");        // Liệt kê n số chia hết cho 7
+        }
+        i++;
+    } document.write(sum);                       // Tổng n số chia hết cho 7
+
+</script>
 </body>
 </html>

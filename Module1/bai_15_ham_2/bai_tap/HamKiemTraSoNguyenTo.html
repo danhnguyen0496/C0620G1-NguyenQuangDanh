@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm Kiểm Tra Số Nguyên Tố</title>
+</head>
+<body>
+<script>
+    function isPrime(number) {
+        let flag = true;
+        if (number < 2) {
+            flag = false;
+        } else if (number === 2) {
+            flag = true;
+        } else if (number % 2 === 0) {
+            flag = false;
+        } else if (number > 2) {
+            for (let i = 3; i < number; i++) {
+                if (number % i === 0) {
+                    flag = false;
+                    break;
+                }
+            }
+        }
+        if (flag) {
+            return "Là số nguyên tố";
+        } else {
+            return "Không phải là số nguyên tố";
+        }
+    }
+    let nhapSo = parseInt(prompt("Nhập giá trị cần kiểm tra"));
+    let kiemTra = isPrime(nhapSo);
+    alert(kiemTra);
+
+</script>
+</body>
+</html>

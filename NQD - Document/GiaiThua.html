@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Tính Giai Thừa Số Nguyên Dương</title>
 </head>
 <body>
-$END$
+<script>
+    // Giai thừa: 8! = 8x7x6x5x4x3x2x1
+
+    let  number  =  parseInt ( prompt ( "Enter the number to calculate factorial" ) ) ;
+    let  soGiaiThua  =  1 ;
+    for (let i = 1; i <= number; i++) {
+        soGiaiThua = soGiaiThua* i ;
+    }
+    alert(soGiaiThua);
+
+</script>
 </body>
 </html>

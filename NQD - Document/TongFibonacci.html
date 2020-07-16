@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Tính Tổng Fibonacci</title>
 </head>
 <body>
-$END$
+<script>
+    //  Tính tổng của dãy Fibonacci
+
+    let number = parseInt(prompt("Nhập giá trị"));
+    let count = 0;
+    let f1 = 0;
+    let f2 = 1;
+    let sum = 0;
+    while (count < number) {
+        f2 = f1 + f2;
+        f1 = f2 - f1;
+        count ++;
+        sum += f1;
+    }
+    document.write(sum);
+
+</script>
 </body>
 </html>

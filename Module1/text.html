@@ -5,12 +5,14 @@
     <title>Title</title>
 </head>
 <body>
+<button id="afd" onclick="func1()"></button>
 <script>
-    let a = new Array(12, false, "text");
-    x = 10;
-    if (a[1]) x = 20;
-    else x = 30;
-    document.write(x);
+    function func1(a) {
+        if (a === 2)
+            return 2;
+        return a * func1(a - 1);
+    }
+    alert(func1(a));
 </script>
 </body>
 </html>

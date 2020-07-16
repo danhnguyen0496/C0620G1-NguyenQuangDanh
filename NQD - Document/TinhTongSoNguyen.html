@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let sum = 0;
+    let number;
+    do {
+        number = parseInt(prompt("Nhập vào giá trị"));
+        sum += number;
+    } while (number !== 0);
+    document.write("Tổng của chuỗi giá trị vừa nhập là " + sum);
+</script>
 </body>
 </html>

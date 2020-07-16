@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng Dụng Quản Lý Sản Phẩm</title>
+</head>
+
+<h1>Add New Product</h1>
+<input id="newproduct" type="text" placeholder="New Product"/>
+<button style="background-color: greenyellow" id="add" type="button" onclick="addProduct();">Add</button>
+<h2>Display All product</h2>
+<label style="color: darkblue">Tổng sản phẩm hiện có:</label>
+<span style="color: darkblue" id="tongsanpham"></span>
+<h3>Product Name</h3>
+<p id="display"/>
+
+<script>
+
+    let listProduct = ["Cocal", "Pepsi", "Sting", "Aquafina"];
+
+    // Hàm hiện thị danh sách sản phẩm
+    function display() {
+        let tableString = '<table border ="1"+ style="background-color: white">';
+        tableString += "<td>" + "Số thứ tự"  + "</td>";
+        tableString += "<td>" + "Product Name" + "</td>";
+        tableString += "<td>" + "Edit Product" + "</td>";
+        tableString += "<td>" + "Delete Product" + "</td>";
+        for (let i = 0; i < listProduct.length; i++) {
+            tableString += "<tr>";
+            tableString += "<td>" + (i + 1) + "</td>";
+            tableString += "<td>" + listProduct[i] + "</td>";
+            tableString += "<td>" + "<button style='width: 100px' id='ad' onclick='sua (" + i + ")' value='Edit'>Edit</button>" + "</td>";
+            tableString += "<td>" + "<button style='width: 100px' id='bd' onclick='xoa (" + i + ")' value='Delete'>Delete</button>" + "</td>";
+            tableString += "</tr>";
+        }
+        tableString += "</table>";
+        document.getElementById("display").innerHTML = tableString;
+        document.getElementById("tongsanpham").innerHTML = listProduct.length;
+    }
+    display();
+
+
+    // Hàm thêm một sản phẩm vào danh sách
+    function addProduct() {
+        let addProductNew = document.getElementById("newproduct").value;
+        if (addProductNew === "") {
+            alert("Bạn cần thêm tên sản phẩm mới vào");
+        } else {
+            listProduct.push(addProductNew);
+        }
+        display();
+    }
+
+    // Hàm xoa
+    function xoa(i) {
+        let kiemTraXoa = confirm("Bạn xác nhận xóa sản phẩm này");
+        if (kiemTraXoa) {
+            alert("Bạn đã xóa sản phẩm");
+            listProduct.splice(i, 1);
+        } else {
+            alert("Bạn chưa xóa sản phẩm");
+        }
+        display();
+    }
+
+    // Hàm sửa
+    function sua(i) {
+        let tenMoiSP = prompt("Nhập tên mới sản phầm cần thay thế");
+        if (tenMoiSP == "") {
+            alert("Bạn chưa nhập chỉnh sửa");
+        } else {
+            listProduct[i] = tenMoiSP;
+        }
+        display()
+    }
+
+</script>
+</body>
+</html>

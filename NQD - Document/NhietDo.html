@@ -2,9 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Thông Tin Nhiệt Độ</title>
 </head>
 <body>
-$END$
+<script>
+    // Nhập thông tin nhiệt độ
+    // Nhiệt độ > 100 --> giảm nhiệt độ
+    // Nhiệt độ < 10 --> tăng nhiệt độ
+
+    // let nhietDo = parseInt(prompt("Nhập thông tin nhiệt độ"));
+    // while (nhietDo > 100) {
+    //     alert("Giảm nhiệt độ ");
+    //     nhietDo = parseInt(prompt("Nhập thông tin nhiệt độ"));
+    // }
+    // while (nhietDo <10) {
+    //     alert("Tăng nhiệt độ");
+    //     nhietDo = parseInt(prompt("Nhập thông tin nhiệt độ"));
+    // }
+
+    // let nhietDo = " ";
+    // do {
+    //     nhietDo = parseInt(prompt("Nhập thông tin nhiệt độ"));
+    //     if (nhietDo > 100) {
+    //         nhietDo = parseInt(prompt("Giảm nhiệt độ"));
+    //     }
+    //     if (nhietDo < 10) {
+    //         nhietDo = parseInt(prompt("Tăng nhiệt độ"));
+    //     }
+    // } while (nhietDo > 100 || nhietDo < 10);
+    // document.write("Thông tin nhiệt độ: " + nhietDo);
+
+
+    let nhietDo = parseInt(prompt("Nhập thông tin nhiệt độ"));
+    while (nhietDo > 100 || nhietDo < 10) {
+        if (nhietDo > 100) {
+            nhietDo = parseInt(prompt("Giảm nhiệt độ"));
+        }
+        if (nhietDo < 10) {
+            nhietDo = parseInt(prompt("Tăng nhiệt độ"));
+        }
+    }
+    document.write("Thông tin nhiệt độ: " + nhietDo + " độ");
+</script>
 </body>
 </html>

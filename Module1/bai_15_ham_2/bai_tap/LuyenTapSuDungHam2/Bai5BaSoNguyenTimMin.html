@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhập giá trị a"));
+    let b = parseInt(prompt("Nhập giá trị b"));
+    let c = parseInt(prompt("Nhập giá trị c"));
+
+    function minNumber() {
+        if (a > b) {
+            if (c > b) {
+                alert("Min: " + b);
+            } else {
+                alert("Min: " + c)
+            }
+        } else if (a > c) {
+            alert("Min: " + c);
+        } else {
+            alert("Min: " + a);
+        }
+    }
+    minNumber();
+</script>
+</body>
+</html>

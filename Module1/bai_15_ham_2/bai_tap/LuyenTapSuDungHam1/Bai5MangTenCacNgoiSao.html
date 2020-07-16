@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let arr1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let arr2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "UrsaMajor ", "Leo"];
+
+    function ngoiSao() {
+        let timNgoiSao = prompt("Nhập tên ngôi sao cần tìm");
+        let check = false;
+        for (let i = 0; i < arr1.length; i++) {
+            if (timNgoiSao == arr1[i]) {
+                alert(arr1[i] = arr2[i]);
+                check = true;
+                break;
+            }
+        }
+        if (!check) {
+            alert("Không tìm thấy ngôi sao nào");
+    }
+
+    }
+    ngoiSao();
+</script>
+</body>
+</html>

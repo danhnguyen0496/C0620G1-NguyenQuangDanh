@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Kiểm Tra Số Nguyên Tố</title>
 </head>
 <body>
-$END$
+<script>
+    // Nhập vào 1 số nguyên bất kỳ, kiểm tra xem nó có phải là số nguyên tố hay không
+    // Số nguyên tố: chia hết cho 1 và chính nó, 2 là số nguyên tố nhỏ nhất
+
+    let number = parseInt(prompt("Nhập vào giá trị cần kiểm tra"));
+    let flag = true;
+    if (number < 2) {
+        flag = false;
+    } else if (number === 2) {
+        flag = true;
+    } else if (number % 2 === 0) {
+        flag = false;
+    } else if (number > 2) {
+        for (let i = 3; i < number; i++) {
+            if (number % i === 0) {
+                flag = false;
+                break;
+            }
+        }
+    }
+    if (flag) {
+        document.write("Là số nguyên tố")
+    } else {
+        document.write("Không phải là số nguyên tố");
+    }
+</script>
+
 </body>
 </html>

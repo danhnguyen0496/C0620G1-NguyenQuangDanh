@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Bảng Cửu Chương</title>
 </head>
 <body>
-$END$
+<script>
+    let i;
+    let table = "<table border ='1'>"
+    for (i=1; i<10; i++) {
+        table += "<tr>";
+        for (j=2; j<=10; j++) {
+            table += "<td>" + j + "*" + i + "=" + i*j +"</td>";
+        }
+        table += "</tr>";
+    }
+    table += "</table>";
+    document.write(table);
+</script>
 </body>
 </html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 9</title>
+</head>
+<body>
+<script>
+    function kiemTraMang() {
+        let n = parseInt(prompt("Nhập vào chiều dài của mảng"));
+        let arr = new Array(n);
+        for (let i = 0; i < arr.length; i++) {
+            arr[i] = prompt("Nhập vào phần tử của mảng");
+        }
+        let kyTuKiemTra = prompt("Nhập vào ký tự cần kiểm tra");
+        count = 0;
+        for (let j = 0; j < arr.length; j++) {
+            if (kyTuKiemTra == arr[j]) {
+                count++;
+            }
+            if (count == 0) {
+                return alert(-1);
+            }
+        }
+        alert(count);
+    }
+
+    kiemTraMang();
+    
+</script>
+</body>
+</html>
