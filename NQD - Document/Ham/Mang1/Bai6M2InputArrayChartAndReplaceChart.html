@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+<script>
+
+    // Nhập vào một mảng ký tự,
+    // Tìm tất cả các ký tự trong mảng là (-) và thay thế các ký tự này bởi ký tự ( _ )
+
+    let n = parseInt(prompt("Nhập vào độ dài của mảng"));
+    let array = new Array(n);
+    for (let i = 0; i < array.length; i++) {
+        array[i] = prompt("Nhập vào phần tử của mảng");
+    }
+    for (let j = 0; j < array.length; j++) {
+        if (array[j] == "-") {
+            array[j] = "_";
+        }
+    }
+    document.write(array);
+
+</script>
+</body>
+</html>

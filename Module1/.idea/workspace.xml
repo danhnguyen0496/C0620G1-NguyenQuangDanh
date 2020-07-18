@@ -2,40 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/BangCuuChuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/BangCuuChuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/BangDuLieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/BangDuLieu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Dem1Den100.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Dem1Den100.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/GameDoanSo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/GameDoanSo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/GiaiThua.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/GiaiThua.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/HinhChuNhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/HinhChuNhat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/In20SoNguyenToDauTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/In20SoNguyenToDauTien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/InDayFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/InDayFibonacci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/InFizzBuzz.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/InFizzBuzz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/InHinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/InHinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/InSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/InSoNguyenTo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/KiemTraSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/KiemTraSoNguyenTo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/LapDoWhile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/LapDoWhile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/LapFor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/LapFor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/NhietDo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/NhietDo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/SoFibonacciChia5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/SoFibonacciChia5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/TinhTongSoNguyen.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/TinhTongSoNguyen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Tong30SoTN.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Tong30SoTN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/TongFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/TongFibonacci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/NQD-NcPt.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/BaiTapTaoBangNangCaoBanCoVua.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/BaiTapTaoBangNangCaoLichThang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/Test.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/Test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD-NcPt/Untitled-1.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai1M2CreatAndDisplayArray2Dimensional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai1TaoMang10PhanTuSoNguyenLonHon10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai2CreatArraySearchMaxAndLocal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai2M2DisplayArrayReverse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai3CreatArrayDisplayMaxAndAverage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai3M2CreatArrayCountNumber.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai4InputArrayAndReverses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai4M2CountChartInChain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai5DemSoNguyenAm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai6InputArray10AndCheckV.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai6M2InputArrayChartAndReplaceChart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/BangCuuChuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/BangCuuChuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/BangDuLieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/BangDuLieu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Dem1Den100.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/Dem1Den100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/GameDoanSo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/GameDoanSo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/GiaiThua.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/GiaiThua.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/HinhChuNhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/HinhChuNhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/In20SoNguyenToDauTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/In20SoNguyenToDauTien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/InDayFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/InDayFibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/InFizzBuzz.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/InFizzBuzz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/InHinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/InHinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/InSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/InSoNguyenTo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/KiemTraSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/KiemTraSoNguyenTo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/LapDoWhile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/LapDoWhile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/LapFor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/LapFor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/NhietDo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/NhietDo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/SoFibonacciChia5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/SoFibonacciChia5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/TinhTongSoNguyen.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/TinhTongSoNguyen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Tong30SoTN.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/Tong30SoTNChia7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/TongFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/TongFibonacci.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Module1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,24 +64,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_15_ham_2/bai_tap/LuyenTapSuDungHam2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_15_ham_2/bai_tap" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_15_ham_2\bai_tap" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_15_ham_2\bai_tap\LuyenTapSuDungHam2" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_13_mang_2\bai_tap\LuyenTapMang1" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucVoiCauDieuKien" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_tap_ly_thuyet_va_case_study1\Module1_Nguyễn Quang Danh" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_10_cau_truc_lap_1\thuc_hanh" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucCauDieuKien02" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_8_cau_truc_dieu_kien_1\thuc_hanh" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_15_ham_2\bai_tap\LuyenTapSuDungHam2" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_13_mang_2\bai_tap\LuyenTapMang1" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucVoiCauDieuKien" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\thuc_hanh" />
     </key>
   </component>
   <component name="RunManager">
@@ -146,7 +150,12 @@
       <workItem from="1594817139249" duration="5566000" />
       <workItem from="1594822770650" duration="8820000" />
       <workItem from="1594861078764" duration="12110000" />
-      <workItem from="1594880925481" duration="1264000" />
+      <workItem from="1594880925481" duration="9502000" />
+      <workItem from="1594900869172" duration="1205000" />
+      <workItem from="1594950228736" duration="15567000" />
+      <workItem from="1595035986954" duration="5590000" />
+      <workItem from="1595052273461" duration="3414000" />
+      <workItem from="1595057328941" duration="4773000" />
     </task>
     <servers />
   </component>
@@ -166,10 +175,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594046846036" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1594818843377">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1594882611570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594818843377" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594882611570" />
     <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1594659640538">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -242,10 +251,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1594046834848" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1594721914275">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1594969805145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1594721914275" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1594969805145" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594647488388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

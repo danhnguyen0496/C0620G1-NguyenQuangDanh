@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây Dựng Lớp Hình Tròn</title>
+</head>
+<body>
+<script>
+    class hinhTron {
+        constructor(banKinh) {
+            this.banKinh = banKinh;
+        }
+
+        getbanKinh() {
+            return this.banKinh;
+        }
+        getdienTich() {
+            return Math.PI * this.banKinh * this.banKinh;
+        }
+    }
+
+    let hinhTron1 = new hinhTron(2);
+    alert(hinhTron1.getbanKinh());
+    alert(hinhTron1.getdienTich());
+
+    let hinhTron2 = new hinhTron(6);
+    alert(hinhTron2.getbanKinh());
+    alert(hinhTron2.getdienTich());
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây Dựng Lớp Date</title>
+</head>
+<body>
+<script>
+
+    class sinhVien {
+        constructor(ten, tuoi, namSinh) {
+            this.ten = ten;
+            this.tuoi = tuoi;
+            this.namSinh = namSinh;
+        }
+        getTen () {
+            return this.ten;
+        }
+        getTuoi () {
+            return this.tuoi;
+        }
+        getnamSinh () {
+            return this.namSinh;
+        }
+        setTen (ten) {
+            this.ten = ten;
+        }
+        toString (){
+            let stringsinhVien = this.ten + "--" + this.tuoi + "--" + this.namSinh;
+            return stringsinhVien;
+        }
+    }
+    let thenA = new sinhVien("Nguyễn Văn A","10","2000");
+    alert(thenA);
+    thenA.getTuoi();
+    alert(thenA.getTuoi());
+    thenA.setTen("Tý");
+    alert(thenA.getTen());
+
+
+    let thenB = new sinhVien("Tèo", "30", "1990");
+    thenB.getnamSinh();
+    alert(thenB.getnamSinh());
+    thenB.getTen();
+    alert(thenB.getTen());
+
+
+</script>
+</body>
+</html>
+
+
+
+// class myDate {
+//     constructor(day, month, year) {
+//         this.day = day;
+//         this.month = month;
+//         this.year = year;
+//     }
+//     setDate(day, month, year) {
+//         this.day = day;
+//         this.month = month;
+//         this.year = year;
+//     }
+//     getDay() {
+//         return this.day;
+//     }
+//
+//     getMonth() {
+//         return this.month;
+//     }
+//
+//     getYear() {
+//         return this.year;
+//     }
+//
+//     setDay(day) {
+//         this.day = day;
+//     }
+//
+//     setMonth(month) {
+//         this.month = month;
+//     }
+//
+//     setYear(year) {
+//         this.year = year;
+//     }
+//
+//     toString () {
+//         let stringMyDate = this.day + "/" + this.month + "/" + this.year;
+//         return stringMyDate;
+//     }
+// }
+// let date1 = new myDate("02","03","2020");
+// alert(date1);
+// let date2 = new myDate(20,12,2020);
+// // alert(date2);
+// // alert(date2.getDay());
+// // alert(date2.getMonth());
+// // alert(date2.getYear());
+// // date2.setDay(18);
+// // alert(date2.getDay());
+// date2.setDate(2,5,2007);
+// alert(date2);

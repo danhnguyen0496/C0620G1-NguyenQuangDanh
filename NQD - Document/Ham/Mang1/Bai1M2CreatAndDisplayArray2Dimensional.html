@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<script>
+
+    // Viết chương trình khởi tạo mảng 2 chiều, gồm một bộ các phần tử có sẵn,  in ra các phần tử trong mảng. Chú ý: Sử dụng vòng lặp for lồng nhau
+    // Ví dụ mảng sau:
+    //
+    //     let a = [
+    //         [1, 2, 1, 24],
+    //         [8, 11, 9, 4],
+    //         [7, 0, 7, 27],
+    //         [7, 4, 28, 14],
+    //         [3, 10, 26, 7]
+    //     ];
+
+    let n = parseInt(prompt("Nhập vào độ dài mảng cha"));
+    let arr = new Array(n);
+    for (let i = 0; i < arr.length; i++) {
+        let m = parseInt(prompt("Nhập vào độ dài mảng con"));
+        arr[i] = new Array(m);
+        for (let j = 0; j < arr[i].length; j++) {
+            arr[i][j] = parseInt(prompt("Nhập vào phần tử mảng con"));
+        }
+    }
+    for (let k = 0; k < arr.length; k++) {
+        document.write("row" + k + "<br>");
+        for (let h = 0; h < arr[k].length; h++) {
+            document.write(arr[k][h] + "<br>" );
+        }
+    }
+
+</script>
+</body>
+</html>
+
+

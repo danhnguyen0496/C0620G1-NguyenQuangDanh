@@ -6,35 +6,35 @@
 </head>
 <body>
 <script>
-    let arr = new Array(10);
-    for (let i = 0; i < 10; i++) {
-        arr[i] = prompt("Nhập vào phần tử của mảng");
-    }
-    let kiemTra = prompt("Nhập vào phần tử cần kiểm tra ");
-    for (let k = 0; k < arr.length; k++) {
-        if (kiemTra === arr[k]) {
-            arr.splice(k, 1);
-            arr.push(0);
-        }
-    }
-    document.write(arr);
-
-    // let num=parseInt(prompt("nhập vào đi nè"));
-    // let array=new Array(num);
-    // for(let i=0; i< array.length;i++) {
-    //     array[i] = prompt("nhập giá trị cho phần tử" + (i + 1))
+    // let arr = new Array(10);
+    // for (let i = 0; i < 10; i++) {
+    //     arr[i] = prompt("Nhập vào phần tử của mảng");
     // }
-    // let num1=parseInt(prompt("nhập số cần xóa"))  ;
-    // for (let i=0;i<array.length;i++) {
-    //     if(num1==array[i]) {
-    //         for(let j=i;j<array.length;j++){
-    //             array[j]=array[j+1];
-    //             array[array.length-1]=0;
-    //             i--
-    //         }
+    // let kiemTra = prompt("Nhập vào phần tử cần kiểm tra ");
+    // for (let k = 0; k < arr.length; k++) {
+    //     if (kiemTra === arr[k]) {
+    //         arr.splice(k, 1);
+    //         arr.push(0);
     //     }
     // }
-    // document.write(array);
+    // document.write(arr);
+
+    let num=parseInt(prompt("nhập vào đi nè"));
+    let array=new Array(num);
+    for(let i=0; i< array.length;i++) {
+        array[i] = prompt("nhập giá trị cho phần tử" + (i + 1))
+    }
+    let num1=parseInt(prompt("nhập số cần xóa"))  ;
+    for (let i=0;i<array.length;i++) {
+        if(num1==array[i]) {
+            for(let j=i;j<array.length;j++){
+                array[j]=array[j+1];
+                array[array.length-1]=0;
+                i--
+            }
+        }
+    }
+    document.write(array);
 
 </script>
 </body>

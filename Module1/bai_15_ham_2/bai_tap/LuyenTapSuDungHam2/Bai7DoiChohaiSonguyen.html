@@ -10,14 +10,15 @@
     let a = parseInt(prompt("Nhập giá trị a"));
     let b = parseInt(prompt("Nhập giá trị b"));
 
-    function doiCho() {
-        let c = a;
+    function doiCho(a, b) {
+        let temp = a;
         a = b;
-        b = c;
+        b = temp;
+        alert(a + ',' + b);
     }
-
-    doiCho();
-    alert(a + "," + b);
+    // doiCho();
+    // alert(a + " " + b);
+    doiCho(a, b);
 
 </script>
 </body>

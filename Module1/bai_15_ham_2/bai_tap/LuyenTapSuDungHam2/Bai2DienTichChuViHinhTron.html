@@ -7,18 +7,18 @@
 <body>
 <script>
     let banKinh = parseInt(prompt("Nhập vào bán kính hình tròn"));
-    function chuViHinhTron() {
-        chuVi = 2 * banKinh * 3.14;
+    function chuViHinhTron(r) {
+        chuVi = 2 * r * 3.14;
+        return chuVi;
     }
-
-    function dienTichHinhTron() {
-        dienTich = 3.14 * banKinh * banKinh;
+    function dienTichHinhTron(r) {
+        dienTich = 3.14 * r * r;
+        return dienTich;
     }
-
     chuViHinhTron();
-    alert("Chu vi hình tròn là " + chuVi);
+    alert("Chu vi hình tròn là " + chuViHinhTron(banKinh));
     dienTichHinhTron();
-    alert("Diện tích hình tròn là " + dienTich);
+    alert("Diện tích hình tròn là " + dienTichHinhTron(banKinh));
 </script>
 </body>
 </html>

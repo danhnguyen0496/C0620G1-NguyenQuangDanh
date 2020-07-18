@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<script>
+    // Chương trình hiển thị ra được phần tử có giá trị lớn nhất trong mảng và vị trí của phần tử đó.
+
+    let arr = new Array(10);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt("Nhập vào phần tử của mảng"));
+    }
+    let max = arr[0];
+    let index = 0;
+    for (let j = 0; j < arr.length; j++) {
+        if ( arr[j] > max) {
+            max = arr[j];
+            index = j;
+        }
+    }
+    document.write("Giá trị lớn nhất của mảng là " + max + "vị trị " + index);
+
+
+</script>
+</body>
+</html>

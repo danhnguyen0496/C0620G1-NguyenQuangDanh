@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    // Hiển hiện giá trị lớn nhất trong mảng đó. In ra giá trị trung bình của các phần tử trong mảng.
+
+    let n = parseInt(prompt("Nhập vào chiều dài của mảng"));
+    let arr = new Array(n);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt("Nhập vào phần tử của mảng"));
+    }
+    let max = arr[0];
+    let sum = 0;
+    let average = 0;
+    for (let j = 0; j < arr.length; j++) {
+        if (arr[j] > max) {
+            max = arr[j];
+        }
+        sum += arr[j];
+    }
+    average = sum / arr.length;
+    document.write("Max " + max + "<br>" +" Average "  + average);
+</script>
+</body>
+</html>
+
+<!--let max = arr[0];-->
+<!--let average = 0;-->
+<!--let sum = 0;-->
+<!--for (let j = 0; j < arr.length; j++) {-->
+<!--if (arr[j] > max) {-->
+<!--max = arr[j];-->
+<!--}-->
+<!--sum += arr[j];-->
+<!--}-->
+<!--// average = sum / arr.length;-->
+<!--document.write(sum + " ");-->
+<!--// document.write(average);-->
+<!--// document.write("Giá trị lớn nhất là " + max + " Giá trị trung bình của mảng là " + average);-->

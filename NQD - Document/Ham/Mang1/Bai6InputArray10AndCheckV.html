@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+
+<script>
+    // Chương trình tìm xem V có nằm trong mảng số nguyên không?
+    // Nếu V thuộc mảng số nguyên thì in ra "V is in the array" còn lại in ra "V is not in the array".
+
+    let arr = new Array(10);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = prompt("Nhap vao phan tu so nguyen cua mang");
+    }
+    let data = prompt("Nhập vào phần tử cần tìm");
+    let check = false;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == data) {
+            alert("V is in the array");
+            check = true;
+            break;
+        }
+    }
+    if (!check) {
+        alert("V is not in the array");
+    }
+</script>
+
+</body>
+</html>

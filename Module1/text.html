@@ -5,14 +5,31 @@
     <title>Title</title>
 </head>
 <body>
-<button id="afd" onclick="func1()"></button>
+
+<canvas id="myCanvas" width="500" height="500"></canvas>
 <script>
-    function func1(a) {
-        if (a === 2)
-            return 2;
-        return a * func1(a - 1);
-    }
-    alert(func1(a));
+    // đường kẻ
+    // let c = document.getElementById("myCanvas");
+    // let ctx = c.getContext("2d");
+    // ctx.moveTo(1,1);
+    // ctx.lineTo(1000,100);
+    // ctx.stroke();
+    // hình tròn
+    // let c = document.getElementById("myCanvas");
+    // let ctx = c.getContext("2d");
+    // ctx.beginPath();
+    // ctx.arc(100, 100, 100, 0, 2 * Math.PI);
+    // ctx.stroke();
+    // vẽ chữ
+
+    // let c = document.getElementById("myCanvas");
+    // let ctx = c.getContext("2d");
+    // ctx.font = "70px Arial";
+    // ctx.fillText("Hi Hi",50,50);
+    let c = document.getElementById("myCanvas");
+    let ctx = c.getContext("2d");
+    ctx.font = "30px Arial";
+    ctx.strokeText("Hello World",100,50);
 </script>
 </body>
 </html>

@@ -8,12 +8,13 @@
 <script>
     // Viết hàm tính bình phương của một số bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.
 
-    let number = parseInt(prompt("Nhập vào giá trị"));
-    function tinhBinhPhuong() {
+    function tinhBinhPhuong(number) {
         result = number * number;
+        return result;
     }
     tinhBinhPhuong();
-    alert(result);
+    let a = parseInt(prompt("Nhập vào giá trị"));
+    alert(tinhBinhPhuong(a));
 
 </script>
 </body>

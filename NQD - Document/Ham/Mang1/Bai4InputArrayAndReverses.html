@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+    // Khởi tạo/nhập vào một mảng số nguyên và đảo ngược các phần tử trong mảng đó.
+
+    let n = parseInt(prompt("Nhập vào chiều dài của mảng"));
+    let arr = new Array(n);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt("Nhập vào phần tử của mảng"));
+    }
+    let first = 0;
+    let last = arr.length - 1;
+    while (first < last) {
+        let a = arr[first];
+        arr[first] = arr[last];
+        arr[last] = a;
+        first++;
+        last--;
+    }
+    document.write(arr);
+</script>
+</body>
+</html>

@@ -6,11 +6,12 @@
 </head>
 <body>
 <script>
-    let a = parseInt(prompt("Nhập giá trị a"));
-    let b = parseInt(prompt("Nhập giá trị b"));
-    let c = parseInt(prompt("Nhập giá trị c"));
 
-    function minNumber() {
+     let a = parseInt(prompt("Nhập giá trị a"));
+     let b = parseInt(prompt("Nhập giá trị b"));
+     let c = parseInt(prompt("Nhập giá trị c"));
+
+    function minNumber(a,b,c) {
         if (a > b) {
             if (c > b) {
                 alert("Min: " + b);
@@ -23,7 +24,8 @@
             alert("Min: " + a);
         }
     }
-    minNumber();
+    minNumber(a,b,c);
+
 </script>
 </body>
 </html>

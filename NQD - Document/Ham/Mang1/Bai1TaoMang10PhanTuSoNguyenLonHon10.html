@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<script>
+    // Chương trình thực hiện tính và hiển thị xem có bao nhiêu số nguyên lớn hơn hoặc bằng 10.
+
+    let n = parseInt(prompt("Nhập chiều dài của mảng"));
+    let arr = new Array(n);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = prompt("Nhập vào phần tử của mảng");
+    }
+    let count = 0;
+    for (let j = 0; j < arr.length; j++) {
+        if (arr[j] >= 10) {
+            count++;
+            document.write("Những số lớn hơn hoặc bằng 10 là " + arr[j] + "</br>");
+        }
+    }
+    alert(count);
+</script>
+
+
+</body>
+</html>

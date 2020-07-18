@@ -9,13 +9,14 @@
 
     let number = parseInt(prompt("Nhập vào số cần tính giai thừa"));
     let result = 1;
-    function giaiThua() {
-        for (let i = 1; i <= number; i++) {
+    function giaiThua(n) {
+        for (let i = 1; i <= n; i++) {
             result *= i;
         }
+        return result;
     }
     giaiThua();
-    alert(result);
+    alert(giaiThua(number));
 
 </script>
 </body>
