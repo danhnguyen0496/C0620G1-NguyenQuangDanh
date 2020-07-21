@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây Dựng Lớp Mô Tả Điện Thoại</title>
+</head>
+<body>
+<strong>Nokia</strong>
+<textarea type="text" id="Nokia"></textarea>
+<input type="button" onclick="soanTinNhan1()" value="soan">
+<input type="button" onclick="guiTinNhan1()" value="gui">
+<input type="button" onclick="xemTinNhanDen1()" value="xem">
+<br>
+<br>
+<strong>Iphone</strong>
+<textarea type="text" id="Iphone"></textarea>
+<input type="button" onclick="soanTinNhan2()" value="soan">
+<input type="button" onclick="guiTinNhan2()" value="gui">
+<input type="button" onclick="xemTinNhanDen2()" value="xem">
+<br>
+<br>
+<!--<button onclick="turnOnOff ()">Turnon/ TurnOff</button>-->
+
+<script>
+
+    class Mobile {
+        constructor(pin) {
+            this.pin = pin;
+            this.sendMemory = [];
+            this.receiveMemory = [];
+            this.draftMemory = [];
+            this.status = true;
+        }
+
+        getStatus() {
+            return this.status;
+        }
+
+        turnOnOff() {
+            if (this.status) {
+                this.status = false;
+            } else {
+                this.status = true;
+            }
+        }
+
+        charge() {
+            if (this.pin <= 20) {
+                this.pin = 100;
+            }
+        }
+
+        textMessage(text) {
+            this.draftMemory.push(text);
+            this.pin--;
+        }
+
+        sendMessage(Mobile) {
+            Mobile.receiveMemory = this.draftMemory;
+            this.sendMemory = this.draftMemory;
+            this.draftMemory = [];
+            this.pin--;
+            alert(Mobile.receiveMemory)
+        }
+
+        showSendMessage() {
+            alert(this.sendMemory);
+        }
+
+        showReceiveMessage() {
+            return this.receiveMemory;
+        }
+    }
+
+    let nokia = new Mobile(100);
+    let iphone = new Mobile(100);
+
+    function soanTinNhan1() {
+        let nhapTinNhan = document.getElementById("Nokia").value;
+        nokia.textMessage(nhapTinNhan);
+        document.getElementById("Nokia").value = "";
+    }
+
+    function soanTinNhan2() {
+        let nhapTinNhan = document.getElementById("Iphone").value;
+        iphone.textMessage(nhapTinNhan);
+        document.getElementById("Iphone").value = "";
+    }
+
+    function guiTinNhan1() {
+        nokia.sendMessage(iphone);
+    }
+
+    function guiTinNhan2() {
+        iphone.sendMessage(nokia);
+    }
+
+    function xemTinNhanDen1() {
+        document.getElementById("Iphone").value = nokia.showReceiveMessage();
+    }
+
+    function xemTinNhanDen2() {
+        document.getElementById("Iphone").value = iphone.showReceiveMessage();
+    }
+
+</script>
+</body>
+</html>

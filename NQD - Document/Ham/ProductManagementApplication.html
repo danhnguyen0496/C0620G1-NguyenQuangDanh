@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng Dụng Quản Lý Sản Phẩm</title>
+</head>
+<body>
+<h1>Add New Product</h1>
+<input type="text" id="inputProduct" placeholder="New Product">
+<button onclick="addProduct ()">Add</button>
+
+<p id="Display"></p>
+<script>
+    let listProduct = ["Coca", "Pepsi", "Sting", "Aqua"];
+
+    // Hàm hiện thị thông tin
+    function display() {
+
+        let tableString = '<table border="1" + style="background-color: white">';
+        tableString += "<td>" + "Số thứ tự" + "</td>";
+        tableString += "<td>" + "Name Product" + "</td>";
+        tableString += "<td>" + "Edit Product" + "</td>";
+        tableString += "<td>" + "Delete Product" + "</td>";
+        for (let i = 0; i < listProduct.length; i++) {
+            tableString += "<tr>";
+            tableString += "<td>" + (i + 1) + "</td>";
+            tableString += "<td>" + listProduct[i] + "</td>";
+            tableString += "<td>" + "<button value='Edit Product' onclick='sua ("+ i +")'>Edit</button>" + "</td>";
+            tableString += "<td>" + "<button value='Delete Product' onclick='xoa ("+ i +")'>Delete</button>" + "</td>";
+            tableString += "</tr>";
+        }
+        tableString += "</table>";
+        document.getElementById("Display").innerHTML = tableString;
+    }
+
+    display();
+
+    // Hàm thêm thông tin sản phẩm
+    function addProduct() {
+        let addProduct = document.getElementById("inputProduct").value;
+        listProduct.push(addProduct);
+        display();
+    }
+
+    // Hàm xóa thông tin sản phẩm
+    function xoa(i) {
+        listProduct.splice(i, 1);
+        display();
+    }
+
+    // Hàm chỉnh sửa thông tin sản phẩm
+    function sua(i) {
+        let newNameProduct = prompt("Nhập tên sản phẩm mới để chỉnh sửa");
+        listProduct[i] = newNameProduct;
+        display();
+
+    }
+
+</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Di Chuyển Đối Tượng</title>
+</head>
+<body>
+<div id="game"></div>
+<script>
+    function Hero(image, top, left, size) {
+        this.image = image;
+        this.top = top;
+        this.left = left;
+        this.size = size;
+
+        this.getHeroElement = function () {
+            return '<img width="' + this.size + '"' +
+                ' height="' + this.size + '"' +
+                ' src="' + this.image + '"' +
+                ' style="top: ' + this.top + 'px; left:' + this.left + 'px; position:absolute;" />';
+        }
+
+        this.moveRight = function () {
+            this.left += 40;
+            console.log('ok: ' + this.left);
+        }
+
+
+    }
+
+    let hero = new Hero("https://3.bp.blogspot.com/_jJfm6jtWDR8/S0hvo-qlBgI/AAAAAAAAAKI/SrEb8ZulbbA/s400/290893.jpg", 20, 30, 200);
+
+    function start() {
+        if (hero.left < window.innerWidth - hero.size) {
+            hero.moveRight();
+        }
+        document.getElementById('game').innerHTML = hero.getHeroElement();
+        setTimeout(start, 100)
+    }
+
+    start();
+
+</script>
+</body>
+</html>

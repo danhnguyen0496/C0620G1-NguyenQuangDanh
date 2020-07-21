@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+
+    //  Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không
+
+    let check = prompt("Nhập vào ký tự cần kiểm tra");
+
+    function checkNumber(n) {
+        if (!isNaN(n)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    alert(checkNumber(check));
+</script>
+</body>
+</html>

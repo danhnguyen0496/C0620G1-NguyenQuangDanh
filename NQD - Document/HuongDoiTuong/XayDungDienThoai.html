@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây Dựng Lớp Mô Tả Điện Thoại</title>
+</head>
+<body>
+<script>
+
+
+    class Mobile {
+        constructor(battery) {
+            this.battery = battery;
+            this.draftMemoryMessage = [];
+            this.receiveMemoryMessage = [];
+            this.sendMemoryMessage = [];
+            this.status = true;
+        }
+
+        getStatus() {
+            return this.status;
+        }
+
+        turnOn() {
+            this.status = true;
+        }
+
+        turnOff() {
+            this.status = false;
+        }
+
+        chargeBattery() {
+            if (this.battery < 20) {
+                this.battery = 99;
+            }
+        }
+
+        typeMessage(text) {
+            this.draftMemoryMessage.push(text);
+        }
+
+        sendMessage() {
+            Mobile.receiveMemoryMessage = this.draftMemoryMessage;
+            this.sendMemoryMessage = this.draftMemoryMessage;
+            this.draftMemoryMessage = [];
+            alert(Mobile.receiveMemoryMessage);
+        }
+        showReceiveMessage() {
+            alert(this.receiveMemoryMessage);
+        }
+        showSendMessage() {
+            alert(this.sendMemoryMessage);
+        }
+    }
+
+    let nokia = new Mobile(100);
+    let iphone = new Mobile(100);
+
+
+</script>
+</body>
+</html>

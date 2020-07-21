@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mô Phỏng Câu Chuyện Adam Và Eva</title>
+</head>
+<body>
+<label>Adam</label>
+<input type="button" value="Ăn Tạp" onclick="eatAdamApple() ">
+<input type="button" value="Kiểm Tra Giới Tính" onclick="adam.gendercheck()">
+<input type="button" value="Kiếm Tra Cân Nặng" onclick="adam.checkWeight()">
+<input type="button" value="Nói nào hihi" onclick="adam.say()">
+
+<br>
+<br>
+<br>
+<label>Eva</label>
+<input type="button" value="Ăn Tạp" onclick="eatEvaApple()">
+<input type="button" value="Kiểm Tra Giới Tính" onclick="eva.gendercheck()">
+<input type="button" value="Kiếm Tra Cân Nặng" onclick="eva.checkWeight()">
+
+
+<script>
+
+    class Apple {
+        constructor(weight) {
+            this.weight = weight;
+        }
+
+        decreaseApple() {
+            this.weight--;
+            return this.weight;
+        }
+    }
+
+    class Human {
+        constructor(name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+        }
+
+        gendercheck() {
+            alert("Là " + this.gender);
+        }
+
+        eat() {
+            this.weight++;
+            return this.weight;
+        }
+
+        say() {
+            alert("Chào cô");
+        }
+
+        checkWeight() {
+            alert("Cân nặng là " + this.weight);
+        }
+    }
+
+    let adam = new Human("CuTeo", "male", 80);
+    let eva = new Human("ThiNo", "female", 50);
+    let apple = new Apple(10);
+
+    function eatAdamApple() {
+        if (apple.weight > 0) {
+            apple.decreaseApple();
+            adam.eat();
+        }
+    }
+
+    function eatEvaApple() {
+        if (apple.weight > 0) {
+            apple.decreaseApple();
+            eva.eat();
+        }
+    }
+
+
+</script>
+</body>
+</html>

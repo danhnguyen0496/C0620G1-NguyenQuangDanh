@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây Dựng Lớp Mô Tả Nhiệt Độ</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        constructor(celsius) {
+            this.celsius = celsius;
+        }
+
+        getCelsiusToFahrenheit() {
+            return (this.celsius - 32) / 1.8;
+        }
+
+        getCelsiusToKelvin() {
+            return this.celsius + 273.15;
+        }
+    }
+    let myTemperature = new Temperature(25);
+    document.write("25 độ C = " + myTemperature.getCelsiusToFahrenheit() + " độ F " + "<br>");
+    document.write("25 độ C = " + myTemperature.getCelsiusToKelvin() + " độ K ");
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây Dựng Lớp Mô Tả Hình Chữ Nhật </title>
+</head>
+<body>
+<canvas id="myCanvas" width="1000px" height="500px" style="border:1px solid #1921d6;"></canvas>
+<script>
+    class Rectangle {
+        constructor(length, width) {
+            this.length = length;
+            this.width = width;
+        }
+
+        getArea() {
+            return this.width * this.length;
+        }
+
+        getPerimeter() {
+            return (this.width + this.length) * 2;
+        }
+
+        creatRectangle() {
+            let ctx = document.getElementById("myCanvas").getContext("2d");
+            ctx.beginPath();
+            ctx.fillStyle = "#ffe972";
+            ctx.fillRect(100, 100, this.length,  this.width);
+        }
+    }
+
+    let myRec = new Rectangle(500, 200);
+    myRec.creatRectangle();
+    document.write(myRec.creatRectangle());
+    document.write("<br>" + " Diện tích: " + myRec.getArea() +"<br>" + "Chu vi: "+ myRec.getPerimeter());
+
+
+
+</script>
+</body>
+</html>

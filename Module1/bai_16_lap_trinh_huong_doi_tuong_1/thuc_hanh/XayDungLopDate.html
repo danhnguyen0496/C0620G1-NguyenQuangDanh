@@ -7,7 +7,7 @@
 <body>
 <script>
 
-    class sinhVien {
+    class SinhVien {
         constructor(ten, tuoi, namSinh) {
             this.ten = ten;
             this.tuoi = tuoi;
@@ -30,7 +30,7 @@
             return stringsinhVien;
         }
     }
-    let thenA = new sinhVien("Nguyễn Văn A","10","2000");
+    let thenA = new SinhVien("Nguyễn Văn A","10","2000");
     alert(thenA);
     thenA.getTuoi();
     alert(thenA.getTuoi());
@@ -38,7 +38,7 @@
     alert(thenA.getTen());
 
 
-    let thenB = new sinhVien("Tèo", "30", "1990");
+    let thenB = new SinhVien("Tèo", "30", "1990");
     thenB.getnamSinh();
     alert(thenB.getnamSinh());
     thenB.getTen();

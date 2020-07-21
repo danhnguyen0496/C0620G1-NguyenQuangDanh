@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây Dựng Lớp Mô Phỏng Sự Hoạt Động Của Đèn Pin</title>
+</head>
+<body>
+<script>
+    class Battery {
+        constructor(energy) {
+            this.energy = energy;
+        }
+
+        getEnergy() {
+            return this.energy;
+        }
+
+        setEnergy(energy) {
+            this.energy = energy;
+        }
+
+        decreaseEnergy() {
+            if (this.energy > 0) {
+                this.energy--;
+            }
+        }
+    }
+
+    class FlashLamp {
+        constructor(battery) {
+            this.battery = battery;
+        }
+
+        setBattery() {
+            this.battery = battery;
+        }
+
+        getBatteryInfo() {
+            return this.battery.getEnergy();
+        }
+
+        turnOn() {
+            this.status = true;
+        }
+
+        turnOff() {
+            this.status = false;
+        }
+
+        light() {
+            if (this.status) {
+                alert("Đèn sáng")
+            } else {
+                alert("Đèn không sáng")
+            }
+        }
+    }
+
+    let battery = new Battery();
+    battery.setEnergy(10);
+
+    let flashlamp = new FlashLamp();
+    flashlamp.setBattery(battery);
+
+
+    document.write("Battery info: " + flashlamp.getBatteryInfo() + "<br>");
+    flashlamp.light();
+
+    document.write(" Turn on <br>");
+    flashlamp.turnOn();
+    flashlamp.light();
+    document.write("Battery info: " + flashlamp.getBatteryInfo() + "<br>");
+
+    document.write(" Turn off <br>");
+    flashlamp.turnOff();
+    flashlamp.light();
+
+</script>
+</body>
+</html>

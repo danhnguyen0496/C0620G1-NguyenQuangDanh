@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+
+    let star1 = ["Polaris", "Aldebaran", "Deneb", 'Vega', "Altair", "Dubhe", "Regulus"];
+    let star2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+    let addstar = prompt("Nhập vào phần tử cần tìm");
+
+    function addStar() {
+        let check = false;
+        for (let i = 0; i < star1.length; i++) {
+            if (star1[i] === addstar) {
+                alert(star1[i] = star2[i]);
+                check = true;
+                break;
+            }
+        }
+        if (!check) {
+            alert("Ngôi sao bạn nhập vào không tìm thấy");
+        }
+    }
+
+    addStar();
+
+</script>
+</body>
+</html>

@@ -2,36 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai1M2CreatAndDisplayArray2Dimensional.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai1TaoMang10PhanTuSoNguyenLonHon10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai2CreatArraySearchMaxAndLocal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai2M2DisplayArrayReverse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai3CreatArrayDisplayMaxAndAverage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai3M2CreatArrayCountNumber.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai4InputArrayAndReverses.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai4M2CountChartInChain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai5DemSoNguyenAm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai6InputArray10AndCheckV.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai6M2InputArrayChartAndReplaceChart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/BangCuuChuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/BangCuuChuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/BangDuLieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/BangDuLieu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Dem1Den100.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/Dem1Den100.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/GameDoanSo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/GameDoanSo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/GiaiThua.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/GiaiThua.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/HinhChuNhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/HinhChuNhat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/In20SoNguyenToDauTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/In20SoNguyenToDauTien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/InDayFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/InDayFibonacci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/InFizzBuzz.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/InFizzBuzz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/InHinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/InHinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/InSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/InSoNguyenTo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/KiemTraSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/KiemTraSoNguyenTo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/LapDoWhile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/LapDoWhile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/LapFor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/LapFor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/NhietDo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/NhietDo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/SoFibonacciChia5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/SoFibonacciChia5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/TinhTongSoNguyen.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/TinhTongSoNguyen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Tong30SoTN.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/Tong30SoTNChia7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/TongFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/VongLap/TongFibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Bai1H1CreatFunction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Bai1H2TinhBinhPhuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Bai2H2ChuViDienTichHinhTron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Bai3H1CreatFunction2Parameters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Bai3H2GiaiThua.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Bai4H2InputChartNumber.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Bai5H1CreatFunction7Star.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Bai5H2Input3NumberOutputMin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/Bai9H2CreatFunctionCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/ProductManagementApplication.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/SearchMinOfArray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/Ham/TranslateTemperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NQD - Document/HuongDoiTuong/XayDungDienThoai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai1M2CreatAndDisplayArray2Dimensional.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Mang/Bai1M2CreatAndDisplayArray2Dimensional.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai1TaoMang10PhanTuSoNguyenLonHon10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Mang/Bai1TaoMang10PhanTuSoNguyenLonHon10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai2CreatArraySearchMaxAndLocal.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Mang/Bai2CreatArraySearchMaxAndLocal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai2M2DisplayArrayReverse.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Mang/Bai2M2DisplayArrayReverse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai3CreatArrayDisplayMaxAndAverage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Mang/Bai3CreatArrayDisplayMaxAndAverage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai3M2CreatArrayCountNumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Mang/Bai3M2CreatArrayCountNumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai4InputArrayAndReverses.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Mang/Bai4InputArrayAndReverses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai4M2CountChartInChain.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Mang/Bai4M2CountChartInChain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai5DemSoNguyenAm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Mang/Bai5DemSoNguyenAm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai6InputArray10AndCheckV.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Mang/Bai6InputArray10AndCheckV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Mang1/Bai6M2InputArrayChartAndReplaceChart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Mang/Bai6M2InputArrayChartAndReplaceChart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,24 +58,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_15_ham_2/bai_tap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_tap_ly_thuyet_va_case_study1/Module1_Nguyễn Quang Danh" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_15_ham_2\bai_tap" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_15_ham_2\bai_tap\LuyenTapSuDungHam2" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_13_mang_2\bai_tap\LuyenTapMang1" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1" />
-      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucVoiCauDieuKien" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_tap_ly_thuyet_va_case_study1\Module1_Nguyễn Quang Danh" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_10_cau_truc_lap_1\thuc_hanh" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucCauDieuKien02" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_8_cau_truc_dieu_kien_1\thuc_hanh" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_15_ham_2\bai_tap" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_15_ham_2\bai_tap\LuyenTapSuDungHam2" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_13_mang_2\bai_tap\LuyenTapMang1" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module1\bai_9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucVoiCauDieuKien" />
     </key>
   </component>
   <component name="RunManager">
@@ -155,7 +149,16 @@
       <workItem from="1594950228736" duration="15567000" />
       <workItem from="1595035986954" duration="5590000" />
       <workItem from="1595052273461" duration="3414000" />
-      <workItem from="1595057328941" duration="4773000" />
+      <workItem from="1595057328941" duration="5876000" />
+      <workItem from="1595070139598" duration="1729000" />
+      <workItem from="1595081263716" duration="4363000" />
+      <workItem from="1595122496536" duration="5176000" />
+      <workItem from="1595140150977" duration="10643000" />
+      <workItem from="1595156566166" duration="9939000" />
+      <workItem from="1595192083072" duration="4300000" />
+      <workItem from="1595207287605" duration="21040000" />
+      <workItem from="1595260751623" duration="4237000" />
+      <workItem from="1595293130753" duration="8776000" />
     </task>
     <servers />
   </component>

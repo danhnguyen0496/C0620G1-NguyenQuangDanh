@@ -6,27 +6,29 @@
 </head>
 <body>
 <script>
-    function kiemTraMang() {
+    // Viết hàm truyền vào một mảng ký tự, và một ký tự bất kỳ, kiểm tra xem ký tự bất kỳ đó có nằm trong mảng không.
+    // Nếu có trả về số lần xuất hiện của ký tự đó, nếu không trả về -1.
+
+    function checkChart(check) {
         let n = parseInt(prompt("Nhập vào chiều dài của mảng"));
         let arr = new Array(n);
         for (let i = 0; i < arr.length; i++) {
             arr[i] = prompt("Nhập vào phần tử của mảng");
         }
-        let kyTuKiemTra = prompt("Nhập vào ký tự cần kiểm tra");
-        count = 0;
+        check = prompt("Nhập vào ký tự cần kiếm tra");
+        let count = 0;
         for (let j = 0; j < arr.length; j++) {
-            if (kyTuKiemTra == arr[j]) {
+            if (arr[j] == check) {
                 count++;
             }
         }
         if (count == 0) {
-            return alert(-1);
+            return -1;
         }
         alert(count);
     }
 
-    kiemTraMang();
-
+    checkChart();
 </script>
 </body>
 </html>
