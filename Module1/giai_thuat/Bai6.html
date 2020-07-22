@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+<script>
+
+    // 6.	Tính n!!	=	1*3*5*…..*n(n lẽ)
+    // =	2*4*6*….*n(n chẵn)
+
+    /* let n = parseInt(prompt("Nhập n"));
+     let Le = 1;
+     let Chan = 1;
+     for (let i = 1, j = 2; i <= n, j <= n; i += 2, j += 2) {
+         Le*=i;
+         Chan*=j;
+     }
+     document.write("Tích số chẵn: " + Chan + "\n" + "Tích số lẻ: " + Le);*/
+
+    let num = parseInt(prompt("Input Num: "));
+    sumChan = 1;
+    sumLe = 1;
+    for (let i = 1; i <= num; i++) {
+        if (i % 2 == 0) {
+            sumChan *= i;
+        } else {
+            sumLe *= i;
+        }
+    }
+    document.write("Tích số chẵn là: " + sumChan);
+    document.write("<br>");
+    document.write("Tích số lẻ là: " + sumLe);
+
+
+</script>
+</body>
+</html>

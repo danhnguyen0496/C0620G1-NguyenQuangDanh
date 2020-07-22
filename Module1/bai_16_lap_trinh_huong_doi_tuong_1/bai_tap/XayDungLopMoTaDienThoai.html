@@ -106,3 +106,103 @@
 </script>
 </body>
 </html>
+
+<!--<div>-->
+<!--    <input type="text" id="nokia" style="height: 40px;width: 300px">-->
+<!--    <input type="button" value="make" onclick="soanTinNhan('nokia')">-->
+<!--    <input type="button" value="Send" onclick="guiTinNhan('nokia')">-->
+<!--    <input type="button" value="show" onclick="hienThiTinNhan('nokia')">-->
+<!--</div>-->
+<!--<div>-->
+
+<!--    <input type="text" id="iphone" style="height: 40px;width: 300px">-->
+<!--    <input type="button" value="make" onclick="soanTinNhan('iphone')">-->
+<!--    <input type="button" value="Send" onclick="guiTinNhan('iphone')">-->
+<!--    <input type="button" value="shown" onclick="hienThiTinNhan('iphone')">-->
+<!--</div>-->
+<!--<script>-->
+<!--    class DienThoai {-->
+<!--        constructor() {-->
+<!--            this.pin = 100;-->
+<!--            this.vungNhoSoanThao = [];-->
+<!--            this.vungNhoTinDaGui = [];-->
+<!--            this.vungNhoTinDen = [];-->
+<!--            this.trangThai = "On"-->
+<!--        }-->
+
+<!--        kiemTraTrangThai() {-->
+<!--            return this.trangThai;-->
+<!--        }-->
+
+<!--        batTat() {-->
+<!--            if (this.trangThai == "On") {-->
+<!--                this.trangThai = "Off"-->
+<!--            } else {-->
+<!--                this.trangThai = "On"-->
+<!--            }-->
+<!--        }-->
+
+<!--        sacPin() {-->
+<!--            this.pin = 100-->
+<!--        }-->
+
+<!--        soanTin(tinSoan) {-->
+<!--            this.pin&#45;&#45;;-->
+<!--            this.vungNhoSoanThao = tinSoan;-->
+<!--        }-->
+
+<!--        guiTin(dienThoai) {-->
+<!--            this.vungNhoTinDaGui = this.vungNhoSoanThao;-->
+<!--            this.vungNhoSoanThao = [];-->
+<!--            dienThoai.vungNhoTinDen = this.vungNhoTinDaGui;-->
+<!--            dienThoai.pin&#45;&#45;;-->
+<!--            this.pin&#45;&#45;;-->
+<!--        }-->
+
+<!--        hienThiTinDen() {-->
+<!--            this.pin&#45;&#45;;-->
+<!--            return (this.vungNhoTinDen);-->
+<!--        }-->
+
+<!--        hienThiTinGui() {-->
+<!--            this.pin&#45;&#45;;-->
+<!--            return (this.vungNhoTinDaGui);-->
+<!--        }-->
+
+
+<!--    }-->
+<!--    // Khởi tạo đối tượng-->
+<!--    let nokia = new DienThoai();-->
+<!--    let iphone = new DienThoai();-->
+
+<!--    function soanTinNhan(dienThoai) {-->
+<!--        let tinNhan = "";-->
+<!--        if (dienThoai === "nokia") {-->
+<!--            tinNhan = document.getElementById("nokia").value;-->
+<!--            document.getElementById("nokia").value = "";-->
+<!--            nokia.soanTin(tinNhan)-->
+<!--        } else {-->
+<!--            tinNhan = document.getElementById("iphone").value;-->
+<!--            iphone.soanTin(tinNhan);-->
+<!--            document.getElementById("iphone").value = "";-->
+<!--        }-->
+
+<!--    }-->
+
+<!--    function guiTinNhan(dienThoai) {-->
+<!--        if (dienThoai == "nokia") {-->
+<!--            nokia.guiTin(iphone);-->
+<!--        } else {-->
+<!--            iphone.guiTin(nokia);-->
+<!--        }-->
+<!--    }-->
+
+<!--    function hienThiTinNhan(dienThoai) {-->
+<!--        if (dienThoai == "nokia") {-->
+<!--            document.getElementById("nokia").value = nokia.hienThiTinDen();-->
+<!--        } else {-->
+<!--            document.getElementById("iphone").value = iphone.hienThiTinDen();-->
+<!--        }-->
+<!--    }-->
+
+<!--</script>-->

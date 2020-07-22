@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<script>
+    /*
+        Tính tổng và tích các chữ số của một số nguyên dương m cho trước
+          (Ví dụ : m=234=> S=2+3+4=9, P=2*3*4=24)
+    */
+
+
+    let number = parseInt(prompt("Nhập vào số cần tính"));
+    let arr = number.toString();
+    // alert(number);
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += parseInt(arr[i]);
+    }
+    alert(sum);
+</script>
+</body>
+</html>

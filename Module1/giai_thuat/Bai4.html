@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+
+
+    // 4.	Viết chương trình tính :
+    //     S=15-1+1/2-1/3!+....+(-1)n  1/n!
+
+    let n = parseInt(prompt("Nhập n"));
+    let sum = 15;
+    let m = 1; // Giai thừa mẫu số
+    let h = 1; // Gọi tử số
+    for (let i = 1; i <= n; i++) {
+        if (i%2 ==0) {     // xét điều kiện ở tử 1 và -1
+            h = 1;
+        } else {
+            h = -1;
+        }
+        m*= i;  // Tính giai thừa ở mẫu
+        sum += h/m;
+    }
+    document.write(sum);
+
+
+</script>
+</body>
+</html>

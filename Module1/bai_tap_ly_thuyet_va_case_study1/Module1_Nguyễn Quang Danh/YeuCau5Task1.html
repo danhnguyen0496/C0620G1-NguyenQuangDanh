@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yêu Cầu 5</title>
+</head>
+<body>
+<script>
+
+    let arrListCustomers = [];
+
+    function displayMainMenu() {
+        let choose = parseInt(prompt("Customer need to select" + "\n" +
+            "1. Add New Customer" + "\n" +
+            "2. Display Information Customer" + "\n" +
+            "3. Delete Customer" + "\n" +
+            "4. Exit"));
+        switch (choose) {
+            case 1:
+                addNewCustomer();
+                break;
+
+            case 2:
+                displayCustomers();
+                break;
+
+            case 3:
+                break;
+
+            case 4:
+                break;
+
+            default:
+                alert("Error");
+
+
+        }
+    }
+
+
+    function addNewCustomer() {
+        let cusInfor = [];
+        let name = prompt("Input Name: ");
+        let cmnd = prompt("Input CMND: ");
+        let birthday = prompt("Input birthday: ");
+        let email = prompt("Input Email: ");
+        let address = prompt("Input Address: ");
+        let typeServices = prompt("Input typeServices: ");
+        let typeRoom = prompt("Input typeRoom: ");
+        let typeCustomer = prompt("Input TypeCustomer: ");
+        let disCount = prompt("Input Discount: ");
+        let quantityInclude = prompt("Input quantityInclude: ");
+        let rentDays = prompt("Input RentDays: ");
+        cusInfor.push(name);
+        cusInfor.push(cmnd);
+        cusInfor.push(birthday);
+        cusInfor.push(email);
+        cusInfor.push(address);
+        cusInfor.push(typeServices);
+        cusInfor.push(typeRoom);
+        cusInfor.push(typeCustomer);
+        cusInfor.push(disCount);
+        cusInfor.push(quantityInclude);
+        cusInfor.push(rentDays);
+        arrListCustomers.push(cusInfor);
+        alert("You add success");
+        displayMainMenu();
+    }
+
+    function displayCustomers() {
+        let temp = "";
+        for (let i = 0; i < arrListCustomers.length; i++) {
+            temp += (i +1) + ". Name: " + arrListCustomers[i][0] + "\n";
+        }
+        let chooseDisplay = parseInt(prompt(temp));
+    //     alert("1. Họ và tên: " + arrListCustomers.[chooseDisplay][0] + "\n" +
+    //         "2. Số CMND: " + arrListCustomers[i][1] + "\n" +
+    //         "3. Ngày tháng năm sinh: " + arrListCustomers[i][2] + "\n" +
+    //         "4. Email: " + arrListCustomers[i][3] + "\n" +
+    //         "5. Địa chỉ: " + arrListCustomers[i][4] + "\n" +
+    //         "6. Loại dịch vụ: " + arrListCustomers[i][5] + "\n" +
+    //         "7. Loại phòng thuê: " + arrListCustomers[i][6] + "\n" +
+    //         "8. Loại khách hàng: " + arrListCustomers[i][7] + "\n" +
+    //         "9. Giảm giá: " + arrListCustomers[i][8] + "\n" +
+    //         "10. Số lượng: " + arrListCustomers[i][9] + "\n" +
+    //         "11. Số ngày thuê: " + arrListCustomers[i][10]);
+    //
+    // }
+
+    displayMainMenu();
+
+</script>
+</body>
+</html>

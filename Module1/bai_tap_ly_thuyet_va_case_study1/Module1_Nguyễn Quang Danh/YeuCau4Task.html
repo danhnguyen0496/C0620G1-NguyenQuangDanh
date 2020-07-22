@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yêu Cầu 4</title>
+</head>
+<body>
+<script>
+    let arrNameCustomers = [];
+    while (true) {
+        let choose = parseInt(prompt("1. Add New Customers" + "\n" + "2. Delete Customers"));
+        switch (choose) {
+            case 1: {
+                let number = parseInt(prompt("Enter the number new customers you want to add"));
+                for (let i = 0; i < number; i++) {
+                    let addCustomer = prompt("Enter new customers you want to add");
+                    arrNameCustomers.push(addCustomer);
+                }
+                let result = "";
+                arrNameCustomers.sort();
+                for (let i = 0; i < arrNameCustomers.length; i++) {
+                    result += arrNameCustomers[i] + "\n";
+                }
+                alert("List name customer just add new: " + "\n" + result);
+                break;
+            }
+            case 2: {
+                let check = false;
+                let deleteNameCustomer = prompt("Enter the name customer you need delete");
+                for (let i = 0; i < arrNameCustomers.length; i++) {
+                    if (arrNameCustomers[i] === deleteNameCustomer) {
+                        arrNameCustomers.splice(i, 1);
+                        check = true;
+                    }
+                }
+                if (!check) {
+                    alert("Name customer is not found");
+                }
+                let result = "";
+                arrNameCustomers.sort();
+                for (let i = 0; i < arrNameCustomers.length; i++) {
+                    result += arrNameCustomers[i] + "\n";
+                }
+                alert("List name customer just add new: " + "\n" + result);
+                break;
+            }
+            default:
+                alert("Error");
+        }
+    }
+
+</script>
+</body>
+</html>
