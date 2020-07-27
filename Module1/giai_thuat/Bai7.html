@@ -16,10 +16,13 @@
     let arr = number.toString();
     // alert(number);
     let sum = 0;
+    let tich = 1;
     for (let i = 0; i < arr.length; i++) {
         sum += parseInt(arr[i]);
+        tich *=arr[i];
     }
     alert(sum);
+    alert(tich);
 </script>
 </body>
 </html>

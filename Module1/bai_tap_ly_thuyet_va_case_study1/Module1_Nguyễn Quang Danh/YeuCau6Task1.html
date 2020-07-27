@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yêu Cầu 6</title>
+</head>
+<body>
+<script>
+
+    class Customer {
+        constructor(name, cmnd, birthday, email, address, typeCustomer, disCount, quantityInclude, rentDays, typeServices, typeRoom) {
+            this.name = name;
+            this.cmnd = cmnd;
+            this.birthday = birthday;
+            this.email = email;
+            this.address = address;
+            this.typerCustomer = typeCustomer;
+            this.disCount = disCount;
+            this.quantityInclude = quantityInclude;
+            this.rentDays = rentDays;
+            this.typerServices = typeServices;
+            this.typerRoom = typeRoom;
+        }
+
+        getName() {
+            return this.name;
+        }
+
+        getCmnd() {
+            return this.cmnd;
+        }
+
+        getBirthday() {
+            return this.birthday;
+        }
+
+        getEmail() {
+            return this.email;
+        }
+
+        getAddress() {
+            return this.address;
+        }
+
+        getTyperCustomer() {
+            return this.typerCustomer;
+        }
+
+        getDisCount() {
+            return this.disCount;
+        }
+
+        getQuantityInclude() {
+            return this.quantityInclude;
+        }
+
+        getRentDays() {
+            return this.rentDays;
+        }
+
+        getTyperServices() {
+            return this.typerServices
+        }
+
+        getTyperRoom() {
+            return this.typerRoom;
+        }
+
+        setName(name) {
+            this.name = name;
+        }
+
+        setCmnd(cmnd) {
+            this.cmnd = cmnd;
+        }
+
+        setBirthday(birthday) {
+            this.birthday = birthday;
+        }
+
+        setEmail(email) {
+            this.email = email;
+        }
+
+        setAddress(address) {
+            this.address = address;
+        }
+
+        setTyperCustomer(typerCustomer) {
+            this.typerCustomer = typerCustomer;
+        }
+
+        setDisCount(disCount) {
+            this.disCount = disCount;
+        }
+
+        setQuantityInclude(quantityInclude) {
+            this.quantityInclude = quantityInclude;
+        }
+
+        setRentDays(rentDays) {
+            this.rentDays = rentDays;
+        }
+
+        setTyperServices(typerServices) {
+            this.typerServices = typerServices;
+        }
+
+        setTyperRoom(typerRoom) {
+            this.typerRoom = typerRoom;
+        }
+
+        getPay(totalPay) {
+            return totalPay = this.typerServices * this.rentDays * (1 - this.disCount / 100);
+        }
+    }
+
+
+    let listCustomers = [];
+    displayMainMenu();
+
+    function displayMainMenu() {
+        let choose = parseInt(prompt("Customer need to select" + "\n" +
+            "1. Add New Customer" + "\n" +
+            "2. Display Customer" + "\n" +
+            "3. Display total pay of customer " + "\n" +
+            "4. Edit Information Customer" + "\n" +
+            "5. Delete Information Customer" + "\n" +
+            "6. Exit"));
+        switch (choose) {
+            case 1:
+                addNewCustomer();
+                break;
+            case 2:
+                displayCustomers();
+                break;
+            case 3:
+
+                break;
+            case 4:
+                editInformationCustomer();
+                break;
+            case 5:
+                deleteCustomer();
+                break;
+            case 6:
+                break;
+            default:
+                alert("Error");
+        }
+    }
+
+    function addNewCustomer() {
+        let cusInfor = [];
+        let name = prompt("Input Name: ");
+        let cmnd = prompt("Input CMND: ");
+
+        let birthday = "";
+        do {
+            birthday = prompt("Input birthday: ");
+        } while (!kiemTraNgayThang(birthday));
+
+        let email = "";
+        do {
+            email = prompt("Input Email: ");
+        } while (!kiemTraEmail(email));
+
+        let address = prompt("Input Address: ");
+        let typeServices = prompt("Input typeServices: ");
+        let typeRoom = prompt("Input typeRoom: ");
+        let typeCustomer = prompt("Input TypeCustomer: ");
+        let disCount = prompt("Input Discount: ");
+        let quantityInclude = prompt("Input quantityInclude: ");
+        let rentDays = prompt("Input RentDays: ");
+        cusInfor.push(name);
+        cusInfor.push(cmnd);
+        cusInfor.push(birthday);
+        cusInfor.push(email);
+        cusInfor.push(address);
+        cusInfor.push(typeServices);
+        cusInfor.push(typeRoom);
+        cusInfor.push(typeCustomer);
+        cusInfor.push(disCount);
+        cusInfor.push(quantityInclude);
+        cusInfor.push(rentDays);
+        listCustomers.push(cusInfor);
+        alert("You add success");
+        displayMainMenu();
+    }
+
+    function displayCustomers() {
+        let chooseDisplay = parseInt(prompt("Customer need to select" + "\n" + "1. Information Customer" + "\n" + "2. Back"));
+        switch (chooseDisplay) {
+            case 1:
+                let temp = "";
+                for (let i = 0; i < arrListCustomers.length; i++) {
+                    temp += i + ". Name: " + arrListCustomers[i][0] + "\n" + i + ". Cmnd: " + arrListCustomers[i][1] + "\n";
+                }
+                alert(temp + "\n");
+                displayInfomationCustomer();
+                displayMainMenu();
+                break;
+            case 2:
+                displayMainMenu();
+                break;
+            default:
+                alert("Input your information is not correct");
+                displayCustomers();
+        }
+    }
+
+
+    function displayInfomationCustomer() {
+        let temp = '';
+        for (let i = 0; i < arrListCustomers.length; i++) {
+            temp = "Display information customer you need";
+            let chooseCustomer = parseInt(prompt(temp));
+            alert("1. Name: " + arrListCustomers[chooseCustomer][0] + "\n" +
+                "2. Cmnd: " + arrListCustomers[chooseCustomer][1] + "\n" +
+                "3. Birthday: " + arrListCustomers[chooseCustomer][2] + "\n" +
+                "4. Email: " + arrListCustomers[chooseCustomer][3] + "\n" +
+                "5. Address: " + arrListCustomers[chooseCustomer][4] + "\n" +
+                "6. TyperServices: " + arrListCustomers[chooseCustomer][5] + "\n" +
+                "7. TyperRoom: " + arrListCustomers[chooseCustomer][6] + "\n" +
+                "8. TyperCustomer: " + arrListCustomers[chooseCustomer][7] + "\n" +
+                "9. Discount: " + arrListCustomers[chooseCustomer][8] + "\n" +
+                "10. Quantityinclude: " + arrListCustomers[chooseCustomer][9] + "\n" +
+                "11. Rentdays: " + arrListCustomers[chooseCustomer][10]);
+            break;
+        }
+        displayCustomers();
+    }
+
+    function deleteCustomer(i) {
+        let confirmDelete = confirm(" Do you want to confirm delete information customer ?");
+        if (confirmDelete) {
+            for (let i = 0; i < arrListCustomers.length; i++) {
+                let chooseCustomer = parseInt(prompt("Select customer you need delete"));
+                arrListCustomers.splice(chooseCustomer, 1);
+                alert("You have deleted information customer");
+                break;
+            }
+        } else {
+            alert("You have not deleted information customer");
+        }
+    }
+
+    function editInformationCustomer(i) {
+        let indexCustomer = parseInt(prompt("Input index customer need to edit"));
+        for (let i = 0; i < arrListCustomers.length; i++) {
+            let edit = parseInt(prompt("Select information customer you need edit" + "\n" +
+                "1. Name: " + arrListCustomers[indexCustomer][0] + "\n" +
+                "2. Cmnd: " + arrListCustomers[indexCustomer][1] + "\n" +
+                "3. Birthday: " + arrListCustomers[indexCustomer][2] + "\n" +
+                "4. Email: " + arrListCustomers[indexCustomer][3] + "\n" +
+                "5. Address: " + arrListCustomers[indexCustomer][4] + "\n" +
+                "6. TyperServices: " + arrListCustomers[indexCustomer][5] + "\n" +
+                "7. TyperRoom: " + arrListCustomers[indexCustomer][6] + "\n" +
+                "8. TyperCustomer: " + arrListCustomers[indexCustomer][7] + "\n" +
+                "9. Discount: " + arrListCustomers[indexCustomer][8] + "\n" +
+                "10. Quantityinclude: " + arrListCustomers[indexCustomer][9] + "\n" +
+                "11. Rentdays: " + arrListCustomers[indexCustomer][10]) + "\n" +
+                "12. Back");
+            switch (edit) {
+                case 1:
+                    arrListCustomers[indexCustomer][0] = prompt("Edit Name");
+                    break;
+                case 2:
+                    arrListCustomers[indexCustomer][1] = prompt("Edit Cmnd");
+                    break;
+                case 3:
+                    arrListCustomers[indexCustomer][2] = prompt("Edit Birthday");
+                    break;
+                case 4:
+                    arrListCustomers[indexCustomer][3] = prompt("Edit Email");
+                    break;
+                case 5:
+                    arrListCustomers[indexCustomer][4] = prompt("Edit Address");
+                    break;
+                case 6:
+                    arrListCustomers[indexCustomer][5] = prompt("Edit TyperServices");
+                    break;
+                case 7:
+                    arrListCustomers[indexCustomer][6] = prompt("Edit TyperRoom");
+                    break;
+                case 8:
+                    arrListCustomers[indexCustomer][7] = prompt("Edit TyperCustomer");
+                    break;
+                case 9:
+                    arrListCustomers[indexCustomer][8] = prompt("Edit Discount");
+                    break;
+                case 10:
+                    arrListCustomers[indexCustomer][9] = prompt("Edit Quantityinclude");
+                    break;
+                case 11:
+                    arrListCustomers[indexCustomer][10] = prompt("Edit Rentdays");
+                    break;
+                case 12:
+                    displayMainMenu();
+                    break;
+                default:
+                    alert("You need input correct information");
+            }
+        }
+    }
+
+
+    // Hàm kiểm tra email
+    function kiemTraEmail(email) {
+        let regex = /^\w{3,}@[a-zA-Z]{3,5}\.[a-zA-Z]{2,3}$/;
+        return regex.test(email);
+    }
+
+    // Hàm kiểm tra ngày tháng (dd/mm/yyyy) ( ngay 01-31, tháng từ 01-12, năm 1900 đến 2020)
+    function kiemTraNgayThang(ngayThangNam) {
+        let regex = /^((0[1-9])|([1-2][0-9])|(3[0-1]))\/(([0][1-9])|1[0-2])\/(19[0-9]{2}|20[0-1][0-9]|2020)$/;
+        return regex.test(ngayThangNam);
+    }
+</script>
+</body>
+</html>

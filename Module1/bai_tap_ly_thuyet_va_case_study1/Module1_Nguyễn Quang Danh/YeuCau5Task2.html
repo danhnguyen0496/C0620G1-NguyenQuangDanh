@@ -9,6 +9,7 @@
 
     let arrListCustomers = [];
     displayMainMenu();
+    let customerIndex = 0;
 
     function displayMainMenu() {
         let choose = parseInt(prompt("Customer need to select" + "\n" +
@@ -27,19 +28,20 @@
                 break;
 
             case 3:
+                editCustomer();
+                displayMainMenu();
                 break;
 
             case 4:
+                deleteCustomer();
+                displayMainMenu();
                 break;
-
             case 5:
                 break;
-
             default:
                 alert("Error");
         }
     }
-
 
     function addNewCustomer() {
         let cusInfor = [];
@@ -77,7 +79,7 @@
             case 1:
                 let temp = "";
                 for (let i = 0; i < arrListCustomers.length; i++) {
-                    temp += (i + ". Name: " + arrListCustomers[i][0] + "\n") + (i + ". Cmnd: " + arrListCustomers[i][1] + "\n");
+                    temp += i + ". Name: " + arrListCustomers[i][0] + "\n" + i + ". Cmnd: " + arrListCustomers[i][1] + "\n";
                 }
                 alert(temp + "\n");
                 displayInfomationCustomer();
@@ -88,6 +90,7 @@
                 break;
             default:
                 alert("Input your information is not correct");
+                displayCustomers();
         }
     }
 
@@ -112,6 +115,78 @@
         displayCustomers();
     }
 
+    function deleteCustomer(i) {
+        let confirmDelete = confirm(" Do you want to confirm delete information customer ?");
+        if (confirmDelete) {
+            for (let i = 0; i < arrListCustomers.length; i++) {
+                let chooseCustomer = parseInt(prompt("Select customer you need delete"));
+                arrListCustomers.splice(chooseCustomer, 1);
+                alert("You have deleted information customer");
+                break;
+            }
+        } else {
+            alert("You have not deleted information customer");
+        }
+    }
+
+    function editCustomer(i) {
+        let indexCustomer = parseInt(prompt("Input index customer need to edit"));
+        for (let i = 0; i < arrListCustomers.length; i++) {
+            let edit = parseInt(prompt("Select information customer you need edit" + "\n" +
+                "1. Name: " + arrListCustomers[indexCustomer][0] + "\n" +
+                "2. Cmnd: " + arrListCustomers[indexCustomer][1] + "\n" +
+                "3. Birthday: " + arrListCustomers[indexCustomer][2] + "\n" +
+                "4. Email: " + arrListCustomers[indexCustomer][3] + "\n" +
+                "5. Address: " + arrListCustomers[indexCustomer][4] + "\n" +
+                "6. TyperServices: " + arrListCustomers[indexCustomer][5] + "\n" +
+                "7. TyperRoom: " + arrListCustomers[indexCustomer][6] + "\n" +
+                "8. TyperCustomer: " + arrListCustomers[indexCustomer][7] + "\n" +
+                "9. Discount: " + arrListCustomers[indexCustomer][8] + "\n" +
+                "10. Quantityinclude: " + arrListCustomers[indexCustomer][9] + "\n" +
+                "11. Rentdays: " + arrListCustomers[indexCustomer][10]) + "\n" +
+                "12. Back");
+            switch (edit) {
+                case 1:
+                    arrListCustomers[indexCustomer][0] = prompt("Edit Name");
+                    break;
+                case 2:
+                    arrListCustomers[indexCustomer][1] = prompt("Edit Cmnd");
+                    break;
+                case 3:
+                    arrListCustomers[indexCustomer][2] = prompt("Edit Birthday");
+                    break;
+                case 4:
+                    arrListCustomers[indexCustomer][3] = prompt("Edit Email");
+                    break;
+                case 5:
+                    arrListCustomers[indexCustomer][4] = prompt("Edit Address");
+                    break;
+                case 6:
+                    arrListCustomers[indexCustomer][5] = prompt("Edit TyperServices");
+                    break;
+                case 7:
+                    arrListCustomers[indexCustomer][6] = prompt("Edit TyperRoom");
+                    break;
+                case 8:
+                    arrListCustomers[indexCustomer][7] = prompt("Edit TyperCustomer");
+                    break;
+                case 9:
+                    arrListCustomers[indexCustomer][8] = prompt("Edit Discount");
+                    break;
+                case 10:
+                    arrListCustomers[indexCustomer][9] = prompt("Edit Quantityinclude");
+                    break;
+                case 11:
+                    arrListCustomers[indexCustomer][10] = prompt("Edit Rentdays");
+                    break;
+                case 12:
+                    displayMainMenu();
+                    break;
+                default:
+                    alert("You need input correct information");
+            }
+        }
+    }
 
 </script>
 </body>

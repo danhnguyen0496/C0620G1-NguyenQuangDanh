@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Số Nguyên Tố</title>
+</head>
+<body>
+<script>
+    // Viết hàm cho phép nhập vào 1 số nguyên dương
+    // Kiểm tra số vừa nhập có phải là số nguyên tố hay không
+    // Trả về true nếu là số nguyên tố và false không phải là số nguyên tố
+
+    let number = "";
+    do {
+        number = parseFloat(prompt("Nhập vào số cần kiểm tra"));
+    } while (number <= 0 || !Number.isInteger(number));
+
+
+    function kiemTraSoNguyenTo(n) {
+        let flag = true;
+        if (n < 2) {
+            flag = false;
+        } else if (n === 2) {
+            flag = true;
+        } else if (n % 2 === 0) {
+            flag = false;
+        } else if (n > 2) {
+            for (let i = 3; i < n; i++) {
+                if (n % i === 0) {
+                    flag = false;
+                    break
+                }
+            }
+        }
+        if (flag) {
+            alert("Là số nguyên tố");
+        } else {
+            alert("Không phải là số nguyên tố");
+        }
+    }
+    kiemTraSoNguyenTo(number);
+
+</script>
+</body>
+</html>

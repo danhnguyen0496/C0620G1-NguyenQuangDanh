@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo2</title>
+</head>
+<body>
+<script>
+
+    // Viết hàm cho phép nhập vào 1 số nguyên dương
+    // Kiểm tra số vừa nhập có phải là số hoàn hảo hay không
+    // Trả về true nếu là số hoàn hảo và false không phải là số hoàn hảo
+
+    let number = "";
+    do {
+        number = parseFloat(prompt("Nhập vào một số "));
+    } while (number <= 0 || !Number.isInteger(number));
+
+    kiemTraSoHoanHao(number);
+
+    function kiemTraSoHoanHao(number) {
+        let sum = 0;
+        for (let i = 1; i <= number / 2; i++) {
+            if (number % i === 0) {
+                sum += i;
+            }
+        }
+        if (sum === number) {
+            alert(true);
+        } else {
+            alert(false);
+        }
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 11</title>
+</head>
+<body>
+<script>
+
+    // 11.	Viết chương trình thực hiện các công việc như sau :
+    //     a.	Nhập một mảng a gồm n phần tử kiểu nguyên int
+    //     b.	Tính tổng số dương lẻ mảng a
+    //     c.	Tính tổng các số nguyên tố ở vị trí chắn.
+    //
+    //     d.	Nhập phần tử k, tìm xem k có xuất hiện trong mảng a không. Nếu có chỉ ra phần tử ở vị trí đầu tiên
+    //     e.	Sắp sếp mảng a theo thứ tự tăng dần.
+    //     e.	Chèn phần tử p vào mảng a sao cho mảng a vẫn đảm bảo tăng dần và xuất lại mảng a
+
+
+    let n = parseInt(prompt("Nhập vào độ dài của mảng"));
+    let arr = new Array(n);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt("Nhâp vào số nguyên"));
+    }
+
+    // Nhập một mảng a gồm n phần tử kiểu nguyên int
+    let sum1 = 0;
+    for (let j = 0; j < arr.length; j++) {
+        if (arr[j] % 2 !== 0) {
+            sum1 += arr[j];
+        }
+    }
+    document.write("Tính tổng số dương lẻ: " + sum1);
+
+
+    // Tính tổng các số nguyên tố ở vị trí chắn.
+
+    isPrime();
+
+    function isPrime(number) {
+        let flag = true;
+        if (number < 2) {
+            flag = false;
+        } else if (number == 2) {
+            flag = true;
+        } else if (number % 2 == 0) {
+            flag = false;
+        } else if (number > 2) {
+            for (let i = 3; i < number; i++) {
+                if (number % i == 0) {
+                    flag = false;
+                    break;
+                }
+            }
+        }
+        if (flag) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    let sum2 = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (isPrime(arr[i]) && i % 2 == 0) {
+            sum2 += arr[i];
+        }
+    }
+    document.write("<br>" + "Tổng các số nguyên tố ở vị trí chẵn: " + sum2);
+
+
+    // Nhập phần tử k, tìm xem k có xuất hiện trong mảng a không. Nếu có chỉ ra phần tử ở vị trí đầu tiên
+    let phanTuKiemTra = parseInt(prompt("Nhập phần tử cần kiếm tra"));
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == phanTuKiemTra) {
+            alert(phanTuKiemTra + " có xuất hiện trong mảng tại vị trí " + arr.indexOf(phanTuKiemTra));
+            // alert(phanTuKiemTra + " có xuất hiện trong mảng " + " tại vị trí thứ " + i );
+        }
+    }
+
+    //  Sắp sếp mảng a theo thứ tự tăng dần.
+
+    document.write("<br>" + " Mảng theo thứ tự tăng dần " + arr.sort());
+
+    // Chèn phần tử p vào mảng a sao cho mảng a vẫn đảm bảo tăng dần và xuất lại mảng a
+
+    let nhapPhanTu = parseInt(prompt("Nhập thêm phần tử vào mảng"));
+
+
+
+</script>
+
+</body>
+</html>

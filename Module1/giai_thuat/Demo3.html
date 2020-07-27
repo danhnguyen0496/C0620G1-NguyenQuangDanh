@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo3</title>
+</head>
+<body>
+<script>
+
+    // Viết chương trình nhập vào ngày tháng năm
+    // Tính xem ngày đó là ngày thứ bao nhiêu trong năm
+    // Y/c kiếm tra format của ngày tháng năm (dd/MM/yyyy)
+    // Đối với tháng 2 cần kiểm tra có phải năm nhuận hay không. Nếu là năm nhuận tổng số ngày 1 năm là 366 ngày
+
+
+    let ngay = "";
+    let thang = "";
+    let nam = "";
+    let ngayThangNam = "";
+    check = false;
+    do {
+        ngayThangNam = prompt("Nhập ngày tháng năm ");
+        if (ngayThangNam.charAt(2) === "/" && ngayThangNam.charAt(5) === "/") {
+            ngay = ngayThangNam.substring(0, 2);
+            thang = ngayThangNam.substring(3, 5);
+            nam = ngayThangNam.substring(6, 10);
+            if (!isNaN(ngay) && !isNaN(thang) && !isNaN(nam)) {
+                ngay = Number.parseFloat(ngay);
+                thang = Number.parseFloat(thang);
+                nam = Number.parseFloat(nam);
+                if (Number.isInteger(ngay) && Number.isInteger(thang) && Number.isInteger(nam)) {
+                    if (ngay < 32 && thang < 13 && nam > 1900) {
+                        check = true;
+                    }
+                }
+            }
+        }
+        if (!check) {
+            alert("Nhập định dạng ngày tháng năm không đúng yêu cầu ")
+        }
+    } while (!check);
+
+    document.write("Ngày tháng năm nhập vào là " + ngayThangNam + "<br>");
+
+
+    let ngayTrongThang = 0;
+    switch (thang) {
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            ngayTrongThang = 31;
+            document.write("Số ngày trong tháng " + thang + " là " + ngayTrongThang);
+            break;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            ngayTrongThang = 30;
+            document.write("Số ngày trong tháng " + thang + " là " + ngayTrongThang);
+            break;
+        case 2:
+            if (nam % 400 === 0 || nam % 4 === 0 && nam !== 100) {
+                ngayTrongThang = 29;
+                document.write("Số ngày trong tháng 2 là " + ngayTrongThang);
+                document.write("<br>" + "Là tháng nhuận");
+            } else {
+                ngayTrongThang = 28;
+                document.write("Số ngày trong tháng 2 là " + ngayTrongThang);
+                document.write("<br>" + "Là tháng không nhuận");
+            }
+            break;
+    }
+
+
+
+    // Tính số ngày trong năm
+    let soNgayTrongNam = ngay;
+    for (let i = 1; i < thang; i++) {
+        switch (i) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                soNgayTrongNam += 31;
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                soNgayTrongNam += 30;
+                break;
+            case 2:
+                soNgayTrongNam += (nam % 400 === 0 || nam % 4 === 0 && nam !== 100) ? 29 : 28;
+                break;
+        }
+    }
+    document.write("<br>" + "Là ngày thứ " + soNgayTrongNam + " của " + nam);
+
+
+    // hàm kiểm tra ngày tháng (dd/mm/yyyy) ( ngay 01-31, tháng từ 01-12, năm 1900 đến 2020)
+    // function kiemTraNgayThang(ngayThangNam) {
+    //     let regex = /^((0[1-9])|([1-2][0-9])|(3[0-1]))\/(([0][1-9])|1[0-2])\/(19[0-9]{2}|20[0-1][0-9]|2020)$/;
+    //     return regex.test(ngayThangNam);
+    // }
+
+
+</script>
+</body>
+</html>

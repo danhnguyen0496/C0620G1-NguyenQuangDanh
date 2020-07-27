@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo1</title>
+</head>
+<body>
+<script>
+
+    // Cho 1 mảng số nguyên không vướt quá 50 phần tử.
+    // Viết chương trình hiện thị trung bình cộng các số trong mảng chia hết cho  3
+
+    let number = parseInt(prompt("Nhập vào chiều dài của mảng"));
+    let array = new Array(number);
+    for (let i = 0; i < array.length; i++) {
+        array[i] = parseInt(prompt("Nhập vào phần tử số nguyên của mảng"));
+    }
+    document.write("Hiện thị mảng " + array + "<br>");
+    let average = 0;
+    let sum = 0;
+    let count = 0;
+    for (let j = 0; j < array.length; j++) {
+        if (array[j]%3===0) {
+            sum+= array[j];
+            count++;
+        }
+        average = sum / count;
+    }
+    document.write("Trung bình cộng của các số trong mảng chia hết cho 3 là  " + average);
+
+</script>
+</body>
+</html>

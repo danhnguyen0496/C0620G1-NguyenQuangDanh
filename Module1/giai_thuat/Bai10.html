@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 10</title>
+</head>
+<body>
+<script>
+    /* 10.	Nhập một chuổi ký tự tuỳ ý, sau đó thực hiện công việc sau:
+         a. In mỗi từ trên mỗi dòng
+         b. Đếm số từ có trong chuổi đã cho.
+         c. Đưa ra bảng tần số xuất hiện của các từ.*/
+
+
+    // In mỗi từ trên mỗi dòng
+    let str = prompt("Nhập vào một chuỗi ký tự");
+    let array = str.split(" ");
+    for (let i = 0; i < array.length; i++) {
+        document.write(array[i] + "<br> ");
+    }
+
+    // Đếm số từ có trong chuổi đã cho.
+    let count = 0;
+    for (let i = 0; i < array.length; i++) {
+        count++;
+    }
+    document.write("Số từ có trong chuỗi đã cho là: " + count);
+
+    // Đưa ra bảng tần số xuất hiện của các từ
+
+
+
+</script>
+</body>
+</html>

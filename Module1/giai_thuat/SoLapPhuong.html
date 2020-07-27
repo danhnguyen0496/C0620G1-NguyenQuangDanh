@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Số Lập Phương</title>
+</head>
+<body>
+<script>
+    // Viết hàm cho phép nhập vào 1 số nguyên dương
+    // Kiểm tra số vừa nhập có phải là số lập phương hay không
+    // Trả về true nếu là số lập phương và false không phải là lập phương
+
+
+    let number = "";
+    do {
+        number = parseFloat(prompt("Nhập vào một số cần kiểm tra"));
+    } while (number <= 0 || !Number.isInteger(number));
+    let check = false;
+
+    function kiemTraSoLapPHuong(n) {
+        for (let i = 1; i < n; i++) {
+            if (n / (i * i) === i) {
+                alert("Là số lập phương");
+                check = true;
+                break;
+            }
+        }
+        if (!check) {
+            alert("Không phải là số lập phương");
+        }
+    }
+
+    kiemTraSoLapPHuong(number);
+
+</script>
+</body>
+</html>
