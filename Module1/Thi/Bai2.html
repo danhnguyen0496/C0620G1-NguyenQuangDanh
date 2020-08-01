@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<script>
+
+    let number = parseInt(prompt("Nhập vào chiều dài của mảng số nguyên"));
+    let array = new Array(number);
+    for (let i = 0; i < array.length; i++) {
+        array[i] = parseInt(prompt("Nhập vào các phần tử của mảng"));
+    }
+    let soNguyen = parseInt(prompt("Nhập vào số nguyên cần tìm kiếm"));
+    tryRemoveFromArray(array);
+
+    function tryRemoveFromArray(array) {
+
+        for (let j = 0; j < array.length; j++) {
+            if (array[j] === soNguyen) {
+                document.write(array.splice(j, 1));
+            } else {
+                document.write(array[j]);
+            }
+        }
+    }
+
+
+</script>
+</body>
+</html>

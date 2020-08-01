@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<script>
+
+    // Viết hàm tryRemoveFromArray() nhận vào một mảng các số nguyên, và một số nguyên x.
+    // Hàm  trả về mảng ban đầu nếu không có số nguyên x trong mảng.
+    // Nếu tìm thấy số nguyên x trả về mảng sau khi xóa các số nguyên x đó.
+
+
+    let n = parseInt(prompt("Nhập vào chiều dài của mảng số nguyên"));
+    let array = new Array(n);
+    for (let i = 0; i < array.length; i++) {
+        array[i] = parseInt(prompt("Nhập vào phần tử số nguyên"));
+    }
+    let soNguyenX = parseInt(prompt("Nhập vào số nguyên X"));
+
+    alert(tryRemoveFromArray(array, soNguyenX));
+
+    function tryRemoveFromArray(arr, num) {
+        let contain = arr.indexOf(num) !== -1;
+        while (contain) {
+            arr.splice(arr.indexOf(num), 1);
+            contain = arr.indexOf(num) !== -1;
+        }
+        return arr
+    }
+
+</script>
+</body>
+</html>

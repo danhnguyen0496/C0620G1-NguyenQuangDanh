@@ -64,7 +64,7 @@
     hienThi(danhSachNV);
 
     function hienThi(danhSach) {
-        let danhSachDaSX=sapXepTheoTen(danhSach)
+        let danhSachDaSX=sapXepTheoTen(danhSach);
         let doDaiDS=danhSachDaSX.length;
         let bang = '<table border="1">\n' +
             '    <tr>\n' +
@@ -120,22 +120,22 @@
             danhSachNV[i].getInfo()+"\n 5.Thoát");
         switch (luaChon) {
             case "1":
-                let maNV=prompt("Nhập lại mã nhân viên")
+                let maNV=prompt("Nhập lại mã nhân viên");
                 danhSachNV[i].setMaNV(maNV);
                 suaThongTinNV(i);
                 break;
             case "2":
-                let tenNV =prompt("Nhập lại tên nhân viên")
-                danhSachNV[i].setTenNV();
+                let tenNV =prompt("Nhập lại tên nhân viên");
+                danhSachNV[i].setTenNV(tenNV);
                 suaThongTinNV(i);
                 break;
             case "3":
-                let ngaySinh= prompt("Nhập lại ngày sinh nhân viên")
+                let ngaySinh= prompt("Nhập lại ngày sinh nhân viên");
                 danhSachNV[i].setNgaySinh(ngaySinh);
                 suaThongTinNV(i);
                 break;
             case "4":
-                let email = prompt("Nhập lại email nhân viên")
+                let email = prompt("Nhập lại email nhân viên");
                 danhSachNV[i].setEmail(email);
                 suaThongTinNV(i);
                 break;

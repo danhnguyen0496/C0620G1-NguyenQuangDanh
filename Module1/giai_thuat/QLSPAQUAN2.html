@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Management</title>
+    <style>
+        table, th, td {
+            border-spacing: 0;
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="Add new employee" onclick="addEmployee()">
+<select name="sort" id="sort">
+    <option value="ID">ID</option>
+    <option value="Name">Name</option>
+    <option value="Birthday">Birthday</option>
+</select>
+<input type="button" value="Sort employee" onclick="sortArray(arrEmployee)">
+<input type="button" value="Login" onclick="login()">
+<div id="result"></div>
+<script>
+    let arrEmployee = [];
+
+    class Employee {
+        constructor(id, name, birthday, email, password) {
+            this.id = id;
+            this.name = name;
+            this.birthday = birthday;
+            this.email = email;
+            this.password = password;
+        }
+
+        getID() {
+            return this.id;
+        }
+
+        setID(id) {
+            this.id = id;
+        }
+
+        getName() {
+            return this.name;
+        }
+
+        setName(name) {
+            this.name = name;
+        }
+
+        getBirthday() {
+            return this.birthday;
+        }
+
+        setBirthday(day) {
+            this.birthday = day;
+        }
+
+        getEmail() {
+            return this.email;
+        }
+
+        setEmail(email) {
+            this.email = email;
+        }
+
+        getPassword() {
+            return this.password;
+        }
+
+        getInfo() {
+            return `1. ID: ${this.id}
+            2. Name: ${this.name}
+            3. Birthday: ${this.birthday}
+            4. Email: ${this.email}`
+        }
+    }
+
+    let employee1 = new Employee('007', 'James Bond', '11/11/1960', 'jamesbond@cia.com', 'jb60');
+    let employee2 = new Employee('d0gL0v3R', 'John Wick', '2/9/1964', 'johnwick@spy.com', 'jw64');
+    let employee3 = new Employee('mImp0ss1bl3', 'Tom Cruise', '3/7/1962', 'tomcruise@spectre.com', 'tc62');
+    arrEmployee.push(employee1, employee2, employee3);
+    display(arrEmployee);
+
+    function display(arr) {
+        let table = `<table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Birthday</th>
+                            <th>Email</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>`;
+        for (let i = 0; i < arr.length; i++) {
+            table += `<tr>
+                        <td width="100px">${arr[i].getID()}</td>
+                        <td width="100px">${arr[i].getName()}</td>
+                        <td width="80px">${arr[i].getBirthday()}</td>
+                        <td width="180px">${arr[i].getEmail()}</td>
+                        <td><input type="button" value="Edit" onclick="editEmployee(${i})"></td>
+                        <td><input type="button" value="Delete" onclick="deleteEmployee(${i})"></td>
+                    </tr>`;
+        }
+        table += `</table>`;
+        document.getElementById('result').innerHTML = table;
+    }
+
+    function addEmployee() {
+        let name = prompt('Add new Employee');
+        let id = prompt('Add employee ID');
+        let birthday = prompt('Add birthday');
+        let email = prompt('Add email');
+        let password = prompt('Add password');
+        let employee = new Employee(id, name, birthday, email, password);
+        arrEmployee.push(employee);
+        display(arrEmployee);
+    }
+
+    function deleteEmployee(i) {
+        confirm('Are you sure?') ? arrEmployee.splice(i, 1) : alert('Weakling!');
+        display(arrEmployee);
+    }
+
+    function editEmployee(i) {
+        let select = parseInt(prompt(`Select info to edit:
+        ${arrEmployee[i].getInfo()}
+        0. Back`));
+        switch (select) {
+            case 1:
+                let newID = prompt('Add new ID');
+                arrEmployee[i].setID(newID);
+                editEmployee(i);
+                break;
+            case 2:
+                let newName = prompt('Add new Name');
+                arrEmployee[i].setName(newName);
+                editEmployee(i);
+                break;
+            case 3:
+                let newBirthday = prompt('Add new birthday');
+                arrEmployee[i].setBirthday(newBirthday);
+                editEmployee(i);
+                break;
+            case 4:
+                let newEmail = prompt('Add new Email');
+                arrEmployee[i].setEmail(newEmail);
+                editEmployee(i);
+                break;
+            case 0:
+                break;
+            default:
+                editEmployee(i);
+        }
+        display(arrEmployee);
+    }
+
+    function sortArray(arr) {
+        let sortOption = document.getElementById('sort').value;
+        switch (sortOption) {
+            case 'ID':
+                arr.sort(function (a, b) {
+                    let idA = a.id;
+                    let idB = b.id;
+                    if (idA < idB) {
+                        return -1;
+                    }
+                    if (idA > idB) {
+                        return 1;
+                    }
+                    return 0;
+                });
+                display(arr);
+                break;
+            case 'Name':
+                arr.sort(function (a, b) {
+                    let nameA = a.name;
+                    let nameB = b.name;
+                    if (nameA < nameB) {
+                        return -1;
+                    }
+                    if (nameA > nameB) {
+                        return 1;
+                    }
+                    return 0;
+                });
+                display(arr);
+                break;
+            case 'Birthday':
+                arr.sort(function (a, b) {
+                    let birthdayA = a.birthday;
+                    let birthdayB = b.birthday;
+                    if (birthdayA < birthdayB) {
+                        return -1;
+                    }
+                    if (birthdayA > birthdayB) {
+                        return 1;
+                    }
+                    return 0;
+                });
+                display(arr);
+        }
+    }
+
+    function login() {
+        let username = prompt('Login name');
+        for (let i = 0; i < arrEmployee.length; i++) {
+            let checkUsername = arrEmployee[i].getName() === username;
+            if (checkUsername) {
+                let password = prompt('Login password');
+                let checkPassword = arrEmployee[i].getPassword() === password;
+                if (checkPassword) {
+                    alert(`Welcome ${username}`);
+                    break;
+                } else {
+                    alert('Wrong password, please try again');
+                    return login();
+                }
+            }
+            if (i === arrEmployee.length - 1) alert('Invalid username');
+        }
+    }
+</script>
+</body>
+</html>

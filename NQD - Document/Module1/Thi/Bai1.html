@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<script>
+
+    // Cho danh sách các điểm thi ở trong một mảng.
+    // Hãy viết hàm findMax() với đầu vào là một mảng điểm và đầu ra là điểm số cao nhất được tìm thấy trong danh sách đó.
+    // Khai báo được hàm, bao gồm cả tham số
+    // Dùng vòng lặp để duyệt được mảng
+    // Tìm được giá trị lớn nhất
+    // Viết mã sạch
+
+
+    let n = parseInt(prompt("Nhập vào số lượng điểm thi cần nhập"));
+    let danhSachDT = new Array(n);
+    for (let i = 0; i < danhSachDT.length; i++) {
+        danhSachDT[i] = parseInt(prompt("Nhập vào điểm thi"));
+    }
+
+    document.write(findMax(danhSachDT));
+
+    function findMax(diemThi) {
+        let max = diemThi[0];
+        for (let i = 0; i < diemThi.length; i++) {
+            if (max < diemThi[i]) {
+                max = diemThi[i];
+            }
+        }
+        return "Điểm thi cao nhất được tìm thấy là " + max;
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+
+<script>
+
+    let number = parseInt(prompt("Nhập vào số lượng điểm thi"));
+    let array = new Array(number);
+    for (let i = 0; i < array.length; i++) {
+        array[i] = parseInt(prompt("Nhập vào điểm thi"));
+    }
+    findMax(array);
+
+    function findMax(array) {
+        let max = array[0];
+        for (let i = 0; i < array.length; i++) {
+            if (max < array[i]) {
+                max = array[i];
+            }
+        }
+        alert("Điểm thi cao nhất được tìm thấy trong danh sách là " + max);
+    }
+
+</script>
+
+</body>
+</html>

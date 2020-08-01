@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Lý Công Nhân</title>
+</head>
+<body>
+
+<input type="button" onclick="themMoiCN()" value="Thêm mới công nhân"/>
+<p id="hienThi"></p>
+
+<script>
+
+    class CongNhan {
+        constructor(hoVaTen, ngaySinh, diaChi, luong, chucVu) {
+            this.hoVaTen = hoVaTen;
+            this.ngaySinh = ngaySinh;
+            this.diaChi = diaChi;
+            this.luong = luong;
+            this.chucVu = chucVu;
+        }
+
+        getHoVaTen() {
+            return this.hoVaTen;
+        }
+
+        getNgaySinh() {
+            return this.ngaySinh;
+        }
+
+        getDiaChi() {
+            return this.diaChi;
+        }
+
+        getLuong() {
+            return this.luong;
+        }
+
+        getChucVu() {
+            return this.chucVu;
+        }
+
+        setHoVaTen(hoVaTen) {
+            this.hoVaTen = hoVaTen;
+        }
+
+        setNgaySinh(ngaySinh) {
+            this.ngaySinh = ngaySinh;
+        }
+
+        setDiaChi(diaChi) {
+            this.diaChi = diaChi;
+        }
+
+        setLuong(luong) {
+            this.luong = luong;
+        }
+
+        setChucVu(chucVu) {
+            this.chucVu = chucVu;
+        }
+
+        getInfo() {
+            return "\n1. Họ và tên: " + this.hoVaTen + "\n2. Ngày sinh: " + this.ngaySinh + "\n3. Địa chỉ: " + this.diaChi +
+                "\n4. Lương: " + this.luong + "\n5. Chức vụ: " + this.chucVu;
+        }
+
+    }
+
+    let danhSachCongNhan = [];
+
+    let congNhan1 = new CongNhan("Nguyễn Văn Qua 1", "12/12/2020", "Hòa Khánh", "10.000.000 đồng", "Chuyên viên");
+    let congNhan2 = new CongNhan("Nguyễn Văn Qua 2", "12/12/2020", "Hòa Khánh", "10.000.000 đồng", "Chuyên viên");
+    let congNhan3 = new CongNhan("Nguyễn Văn Qua 3", "12/12/2020", "Hòa Khánh", "10.000.000 đồng", "Chuyên viên");
+    let congNhan4 = new CongNhan("Nguyễn Văn Qua 4", "12/12/2020", "Hòa Khánh", "10.000.000 đồng", "Chuyên viên");
+
+    danhSachCongNhan.push(congNhan1);
+    danhSachCongNhan.push(congNhan2);
+    danhSachCongNhan.push(congNhan3);
+    danhSachCongNhan.push(congNhan4);
+
+    hienThi(danhSachCongNhan);
+
+    function hienThi(danhSachCN) {
+        let danhSachDaSapXep = danhSachSapXepTheoTen(danhSachCN);
+        let doDaiDanhSachCN = danhSachDaSapXep.length;
+        let bang = "<table border=\"1\">\n" +
+            "    <tr>\n" +
+            "        <th>Số thứ tự</th>\n" +
+            "        <th>Họ và tên</th>\n" +
+            "        <th>Ngày sinh</th>\n" +
+            "        <th>Địa chỉ</th>\n" +
+            "        <th>Lương</th>\n" +
+            "        <th>Chức vụ</th>\n" +
+            "    </tr>"
+        for (let i = 0; i < doDaiDanhSachCN; i++) {
+            bang += "    <tr>\n" +
+                "        <td>" + (i + 1) + "</td>\n" +
+                "        <td>" + danhSachCongNhan[i].getHoVaTen() + "</td>\n" +
+                "        <td>" + danhSachCongNhan[i].getNgaySinh() + "</td>\n" +
+                "        <td>" + danhSachCongNhan[i].getDiaChi() + "</td>\n" +
+                "        <td>" + danhSachCongNhan[i].getLuong() + "</td>\n" +
+                "        <td>" + danhSachCongNhan[i].getChucVu() + "</td>\n" +
+                "    </tr>"
+        }
+        bang += "</table>";
+        document.getElementById("hienThi").innerHTML = bang;
+    }
+
+    function themMoiCN() {
+        let hoVaTen = prompt("Nhập họ và tên");
+        let ngaySinh = prompt("Nhập ngày sinh");
+        let diaChi = prompt("Nhập địa chỉ");
+        let luong = prompt("Nhập lương");
+        let chucVu = prompt("Nhập chức vụ");
+
+        let themMoiCongNhan = new CongNhan(hoVaTen, ngaySinh, diaChi, luong, chucVu);
+        danhSachCongNhan.push(themMoiCongNhan);
+        hienThi(danhSachCongNhan);
+    }
+
+    function danhSachSapXepTheoTen(danhSachCN) {
+        danhSachCN.sort(function (a, b) {
+            let tenA = a.hoVaTen;
+            let tenB = b.hoVaTen;
+            if (tenA < tenB) {
+                return -1;
+            }
+            if (tenA > tenB) {
+                return 1;
+            }
+            return 0;
+        });
+        return danhSachCN;
+    }
+
+</script>
+</body>
+</html>

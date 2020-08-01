@@ -135,7 +135,7 @@
                 displayCustomers();
                 break;
             case 3:
-
+                displayTotal();
                 break;
             case 4:
                 editInformationCustomer();
@@ -303,6 +303,28 @@
             }
         }
     }
+
+
+    function displayTotal() {
+        let pay=0;
+        let namePay='';
+        for (let i=0;i<arrListCustomers.length;i++){
+            namePay+=i+". Name: "+ arrListCustomers[i].getName()+'\n';
+        }
+        let choosePay= parseInt(prompt('Choose customer: '+'\n'+namePay));
+        if (arrListCustomers[choosePay].getTyperServices()==="villa"){
+            pay=500*arrListCustomers[choosePay].getRentDays()*(1-arrListCustomers[choosePay].getDisCount()/100)
+        } else if (arrListCustomers[choosePay].getTyperServices()==="house"){
+            pay=300*arrListCustomers[choosePay].getRentDays()*(1-arrListCustomers[choosePay].getDisCount()/100)
+        } else if(arrListCustomers[choosePay].getTyperServices()==="room"){
+            pay=100*arrListCustomers[choosePay].getRentDays()*(1-arrListCustomers[choosePay].getDisCount()/100)
+        } else {
+            alert('Can not count!')
+        }
+        alert("You must be pay: "+pay);
+        displayMainMenu();
+    }
+
 
 
     // Hàm kiểm tra email

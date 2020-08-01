@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let number = parseInt(prompt("Nhập vào số lượng số Fibonacci cần in"));
+    isFibonacci(number);
+
+    function isFibonacci(number) {
+        let f1 = 0;
+        let f2 = 1;
+        let count = 0;
+        let array = [];
+        while (count < number) {
+            f2 = f1 + f2;
+            f1 = f2 - f1;
+            count++;
+            array.push(f1);
+            document.write(f1 + " ");
+        }
+
+        let nhapSo = parseInt(prompt("Nhập vào số nguyên cần kiểm tra"));
+        let check = false;
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] === nhapSo) {
+                alert(true);
+                check = true;
+                break;
+            }
+        }
+        if (!check) {
+            alert(false);
+        }
+    }
+</script>
+</body>
+</html>

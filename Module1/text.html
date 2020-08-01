@@ -2,134 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Yêu cầu 5</title>
+    <title>Quản lý nhân viên</title>
 </head>
 <body>
 <script>
-    let thongTinCanNhap = ["Tên", "CMND", "Ngày , tháng , năm sinh", "Email", "Địa chỉ", "Loại Customer", "Phần trăm giảm giá", "Số lượng đi kèm",
-        "Số ngày thuê", "Loại dịch vụ", "Loại phòng"];
 
-    let listCustomers = new Array();
-    let customer;
-    let j = 0;
-    let soThuTu;
-    let info;
+    class HocSinh {
+        constructor(hoVaTen, ngaySinh, diemTrungBinh) {
+            this.hoVaTen = hoVaTen;
+            this.ngaySinh = ngaySinh;
+            this.diemTrungBinh = diemTrungBinh;
+        }
 
-    displayMainMenu();
+        setHoVaTen(hoVaTen) {
+            this.hoVaTen = hoVaTen;
+        }
 
+        setNgaySinh(ngaySinh) {
+            this.ngaySinh = ngaySinh;
+        }
 
-    function displayMainMenu() {
-        let choose = prompt("Nhập thao tác muốn thực hiện:\n 1. Add New Customer\n 2. Display Information Customer" +
-            "\n 3. Edit Information Customer\n 4. Delete Customer\n 5. Exit");
-        switch (choose) {
-            case "1":
-                addNewCustomer();
-                break;
-            case "2":
-                alert(displayCustomer());
-                displayMainMenu();
-                break;
-            case "3":
-                editInformationCustomer();
-                break;
-            case "4":
-                deleteCustomer();
-                break;
-            case "5":
-                break;
-            default:
-                alert("Failed");
-                displayMainMenu();
+        setDiemTrungBinh(diemTrungBinh) {
+            this.diemTrungBinh = diemTrungBinh;
+        }
+
+        getHoVaTen() {
+            return this.hoVaTen;
+        }
+
+        getNgaySinh() {
+            return this.ngaySinh;
+        }
+
+        getDiemTrungBinh() {
+            return this.diemTrungBinh;
         }
     }
 
-    function addNewCustomer() {
-        listCustomers[j] = new Array();
-        for (let i = 0; i < thongTinCanNhap.length; i++) {
-            let nhapThongTin = prompt("Nhập " + thongTinCanNhap[i] + " : ");
-            listCustomers[j].push(thongTinCanNhap[i] + ' : ' + nhapThongTin);
-        }
-        alert(listCustomers[j].join("\n"));
-        j++;
-        displayMainMenu();
-    }
+    let danhSachHS = [];
+
+    let hocSinh1 = new HocSinh("Nguyễn Trường Quân 1", "12/12/1998", "8.0");
+    let hocSinh2 = new HocSinh("Nguyễn Trường Quân 2", "12/12/1998", "8.0");
+    let hocSinh3 = new HocSinh("Nguyễn Trường Quân 3", "12/12/1998", "8.0");
+
+    danhSachHS.push(hocSinh1);
+    danhSachHS.push(hocSinh2);
+    danhSachHS.push(hocSinh3);
 
 
-    function displayInformation(j) {
-        info = "";
-        for (let i = 0; i < thongTinCanNhap.length; i++) {
-            info += (i + 1) + ' . ' + listCustomers[j][i] + '\n';
-        }
-        return info;
-    }
+    hienThi(danhSachHS);
 
-    function nameAndCMND() {
-        let nameVaCMND = "";
-        soThuTu = 1;
-        for (let phanTu = 0; phanTu < listCustomers.length; phanTu++) {
-            nameVaCMND += soThuTu + '. ';
-            for (let i = 0; i < 2; i++) {
-                if (thongTinCanNhap[i] === 'Tên') {
-                    nameVaCMND += listCustomers[phanTu][i] + '\n';
-                    continue;
-                }
-                nameVaCMND += "  " + listCustomers[phanTu][i] + '\n';
-            }
-            soThuTu++;
-        }
-        return nameVaCMND;
-    }
-
-    function displayCustomer() {
-        let choose = parseInt(prompt(nameAndCMND() + soThuTu + '. Back'));
-        if (choose <= 0 || isNaN(choose) || choose > soThuTu) {
-            alert("Lựa chọn của bạn không tồn tại !");
-            return displayCustomer();
-        } else if (choose === soThuTu) {
-            return displayMainMenu();
-        } else {
-            customer = choose;
-            return displayInformation(customer - 1);
+    function hienThi(danhSach) {
+        let doDaiDS = danhSach.length;
+        for (let i = 0; i < doDaiDS.length; i++) {
+            return alert("\n1. Họ và tên: " + this.hoVaTen + "\n2. Ngày sinh: " + this.ngaySinh + "\n3. Điểm trung bình: " + this.diemTrungBinh);
         }
     }
 
-    function editInformationCustomer() {
-        let choose = parseInt(prompt(displayCustomer() + (thongTinCanNhap.length + 1) + '. Back'));
-        if (choose <= 0 || choose > (thongTinCanNhap + 2) || isNaN(choose)) {
-            alert("Lựa chọn của bạn không tồn tại !");
-            editInformationCustomer();
-        } else if (choose === (thongTinCanNhap.length + 1)) {
-            editInformationCustomer();
-        } else {
-            let edit = prompt("Nhập " + thongTinCanNhap[choose - 1] + ' muốn thay đổi :');
-            listCustomers[customer - 1][choose - 1] = thongTinCanNhap[choose - 1] + ' : ' + edit;
-            alert(displayInformation(customer - 1));
-        }
-        displayMainMenu();
-    }
 
-    function deleteCustomer() {
-        let choose = parseInt(prompt(nameAndCMND() + soThuTu + " . Back"));
-        if (choose <= 0 || isNaN(choose) || choose > soThuTu) {
-            alert("Lựa chọn của bạn không tồn tại !");
-            deleteCustomer();
-        } else if (choose === soThuTu) {
-            displayMainMenu();
-        } else {
-            customer = choose;
-            let confirm = prompt("Bạn có thực sự muốn xóa Customer này hay không ?" + "\n" + "1. Yes" + "\n" + "2. No");
-            switch (confirm) {
-                case "1":
-                    listCustomers.splice((choose - 1), 1);
-                    break;
-                case "2":
-                    break;
-                default :
-                    deleteCustomer();
-            }
-        }
-        displayMainMenu();
-    }
 </script>
+
 </body>
 </html>

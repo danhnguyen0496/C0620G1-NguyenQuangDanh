@@ -22,11 +22,11 @@
     let num=parseInt(prompt("nhập vào đi nè"));
     let array=new Array(num);
     for(let i=0; i< array.length;i++) {
-        array[i] = prompt("nhập giá trị cho phần tử" + (i + 1))
+        array[i] = prompt("nhập giá trị cho phần tử" + (i + 1));
     }
     let num1=parseInt(prompt("nhập số cần xóa"))  ;
     for (let i=0;i<array.length;i++) {
-        if(num1==array[i]) {
+        if(num1===array[i]) {
             for(let j=i;j<array.length;j++){
                 array[j]=array[j+1];
                 array[array.length-1]=0;
