@@ -1,22 +1,15 @@
 package bai_2_vong_lap_trong_java.bai_tap;
 
-import java.util.Scanner;
-
-public class HienThi20SNTDauTien {
+public class DisplayPrimeLess100 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập vào số lượng số nguyên tố cần in ra: ");
-        int number = scanner.nextInt();
-        int count = 0;
-        int n = 2;
-        while (count <= number) {
+        System.out.println("Số nguyên tố nhỏ hơn 100 là: ");
+        for (int n = 2; n <= 100; n++) {
             if (isPrime(n)) {
                 System.out.print(n + " ");
-                count++;
             }
-            n++;
         }
     }
+
     public static boolean isPrime(int n) {
         boolean check = true;
         if (n < 2) {
@@ -37,5 +30,3 @@ public class HienThi20SNTDauTien {
         return check;
     }
 }
-
-

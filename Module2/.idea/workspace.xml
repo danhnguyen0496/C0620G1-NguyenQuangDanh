@@ -23,43 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_1_introduction_to_java/bai_tap/ChuyenDoiTienTe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_introduction_to_java/bai_tap/DocSoThanhChu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_introduction_to_java/bai_tap/HienThiLoiChao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_introduction_to_java/thuc_hanh/DeclareAndUseVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_introduction_to_java/thuc_hanh/KiemTraNamNhuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_introduction_to_java/thuc_hanh/PhuongTrinhBacNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_introduction_to_java/thuc_hanh/RectangularArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_introduction_to_java/thuc_hanh/SoNgayTrongThang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_introduction_to_java/thuc_hanh/SystemTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_introduction_to_java/thuc_hanh/TinhCanNang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/HienThi20SNTDauTien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/HienThiHinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/thuc_hanh/KiemTraSoNguyenTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/thuc_hanh/ThietKeMenuUngDung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/thuc_hanh/TinhTienLai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/thuc_hanh/UocChungLonNhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/DisplayPrimeLess100.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/.idea/bai_1_introduction_to_java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/DeclareAndUseVariables/DeclareAndUseVariables.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/DeclareAndUseVariables/src/DeclareAndUseVariables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/SystemTime/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/SystemTime/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/SystemTime/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/SystemTime/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/SystemTime/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/SystemTime/SystemTime.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/SystemTime/out/production/SystemTime/DeclareAndUseVariables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/SystemTime/out/production/SystemTime/SystemTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_1_introduction_to_java/SystemTime/src/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_2_vong_lap_trong_java/bai_tap/HienThi20SNTDauTien.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_2_vong_lap_trong_java/bai_tap/HienThi20SNTDauTien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/HienThi20SNTDauTien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/HienThi20SNTDauTien.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +63,14 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HienThi20SNTDauTien">
+  <component name="RunManager" selected="Application.DisplayPrimeLess100">
+    <configuration name="DisplayPrimeLess100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_2_vong_lap_trong_java.bai_tap.DisplayPrimeLess100" />
+      <module name="Module2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HienThi20SNTDauTien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_2_vong_lap_trong_java.bai_tap.HienThi20SNTDauTien" />
       <module name="Module2" />
@@ -106,13 +80,6 @@
     </configuration>
     <configuration name="HienThiHinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_2_vong_lap_trong_java.bai_tap.HienThiHinh" />
-      <module name="Module2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChuSo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_1_introduction_to_java.bai_tap.TestChuSo" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DisplayPrimeLess100" />
         <item itemvalue="Application.HienThi20SNTDauTien" />
         <item itemvalue="Application.HienThiHinh" />
         <item itemvalue="Application.ThietKeMenuUngDung" />
         <item itemvalue="Application.UocChungLonNhat" />
-        <item itemvalue="Application.TestChuSo" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +120,7 @@
       <workItem from="1596456612202" duration="279000" />
       <workItem from="1596456957895" duration="145000" />
       <workItem from="1596458985645" duration="8007000" />
-      <workItem from="1596504672122" duration="5840000" />
+      <workItem from="1596504672122" duration="9876000" />
     </task>
     <servers />
   </component>
@@ -178,22 +145,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596437740195" />
-    <state width="1286" height="117" key="GridCell.Tab.0.bottom" timestamp="1596517360368">
+    <state width="1286" height="117" key="GridCell.Tab.0.bottom" timestamp="1596525635667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="117" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596517360368" />
-    <state width="1286" height="117" key="GridCell.Tab.0.center" timestamp="1596517360367">
+    <state width="1286" height="117" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596525635667" />
+    <state width="1286" height="117" key="GridCell.Tab.0.center" timestamp="1596525635667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="117" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596517360367" />
-    <state width="1286" height="117" key="GridCell.Tab.0.left" timestamp="1596517360367">
+    <state width="1286" height="117" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596525635667" />
+    <state width="1286" height="117" key="GridCell.Tab.0.left" timestamp="1596525635667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="117" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596517360367" />
-    <state width="1286" height="117" key="GridCell.Tab.0.right" timestamp="1596517360368">
+    <state width="1286" height="117" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596525635667" />
+    <state width="1286" height="117" key="GridCell.Tab.0.right" timestamp="1596525635667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="117" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596517360368" />
+    <state width="1286" height="117" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596525635667" />
     <state x="193" y="5" key="SettingsEditor" timestamp="1596457094203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -206,6 +173,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="259" y="89" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1596445918809" />
+    <state x="418" y="147" key="extract.method.dialog" timestamp="1596524408107">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="418" y="147" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1596524408107" />
     <state x="63" y="0" key="new project wizard" timestamp="1596437741120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
