@@ -2,52 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Thi/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Thi/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NQD - Document/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Bai1H1CreatFunction.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/Bai1H1CreatFunction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Bai1H2TinhBinhPhuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/Bai1H2TinhBinhPhuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Bai2H2ChuViDienTichHinhTron.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/Bai2H2ChuViDienTichHinhTron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Bai3H1CreatFunction2Parameters.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/Bai3H1CreatFunction2Parameters.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Bai3H2GiaiThua.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/Bai3H2GiaiThua.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Bai4H2InputChartNumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/Bai4H2InputChartNumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Bai5H1CreatFunction7Star.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/Bai5H1CreatFunction7Star.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Bai5H2Input3NumberOutputMin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/Bai5H2Input3NumberOutputMin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/Bai9H2CreatFunctionCheck.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/Bai9H2CreatFunctionCheck.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/ProductManagementApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/ProductManagementApplication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/SearchMinOfArray.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/SearchMinOfArray.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Ham/TranslateTemperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Ham/TranslateTemperature.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/HuongDoiTuong/XayDungDienThoai.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/HuongDoiTuong/XayDungDienThoai.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Mang/Bai1M2CreatAndDisplayArray2Dimensional.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Mang/Bai1M2CreatAndDisplayArray2Dimensional.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Mang/Bai1TaoMang10PhanTuSoNguyenLonHon10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Mang/Bai1TaoMang10PhanTuSoNguyenLonHon10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Mang/Bai2CreatArraySearchMaxAndLocal.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Mang/Bai2CreatArraySearchMaxAndLocal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Mang/Bai2M2DisplayArrayReverse.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Mang/Bai2M2DisplayArrayReverse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Mang/Bai3CreatArrayDisplayMaxAndAverage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Mang/Bai3CreatArrayDisplayMaxAndAverage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Mang/Bai3M2CreatArrayCountNumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Mang/Bai3M2CreatArrayCountNumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Mang/Bai4InputArrayAndReverses.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Mang/Bai4InputArrayAndReverses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Mang/Bai4M2CountChartInChain.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Mang/Bai4M2CountChartInChain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Mang/Bai5DemSoNguyenAm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Mang/Bai5DemSoNguyenAm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Mang/Bai6InputArray10AndCheckV.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Mang/Bai6InputArray10AndCheckV.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/Mang/Bai6M2InputArrayChartAndReplaceChart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/Mang/Bai6M2InputArrayChartAndReplaceChart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/BangCuuChuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/BangCuuChuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/BangDuLieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/BangDuLieu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/Dem1Den100.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/Dem1Den100.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/GameDoanSo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/GameDoanSo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/GiaiThua.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/GiaiThua.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/HinhChuNhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/HinhChuNhat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/In20SoNguyenToDauTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/In20SoNguyenToDauTien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/InDayFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/InDayFibonacci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/InFizzBuzz.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/InFizzBuzz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/InHinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/InHinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/InSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/InSoNguyenTo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/KiemTraSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/KiemTraSoNguyenTo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/LapDoWhile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/LapDoWhile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/LapFor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/LapFor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/NhietDo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/NhietDo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/SoFibonacciChia5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/SoFibonacciChia5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/TinhTongSoNguyen.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/TinhTongSoNguyen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/Tong30SoTNChia7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/Tong30SoTNChia7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NQD - Document/VongLap/TongFibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../NQD - Document/Module1/VongLap/TongFibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/bai_tap/ChuyenDoiTienTe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/bai_tap/DocSoThanhChu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/bai_tap/HienThiLoiChao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/DeclareAndUseVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/KiemTraNamNhuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/PhuongTrinhBacNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/RectangularArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/SoNgayTrongThang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/SystemTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/TinhCanNang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_2_vong_lap_trong_java/bai_tap/HienThiHinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_2_vong_lap_trong_java/thuc_hanh/KiemTraSoNguyenTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_2_vong_lap_trong_java/thuc_hanh/ThietKeMenuUngDung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_2_vong_lap_trong_java/thuc_hanh/TinhTienLai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_2_vong_lap_trong_java/thuc_hanh/UocChungLonNhat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/.idea/bai_1_introduction_to_java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/DeclareAndUseVariables.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/src/DeclareAndUseVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/SystemTime.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/out/production/SystemTime/DeclareAndUseVariables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/out/production/SystemTime/SystemTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/src/SystemTime.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +71,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -207,6 +196,8 @@
       <workItem from="1596008463455" duration="2208000" />
       <workItem from="1596164114093" duration="2238000" />
       <workItem from="1596198709070" duration="2859000" />
+      <workItem from="1596426024256" duration="187000" />
+      <workItem from="1596457314908" duration="4245000" />
     </task>
     <servers />
   </component>
@@ -294,10 +285,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="236" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1595409675909" />
-    <state x="184" y="7" key="SettingsEditor" timestamp="1594387933634">
+    <state x="184" y="7" key="SettingsEditor" timestamp="1596458308210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594387933634" />
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596458308210" />
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1595389231146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
