@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ThemPhanTuMang1 {
     public static void main(String[] args) {
-        Scanner scanner = new  Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int n;
         int[] array;
         do {
@@ -22,23 +22,21 @@ public class ThemPhanTuMang1 {
             System.out.print(array[i] + "\t");
         }
 
-        System.out.print("Insert element: ");
+        System.out.print("Enter insert element: ");
         int addElement = scanner.nextInt();
-        System.out.print("Index insert element: ");
+        System.out.print("Enter index insert element: ");
         int index = scanner.nextInt();
-        int temp = 0;
-        for (int i = index; i < array.length-1; i++) {
-            if(i == index){
-                temp = array[i];
-                array[i] = addElement;
-                array[i+1]=temp;
+
+        int m = array.length;
+        if (index <= 1 || index >= m - 1) {
+            System.out.print("Value is not insert");
+        } else {
+            for (int i = m - 1; i >= index; i--) {
+                array[i] = array[i - 1];
             }
-           /* else {
-                temp = array[i+1];
-                array[i+1]= array[i];
-                array[i]=temp;
-            }*/
+            array[index] = addElement;
         }
+
         System.out.println("Array: ");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + "\t");
