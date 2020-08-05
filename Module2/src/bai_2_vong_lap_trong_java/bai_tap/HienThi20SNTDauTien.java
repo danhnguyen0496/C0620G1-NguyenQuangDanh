@@ -28,11 +28,6 @@ public class HienThi20SNTDauTien {
                     break;
                 }
             }
-            if (check) {
-                return true;
-            } else {
-                return false;
-            }
         }
         return check;
     }

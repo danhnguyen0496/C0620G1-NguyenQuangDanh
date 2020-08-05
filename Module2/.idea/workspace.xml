@@ -23,9 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/DisplayPrimeLess100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TestAddElementArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/ThemPhanTuMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/thuc_hanh/ChuyenDoiNhietDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/thuc_hanh/DaoNguocPhanTuMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/thuc_hanh/TimGiaTriLonNhatTrongMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/thuc_hanh/TimGiaTriNhoNhatMangBangPhuongThuc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/thuc_hanh/TimGiaTriTrongMang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_1_introduction_to_java/bai_tap/DocSoThanhChu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_1_introduction_to_java/bai_tap/DocSoThanhChu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_2_vong_lap_trong_java/bai_tap/DisplayPrimeLess100.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_2_vong_lap_trong_java/bai_tap/DisplayPrimeLess100.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_2_vong_lap_trong_java/bai_tap/HienThi20SNTDauTien.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_2_vong_lap_trong_java/bai_tap/HienThi20SNTDauTien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_1_introduction_to_java/bai_tap/DocSoThanhChu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_1_introduction_to_java/bai_tap/DocSoThanhChu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/DisplayPrimeLess100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/DisplayPrimeLess100.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/HienThi20SNTDauTien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/HienThi20SNTDauTien.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,43 +68,46 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bai_3_mang_va_phuong_thuc_trong_java.bai_tap" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_2_vong_lap_trong_java" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_1_introduction_to_java" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DisplayPrimeLess100">
-    <configuration name="DisplayPrimeLess100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_2_vong_lap_trong_java.bai_tap.DisplayPrimeLess100" />
+  <component name="RunManager" selected="Application.ThemPhanTuMang1">
+    <configuration name="ChuyenDoiNhietDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.thuc_hanh.ChuyenDoiNhietDo" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HienThi20SNTDauTien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_2_vong_lap_trong_java.bai_tap.HienThi20SNTDauTien" />
+    <configuration name="ThemPhanTuMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.ThemPhanTuMang" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HienThiHinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_2_vong_lap_trong_java.bai_tap.HienThiHinh" />
+    <configuration name="ThemPhanTuMang1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.ThemPhanTuMang1" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThietKeMenuUngDung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_2_vong_lap_trong_java.thuc_hanh.ThietKeMenuUngDung" />
+    <configuration name="TimGiaTriNhoNhatMangBangPhuongThuc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.thuc_hanh.TimGiaTriNhoNhatMangBangPhuongThuc" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UocChungLonNhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_2_vong_lap_trong_java.thuc_hanh.UocChungLonNhat" />
+    <configuration name="XoaPhanTuMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.XoaPhanTuMang" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DisplayPrimeLess100" />
-        <item itemvalue="Application.HienThi20SNTDauTien" />
-        <item itemvalue="Application.HienThiHinh" />
-        <item itemvalue="Application.ThietKeMenuUngDung" />
-        <item itemvalue="Application.UocChungLonNhat" />
+        <item itemvalue="Application.ThemPhanTuMang1" />
+        <item itemvalue="Application.ThemPhanTuMang" />
+        <item itemvalue="Application.XoaPhanTuMang" />
+        <item itemvalue="Application.TimGiaTriNhoNhatMangBangPhuongThuc" />
+        <item itemvalue="Application.ChuyenDoiNhietDo" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +134,10 @@
       <workItem from="1596456612202" duration="279000" />
       <workItem from="1596456957895" duration="145000" />
       <workItem from="1596458985645" duration="8007000" />
-      <workItem from="1596504672122" duration="9876000" />
+      <workItem from="1596504672122" duration="18298000" />
+      <workItem from="1596549269786" duration="7219000" />
+      <workItem from="1596579657097" duration="9419000" />
+      <workItem from="1596589648331" duration="8292000" />
     </task>
     <servers />
   </component>
@@ -141,34 +158,46 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="280" y="39" key="#Inspections" timestamp="1596554804605">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="280" y="39" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1596554804605" />
+    <state x="305" y="0" key="CommitChangelistDialog2" timestamp="1596528778525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="305" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596528778525" />
     <state x="460" y="107" key="FileChooserDialogImpl" timestamp="1596437740195">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596437740195" />
-    <state width="1286" height="117" key="GridCell.Tab.0.bottom" timestamp="1596525635667">
+    <state width="1286" height="293" key="GridCell.Tab.0.bottom" timestamp="1596598129356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="117" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596525635667" />
-    <state width="1286" height="117" key="GridCell.Tab.0.center" timestamp="1596525635667">
+    <state width="1286" height="293" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596598129356" />
+    <state width="1286" height="293" key="GridCell.Tab.0.center" timestamp="1596598129351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="117" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596525635667" />
-    <state width="1286" height="117" key="GridCell.Tab.0.left" timestamp="1596525635667">
+    <state width="1286" height="293" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596598129351" />
+    <state width="1286" height="293" key="GridCell.Tab.0.left" timestamp="1596598129351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="117" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596525635667" />
-    <state width="1286" height="117" key="GridCell.Tab.0.right" timestamp="1596525635667">
+    <state width="1286" height="293" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596598129351" />
+    <state width="1286" height="293" key="GridCell.Tab.0.right" timestamp="1596598129356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="117" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596525635667" />
+    <state width="1286" height="293" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596598129356" />
     <state x="193" y="5" key="SettingsEditor" timestamp="1596457094203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596457094203" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596504675155">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596589702231">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596504675155" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596589702231" />
+    <state x="497" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596528748415">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="497" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1596528748415" />
     <state x="259" y="89" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596445918809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

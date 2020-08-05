@@ -9,7 +9,6 @@ public class DisplayPrimeLess100 {
             }
         }
     }
-
     public static boolean isPrime(int n) {
         boolean check = true;
         if (n < 2) {
@@ -20,11 +19,6 @@ public class DisplayPrimeLess100 {
                     check = false;
                     break;
                 }
-            }
-            if (check) {
-                return true;
-            } else {
-                return false;
             }
         }
         return check;
