@@ -23,15 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/GopMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TimPhanTuLonNhatMang2Chieu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/DemSoLanXuatHienKyTuTrongChuoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TimGTNNMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TongCacSoDuongCheoMaTranHinhVuong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TongCacSoTrongCotXacDinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/thuc_hanh/DemSoLuongSinhVienThiDo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TestAddElementArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TestAddElementArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/ThemPhanTuMang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/ThemPhanTuMang.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/ThemPhanTuMang1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/ThemPhanTuMang1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TestAddElementArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TestAddElementArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/ThemPhanTuMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/ThemPhanTuMang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/ThemPhanTuMang1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/ThemPhanTuMang1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_2_vong_lap_trong_java/bai_tap/DisplayPrimeLess100.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_2_vong_lap_trong_java/bai_tap/DisplayPrimeLess100.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_2_vong_lap_trong_java/bai_tap/HienThiHinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_2_vong_lap_trong_java/bai_tap/HienThiHinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TimPhanTuLonNhatMang2Chieu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TimPhanTuLonNhatMang2Chieu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/DisplayPrimeLess100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/DisplayPrimeLess100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/HienThiHinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_2_vong_lap_trong_java/bai_tap/HienThiHinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TimPhanTuLonNhatMang2Chieu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/TimPhanTuLonNhatMang2Chieu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,37 +75,37 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="GopMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.GopMang" />
+  <component name="RunManager" selected="Application.DemSoLanXuatHienKyTuTrongChuoi">
+    <configuration name="DemSoLanXuatHienKyTuTrongChuoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.DemSoLanXuatHienKyTuTrongChuoi" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.thuc_hanh.Test" />
+    <configuration name="DemSoLuongSinhVienThiDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.thuc_hanh.DemSoLuongSinhVienThiDo" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddElementArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.TestAddElementArray" />
+    <configuration name="TimGTNNMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.TimGTNNMang" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThemPhanTuMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.ThemPhanTuMang" />
+    <configuration name="TongCacSoDuongCheoMaTranHinhVuong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.TongCacSoDuongCheoMaTranHinhVuong" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimPhanTuLonNhatMang2Chieu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.TimPhanTuLonNhatMang2Chieu" />
+    <configuration name="TongCacSoTrongCotXacDinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_3_mang_va_phuong_thuc_trong_java.bai_tap.TongCacSoTrongCotXacDinh" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TimPhanTuLonNhatMang2Chieu" />
-        <item itemvalue="Application.GopMang" />
-        <item itemvalue="Application.TestAddElementArray" />
-        <item itemvalue="Application.ThemPhanTuMang" />
+        <item itemvalue="Application.DemSoLanXuatHienKyTuTrongChuoi" />
+        <item itemvalue="Application.DemSoLuongSinhVienThiDo" />
+        <item itemvalue="Application.TongCacSoDuongCheoMaTranHinhVuong" />
+        <item itemvalue="Application.TongCacSoTrongCotXacDinh" />
+        <item itemvalue="Application.TimGTNNMang" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +137,9 @@
       <workItem from="1596579657097" duration="9419000" />
       <workItem from="1596589648331" duration="13513000" />
       <workItem from="1596608690822" duration="1134000" />
-      <workItem from="1596615755923" duration="3157000" />
+      <workItem from="1596615755923" duration="6267000" />
+      <workItem from="1596626429065" duration="2916000" />
+      <workItem from="1596631837293" duration="11395000" />
     </task>
     <servers />
   </component>
@@ -159,6 +164,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="280" y="39" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1596554804605" />
+    <state x="277" y="0" width="816" height="728" key="#Intentions" timestamp="1596627907319">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="277" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1596627907319" />
     <state x="305" y="0" key="CommitChangelistDialog2" timestamp="1596528778525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -167,30 +176,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596437740195" />
-    <state width="1286" height="240" key="GridCell.Tab.0.bottom" timestamp="1596618865300">
+    <state width="1286" height="230" key="GridCell.Tab.0.bottom" timestamp="1596643310000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596618865300" />
-    <state width="1286" height="240" key="GridCell.Tab.0.center" timestamp="1596618865300">
+    <state width="1286" height="230" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596643310000" />
+    <state width="1286" height="230" key="GridCell.Tab.0.center" timestamp="1596643310000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="240" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596618865300" />
-    <state width="1286" height="240" key="GridCell.Tab.0.left" timestamp="1596618865300">
+    <state width="1286" height="230" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596643310000" />
+    <state width="1286" height="230" key="GridCell.Tab.0.left" timestamp="1596643310000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="240" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596618865300" />
-    <state width="1286" height="240" key="GridCell.Tab.0.right" timestamp="1596618865300">
+    <state width="1286" height="230" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596643310000" />
+    <state width="1286" height="230" key="GridCell.Tab.0.right" timestamp="1596643310000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="240" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596618865300" />
+    <state width="1286" height="230" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596643310000" />
     <state x="193" y="5" key="SettingsEditor" timestamp="1596457094203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596457094203" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596615766643">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596631849188">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596615766643" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596631849188" />
     <state x="497" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596528748415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -199,10 +208,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="259" y="89" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1596445918809" />
-    <state x="418" y="147" key="extract.method.dialog" timestamp="1596600607288">
+    <state x="765" y="175" key="extract.method.dialog" timestamp="1596637621669">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="418" y="147" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1596600607288" />
+    <state x="765" y="175" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1596637621669" />
     <state x="63" y="0" key="new project wizard" timestamp="1596437741120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
