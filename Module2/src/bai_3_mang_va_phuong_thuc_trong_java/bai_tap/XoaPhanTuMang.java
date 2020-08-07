@@ -1,5 +1,6 @@
 package bai_3_mang_va_phuong_thuc_trong_java.bai_tap;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class XoaPhanTuMang {
@@ -19,14 +20,14 @@ public class XoaPhanTuMang {
             System.out.print("Element " + (i + 1) + ": ");
             array[i] = scanner.nextInt();
         }
-        System.out.print("Element of array: ");
+        System.out.println("Element of array: ");
         for (int value : array) {
             System.out.print(value + " \t");
             //  for (int i = 0; i < array.length; i++)
             //   System.out.print(array[i]);
         }
 
-        System.out.print("Enter the value need to check: ");
+        System.out.print("\nEnter the value need to check: ");
         int value = scanner.nextInt();
         boolean check = false;
         int i = 0;
@@ -35,21 +36,17 @@ public class XoaPhanTuMang {
         for (i = 0; i < n; i++) {                        // for (int item : array) {
             if (array[i] == value) {                     // if (item == value) {
                 check = true;
-                while (array[i] == value) {
-                    for (j = i; j < n - 1; j++) {
-                        array[j] = array[j + 1];
-                        n--;
-                    }
+                for (j = i; j < n - 1; j++) {
+                    array[j] = array[j + 1];
                 }
+                array[array.length - 1] = 0;
             }
         }
         if (!check) {
             System.out.println("Value not find");
         }
         System.out.print("Array after delete: ");
-        for (int k = 0; k < n; k++) {
-            System.out.print(array[k] + "\t");
-        }
+        System.out.println(Arrays.toString(array));
     }
 }
 
