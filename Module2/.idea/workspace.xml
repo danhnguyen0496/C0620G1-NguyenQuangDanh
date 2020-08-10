@@ -23,20 +23,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/bai_tap/access_modifier/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/AccessModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/mypack/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/mypack/B1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/pack/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/pack/A1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/static_method/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/static_method/TestStaticMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/static_property/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/static_property/TestStaticProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/circle_cylinder/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/circle_cylinder/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/circle_cylinder/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/circle_cylinder/TestCylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/point2d_poitn3d/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/point2d_poitn3d/Point2DTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/point2d_poitn3d/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/point2d_poitn3d/Point3DTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/point_moveablepoint/MovablePointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/point_moveablepoint/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/point_moveablepoint/PointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/triangle/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/triangle/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/triangle/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/bai_tap/triangle/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/thuc_hanh/doi_tuong_hinh_hoc/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/thuc_hanh/doi_tuong_hinh_hoc/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/thuc_hanh/doi_tuong_hinh_hoc/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/thuc_hanh/doi_tuong_hinh_hoc/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/thuc_hanh/doi_tuong_hinh_hoc/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/thuc_hanh/doi_tuong_hinh_hoc/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/thuc_hanh/doi_tuong_hinh_hoc/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_6_ke_thua/thuc_hanh/doi_tuong_hinh_hoc/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_7_abstract_class_interface/thuc_hanh/class_animal_interface_edible/animal/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_7_abstract_class_interface/thuc_hanh/class_animal_interface_edible/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_7_abstract_class_interface/thuc_hanh/class_animal_interface_edible/animal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_7_abstract_class_interface/thuc_hanh/class_animal_interface_edible/animal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_7_abstract_class_interface/thuc_hanh/class_animal_interface_edible/fruit/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_7_abstract_class_interface/thuc_hanh/class_animal_interface_edible/fruit/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_7_abstract_class_interface/thuc_hanh/class_animal_interface_edible/fruit/EdibleFruitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_7_abstract_class_interface/thuc_hanh/class_animal_interface_edible/fruit/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_7_abstract_class_interface/thuc_hanh/class_animal_interface_edible/fruit/Orange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuMang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_3_mang_va_phuong_thuc_trong_java/bai_tap/XoaPhanTuMang.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_4_lop_va_doi_tuong_trong_java/bai_tap/Fan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_4_lop_va_doi_tuong_trong_java/bai_tap/Fan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_4_lop_va_doi_tuong_trong_java/bai_tap/XayDungLopFan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_4_lop_va_doi_tuong_trong_java/bai_tap/XayDungLopFan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_5_access_modifier_static_method_static_property/bai_tap/access_modifier/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_5_access_modifier_static_method_static_property/bai_tap/access_modifier/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_5_access_modifier_static_method_static_property/bai_tap/access_modifier/CircleArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_5_access_modifier_static_method_static_property/bai_tap/access_modifier/CircleArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_5_access_modifier_static_method_static_property/thuc_hanh/mypack/B1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_5_access_modifier_static_method_static_property/thuc_hanh/pack/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_5_access_modifier_static_method_static_property/thuc_hanh/pack/A1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/bai_tap/access_modifier/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/bai_tap/access_modifier/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/AccessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/access_modifer/AccessModifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/mypack/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/access_modifer/mypack/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/mypack/B1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/access_modifer/mypack/B1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/pack/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/access_modifer/pack/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/pack/A1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/access_modifer/pack/A1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +77,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,50 +96,57 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/bai_5_access_modifier_static_method_static_property/thuc_hanh/access_modifer" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="bai_3_mang_va_phuong_thuc_trong_java.bai_tap" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bai_5_access_modifier_static_method_static_property.thuc_hanh.access_modifer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_2_vong_lap_trong_java" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_1_introduction_to_java" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bai_3_mang_va_phuong_thuc_trong_java.bai_tap" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_5_access_modifier_static_method_static_property\thuc_hanh\access_modifer" />
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_5_access_modifier_static_method_static_property\thuc_hanh\access_modifer\mypack" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CircleArea">
-    <configuration name="AccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.AccessModifier" />
+  <component name="RunManager" selected="Application.EdibleFruitTest">
+    <configuration name="AbstractAndInterfaceTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_7_abstract_class_interface.thuc_hanh.class_animal_interface_edible.animal.AbstractAndInterfaceTests" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.mypack.B1" />
+    <configuration name="EdibleFruitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_7_abstract_class_interface.thuc_hanh.class_animal_interface_edible.fruit.EdibleFruitTest" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_5_access_modifier_static_method_static_property.bai_tap.access_modifier.CircleArea" />
+    <configuration name="MovablePointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_6_ke_thua.bai_tap.point_moveablepoint.MovablePointTest" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.static_method.TestStaticMethod" />
+    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_6_ke_thua.bai_tap.triangle.ShapeTest" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStaticProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_5_access_modifier_static_method_static_property.thuc_hanh.static_property.TestStaticProperty" />
+    <configuration name="TriangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_6_ke_thua.bai_tap.triangle.TriangleTest" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CircleArea" />
-        <item itemvalue="Application.TestStaticProperty" />
-        <item itemvalue="Application.TestStaticMethod" />
-        <item itemvalue="Application.B1" />
-        <item itemvalue="Application.AccessModifier" />
+        <item itemvalue="Application.EdibleFruitTest" />
+        <item itemvalue="Application.AbstractAndInterfaceTests" />
+        <item itemvalue="Application.TriangleTest" />
+        <item itemvalue="Application.ShapeTest" />
+        <item itemvalue="Application.MovablePointTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +188,17 @@
       <workItem from="1596703519040" duration="6308000" />
       <workItem from="1596721313068" duration="3137000" />
       <workItem from="1596726090126" duration="185000" />
-      <workItem from="1596762906187" duration="5921000" />
+      <workItem from="1596762906187" duration="7999000" />
+      <workItem from="1596781186220" duration="619000" />
+      <workItem from="1596807054148" duration="202000" />
+      <workItem from="1596811064067" duration="86000" />
+      <workItem from="1596872863729" duration="11289000" />
+      <workItem from="1596891813747" duration="7062000" />
+      <workItem from="1596907521358" duration="6753000" />
+      <workItem from="1596942931868" duration="280000" />
+      <workItem from="1596978897834" duration="2019000" />
+      <workItem from="1596991047139" duration="2446000" />
+      <workItem from="1597020779304" duration="1382000" />
     </task>
     <servers />
   </component>
@@ -179,50 +227,86 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="277" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1596627907319" />
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1596772424642">
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1596992973781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1596772424642" />
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1596992973781" />
+    <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1596774319459">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1596774319459" />
+    <state x="475" y="254" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596911988123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="254" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1596911988123" />
+    <state x="425" y="275" width="609" height="186" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1596774321094">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="425" y="275" width="609" height="186" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1596774321094" />
+    <state x="417" y="116" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1596992258422">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="417" y="116" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1596992258422" />
+    <state x="442" y="72" key="#xdebugger.evaluate" timestamp="1596943145579">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="72" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1596943145579" />
     <state x="305" y="0" key="CommitChangelistDialog2" timestamp="1596528778525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="305" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596528778525" />
-    <state x="460" y="107" key="FileChooserDialogImpl" timestamp="1596437740195">
+    <state x="460" y="107" key="FileChooserDialogImpl" timestamp="1596979171515">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596437740195" />
-    <state width="1286" height="169" key="GridCell.Tab.0.bottom" timestamp="1596772926102">
+    <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596979171515" />
+    <state width="1286" height="223" key="GridCell.Tab.0.bottom" timestamp="1596993509680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596772926102" />
-    <state width="1286" height="169" key="GridCell.Tab.0.center" timestamp="1596772926102">
+    <state width="1286" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596993509680" />
+    <state width="1286" height="223" key="GridCell.Tab.0.center" timestamp="1596993509680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596772926102" />
-    <state width="1286" height="169" key="GridCell.Tab.0.left" timestamp="1596772926102">
+    <state width="1286" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596993509680" />
+    <state width="1286" height="223" key="GridCell.Tab.0.left" timestamp="1596993509680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596772926102" />
-    <state width="1286" height="169" key="GridCell.Tab.0.right" timestamp="1596772926102">
+    <state width="1286" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596993509680" />
+    <state width="1286" height="223" key="GridCell.Tab.0.right" timestamp="1596993509680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596772926102" />
+    <state width="1286" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596993509680" />
+    <state width="1286" height="204" key="GridCell.Tab.1.bottom" timestamp="1596943215685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="204" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596943215685" />
+    <state width="1286" height="204" key="GridCell.Tab.1.center" timestamp="1596943215685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="204" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596943215685" />
+    <state width="1286" height="204" key="GridCell.Tab.1.left" timestamp="1596943215685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="204" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596943215685" />
+    <state width="1286" height="204" key="GridCell.Tab.1.right" timestamp="1596943215685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="204" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596943215685" />
     <state x="193" y="5" key="SettingsEditor" timestamp="1596457094203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596457094203" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596762955195">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597020983254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596762955195" />
-    <state x="497" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596528748415">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597020983254" />
+    <state x="497" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596980326396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="497" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1596528748415" />
-    <state x="259" y="89" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596445918809">
+    <state x="497" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1596980326396" />
+    <state x="259" y="89" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596943100725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="259" y="89" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1596445918809" />
+    <state x="259" y="89" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1596943100725" />
     <state x="765" y="175" key="extract.method.dialog" timestamp="1596637621669">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -51,5 +51,7 @@ class CircleArea {
         circle.setRadius(100);
         System.out.println(circle.toString());
 
+        Circle circle1 = new Circle(5);
+        System.out.println(circle1.getArea());
     }
 }
