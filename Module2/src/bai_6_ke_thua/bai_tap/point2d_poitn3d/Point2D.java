@@ -34,11 +34,11 @@ public class Point2D {
     }
 
     public float[] getXY() {
-        return new float[]{getX(), getY()};
+        return new float[]{this.x, this.y};
     }
 
     @Override
     public String toString() {
-        return "(x,y) = {" + getX() + "," + getY() + "}";
+        return "(x,y) = {" + this.x + "," + this.y + "}";
     }
 }

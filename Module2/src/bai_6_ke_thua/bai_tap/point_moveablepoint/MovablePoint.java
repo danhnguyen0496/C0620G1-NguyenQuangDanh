@@ -51,7 +51,7 @@ public class MovablePoint extends Point {
         float x = getX();
         setX(x += xSpeed);
         float y = getY();
-        setY(y += getYSpeed());
+        setY(y += ySpeed);
         return this;
     }
 

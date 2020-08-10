@@ -1,9 +1,9 @@
 package bai_6_ke_thua.bai_tap.triangle;
 
 public class Triangle extends Shape {
-    public double side1 = 1.0;
-    public double side2 = 1.0;
-    public double side3 = 1.0;
+    private double side1 = 1.0;
+    private double side2 = 1.0;
+    private double side3 = 1.0;
 
     public Triangle() {
     }

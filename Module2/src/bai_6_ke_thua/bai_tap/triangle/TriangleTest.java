@@ -20,7 +20,9 @@ public class TriangleTest {
         triangle.setSide3(scanner.nextDouble());
 
         System.out.print(" + Enter color: ");
-        triangle.setColor(scanner.next());
+
+        scanner.nextLine();
+        triangle.setColor(scanner.nextLine());
 
         System.out.println(triangle.toString());
     }
