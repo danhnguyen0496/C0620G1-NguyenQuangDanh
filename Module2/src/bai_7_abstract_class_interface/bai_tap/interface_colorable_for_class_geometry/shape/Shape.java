@@ -30,9 +30,9 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "A Shape with color of "
+        return "Shape with color of "
                 + getColor()
                 + " and "
-                + (isFilled() ? "filled" : "not filled");
+                + (isFilled() ? " filled " : " not filled ");
     }
 }
