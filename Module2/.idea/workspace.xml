@@ -23,21 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/src.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/bai_9_automated_testing_tdd/bai_tap/calculator_next_day/NextDayCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/bai_9_automated_testing_tdd/thuc_hanh/absolute_number_calculator/AbsoluteNumberCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/thuc_hanh/deployment_class_simple/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/thuc_hanh/deployment_class_simple/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/thuc_hanh/deployment_linkedlist_simple/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/thuc_hanh/deployment_linkedlist_simple/MyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_9_automated_testing_tdd/bai_tap/calculator_next_day/NextDayCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_9_automated_testing_tdd/thuc_hanh/absolute_number_calculator/AbsoluteNumberCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Module2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_8_clean_code_refactoring/bai_tap/refactoring/TennisGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_8_clean_code_refactoring/bai_tap/refactoring/TennisGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +108,7 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_5_access_modifier_static_method_static_property\thuc_hanh\access_modifer\mypack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedList1">
+  <component name="RunManager" selected="Application.MyLinkedTest">
     <configuration name="MyLinkedList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_10_dsa_danh_sach.bai_tap.deployment_method_linkedlist_library_java_util_linkedlist.MyLinkedList1" />
       <module name="Module2" />
@@ -126,6 +118,13 @@
     </configuration>
     <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_10_dsa_danh_sach.thuc_hanh.deployment_linkedlist_simple.MyLinkedListTest" />
+      <module name="Module2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_10_dsa_danh_sach.bai_tap.deployment_method_linkedlist_library_java_util_linkedlist.MyLinkedTest" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,23 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextDayCalculatorTest.findNextDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Module2" />
-      <option name="PACKAGE_NAME" value="bai_9_automated_testing_tdd.bai_tap.calculator_next_day" />
-      <option name="MAIN_CLASS_NAME" value="bai_9_automated_testing_tdd.bai_tap.calculator_next_day.NextDayCalculatorTest" />
-      <option name="METHOD_NAME" value="findNextDay" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyLinkedTest" />
         <item itemvalue="Application.MyLinkedList1" />
         <item itemvalue="Application.MyListTest (1)" />
         <item itemvalue="Application.MyListTest" />
         <item itemvalue="Application.MyLinkedListTest" />
-        <item itemvalue="JUnit.NextDayCalculatorTest.findNextDay" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +205,8 @@
       <workItem from="1597306703979" duration="9198000" />
       <workItem from="1597319989464" duration="10000" />
       <workItem from="1597325349646" duration="6838000" />
-      <workItem from="1597365509765" duration="12723000" />
+      <workItem from="1597365509765" duration="15970000" />
+      <workItem from="1597392547600" duration="854000" />
     </task>
     <servers />
   </component>
@@ -253,10 +243,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="88" y="103" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1597205900739" />
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1597372177751">
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1597380868171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597372177751" />
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597380868171" />
     <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597373318400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -301,38 +291,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597204003159" />
-    <state width="1286" height="204" key="GridCell.Tab.0.bottom" timestamp="1597374248633">
+    <state width="1286" height="204" key="GridCell.Tab.0.bottom" timestamp="1597392754306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597374248633" />
-    <state width="1286" height="204" key="GridCell.Tab.0.center" timestamp="1597374248632">
+    <state width="1286" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597392754306" />
+    <state width="1286" height="204" key="GridCell.Tab.0.center" timestamp="1597392754306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597374248632" />
-    <state width="1286" height="204" key="GridCell.Tab.0.left" timestamp="1597374248632">
+    <state width="1286" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597392754306" />
+    <state width="1286" height="204" key="GridCell.Tab.0.left" timestamp="1597392754301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597374248632" />
-    <state width="1286" height="204" key="GridCell.Tab.0.right" timestamp="1597374248633">
+    <state width="1286" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597392754301" />
+    <state width="1286" height="204" key="GridCell.Tab.0.right" timestamp="1597392754306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597374248633" />
-    <state width="1286" height="204" key="GridCell.Tab.1.bottom" timestamp="1597374248634">
+    <state width="1286" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597392754306" />
+    <state width="643" height="204" key="GridCell.Tab.1.bottom" timestamp="1597381559762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597374248634" />
-    <state width="1286" height="204" key="GridCell.Tab.1.center" timestamp="1597374248633">
+    <state width="643" height="204" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597381559762" />
+    <state width="643" height="204" key="GridCell.Tab.1.center" timestamp="1597381559761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597374248633" />
-    <state width="1286" height="204" key="GridCell.Tab.1.left" timestamp="1597374248633">
+    <state width="643" height="204" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597381559761" />
+    <state width="643" height="204" key="GridCell.Tab.1.left" timestamp="1597381559761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597374248633" />
-    <state width="1286" height="204" key="GridCell.Tab.1.right" timestamp="1597374248634">
+    <state width="643" height="204" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597381559761" />
+    <state width="643" height="204" key="GridCell.Tab.1.right" timestamp="1597381559762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597374248634" />
+    <state width="643" height="204" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597381559762" />
     <state x="498" y="296" key="ReplaceDuplicatesPrompt" timestamp="1597114609044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -341,10 +331,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597237264622" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597365857177">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597392564074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597365857177" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597392564074" />
     <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597110946949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -383,7 +373,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.java</url>
-          <line>123</line>
+          <line>124</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

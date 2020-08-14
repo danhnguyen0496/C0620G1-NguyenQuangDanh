@@ -1,4 +1,4 @@
-package bai_10_dsa_danh_sach.bai_tap.deployment_method_linkedlist_library_java_util_linkedlist;
+/*package bai_10_dsa_danh_sach.bai_tap.deployment_method_linkedlist_library_java_util_linkedlist;
 
 import bai_10_dsa_danh_sach.bai_tap.deployment_method_arraylist_library_java_util_arraylist.MyList;
 
@@ -25,7 +25,7 @@ public class MyLinkedList1 {
         public Node(Object data) {
             this.data = data;
         }
-    }
+    }*/
 
     // 10,20,....,30,50
     // 40 = new Node (40)
@@ -33,6 +33,7 @@ public class MyLinkedList1 {
     // holder = 30.next = 30,50
     // 40.next = holder
     /// 10.next =20; 20.next = 40; 40.next =30; 30.next =50
+/*
     public void add(int index, Object element) {
         Node temp = head;
         Node holder;
@@ -124,3 +125,4 @@ public class MyLinkedList1 {
         System.out.println();
     }
 }
+*/

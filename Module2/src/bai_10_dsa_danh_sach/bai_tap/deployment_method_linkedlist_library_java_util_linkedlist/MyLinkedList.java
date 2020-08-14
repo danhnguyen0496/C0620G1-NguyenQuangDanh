@@ -25,6 +25,15 @@ public class MyLinkedList {
         }
     }
 
+    @Override
+    public String toString() {
+        return "MyLinkedList{" +
+                "head=" + head +
+                ", tail=" + tail +
+                ", numNode=" + numNode +
+                '}';
+    }
+
     public void add(int index, Object element) {
         Node temp = head;
         Node holder;
@@ -106,8 +115,18 @@ public class MyLinkedList {
         }
     }
 
-    public int size() {
-        return numNode;
+    public boolean remove(Object e) {
+        if (numNode == 1) tail = head;
+        Node temp;
+        temp = head;
+        for (int i = 0; i < numNode; i++) {
+            if (temp.next.equals(e)) {
+                temp.next = temp.next.next;
+                return true;
+            }
+            temp = temp.next;
+        }
+        return false;
     }
 
     public Object get(int index) {
@@ -131,6 +150,19 @@ public class MyLinkedList {
         return temp.data;
     }
 
+    public int size() {
+        return numNode;
+    }
+
+    public void printList() {
+        Node temp = head;
+        while (temp != null) {
+            System.out.println(temp.data);
+            temp = temp.next;
+        }
+    }
+
+
     public void clear(int index) {
         Node temp = head;
         for (int i = 0; i < index; i++) {
@@ -140,13 +172,37 @@ public class MyLinkedList {
     }
 
     public int indexOf(Object data) {
-        head = new Node(data);
+        Node temp = head;
         for (int i = 0; i < numNode; i++) {
-            if (data.equals(())) {
+            if (temp.getData() == data)
+                return i;
+            temp = temp.next;
+        }
+        return -1;
+    }
 
+    public boolean contains(Object element) {
+        Node temp = head;
+        temp = temp.next;
+        for (int i = 0; i < numNode; i++) {
+            if (temp.getData() == element) {
+                return true;
             }
         }
+        return false;
+    }
 
-
+    public MyLinkedList clone() {
+        MyLinkedList newLinkedList = new MyLinkedList();
+        Node temp = head;
+        newLinkedList.addFirst(temp.getData());
+        temp = temp.next;
+        for (int i = 1; i < numNode; i++) {
+            newLinkedList.addLast(temp.getData());
+            temp = temp.next;
+        }
+        return newLinkedList;
     }
 }
+
+
