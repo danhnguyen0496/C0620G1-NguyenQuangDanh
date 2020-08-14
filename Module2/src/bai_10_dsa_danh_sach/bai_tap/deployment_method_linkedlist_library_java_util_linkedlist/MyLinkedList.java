@@ -138,8 +138,7 @@ public class MyLinkedList {
     }
 
     public Object getFirst() {
-        Node temp = head;
-        return temp.data;
+        return head.data;
     }
 
     public Object getLast() {

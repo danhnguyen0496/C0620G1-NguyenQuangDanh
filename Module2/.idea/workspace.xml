@@ -23,13 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +203,7 @@
       <workItem from="1597319989464" duration="10000" />
       <workItem from="1597325349646" duration="6838000" />
       <workItem from="1597365509765" duration="15970000" />
-      <workItem from="1597392547600" duration="854000" />
+      <workItem from="1597392547600" duration="3561000" />
     </task>
     <servers />
   </component>
@@ -291,22 +288,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597204003159" />
-    <state width="1286" height="204" key="GridCell.Tab.0.bottom" timestamp="1597392754306">
+    <state width="1286" height="105" key="GridCell.Tab.0.bottom" timestamp="1597393572870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597392754306" />
-    <state width="1286" height="204" key="GridCell.Tab.0.center" timestamp="1597392754306">
+    <state width="1286" height="105" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597393572870" />
+    <state width="1286" height="105" key="GridCell.Tab.0.center" timestamp="1597393572870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597392754306" />
-    <state width="1286" height="204" key="GridCell.Tab.0.left" timestamp="1597392754301">
+    <state width="1286" height="105" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597393572870" />
+    <state width="1286" height="105" key="GridCell.Tab.0.left" timestamp="1597393572870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597392754301" />
-    <state width="1286" height="204" key="GridCell.Tab.0.right" timestamp="1597392754306">
+    <state width="1286" height="105" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597393572870" />
+    <state width="1286" height="105" key="GridCell.Tab.0.right" timestamp="1597393572870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597392754306" />
+    <state width="1286" height="105" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597393572870" />
     <state width="643" height="204" key="GridCell.Tab.1.bottom" timestamp="1597381559762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
