@@ -23,10 +23,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertNumberStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/deployment_queue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/deployment_queue/MyQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/reverse_element_array_integer_use_stack/ReverseElementStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_use_class_linkedlist/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_use_class_linkedlist/MyGenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/optional_deployment_queue_use_array/MyQueueOptional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/optional_deployment_queue_use_array/QueueOptionalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/optional_deployment_stack_use_array/MyStackOptional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/optional_deployment_stack_use_array/StackOptionalMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module1/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Module1/text.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +107,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bai_10_dsa_danh_sach.bai_tap.deployment_method_linkedlist_library_java_util_linkedlist" />
       <recent name="bai_9_automated_testing_tdd.thuc_hanh.simple_calculator" />
       <recent name="bai_8_clean_code_refactoring.bai_tap.refactoring" />
       <recent name="bai_5_access_modifier_static_method_static_property.thuc_hanh.access_modifer" />
@@ -105,37 +129,37 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_5_access_modifier_static_method_static_property\thuc_hanh\access_modifer\mypack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedTest">
-    <configuration name="MyLinkedList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_10_dsa_danh_sach.bai_tap.deployment_method_linkedlist_library_java_util_linkedlist.MyLinkedList1" />
+  <component name="RunManager" selected="Application.QueueOptionalMain">
+    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.thuc_hanh.deployment_queue.LinkedListQueueClient" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_10_dsa_danh_sach.thuc_hanh.deployment_linkedlist_simple.MyLinkedListTest" />
+    <configuration name="MyQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.bai_tap.deployment_queue.MyQueueTest" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_10_dsa_danh_sach.bai_tap.deployment_method_linkedlist_library_java_util_linkedlist.MyLinkedTest" />
+    <configuration name="QueueOptionalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.thuc_hanh.optional_deployment_queue_use_array.QueueOptionalMain" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_10_dsa_danh_sach.bai_tap.deployment_method_arraylist_library_java_util_arraylist.MyListTest" />
+    <configuration name="ReverseElementStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.bai_tap.reverse_element_array_integer_use_stack.ReverseElementStack" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_10_dsa_danh_sach.thuc_hanh.deployment_class_simple.MyListTest" />
+    <configuration name="StackOptionalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.thuc_hanh.optional_deployment_stack_use_array.StackOptionalMain" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyLinkedTest" />
-        <item itemvalue="Application.MyLinkedList1" />
-        <item itemvalue="Application.MyListTest (1)" />
-        <item itemvalue="Application.MyListTest" />
-        <item itemvalue="Application.MyLinkedListTest" />
+        <item itemvalue="Application.QueueOptionalMain" />
+        <item itemvalue="Application.StackOptionalMain" />
+        <item itemvalue="Application.MyQueueTest" />
+        <item itemvalue="Application.ReverseElementStack" />
+        <item itemvalue="Application.LinkedListQueueClient" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +227,15 @@
       <workItem from="1597319989464" duration="10000" />
       <workItem from="1597325349646" duration="6838000" />
       <workItem from="1597365509765" duration="15970000" />
-      <workItem from="1597392547600" duration="3561000" />
+      <workItem from="1597392547600" duration="4408000" />
+      <workItem from="1597461048043" duration="19128000" />
+      <workItem from="1597486625191" duration="294000" />
+      <workItem from="1597488464340" duration="12943000" />
+      <workItem from="1597542170114" duration="16162000" />
+      <workItem from="1597565695602" duration="7510000" />
+      <workItem from="1597582128841" duration="2736000" />
+      <workItem from="1597586726089" duration="3713000" />
+      <workItem from="1597625917432" duration="1197000" />
     </task>
     <servers />
   </component>
@@ -240,18 +272,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="88" y="103" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1597205900739" />
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1597380868171">
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1597574370344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597380868171" />
-    <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597373318400">
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597574370344" />
+    <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597463025692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1597373318400" />
-    <state x="475" y="254" width="705" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597195096378">
+    <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1597463025692" />
+    <state x="475" y="254" width="710" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597463027218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="475" y="254" width="705" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1597195096378" />
+    <state x="475" y="254" width="710" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1597463027218" />
     <state x="425" y="275" width="609" height="186" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1596774321094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -260,10 +292,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="255" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1597366522931" />
-    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597111490486">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597465342609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597111490486" />
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597465342609" />
     <state x="417" y="116" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1596992258422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -288,38 +320,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597204003159" />
-    <state width="1286" height="105" key="GridCell.Tab.0.bottom" timestamp="1597393572870">
+    <state width="1286" height="266" key="GridCell.Tab.0.bottom" timestamp="1597584895203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="105" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597393572870" />
-    <state width="1286" height="105" key="GridCell.Tab.0.center" timestamp="1597393572870">
+    <state width="1286" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597584895203" />
+    <state width="1286" height="266" key="GridCell.Tab.0.center" timestamp="1597584895203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="105" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597393572870" />
-    <state width="1286" height="105" key="GridCell.Tab.0.left" timestamp="1597393572870">
+    <state width="1286" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597584895203" />
+    <state width="1286" height="266" key="GridCell.Tab.0.left" timestamp="1597584895203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="105" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597393572870" />
-    <state width="1286" height="105" key="GridCell.Tab.0.right" timestamp="1597393572870">
+    <state width="1286" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597584895203" />
+    <state width="1286" height="266" key="GridCell.Tab.0.right" timestamp="1597584895203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="105" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597393572870" />
-    <state width="643" height="204" key="GridCell.Tab.1.bottom" timestamp="1597381559762">
+    <state width="1286" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597584895203" />
+    <state width="643" height="204" key="GridCell.Tab.1.bottom" timestamp="1597565545879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="643" height="204" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597381559762" />
-    <state width="643" height="204" key="GridCell.Tab.1.center" timestamp="1597381559761">
+    <state width="643" height="204" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597565545879" />
+    <state width="643" height="204" key="GridCell.Tab.1.center" timestamp="1597565545879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="643" height="204" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597381559761" />
-    <state width="643" height="204" key="GridCell.Tab.1.left" timestamp="1597381559761">
+    <state width="643" height="204" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597565545879" />
+    <state width="643" height="204" key="GridCell.Tab.1.left" timestamp="1597565545879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="643" height="204" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597381559761" />
-    <state width="643" height="204" key="GridCell.Tab.1.right" timestamp="1597381559762">
+    <state width="643" height="204" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597565545879" />
+    <state width="643" height="204" key="GridCell.Tab.1.right" timestamp="1597565545879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="643" height="204" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597381559762" />
+    <state width="643" height="204" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597565545879" />
     <state x="498" y="296" key="ReplaceDuplicatesPrompt" timestamp="1597114609044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -328,10 +360,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597237264622" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597392564074">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597625973641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597392564074" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597625973641" />
     <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597110946949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -352,28 +384,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="765" y="175" width="540" height="496" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1597196455573" />
+    <state x="376" y="0" width="607" height="728" key="find.popup" timestamp="1597549119095">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="376" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1597549119095" />
     <state x="63" y="0" key="new project wizard" timestamp="1596437741120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="63" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1596437741120" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1597026655054">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1597564535452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1597026655054" />
-    <state x="355" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596444113593">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1597564535452" />
+    <state x="355" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597550402529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="355" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596444113593" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.java</url>
-          <line>124</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="355" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1597550402529" />
   </component>
 </project>

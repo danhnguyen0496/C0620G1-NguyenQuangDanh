@@ -1,207 +1,204 @@
 package bai_10_dsa_danh_sach.bai_tap.deployment_method_linkedlist_library_java_util_linkedlist;
 
-public class MyLinkedList {
+public class MyLinkedList<E> {
     private Node head;
     private Node tail;
-    private int numNode = 0;
-
-    public MyLinkedList() {
-    }
+    private int numNodes = 0;
 
     public MyLinkedList(Object data) {
         head = new Node(data);
+    }
+
+    public MyLinkedList() {
+
     }
 
     private class Node {
         private Node next;
         private Object data;
 
-        public Object getData() {
-            return data;
-        }
-
         public Node(Object data) {
             this.data = data;
         }
+
+        public Object getData() {
+            return data;
     }
 
-    @Override
-    public String toString() {
-        return "MyLinkedList{" +
-                "head=" + head +
-                ", tail=" + tail +
-                ", numNode=" + numNode +
-                '}';
+        @Override
+        public String toString() {
+            return data.toString();
+        }
     }
 
-    public void add(int index, Object element) {
+    public void add(int index, E element) {
         Node temp = head;
         Node holder;
+
         for (int i = 0; i < index - 1 && temp.next != null; i++) {
             temp = temp.next;
         }
         holder = temp.next;
         temp.next = new Node(element);
         temp.next.next = holder;
-        numNode++;
+        numNodes++;
     }
 
-    public void addFirst(Object data) {
+    public void addFirst(E element) {
         Node temp = head;
-        head = new Node(data);
+        head = new Node(element);
         head.next = temp;
-        numNode++;
-
-//        Node newNode = new Node(data);
-//        newNode.next = head;
-//        head = newNode;
-//        numNode++;
+        if (tail == null) tail = head;
+        numNodes++;
     }
 
-    public void addLast(Object data) {
-        Node temp = head;
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-        temp.next = new Node(data);
-        numNode++;
+    public void addLast(E element) {
+        Node temp = tail;
+        tail = new Node(element);
+        tail.next = temp;
+        tail = temp;
+        if (tail == null) tail = head;
+        numNodes++;
     }
 
-    public Object removeFirst() {
-        if (numNode == 0) return null;
+    public E removeFirst() {
+        if (numNodes <= 0) return null;
         else {
             Node temp = head;
-            head = temp.next;
-            numNode--;
+            head = head.next;
+            numNodes--;
             if (head == null) tail = null;
-            return temp.data;
+            return (E) temp.getData();
         }
     }
 
-    public Object removeLast() {
-        if (numNode == 0) return null;
-        else if (numNode == 1) {
-            Node temp = head;
+    public E removeLast() {
+        if (numNodes <= 0) return null;
+        else if (numNodes == 1) {
+            Node temp1 = head;
             head = tail = null;
-            numNode = 0;
-            return temp.data;
+            numNodes = 0;
+            return (E) temp1.getData();
         } else {
-            Node current = head;
-            for (int i = 0; i < numNode - 2; i++) {
-                current = current.next;
+            Node temp2 = head;
+            for (int i = 1; i < numNodes; i++) {
+                temp2 = temp2.next;
             }
             Node temp = tail;
-            temp = current;
+            tail = temp2;
             tail.next = null;
-            numNode--;
-            return temp.data;
+            numNodes--;
+            return (E) temp.getData();
         }
     }
 
-
-    public Object remove(int index) {
-        if (index < 0 || index >= numNode) return null;
+    public E remove(int index) {
+        if (index < 0 || index >= numNodes) return null;
+        else if (index == numNodes - 1) return removeLast();
         else if (index == 0) return removeFirst();
-        else if (index == numNode - 1) return removeLast();
         else {
-            Node previous = head;
+            Node temp = head;
             for (int i = 1; i < index; i++) {
-                previous = previous.next;
+                temp = temp.next;
             }
-            Node current = previous.next;
-            previous.next = current.next;
-            numNode--;
-            return current.data;
+            temp.next = temp.next.next;
+            numNodes--;
+            return (E) temp.getData();
         }
     }
 
-    public boolean remove(Object e) {
-        if (numNode == 1) tail = head;
+    public boolean remove(E element) {
+        if (numNodes == 1) head = tail;
         Node temp;
         temp = head;
-        for (int i = 0; i < numNode; i++) {
-            if (temp.next.equals(e)) {
+        for (int i = 0; i < numNodes; i++) {
+            if (temp.next.equals(element)) {
                 temp.next = temp.next.next;
                 return true;
             }
-            temp = temp.next;
+            temp = tail.next;
         }
         return false;
     }
 
-    public Object get(int index) {
+    public E get(int index) {
         Node temp = head;
-        for (int i = 0; i < index; i++) {
+        for (int i = 0; i <= index; i++) {
             temp = temp.next;
         }
-        return temp.data;
+        return (E) temp.getData();
     }
 
-    public Object getFirst() {
-        return head.data;
+    public E getFirst() {
+        return (E) head;
     }
 
-    public Object getLast() {
-        Node temp = head;
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-        return temp.data;
+    public E getLast() {
+        return (E) tail;
+
+//        Node temp = head;
+//        while (temp.next != null) {
+//            temp = temp.next;
+//        }
+//        return (E) temp.data;
     }
 
     public int size() {
-        return numNode;
+        return this.numNodes;
     }
 
     public void printList() {
         Node temp = head;
-        while (temp != null) {
-            System.out.println(temp.data);
+        for (int i = 1; i <= numNodes; i++) {
+            System.out.println(temp.getData());
             temp = temp.next;
         }
+//        while (temp.next != null) {
+//            System.out.println(temp.data);
+//            temp = temp.next;
+//        }
     }
 
-
-    public void clear(int index) {
+    public MyLinkedList<E> clone() {
+        MyLinkedList<E> myLinkedList = new MyLinkedList<E>();
         Node temp = head;
-        for (int i = 0; i < index; i++) {
-            temp = temp.next;
-            temp.next = null;
-        }
-    }
-
-    public int indexOf(Object data) {
-        Node temp = head;
-        for (int i = 0; i < numNode; i++) {
-            if (temp.getData() == data)
-                return i;
-            temp = temp.next;
-        }
-        return -1;
-    }
-
-    public boolean contains(Object element) {
-        Node temp = head;
+        myLinkedList.addFirst((E) temp.getData());
         temp = temp.next;
-        for (int i = 0; i < numNode; i++) {
-            if (temp.getData() == element) {
-                return true;
-            }
+        while (temp != null) {
+            temp = temp.next;
+        }
+        return myLinkedList;
+    }
+
+    public boolean contains(E o) {
+        Node temp = head;
+        for (int i = 1; i <= numNodes; i++) {
+            temp = temp.next;
+            if (o.equals(temp.getData())) ;
+            return true;
         }
         return false;
     }
 
-    public MyLinkedList clone() {
-        MyLinkedList newLinkedList = new MyLinkedList();
+    public int indexOf(E o) {
         Node temp = head;
-        newLinkedList.addFirst(temp.getData());
-        temp = temp.next;
-        for (int i = 1; i < numNode; i++) {
-            newLinkedList.addLast(temp.getData());
+        for (int i = 1; i <= numNodes; i++) {
+            temp = temp.next;
+            if (o.equals(temp.getData())) ;
+            return i;
+        }
+        return -1;
+    }
+
+    public String toString() {
+        Node temp = head;
+        String str = "";
+        for (int i = 1; i < numNodes; i++) {
+            str += temp + ", ";
             temp = temp.next;
         }
-        return newLinkedList;
+        str += tail;
+        return str;
     }
 }
-
 

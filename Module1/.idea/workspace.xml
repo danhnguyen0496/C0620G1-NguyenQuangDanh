@@ -2,41 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/bai_tap/ChuyenDoiTienTe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/bai_tap/DocSoThanhChu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/bai_tap/HienThiLoiChao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/DeclareAndUseVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/KiemTraNamNhuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/PhuongTrinhBacNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/RectangularArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/SoNgayTrongThang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/SystemTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_1_introduction_to_java/thuc_hanh/TinhCanNang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_2_vong_lap_trong_java/bai_tap/HienThiHinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_2_vong_lap_trong_java/thuc_hanh/KiemTraSoNguyenTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_2_vong_lap_trong_java/thuc_hanh/ThietKeMenuUngDung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_2_vong_lap_trong_java/thuc_hanh/TinhTienLai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_2_vong_lap_trong_java/thuc_hanh/UocChungLonNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_use_class_linkedlist/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_use_class_linkedlist/MyGenericStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Module2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/.idea/bai_1_introduction_to_java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/DeclareAndUseVariables.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/DeclareAndUseVariables/src/DeclareAndUseVariables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/SystemTime.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/out/production/SystemTime/DeclareAndUseVariables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/out/production/SystemTime/SystemTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/bai_1_introduction_to_java/SystemTime/src/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +179,7 @@
       <workItem from="1596198709070" duration="2859000" />
       <workItem from="1596426024256" duration="187000" />
       <workItem from="1596457314908" duration="4245000" />
+      <workItem from="1597497802285" duration="155000" />
     </task>
     <servers />
   </component>
