@@ -23,33 +23,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertNumberStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/deployment_queue/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/deployment_queue/MyQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/reverse_element_array_integer_use_stack/ReverseElementStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/MyLinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_use_class_linkedlist/GenericStackClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_use_class_linkedlist/MyGenericStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/optional_deployment_queue_use_array/MyQueueOptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/optional_deployment_queue_use_array/QueueOptionalMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/optional_deployment_stack_use_array/MyStackOptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/optional_deployment_stack_use_array/StackOptionalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_bracket_in_expression/CheckBracket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheckMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertNumberStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/check_bracket_in_expression/CheckBracket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheckMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/phan_biet_hashmap_hashset/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/use_hashmap_linkedhashmap_treemap_save_list_student_age/TestMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module1/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Module1/text.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertNumberStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertNumberStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,30 +123,9 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_5_access_modifier_static_method_static_property\thuc_hanh\access_modifer\mypack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueOptionalMain">
+  <component name="RunManager" selected="Application.StudentMain">
     <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.thuc_hanh.deployment_queue.LinkedListQueueClient" />
-      <module name="Module2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.bai_tap.deployment_queue.MyQueueTest" />
-      <module name="Module2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueOptionalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.thuc_hanh.optional_deployment_queue_use_array.QueueOptionalMain" />
-      <module name="Module2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseElementStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.bai_tap.reverse_element_array_integer_use_stack.ReverseElementStack" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,12 +138,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_framework.thuc_hanh.phan_biet_hashmap_hashset.Student" />
+      <module name="Module2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_framework.thuc_hanh.sort_with_comparable_comparator.StudentMain" />
+      <module name="Module2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_framework.thuc_hanh.use_hashmap_linkedhashmap_treemap_save_list_student_age.TestMap" />
+      <module name="Module2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QueueOptionalMain" />
+        <item itemvalue="Application.StudentMain" />
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.TestMap" />
         <item itemvalue="Application.StackOptionalMain" />
-        <item itemvalue="Application.MyQueueTest" />
-        <item itemvalue="Application.ReverseElementStack" />
         <item itemvalue="Application.LinkedListQueueClient" />
       </list>
     </recent_temporary>
@@ -235,7 +229,10 @@
       <workItem from="1597565695602" duration="7510000" />
       <workItem from="1597582128841" duration="2736000" />
       <workItem from="1597586726089" duration="3713000" />
-      <workItem from="1597625917432" duration="1197000" />
+      <workItem from="1597625917432" duration="14929000" />
+      <workItem from="1597645467391" duration="6925000" />
+      <workItem from="1597666980897" duration="5899000" />
+      <workItem from="1597711850901" duration="1752000" />
     </task>
     <servers />
   </component>
@@ -260,10 +257,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="280" y="39" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1596554804605" />
-    <state x="277" y="0" width="816" height="728" key="#Intentions" timestamp="1597204614517">
+    <state x="277" y="0" width="816" height="728" key="#Intentions" timestamp="1597671589241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="277" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1597204614517" />
+    <state x="277" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1597671589241" />
     <state x="245" y="24" key="#Project_Structure" timestamp="1597204382735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,10 +269,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="88" y="103" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1597205900739" />
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1597574370344">
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1597671447660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597574370344" />
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597671447660" />
     <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597463025692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -320,22 +317,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597204003159" />
-    <state width="1286" height="266" key="GridCell.Tab.0.bottom" timestamp="1597584895203">
+    <state width="1286" height="152" key="GridCell.Tab.0.bottom" timestamp="1597676579460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597584895203" />
-    <state width="1286" height="266" key="GridCell.Tab.0.center" timestamp="1597584895203">
+    <state width="1286" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597676579460" />
+    <state width="1286" height="152" key="GridCell.Tab.0.center" timestamp="1597676579460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597584895203" />
-    <state width="1286" height="266" key="GridCell.Tab.0.left" timestamp="1597584895203">
+    <state width="1286" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597676579460" />
+    <state width="1286" height="152" key="GridCell.Tab.0.left" timestamp="1597676579445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597584895203" />
-    <state width="1286" height="266" key="GridCell.Tab.0.right" timestamp="1597584895203">
+    <state width="1286" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597676579445" />
+    <state width="1286" height="152" key="GridCell.Tab.0.right" timestamp="1597676579460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597584895203" />
+    <state width="1286" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597676579460" />
     <state width="643" height="204" key="GridCell.Tab.1.bottom" timestamp="1597565545879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -360,10 +357,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597237264622" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597625973641">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597712127778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597625973641" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597712127778" />
     <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597110946949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

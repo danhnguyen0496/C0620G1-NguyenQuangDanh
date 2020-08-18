@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/MyLinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_use_class_linkedlist/GenericStackClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_use_class_linkedlist/MyGenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_bracket_in_expression/CheckBracket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheckMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertNumberStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/bai_tap/check_bracket_in_expression/CheckBracket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheckMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_12_java_collection_framework/thuc_hanh/phan_biet_hashmap_hashset/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2/src/bai_12_java_collection_framework/thuc_hanh/use_hashmap_linkedhashmap_treemap_save_list_student_age/TestMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Module2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_arraylist_library_java_util_arraylist/MyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedList1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_10_dsa_danh_sach/bai_tap/deployment_method_linkedlist_library_java_util_linkedlist/MyLinkedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/out/production/Module2/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertNumberStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertNumberStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +183,7 @@
       <workItem from="1596426024256" duration="187000" />
       <workItem from="1596457314908" duration="4245000" />
       <workItem from="1597497802285" duration="155000" />
+      <workItem from="1597673128448" duration="554000" />
     </task>
     <servers />
   </component>
