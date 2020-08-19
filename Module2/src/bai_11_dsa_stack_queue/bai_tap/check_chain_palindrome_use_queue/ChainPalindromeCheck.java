@@ -1,7 +1,7 @@
 package bai_11_dsa_stack_queue.bai_tap.check_chain_palindrome_use_queue;
 
+import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -23,24 +23,19 @@ public class ChainPalindromeCheck {
         System.out.println(queue);
 
         // so sánh stack.pop() và queue.remove()
-        String result = " ";
+        Character[] st1 = new Character[str.length() / 2];
+        Character[] st2 = new Character[str.length() / 2];
         for (int i = 0; i < str.length() / 2; i++) {
-            if (stack.pop().equals(queue.remove())) {
-                result = "String is Palindrome";
-            } else {
-                result = "String is not Palindrome";
-            }
+            st1[i] = stack.pop();
+            st2[i] = queue.remove();
         }
-        System.out.println(result);
+        if (Arrays.equals(st1, st2)) {
+            System.out.println("String is Palindrome");
+        } else {
+            System.out.println("String is not Palindrome");
+        }
     }
 }
-
-// xóa từng ký tự mảng stackBefore và thêm vào mảng mới stackAfter
-//        Stack<Character> stackAfter = new Stack<>();
-//        for (int i = 0; i < str.length(); i++) {
-//            stackAfter.push(stackBefore.pop());
-//        }
-//                System.out.println(stackAfter);
 
 
 

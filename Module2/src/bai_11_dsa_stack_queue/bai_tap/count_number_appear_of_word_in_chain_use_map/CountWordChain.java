@@ -1,16 +1,21 @@
 package bai_11_dsa_stack_queue.bai_tap.count_number_appear_of_word_in_chain_use_map;
 
-import java.util.HashMap;
-import java.util.Stack;
+import java.util.TreeMap;
 
 public class CountWordChain {
     public void countWord(String str) {
 
-        Stack<String> stack = new Stack<>();
+        str = str.toLowerCase();
+        TreeMap<String, Integer> treeMap = new TreeMap<>();
         String[] string = str.split(" ");
-        for (int i = 0; i < str.length(); i++) {
-            stack.push(string[i].toLowerCase());
+        for (String element : string) {
+            if (treeMap.containsKey(element)) {
+                int value = treeMap.get(element);
+                treeMap.put(element, ++value);
+            } else {
+                treeMap.put(element, 1);
+            }
         }
-
+        System.out.println(treeMap);
     }
 }

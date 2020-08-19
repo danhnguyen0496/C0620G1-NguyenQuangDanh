@@ -23,27 +23,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_bracket_in_expression/CheckBracket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheckMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertNumberStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/check_bracket_in_expression/CheckBracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheckMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/phan_biet_hashmap_hashset/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/AgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/StudentMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/use_hashmap_linkedhashmap_treemap_save_list_student_age/TestMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/setup_browse_in_order_postorder_binary_search_tree/BSTMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/setup_browse_in_order_postorder_binary_search_tree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/setup_browse_in_order_postorder_binary_search_tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/cai_dat_cay_tim_kiem_nhi_phan/AbstractTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/cai_dat_cay_tim_kiem_nhi_phan/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/cai_dat_cay_tim_kiem_nhi_phan/TestBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/cai_dat_cay_tim_kiem_nhi_phan/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/cai_dat_cay_tim_kiem_nhi_phan/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertNumberStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/convert_from_decimal_to_binary/ConvertNumberStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/StudentMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/StudentMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/thuc_hanh/deployment_queue/LinkedListQueueClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +51,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -87,7 +84,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -107,6 +104,7 @@
       <recent name="bai_5_access_modifier_static_method_static_property.thuc_hanh.access_modifer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bai_12_java_collection_framework.bai_tap.use_arraylist_linkedlist_in_java_collection_frameword" />
       <recent name="bai_10_dsa_danh_sach.bai_tap.deployment_method_linkedlist_library_java_util_linkedlist" />
       <recent name="bai_10_dsa_danh_sach.thuc_hanh.deployment_class_simple" />
       <recent name="bai_7_abstract_class_interface.thuc_hanh.interface_comparator_for_geometry" />
@@ -123,37 +121,37 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_5_access_modifier_static_method_static_property\thuc_hanh\access_modifer\mypack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentMain">
-    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.thuc_hanh.deployment_queue.LinkedListQueueClient" />
+  <component name="RunManager" selected="Application.ProductManager">
+    <configuration name="BSTMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_framework.bai_tap.setup_browse_in_order_postorder_binary_search_tree.BSTMain" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOptionalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.thuc_hanh.optional_deployment_stack_use_array.StackOptionalMain" />
+    <configuration name="ChainPalindromeCheckMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.bai_tap.check_chain_palindrome_use_queue.ChainPalindromeCheckMain" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_framework.thuc_hanh.phan_biet_hashmap_hashset.Student" />
+    <configuration name="ProductManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_framework.bai_tap.use_arraylist_linkedlist_in_java_collection_frameword.ProductManager" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_framework.thuc_hanh.sort_with_comparable_comparator.StudentMain" />
+    <configuration name="ProductManagerLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_framework.bai_tap.use_arraylist_linkedlist_in_java_collection_frameword.ProductManagerLinkedList" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_framework.thuc_hanh.use_hashmap_linkedhashmap_treemap_save_list_student_age.TestMap" />
+    <configuration name="TestBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_framework.thuc_hanh.cai_dat_cay_tim_kiem_nhi_phan.TestBST" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentMain" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.TestMap" />
-        <item itemvalue="Application.StackOptionalMain" />
-        <item itemvalue="Application.LinkedListQueueClient" />
+        <item itemvalue="Application.ProductManager" />
+        <item itemvalue="Application.BSTMain" />
+        <item itemvalue="Application.TestBST" />
+        <item itemvalue="Application.ProductManagerLinkedList" />
+        <item itemvalue="Application.ChainPalindromeCheckMain" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +230,11 @@
       <workItem from="1597625917432" duration="14929000" />
       <workItem from="1597645467391" duration="6925000" />
       <workItem from="1597666980897" duration="5899000" />
-      <workItem from="1597711850901" duration="1752000" />
+      <workItem from="1597711850901" duration="16491000" />
+      <workItem from="1597738111689" duration="7475000" />
+      <workItem from="1597753529853" duration="11756000" />
+      <workItem from="1597796860458" duration="16070000" />
+      <workItem from="1597818448203" duration="8710000" />
     </task>
     <servers />
   </component>
@@ -269,10 +271,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="88" y="103" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1597205900739" />
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1597671447660">
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1597824601245">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597671447660" />
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597824601245" />
     <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597463025692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -317,22 +319,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597204003159" />
-    <state width="1286" height="152" key="GridCell.Tab.0.bottom" timestamp="1597676579460">
+    <state width="1323" height="80" key="GridCell.Tab.0.bottom" timestamp="1597823967092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597676579460" />
-    <state width="1286" height="152" key="GridCell.Tab.0.center" timestamp="1597676579460">
+    <state width="1323" height="80" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597823967092" />
+    <state width="1323" height="80" key="GridCell.Tab.0.center" timestamp="1597823967092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597676579460" />
-    <state width="1286" height="152" key="GridCell.Tab.0.left" timestamp="1597676579445">
+    <state width="1323" height="80" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597823967092" />
+    <state width="1323" height="80" key="GridCell.Tab.0.left" timestamp="1597823967091">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597676579445" />
-    <state width="1286" height="152" key="GridCell.Tab.0.right" timestamp="1597676579460">
+    <state width="1323" height="80" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597823967091" />
+    <state width="1323" height="80" key="GridCell.Tab.0.right" timestamp="1597823967092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597676579460" />
+    <state width="1323" height="80" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597823967092" />
     <state width="643" height="204" key="GridCell.Tab.1.bottom" timestamp="1597565545879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -353,14 +355,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="498" y="296" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1597114609044" />
-    <state x="193" y="5" key="SettingsEditor" timestamp="1597237264622">
+    <state x="193" y="5" key="SettingsEditor" timestamp="1597809785044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597237264622" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597712127778">
+    <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597809785044" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597818723711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597712127778" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597818723711" />
     <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597110946949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -369,10 +371,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="497" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1596980326396" />
-    <state x="336" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597206603716">
+    <state x="336" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597809828184">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="336" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1597206603716" />
+    <state x="336" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1597809828184" />
     <state x="259" y="89" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596943100725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
