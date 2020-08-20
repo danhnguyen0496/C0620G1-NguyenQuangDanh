@@ -23,24 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/setup_browse_in_order_postorder_binary_search_tree/BSTMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/setup_browse_in_order_postorder_binary_search_tree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/setup_browse_in_order_postorder_binary_search_tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/cai_dat_cay_tim_kiem_nhi_phan/AbstractTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/cai_dat_cay_tim_kiem_nhi_phan/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/cai_dat_cay_tim_kiem_nhi_phan/TestBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/cai_dat_cay_tim_kiem_nhi_phan/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/thuc_hanh/cai_dat_cay_tim_kiem_nhi_phan/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/SearchChainIncrease.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/thuc_hanh/setup_thuat_toan_search_nhi_phan_not_de_quy/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/StudentMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_framework/thuc_hanh/sort_with_comparable_comparator/StudentMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/check_chain_palindrome_use_queue/ChainPalindromeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_11_dsa_stack_queue/bai_tap/count_number_appear_of_word_in_chain_use_map/CountWordMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_framework/bai_tap/setup_browse_in_order_postorder_binary_search_tree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_framework/bai_tap/setup_browse_in_order_postorder_binary_search_tree/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/ProductManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/ProductManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChainPalindromeCheckMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_11_dsa_stack_queue.bai_tap.check_chain_palindrome_use_queue.ChainPalindromeCheckMain" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_13_thuat_toan_tim_kiem.thuc_hanh.setup_thuat_toan_search_nhi_phan_not_de_quy.BinarySearch" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductManagerLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_12_java_collection_framework.bai_tap.use_arraylist_linkedlist_in_java_collection_frameword.ProductManagerLinkedList" />
+    <configuration name="SearchChainIncrease" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_13_thuat_toan_tim_kiem.bai_tap.SearchChainIncrease" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,10 +148,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ProductManager" />
+        <item itemvalue="Application.SearchChainIncrease" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.BSTMain" />
         <item itemvalue="Application.TestBST" />
-        <item itemvalue="Application.ProductManagerLinkedList" />
-        <item itemvalue="Application.ChainPalindromeCheckMain" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +222,10 @@
       <workItem from="1597738111689" duration="7475000" />
       <workItem from="1597753529853" duration="11756000" />
       <workItem from="1597796860458" duration="16070000" />
-      <workItem from="1597818448203" duration="8710000" />
+      <workItem from="1597818448203" duration="14484000" />
+      <workItem from="1597844841130" duration="2889000" />
+      <workItem from="1597853181702" duration="3559000" />
+      <workItem from="1597884886983" duration="2529000" />
     </task>
     <servers />
   </component>
@@ -319,22 +310,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597204003159" />
-    <state width="1323" height="80" key="GridCell.Tab.0.bottom" timestamp="1597823967092">
+    <state width="1286" height="155" key="GridCell.Tab.0.bottom" timestamp="1597887563001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="80" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597823967092" />
-    <state width="1323" height="80" key="GridCell.Tab.0.center" timestamp="1597823967092">
+    <state width="1286" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597887563001" />
+    <state width="1286" height="155" key="GridCell.Tab.0.center" timestamp="1597887563000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="80" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597823967092" />
-    <state width="1323" height="80" key="GridCell.Tab.0.left" timestamp="1597823967091">
+    <state width="1286" height="155" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597887563000" />
+    <state width="1286" height="155" key="GridCell.Tab.0.left" timestamp="1597887563000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="80" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597823967091" />
-    <state width="1323" height="80" key="GridCell.Tab.0.right" timestamp="1597823967092">
+    <state width="1286" height="155" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597887563000" />
+    <state width="1286" height="155" key="GridCell.Tab.0.right" timestamp="1597887563001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="80" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597823967092" />
+    <state width="1286" height="155" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597887563001" />
     <state width="643" height="204" key="GridCell.Tab.1.bottom" timestamp="1597565545879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -359,10 +350,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597809785044" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597818723711">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597884894036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597818723711" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597884894036" />
     <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597110946949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -391,6 +382,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="63" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1596437741120" />
+    <state x="386" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1597885646259">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="386" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1597885646259" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1597564535452">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

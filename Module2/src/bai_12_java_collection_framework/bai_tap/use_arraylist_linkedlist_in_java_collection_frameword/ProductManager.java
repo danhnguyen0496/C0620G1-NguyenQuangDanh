@@ -1,28 +1,26 @@
 package bai_12_java_collection_framework.bai_tap.use_arraylist_linkedlist_in_java_collection_frameword;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
 
 public class ProductManager {
 
     public static Scanner scanner = new Scanner(System.in);
-    public static Product product = new Product();
     public static ArrayList<Product> listProduct = new ArrayList<Product>();
 
     public static void addProduct() {
-        product = new Product(1, "Táo", 50);
-        listProduct.add(product);
-        product = new Product(2, "Cam", 100);
-        listProduct.add(product);
-        product = new Product(3, "Bưởi", 150);
+        Product product = new Product();
+        System.out.print("Enter the id: ");
+        int id = scanner.nextInt();
+        product.setId(id);
+        System.out.print("Enter the name: ");
+        scanner.skip("\\R");
+        String name = scanner.nextLine();
+        product.setNameProduct(name);
+        System.out.print("Enter the costs: ");
+        double costs = scanner.nextDouble();
+        product.setCost(costs);
         listProduct.add(product);
         System.out.println(listProduct);
-
-
-
-
     }
 
     public static void editProduct(int id) {
@@ -40,12 +38,16 @@ public class ProductManager {
     }
 
     public static void deleteProduct(int id) {
-        for (Product product : listProduct) {
-            if (product.getId() == id) {
-                listProduct.remove(product);
-            }
-            System.out.println(listProduct);
-        }
+//        Iterator<Product> iterator = listProduct.iterator();
+//        while (iterator.hasNext()) {
+//            Product product = iterator.next();
+//            if (product.getId() == id) {
+//                iterator.remove();
+//            }
+//        }
+//        System.out.println(listProduct);
+        listProduct.removeIf(product -> product.getId() == id);
+        System.out.println(listProduct);
     }
 
 
@@ -56,16 +58,17 @@ public class ProductManager {
         }
     }
 
-//    public static void searchProduct() {
-//        System.out.print("Enter the name of product you want to search: ");
-//        String name = scanner.nextLine();
-//        scanner.skip("\\R");
-//        for (Product product : listProduct) {
-//            if (product.getNameProduct().equals(name)) {
-//                System.out.println(product.toString());
-//            }
-//        }
-//    }
+    public static void searchProduct() {
+        System.out.print("Enter the name of product you want to search: ");
+        String name = scanner.nextLine();
+        Iterator<Product> iterator = listProduct.iterator();
+        while (iterator.hasNext()) {
+            Product product = iterator.next();
+            if (product.getNameProduct().equals(name)) {
+                System.out.println(product.toString());
+            }
+        }
+    }
 
     public static void sortProduct() {
         System.out.println("Sort the product");
@@ -88,10 +91,12 @@ public class ProductManager {
 
     public static void main(String[] args) {
         addProduct();
-        editProduct(2);
-        deleteProduct(1);
+        addProduct();
+        addProduct();
+//        editProduct(2);
         displayProduct();
+        deleteProduct(2);
 //        searchProduct();
-        sortProduct();
+//        sortProduct();
     }
 }
