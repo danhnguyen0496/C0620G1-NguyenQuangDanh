@@ -1,19 +1,23 @@
 package bai_13_thuat_toan_tim_kiem.bai_tap;
 
+import java.util.Scanner;
+
 public class SetupSearchBinaryUseRecursive {
     public static void main(String[] args) {
-        int[] arr = {0, 1, 2, 3, 4, 4, 2, 7, 1, 9, 5, 6, 7, 8, 9};
-        System.out.println(searchBinary(arr, 8, 0, 14));
-
+        int[] arr = {1, 3, 8, 9, 10};
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the key want to search: ");
+        int key = scanner.nextInt();
+        int high = arr.length - 1;
+        System.out.println(searchBinary(arr, key, 0, high));
     }
 
     public static int searchBinary(int[] array, int key, int low, int high) {
         if (low <= high) {
-            high = array.length - 1;
-            int mid = (low + high) / 2;
+            int mid =  (low + high) / 2;
             if (key == array[mid]) return mid;
             else if (key > array[mid]) return searchBinary(array, key, mid + 1, high);
-            else {
+            else if (key < array[mid]){
                 return searchBinary(array, key, low, mid - 1);
             }
         }

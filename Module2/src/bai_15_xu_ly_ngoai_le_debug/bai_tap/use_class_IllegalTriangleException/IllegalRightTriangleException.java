@@ -7,7 +7,7 @@ public class IllegalRightTriangleException extends Exception {
 
     @Override
     public String getMessage() {
-        return "Cạnh nhập vào chưa hợp lệ " + super.getMessage();
+        return super.getMessage();
     }
 }
 

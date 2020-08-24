@@ -4,8 +4,12 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Triangle {
-    public static void main(String[] args) throws IllegalRightTriangleException, InputMismatchException {
-        inputInfoTriangle();
+    public static void main(String[] args) {
+        try {
+            inputInfoTriangle();
+        } catch (IllegalRightTriangleException e) {
+            System.err.println("a, b, c phải là số dương và phải thoải điều kiện (a + b) < c hoặc (a + c) < b hoặc (b + c) < a ");
+        }
     }
 
     static void inputInfoTriangle() throws IllegalRightTriangleException, InputMismatchException {
@@ -20,9 +24,7 @@ public class Triangle {
             if (a < 0 || b < 0 || c < 0 || (a + b) < c || (a + c) < b || (b + c) < a)
                 throw new IllegalRightTriangleException("a, b, c phải là số dương và phải thoải điều kiện (a + b) < c hoặc (a + c) < b hoặc (b + c) < a ");
         } catch (InputMismatchException e) {
-            throw new InputMismatchException("a, b, c phải là một số ");
-//        } catch (IllegalRightTriangleException e) {
-//            e.printStackTrace();
+            System.err.println("a, b, c nhập vào phải là một số ");
         }
     }
 }

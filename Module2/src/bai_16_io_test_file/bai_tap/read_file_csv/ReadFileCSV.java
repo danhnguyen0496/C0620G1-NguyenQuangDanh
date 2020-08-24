@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Arrays;
 
 public class ReadFileCSV {
     public static void main(String[] args) throws IOException {
@@ -14,7 +15,8 @@ public class ReadFileCSV {
             fileReaderCSV = new FileReader("D:\\C0620G1-NguyenQuangDanh\\Module2\\src\\bai_16_io_test_file\\bai_tap\\read_file_csv\\csv.csv");
             bufferCSV = new BufferedReader(fileReaderCSV);
             while ((line = bufferCSV.readLine()) != null) {
-                String[] country = line.split(",");
+                String[] country = line.split(", ");
+//                System.out.println(Arrays.toString(country));
                 System.out.println("Country [code= " + country[4] + " , name=" + country[5] + "]");
             }
         } catch (IOException e) {

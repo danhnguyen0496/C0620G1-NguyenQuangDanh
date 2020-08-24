@@ -23,37 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/SearchMaxChainLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/SetupSearchBinaryUseRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/thuc_hanh/tinh_do_phuc_tap_thuat_toan/AlgorithmComplexityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/bai_tap/foam_insert_algorithm_illustration/InsertionSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/bai_tap/setup_insert_sorting_algorithm/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/thuc_hanh/foam_bubble_sort_algorithm_illustration/BubbleSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/thuc_hanh/setup_bubble_sorting_algorithm/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/thuc_hanh/setup_select_sorting_algorithm/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_ly_ngoai_le_debug/bai_tap/use_class_IllegalTriangleException/IllegalRightTriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_ly_ngoai_le_debug/bai_tap/use_class_IllegalTriangleException/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_ly_ngoai_le_debug/thuc_hanh/debug_application_java/LinearEquationResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_ly_ngoai_le_debug/thuc_hanh/use_class_arrayindexoutofboundsexception/ArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_15_xu_ly_ngoai_le_debug/thuc_hanh/use_class_numberformatexception/CalculationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_16_io_test_file/bai_tap/copy_file_text/CopyFileText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_16_io_test_file/bai_tap/copy_file_text/source.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_16_io_test_file/bai_tap/copy_file_text/target.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_16_io_test_file/bai_tap/read_file_csv/ReadFileCSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_16_io_test_file/bai_tap/read_file_csv/csv.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_16_io_test_file/thuc_hanh/NumberInteger" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_16_io_test_file/thuc_hanh/SumNumbersFileText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/copy_file_binary/CopyFileBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/copy_file_binary/dest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/copy_file_binary/source" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/thuc_hanh/copy_large_file/CopyLargeFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/thuc_hanh/copy_large_file/chocopy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/thuc_hanh/copy_large_file/nhancopy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/ProductManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/StockProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/product.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/ProductManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/ProductManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_12_java_collection_framework/bai_tap/use_arraylist_linkedlist_in_java_collection_frameword/ProductManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_13_thuat_toan_tim_kiem/bai_tap/SearchChainIncrease.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/SearchChainIncrease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/SearchChainIncreaseMaxHigh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_13_thuat_toan_tim_kiem/bai_tap/SetupSearchBinaryUseRecursive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_13_thuat_toan_tim_kiem/bai_tap/SetupSearchBinaryUseRecursive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_16_io_test_file/bai_tap/read_file_csv/ReadFileCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_16_io_test_file/bai_tap/read_file_csv/ReadFileCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_17_io_binary_file_serialiazation/bai_tap/copy_file_binary/CopyFileBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_17_io_binary_file_serialiazation/bai_tap/copy_file_binary/CopyFileBinary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/SetupSearchBinaryUseRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_13_thuat_toan_tim_kiem/bai_tap/SetupSearchBinaryUseRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/bai_tap/foam_insert_algorithm_illustration/InsertionSortByStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/bai_tap/foam_insert_algorithm_illustration/InsertionSortByStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_15_xu_ly_ngoai_le_debug/bai_tap/use_class_IllegalTriangleException/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_15_xu_ly_ngoai_le_debug/bai_tap/use_class_IllegalTriangleException/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_16_io_test_file/bai_tap/read_file_csv/ReadFileCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_16_io_test_file/bai_tap/read_file_csv/ReadFileCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/copy_file_binary/CopyFileBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/copy_file_binary/CopyFileBinary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,23 +118,16 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_5_access_modifier_static_method_static_property\thuc_hanh\access_modifer\mypack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyFileBinary">
-    <configuration name="CopyFileBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_17_io_binary_file_serialiazation.bai_tap.copy_file_binary.CopyFileBinary" />
+  <component name="RunManager" selected="Application.Triangle">
+    <configuration name="InsertionSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_14_thuat_toan_sap_xep.bai_tap.foam_insert_algorithm_illustration.InsertionSortByStep" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyFileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_16_io_test_file.bai_tap.copy_file_text.CopyFileText" />
-      <module name="Module2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyLargeFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_17_io_binary_file_serialiazation.thuc_hanh.copy_large_file.CopyLargeFile" />
+    <configuration name="ProductManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_17_io_binary_file_serialiazation.bai_tap.product_management_save_binary_file.ProductManagement" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,8 +140,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumNumbersFileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_16_io_test_file.thuc_hanh.SumNumbersFileText" />
+    <configuration name="SetupSearchBinaryUseRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_13_thuat_toan_tim_kiem.bai_tap.SetupSearchBinaryUseRecursive" />
+      <module name="Module2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_15_xu_ly_ngoai_le_debug.bai_tap.use_class_IllegalTriangleException.Triangle" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CopyFileBinary" />
-        <item itemvalue="Application.CopyLargeFile" />
-        <item itemvalue="Application.SumNumbersFileText" />
+        <item itemvalue="Application.Triangle" />
+        <item itemvalue="Application.ProductManagement" />
         <item itemvalue="Application.ReadFileCSV" />
-        <item itemvalue="Application.CopyFileText" />
+        <item itemvalue="Application.InsertionSortByStep" />
+        <item itemvalue="Application.SetupSearchBinaryUseRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +244,9 @@
       <workItem from="1598151245092" duration="8492000" />
       <workItem from="1598165537269" duration="2630000" />
       <workItem from="1598177793704" duration="8131000" />
-      <workItem from="1598231467710" duration="279000" />
+      <workItem from="1598231467710" duration="2351000" />
+      <workItem from="1598234256541" duration="11466000" />
+      <workItem from="1598249643172" duration="4769000" />
     </task>
     <servers />
   </component>
@@ -311,10 +294,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="424" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598190503719" />
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1598098154710">
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1598243656970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598098154710" />
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598243656970" />
     <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597463025692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -363,38 +346,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597975965732" />
-    <state width="1286" height="171" key="GridCell.Tab.0.bottom" timestamp="1598195279175">
+    <state width="1286" height="144" key="GridCell.Tab.0.bottom" timestamp="1598257374356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598195279175" />
-    <state width="1286" height="171" key="GridCell.Tab.0.center" timestamp="1598195279174">
+    <state width="1286" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598257374356" />
+    <state width="1286" height="144" key="GridCell.Tab.0.center" timestamp="1598257374351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598195279174" />
-    <state width="1286" height="171" key="GridCell.Tab.0.left" timestamp="1598195279173">
+    <state width="1286" height="144" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598257374351" />
+    <state width="1286" height="144" key="GridCell.Tab.0.left" timestamp="1598257374351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598195279173" />
-    <state width="1286" height="171" key="GridCell.Tab.0.right" timestamp="1598195279174">
+    <state width="1286" height="144" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598257374351" />
+    <state width="1286" height="144" key="GridCell.Tab.0.right" timestamp="1598257374356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598195279174" />
-    <state width="1286" height="239" key="GridCell.Tab.1.bottom" timestamp="1598116768448">
+    <state width="1286" height="144" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598257374356" />
+    <state width="1323" height="142" key="GridCell.Tab.1.bottom" timestamp="1598238265997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="239" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598116768448" />
-    <state width="1286" height="239" key="GridCell.Tab.1.center" timestamp="1598116768448">
+    <state width="1323" height="142" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598238265997" />
+    <state width="1323" height="142" key="GridCell.Tab.1.center" timestamp="1598238265996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="239" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598116768448" />
-    <state width="1286" height="239" key="GridCell.Tab.1.left" timestamp="1598116768448">
+    <state width="1323" height="142" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598238265996" />
+    <state width="1323" height="142" key="GridCell.Tab.1.left" timestamp="1598238265996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="239" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598116768448" />
-    <state width="1286" height="239" key="GridCell.Tab.1.right" timestamp="1598116768448">
+    <state width="1323" height="142" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598238265996" />
+    <state width="1323" height="142" key="GridCell.Tab.1.right" timestamp="1598238265996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="239" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598116768448" />
+    <state width="1323" height="142" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598238265996" />
     <state x="498" y="296" key="ReplaceDuplicatesPrompt" timestamp="1597114609044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -407,10 +390,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="673" height="344" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1597998666295" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1598231744894">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1598249643599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598231744894" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598249643599" />
     <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597110946949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -447,9 +430,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1597564535452" />
-    <state x="355" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597550402529">
+    <state x="355" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598243930181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="355" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1597550402529" />
+    <state x="355" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598243930181" />
   </component>
 </project>

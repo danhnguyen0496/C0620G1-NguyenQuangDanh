@@ -26,14 +26,14 @@ public class CopyFileBinary {
         try {
             inputStream = new FileInputStream(source);
             outputStream = new FileOutputStream(dest);
-            byte[] buffer = new byte[2069];
-            int length;
+            byte[] buffer = new byte[1024];
+            int line;
             int bytes = inputStream.available();
-            while ((length = inputStream.read(buffer)) > 0) {
-                outputStream.write(buffer, 0, length);
+            while ((line = inputStream.read(buffer)) > 0) {
+                outputStream.write(buffer, 0, line);
             }
             System.out.println("Copy completed");
-            System.out.println("Total bytes in file can read: "+ bytes + " bytes");
+            System.out.println("Total bytes in file: "+ bytes + " bytes");
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
