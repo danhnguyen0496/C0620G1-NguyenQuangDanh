@@ -1,0 +1,2 @@
+Hello java!
+Welcome to us.
