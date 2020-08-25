@@ -23,15 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/thuc_hanh/crawl_list_song/CrawlSongExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/thuc_hanh/validate_account/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/thuc_hanh/validate_account/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/thuc_hanh/validate_email/EmailExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/thuc_hanh/validate_email/EmailExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_15_xu_ly_ngoai_le_debug/bai_tap/use_class_IllegalTriangleException/IllegalRightTriangleException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_15_xu_ly_ngoai_le_debug/bai_tap/use_class_IllegalTriangleException/IllegalRightTriangleException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_15_xu_ly_ngoai_le_debug/bai_tap/use_class_IllegalTriangleException/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_15_xu_ly_ngoai_le_debug/bai_tap/use_class_IllegalTriangleException/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/ProductManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/ProductManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/StockProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/TestExample/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/TestExample/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/product.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/product.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/ProductManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/ProductManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/StockProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/product.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/product.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestExample/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestExample/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,12 +75,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/bai_14_thuat_toan_sap_xep/bai_tap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -115,9 +117,23 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_5_access_modifier_static_method_static_property\thuc_hanh\access_modifer\mypack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductManagement">
-    <configuration name="InsertionSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_14_thuat_toan_sap_xep.bai_tap.foam_insert_algorithm_illustration.InsertionSortByStep" />
+  <component name="RunManager" selected="Application.CrawlSongExample">
+    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_19_string_and_regex.thuc_hanh.validate_account.AccountTest" />
+      <module name="Module2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrawlSongExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_19_string_and_regex.thuc_hanh.crawl_list_song.CrawlSongExample" />
+      <module name="Module2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_19_string_and_regex.thuc_hanh.validate_email.EmailExampleTest" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,22 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFileCSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_16_io_test_file.bai_tap.read_file_csv.ReadFileCSV" />
-      <module name="Module2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetupSearchBinaryUseRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_13_thuat_toan_tim_kiem.bai_tap.SetupSearchBinaryUseRecursive" />
-      <module name="Module2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_15_xu_ly_ngoai_le_debug.bai_tap.use_class_IllegalTriangleException.Triangle" />
+    <configuration name="SumNumbersFileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_16_io_test_file.thuc_hanh.SumNumbersFileText" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrawlSongExample" />
+        <item itemvalue="Application.SumNumbersFileText" />
+        <item itemvalue="Application.AccountTest" />
+        <item itemvalue="Application.EmailExampleTest" />
         <item itemvalue="Application.ProductManagement" />
-        <item itemvalue="Application.Triangle" />
-        <item itemvalue="Application.ReadFileCSV" />
-        <item itemvalue="Application.InsertionSortByStep" />
-        <item itemvalue="Application.SetupSearchBinaryUseRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +248,14 @@
       <workItem from="1598249643172" duration="8363000" />
       <workItem from="1598261376982" duration="2902000" />
       <workItem from="1598275204083" duration="9629000" />
-      <workItem from="1598316664920" duration="6677000" />
+      <workItem from="1598316664920" duration="13529000" />
+      <workItem from="1598331880462" duration="102000" />
+      <workItem from="1598332022931" duration="92000" />
+      <workItem from="1598332339146" duration="437000" />
+      <workItem from="1598332867095" duration="205000" />
+      <workItem from="1598333099948" duration="343000" />
+      <workItem from="1598336967479" duration="35000" />
+      <workItem from="1598340801951" duration="3830000" />
     </task>
     <servers />
   </component>
@@ -290,14 +299,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="88" y="103" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1597205900739" />
-    <state x="424" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598190503719">
+    <state x="424" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598332611082">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="424" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598190503719" />
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1598243656970">
+    <state x="424" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598332611082" />
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1598328743868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598243656970" />
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598328743868" />
     <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597463025692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -346,58 +355,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="107" y="125" width="1146" height="488" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1598260753366" />
-    <state x="460" y="107" key="FileChooserDialogImpl" timestamp="1597975965732">
+    <state x="460" y="107" key="FileChooserDialogImpl" timestamp="1598331980535">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597975965732" />
-    <state width="1286" height="155" key="GridCell.Tab.0.bottom" timestamp="1598322504518">
+    <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598331980535" />
+    <state width="1286" height="74" key="GridCell.Tab.0.bottom" timestamp="1598345951198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598322504518" />
-    <state width="1286" height="155" key="GridCell.Tab.0.center" timestamp="1598322504513">
+    <state width="1286" height="74" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598345951198" />
+    <state width="1286" height="74" key="GridCell.Tab.0.center" timestamp="1598345951198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="155" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598322504513" />
-    <state width="1286" height="155" key="GridCell.Tab.0.left" timestamp="1598322504513">
+    <state width="1286" height="74" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598345951198" />
+    <state width="1286" height="74" key="GridCell.Tab.0.left" timestamp="1598345951198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="155" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598322504513" />
-    <state width="1286" height="155" key="GridCell.Tab.0.right" timestamp="1598322504518">
+    <state width="1286" height="74" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598345951198" />
+    <state width="1286" height="74" key="GridCell.Tab.0.right" timestamp="1598345951198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="155" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598322504518" />
-    <state width="1286" height="290" key="GridCell.Tab.1.bottom" timestamp="1598321932753">
+    <state width="1286" height="74" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598345951198" />
+    <state width="1286" height="290" key="GridCell.Tab.1.bottom" timestamp="1598331847359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="290" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598321932753" />
-    <state width="1286" height="290" key="GridCell.Tab.1.center" timestamp="1598321932753">
+    <state width="1286" height="290" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598331847359" />
+    <state width="1286" height="290" key="GridCell.Tab.1.center" timestamp="1598331847359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="290" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598321932753" />
-    <state width="1286" height="290" key="GridCell.Tab.1.left" timestamp="1598321932753">
+    <state width="1286" height="290" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598331847359" />
+    <state width="1286" height="290" key="GridCell.Tab.1.left" timestamp="1598331847359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="290" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598321932753" />
-    <state width="1286" height="290" key="GridCell.Tab.1.right" timestamp="1598321932753">
+    <state width="1286" height="290" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598331847359" />
+    <state width="1286" height="290" key="GridCell.Tab.1.right" timestamp="1598331847359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="290" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598321932753" />
+    <state width="1286" height="290" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598331847359" />
     <state x="498" y="296" key="ReplaceDuplicatesPrompt" timestamp="1597114609044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="498" y="296" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1597114609044" />
-    <state x="193" y="5" key="SettingsEditor" timestamp="1597809785044">
+    <state x="193" y="5" key="SettingsEditor" timestamp="1598332356678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597809785044" />
+    <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598332356678" />
     <state width="673" height="344" key="XDebugger.FullValuePopup" timestamp="1597998666295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="673" height="344" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1597998666295" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1598316894891">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1598340803338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598316894891" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598340803338" />
     <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597110946949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -422,10 +431,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1597549119095" />
-    <state x="63" y="0" key="new project wizard" timestamp="1596437741120">
+    <state x="63" y="0" key="new project wizard" timestamp="1598332720807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="63" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1596437741120" />
+    <state x="63" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1598332720807" />
     <state x="386" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1598292783895">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
