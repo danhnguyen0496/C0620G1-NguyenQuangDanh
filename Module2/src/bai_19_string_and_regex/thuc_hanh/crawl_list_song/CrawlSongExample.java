@@ -13,11 +13,14 @@ public class CrawlSongExample {
         try {
             URL url = new URL("https://www.nhaccuatui.com/bai-hat/nhac-tre-moi.html");
             Scanner scanner = new Scanner(new InputStreamReader(url.openStream()));
+//            System.out.println(scanner);
             scanner.useDelimiter("\\Z");
+//            System.out.println(scanner);
             String content = scanner.next();
             scanner.close();
-
+//            System.out.println(content);
             content = content.replaceAll("\\n+", "");
+//            System.out.println(content);
 
             Pattern p = Pattern.compile("name_song\">(.*?)</a>");
             Matcher m = p.matcher(content);
