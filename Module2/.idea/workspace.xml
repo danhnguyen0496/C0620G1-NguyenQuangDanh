@@ -23,17 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/thuc_hanh/crawl_list_song/CrawlSongExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/thuc_hanh/validate_account/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/thuc_hanh/validate_account/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/thuc_hanh/validate_email/EmailExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/thuc_hanh/validate_email/EmailExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestExample/CSV/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestExample/CSV/CsvWriterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/ProductCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/ProductManagementCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/product.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/bai_tap/validate_name_classes/Classes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/bai_tap/validate_number_telephone/NumberTelephone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/TestExample/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/TestExample/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/TestExample/Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/product.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/product.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestExample/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestExample/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestExample/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/product.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_17_io_binary_file_serialiazation/bai_tap/product_management_save_binary_file/product.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -113,27 +114,28 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\TestExample\CSV" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_5_access_modifier_static_method_static_property\thuc_hanh\access_modifer" />
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_5_access_modifier_static_method_static_property\thuc_hanh\access_modifer\mypack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrawlSongExample">
-    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_19_string_and_regex.thuc_hanh.validate_account.AccountTest" />
+  <component name="RunManager" selected="Application.ProductManagementCSV">
+    <configuration name="CopyFileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_16_io_test_file.bai_tap.copy_file_text.CopyFileText" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrawlSongExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_19_string_and_regex.thuc_hanh.crawl_list_song.CrawlSongExample" />
+    <configuration name="CsvWriterExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestExample.CSV.CsvWriterExample" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_19_string_and_regex.thuc_hanh.validate_email.EmailExampleTest" />
+    <configuration name="CsvWriterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestExample.CsvWriterExample" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumNumbersFileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_16_io_test_file.thuc_hanh.SumNumbersFileText" />
+    <configuration name="ProductManagementCSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_17_io_binary_file_serialiazation.bai_tap.product_management_save_binary_file.ProductManagementCSV" />
       <module name="Module2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,10 +157,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CrawlSongExample" />
-        <item itemvalue="Application.SumNumbersFileText" />
-        <item itemvalue="Application.AccountTest" />
-        <item itemvalue="Application.EmailExampleTest" />
+        <item itemvalue="Application.ProductManagementCSV" />
+        <item itemvalue="Application.CsvWriterExample (1)" />
+        <item itemvalue="Application.CsvWriterExample" />
+        <item itemvalue="Application.CopyFileText" />
         <item itemvalue="Application.ProductManagement" />
       </list>
     </recent_temporary>
@@ -255,7 +257,12 @@
       <workItem from="1598332867095" duration="205000" />
       <workItem from="1598333099948" duration="343000" />
       <workItem from="1598336967479" duration="35000" />
-      <workItem from="1598340801951" duration="3830000" />
+      <workItem from="1598340801951" duration="8934000" />
+      <workItem from="1598363069741" duration="229000" />
+      <workItem from="1598363341158" duration="3641000" />
+      <workItem from="1598405242624" duration="43000" />
+      <workItem from="1598405793898" duration="7769000" />
+      <workItem from="1598423142877" duration="6373000" />
     </task>
     <servers />
   </component>
@@ -303,10 +310,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="424" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1598332611082" />
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1598328743868">
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1598415024333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598328743868" />
+    <state x="490" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598415024333" />
     <state x="392" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597463025692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -359,22 +366,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598331980535" />
-    <state width="1286" height="74" key="GridCell.Tab.0.bottom" timestamp="1598345951198">
+    <state width="1286" height="202" key="GridCell.Tab.0.bottom" timestamp="1598431132819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="74" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598345951198" />
-    <state width="1286" height="74" key="GridCell.Tab.0.center" timestamp="1598345951198">
+    <state width="1286" height="202" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598431132819" />
+    <state width="1286" height="202" key="GridCell.Tab.0.center" timestamp="1598431132819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="74" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598345951198" />
-    <state width="1286" height="74" key="GridCell.Tab.0.left" timestamp="1598345951198">
+    <state width="1286" height="202" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598431132819" />
+    <state width="1286" height="202" key="GridCell.Tab.0.left" timestamp="1598431132819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="74" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598345951198" />
-    <state width="1286" height="74" key="GridCell.Tab.0.right" timestamp="1598345951198">
+    <state width="1286" height="202" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598431132819" />
+    <state width="1286" height="202" key="GridCell.Tab.0.right" timestamp="1598431132819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="74" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598345951198" />
+    <state width="1286" height="202" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598431132819" />
     <state width="1286" height="290" key="GridCell.Tab.1.bottom" timestamp="1598331847359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -395,18 +402,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="498" y="296" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1597114609044" />
-    <state x="193" y="5" key="SettingsEditor" timestamp="1598332356678">
+    <state x="193" y="5" key="SettingsEditor" timestamp="1598367745437">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598332356678" />
+    <state x="193" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598367745437" />
     <state width="673" height="344" key="XDebugger.FullValuePopup" timestamp="1597998666295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="673" height="344" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1597998666295" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1598340803338">
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1598423151219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598340803338" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598423151219" />
     <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597110946949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
