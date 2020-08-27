@@ -1,6 +1,8 @@
 package models;
 
-public class House extends Services {
+import java.io.Serializable;
+
+public class House extends Services implements Serializable {
     private String standardRoom;
     private String describeAmenities;
     private int numberFloors;
@@ -47,8 +49,8 @@ public class House extends Services {
     }
 
     @Override
-    void showInfo() {
-        System.out.print("Information House: " + "\nId: " + id + "\nServiceName: " + super.getServiceName() +
+    String showInfo() {
+        return ("Information House: " + "\nId: " + super.getId() + "\nServiceName: " + super.getServiceName() +
                 "+\nArea Use: " + super.getAreaUse() + "\nRentalCosts: " + super.getRentalCosts() +
                 "\nMaxAmountPeople: " + super.getMaxAmountPeople() + "\nRentalType: " + super.getRentalType() +
                 "\nStandardRoom: " + standardRoom + "\nDescribe Amenities: " + describeAmenities +

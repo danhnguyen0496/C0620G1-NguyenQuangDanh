@@ -68,5 +68,5 @@ public abstract class Services {
         this.rentalType = rentalType;
     }
 
-    abstract void showInfo();
+    abstract String showInfo();
 }

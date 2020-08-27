@@ -1,6 +1,8 @@
 package models;
 
-public class Villa extends Services {
+import java.io.Serializable;
+
+public class Villa extends Services implements Serializable {
     private String standardRoom;
     private String describeAmenities;
     private float swimmingPoolArea;
@@ -59,8 +61,8 @@ public class Villa extends Services {
     }
 
     @Override
-    void showInfo() {
-        System.out.print("Information Villa: " + "\nId: " + id + "\nServiceName: " + super.getServiceName() +
+    String showInfo() {
+        return ("Information Villa: " + "\nId: " + super.getId() + "\nServiceName: " + super.getServiceName() +
                 "+\nArea Use: " + super.getAreaUse() + "\nRentalCosts: " + super.getRentalCosts() +
                 "\nMaxAmountPeople: " + super.getMaxAmountPeople() + "\nRentalType: " + super.getRentalType() +
                 "\nStandardRoom: " + standardRoom +

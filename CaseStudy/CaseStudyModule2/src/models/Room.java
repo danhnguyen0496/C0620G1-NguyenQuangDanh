@@ -1,6 +1,8 @@
 package models;
 
-public class Room extends Services {
+import java.io.Serializable;
+
+public class Room extends Services implements Serializable {
     private String freeServiceIncluded;
 
     public Room() {
@@ -25,8 +27,8 @@ public class Room extends Services {
     }
 
     @Override
-    void showInfo() {
-        System.out.print("Information Room: " + "\nId: " + id + "\nServiceName: " + super.getServiceName() +
+    String showInfo() {
+        return ("Information Room: " + "\nId: " + super.getId() + "\nServiceName: " + super.getServiceName() +
                 "+\nArea Use: " + super.getAreaUse() + "\nRentalCosts: " + super.getRentalCosts() +
                 "\nMaxAmountPeople: " + super.getMaxAmountPeople() + "\nRentalType: " + super.getRentalType() +
                 "\nFreeServiceIncluded: " + freeServiceIncluded);

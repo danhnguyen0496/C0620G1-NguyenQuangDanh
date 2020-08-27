@@ -11,7 +11,7 @@ public class CrawlNews {
 
     public static void main(String[] args) {
         try {
-            URL url = new URL("http://dantri.com.vn/the-gioi.htm");
+            URL url = new URL("https://dantri.com.vn/the-gioi.htm");
             Scanner scanner = new Scanner(new InputStreamReader(url.openStream()));
 //            System.out.println(scanner);
             scanner.useDelimiter("\\Z");
@@ -19,12 +19,13 @@ public class CrawlNews {
             String news = scanner.next();
             scanner.close();
 //            System.out.println(news);
-            news = news.replaceAll("\\n+", "");
+            news = news.replaceAll("\\R", "");
 //            System.out.println(news);
-            Pattern pattern = Pattern.compile("title=\"(.*?)\">");
+            Pattern pattern = Pattern.compile("<h3 class='news-item__title'> {20}<a {2}data-utm=\"(.*?)\" {2}href=\"(.*?)\" {2}title=\"(.*?)\"");
+//            Pattern pattern = Pattern.compile("title=\"(.*?)\">");
             Matcher matcher = pattern.matcher(news);
             while (matcher.find()) {
-                System.out.println(matcher.group(2));
+                System.out.println(matcher.group(3));
             }
         } catch (IOException ex) {
             ex.printStackTrace();
