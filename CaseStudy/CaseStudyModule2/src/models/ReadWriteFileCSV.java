@@ -42,15 +42,15 @@ public class ReadWriteFileCSV {
         inputInfoServicesVilla();
 
         final String PATH_VILLA = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\Villa.csv";
-        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, StandardRoom, DescribeAmenities, " +
-                "SwimmingPoolArea, NumberFloors";
+//        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, StandardRoom, DescribeAmenities, " +
+//                "SwimmingPoolArea, NumberFloors";
         FileWriter fileWriter = null;
         BufferedWriter bufferedWriter = null;
         try {
             fileWriter = new FileWriter(new File(PATH_VILLA), true);
             bufferedWriter = new BufferedWriter(fileWriter);
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append(FILE_HEADER).append(DOWN).append(villa.getId()).append(COMMA).append(villa.getServiceName()).append(COMMA).append(villa.getAreaUse()).
+            stringBuilder.append(villa.getId()).append(COMMA).append(villa.getServiceName()).append(COMMA).append(villa.getAreaUse()).
                     append(COMMA).append(villa.getRentalCosts()).append(COMMA).append(villa.getMaxAmountPeople()).append(COMMA).
                     append(villa.getRentalType()).append(COMMA).append(villa.getStandardRoom()).append(COMMA).append(villa.getDescribeAmenities()).
                     append(COMMA).append(villa.getSwimmingPoolArea()).append(COMMA).append(villa.getNumberFloors()).append(DOWN);
@@ -102,7 +102,7 @@ public class ReadWriteFileCSV {
         inputInfoServicesHouse();
 
         final String PATH_HOUSE = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\House.csv";
-        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, StandardRoom, DescribeAmenities, NumberFloors";
+//        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, StandardRoom, DescribeAmenities, NumberFloors";
 
         FileWriter fileWriter = null;
         BufferedWriter bufferedWriter = null;
@@ -110,7 +110,7 @@ public class ReadWriteFileCSV {
             fileWriter = new FileWriter(new File(PATH_HOUSE), true);
             bufferedWriter = new BufferedWriter(fileWriter);
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append(FILE_HEADER).append(DOWN).append(house.getId()).append(COMMA).append(house.getServiceName()).append(COMMA).append(house.getAreaUse()).
+            stringBuilder.append(house.getId()).append(COMMA).append(house.getServiceName()).append(COMMA).append(house.getAreaUse()).
                     append(COMMA).append(house.getRentalCosts()).append(COMMA).append(house.getMaxAmountPeople()).append(COMMA).
                     append(house.getRentalType()).append(COMMA).append(house.getStandardRoom()).append(COMMA).append(house.getDescribeAmenities()).
                     append(COMMA).append(house.getNumberFloors()).append(DOWN);
@@ -159,14 +159,14 @@ public class ReadWriteFileCSV {
         inputInfoServicesRoom();
 
         final String PATH_ROOM = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\Room.csv";
-        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, FreeServiceIncluded";
+//        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, FreeServiceIncluded";
         FileWriter fileWriter = null;
         BufferedWriter bufferedWriter = null;
         try {
             fileWriter = new FileWriter(new File(PATH_ROOM), true);
             bufferedWriter = new BufferedWriter(fileWriter);
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append(FILE_HEADER).append(DOWN).append(room.getId()).append(COMMA).append(room.getServiceName()).append(COMMA).append(room.getAreaUse()).
+            stringBuilder.append(room.getId()).append(COMMA).append(room.getServiceName()).append(COMMA).append(room.getAreaUse()).
                     append(COMMA).append(room.getRentalCosts()).append(COMMA).append(room.getMaxAmountPeople()).append(COMMA).
                     append(room.getRentalType()).append(COMMA).append(room.getFreeServiceIncluded()).append(DOWN);
             bufferedWriter.write(stringBuilder.toString());

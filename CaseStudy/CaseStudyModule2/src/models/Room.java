@@ -29,7 +29,7 @@ public class Room extends Services implements Serializable {
     @Override
     String showInfo() {
         return ("Information Room: " + "\nId: " + super.getId() + "\nServiceName: " + super.getServiceName() +
-                "+\nArea Use: " + super.getAreaUse() + "\nRentalCosts: " + super.getRentalCosts() +
+                "\nArea Use: " + super.getAreaUse() + "\nRentalCosts: " + super.getRentalCosts() +
                 "\nMaxAmountPeople: " + super.getMaxAmountPeople() + "\nRentalType: " + super.getRentalType() +
                 "\nFreeServiceIncluded: " + freeServiceIncluded);
     }

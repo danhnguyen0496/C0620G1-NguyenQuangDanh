@@ -1,6 +1,7 @@
 package controllers;
 
 import models.ReadWriteFileCSV;
+import models.ShowServices;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -31,8 +32,8 @@ public class MainController {
                 addNewServices();
                 break;
             case 2:
-//                showServices();
-//                break;
+                showServices();
+                break;
 //            case 3:
 //                addNewCustomer();
 //                break;
@@ -84,28 +85,28 @@ public class MainController {
 
     // hien thi thong tin dich vu
     public static void showServices() {
-        System.out.print("Menu show services:\n1. Show all Villa \n2. Show all House \n3. Show all Room \n4. Show All Name Villa Not Duplicate" +
+        System.out.print("Menu show services:\n1. Show All Villa \n2. Show All House \n3. Show All Room \n4. Show All Name Villa Not Duplicate" +
                 "\n5. Show All Name House Not Duplicate \n6. Show All Name Name Not Duplicate \n7. Back to menu \n8. Exit");
 
         int choice = 0;
         try {
             while (choice < 1 || choice > 8) {
-                System.out.print("Enter the choice: ");
+                System.out.print("\nEnter the choice: ");
                 choice = scanner.nextInt();
             }
         } catch (InputMismatchException e) {
             System.err.print("You must enter the number");
         }
         switch (choice) {
-//            case 1:
-//                showAllVilla();
-//                break;
-//            case 2:
-//                showAllHouse();
-//                break;
-//            case 3:
-//                showAllRoom();
-//                break;
+            case 1:
+                ShowServices.showAllVilla();
+                break;
+            case 2:
+                ShowServices.showAllHouse();
+                break;
+            case 3:
+                ShowServices.showAllRoom();
+                break;
 //            case 4:
 //                showAllNameVillaNotDuplicate();
 //                break;

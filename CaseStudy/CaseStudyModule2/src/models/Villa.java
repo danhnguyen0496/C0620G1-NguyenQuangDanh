@@ -63,7 +63,7 @@ public class Villa extends Services implements Serializable {
     @Override
     String showInfo() {
         return ("Information Villa: " + "\nId: " + super.getId() + "\nServiceName: " + super.getServiceName() +
-                "+\nArea Use: " + super.getAreaUse() + "\nRentalCosts: " + super.getRentalCosts() +
+                "\nArea Use: " + super.getAreaUse() + "\nRentalCosts: " + super.getRentalCosts() +
                 "\nMaxAmountPeople: " + super.getMaxAmountPeople() + "\nRentalType: " + super.getRentalType() +
                 "\nStandardRoom: " + standardRoom +
                 "\nDescribe Amenities: " + describeAmenities + "\nSwimming Pool Area: " + swimmingPoolArea +
