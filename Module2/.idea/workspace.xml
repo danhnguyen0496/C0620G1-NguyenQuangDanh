@@ -23,18 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/data/House.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/data/Room.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/data/Villa.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/ReadWriteFileCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/views/CheckInputDataAddNewServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/ReadWriteFileCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/ReadWriteFileCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/ShowServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/models/ShowServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_19_string_and_regex/bai_tap/crawl_news/CrawlNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_19_string_and_regex/bai_tap/crawl_news/CrawlNews.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_19_string_and_regex/bai_tap/crawl_news/CrawlNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_19_string_and_regex/bai_tap/crawl_news/CrawlNews.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,6 +261,7 @@
       <workItem from="1598490195383" duration="9734000" />
       <workItem from="1598516405605" duration="79000" />
       <workItem from="1598516760611" duration="936000" />
+      <workItem from="1598545905638" duration="2366000" />
     </task>
     <servers />
   </component>

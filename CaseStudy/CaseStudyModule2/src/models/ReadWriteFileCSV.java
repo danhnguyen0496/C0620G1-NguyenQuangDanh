@@ -1,5 +1,7 @@
 package models;
 
+import views.CheckInputDataAddNewServices;
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -11,35 +13,9 @@ public class ReadWriteFileCSV {
 
     public static Villa villa = new Villa();
 
-    // nhap thong tin dich vu villa tu du lieu nguoi dung
-    public static void inputInfoServicesVilla() {
-
-        System.out.print("\nEnter the id: ");
-        villa.setId(scanner.nextLine());
-        System.out.print("\nEnter the ServiceName: ");
-        villa.setServiceName(scanner.nextLine());
-        System.out.print("\nEnter the AreaUse: ");
-        villa.setAreaUse(scanner.nextFloat());
-        System.out.print("\nEnter the RentalCosts: ");
-        villa.setRentalCosts(scanner.nextFloat());
-        System.out.print("\nEnter the MaxAmountPeople: ");
-        villa.setMaxAmountPeople(scanner.nextInt());
-        System.out.print("\nEnter the RentalType: ");
-        scanner.skip("\\R");
-        villa.setRentalType(scanner.nextLine());
-        System.out.print("\nEnter the StandardRoom: ");
-        villa.setStandardRoom(scanner.nextLine());
-        System.out.print("\nEnter the DescribeAmenities: ");
-        villa.setDescribeAmenities(scanner.nextLine());
-        System.out.print("\nEnter the SwimmingPoolArea: ");
-        villa.setSwimmingPoolArea(scanner.nextFloat());
-        System.out.print("\nEnter the NumberFloors: ");
-        villa.setNumberFloors(scanner.nextInt());
-    }
-
-    // ghi thong tin dich vu villa vao file villa.csv dang character
+    // nhap thong tin dich vu villa tu du lieu nguoi dung & ghi thong tin dich vu villa vao file villa.csv dang character
     public static void addInForVilla() {
-        inputInfoServicesVilla();
+        CheckInputDataAddNewServices.checkDataVilla();
 
         final String PATH_VILLA = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\Villa.csv";
 //        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, StandardRoom, DescribeAmenities, " +
@@ -74,32 +50,9 @@ public class ReadWriteFileCSV {
 
     public static House house = new House();
 
-    // nhap thong tin dich vu house tu du lieu nguoi dung
-    public static void inputInfoServicesHouse() {
-        System.out.print("\nEnter the id: ");
-        house.setId(scanner.nextLine());
-        System.out.print("\nEnter the ServiceName: ");
-        house.setServiceName(scanner.nextLine());
-        System.out.print("\nEnter the AreaUse: ");
-        house.setAreaUse(scanner.nextFloat());
-        System.out.print("\nEnter the RentalCosts: ");
-        house.setRentalCosts(scanner.nextFloat());
-        System.out.print("\nEnter the MaxAmountPeople: ");
-        house.setMaxAmountPeople(scanner.nextInt());
-        System.out.print("\nEnter the RentalType: ");
-        scanner.skip("\\R");
-        house.setRentalType(scanner.nextLine());
-        System.out.print("\nEnter the StandardRoom: ");
-        house.setStandardRoom(scanner.nextLine());
-        System.out.print("\nEnter the DescribeAmenities: ");
-        house.setDescribeAmenities(scanner.nextLine());
-        System.out.print("\nEnter the NumberFloors:  ");
-        house.setNumberFloors(scanner.nextInt());
-    }
-
-    // ghi thong tin dich vu house vao file house.csv dang character
+    // nhap thong tin dich vu house tu du lieu nguoi dung & ghi thong tin dich vu house vao file house.csv dang character
     public static void addInForHouse() {
-        inputInfoServicesHouse();
+        CheckInputDataAddNewServices.checkDataHouse();
 
         final String PATH_HOUSE = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\House.csv";
 //        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, StandardRoom, DescribeAmenities, NumberFloors";
@@ -135,28 +88,9 @@ public class ReadWriteFileCSV {
 
     public static Room room = new Room();
 
-    // nhap thong tin dich vu room tu du lieu nguoi dung
-    public static void inputInfoServicesRoom() {
-        System.out.print("\nEnter the id: ");
-        room.setId(scanner.nextLine());
-        System.out.print("\nEnter the ServiceName: ");
-        room.setServiceName(scanner.nextLine());
-        System.out.print("\nEnter the AreaUse: ");
-        room.setAreaUse(scanner.nextFloat());
-        System.out.print("\nEnter the RentalCosts: ");
-        room.setRentalCosts(scanner.nextFloat());
-        System.out.print("\nEnter the MaxAmountPeople: ");
-        room.setMaxAmountPeople(scanner.nextInt());
-        System.out.print("\nEnter the RentalType: ");
-        scanner.skip("\\R");
-        room.setRentalType(scanner.nextLine());
-        System.out.print("\nEnter the FreeServiceIncluded: ");
-        room.setFreeServiceIncluded(scanner.nextLine());
-    }
-
-    // ghi thong tin dich vu room vao file room.csv dang character
+    // nhap thong tin dich vu room tu du lieu nguoi dung & ghi thong tin dich vu room vao file room.csv dang character
     public static void addInForRoom() {
-        inputInfoServicesRoom();
+        CheckInputDataAddNewServices.checkDataRoom();
 
         final String PATH_ROOM = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\Room.csv";
 //        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, FreeServiceIncluded";
@@ -185,6 +119,5 @@ public class ReadWriteFileCSV {
                 e.printStackTrace();
             }
         }
-
     }
 }
