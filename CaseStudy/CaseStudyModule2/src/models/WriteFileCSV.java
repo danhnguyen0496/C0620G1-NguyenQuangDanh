@@ -1,25 +1,24 @@
 package models;
 
-import views.CheckInputDataAddNewServices;
+import commons.CheckDataAddNewServices;
 
 import java.io.*;
 import java.util.Scanner;
 
-public class ReadWriteFileCSV {
+public class WriteFileCSV {
 
     public static Scanner scanner = new Scanner(System.in);
     public static final String COMMA = ", ";
     public static final String DOWN = "\n";
 
-    public static Villa villa = new Villa();
 
     // nhap thong tin dich vu villa tu du lieu nguoi dung & ghi thong tin dich vu villa vao file villa.csv dang character
     public static void addInForVilla() {
-        CheckInputDataAddNewServices.checkDataVilla();
-
+        Villa villa = CheckDataAddNewServices.checkDataVilla();
         final String PATH_VILLA = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\Villa.csv";
 //        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, StandardRoom, DescribeAmenities, " +
 //                "SwimmingPoolArea, NumberFloors";
+
         FileWriter fileWriter = null;
         BufferedWriter bufferedWriter = null;
         try {
@@ -48,12 +47,10 @@ public class ReadWriteFileCSV {
         }
     }
 
-    public static House house = new House();
 
     // nhap thong tin dich vu house tu du lieu nguoi dung & ghi thong tin dich vu house vao file house.csv dang character
     public static void addInForHouse() {
-        CheckInputDataAddNewServices.checkDataHouse();
-
+        House house = CheckDataAddNewServices.checkDataHouse();
         final String PATH_HOUSE = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\House.csv";
 //        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, StandardRoom, DescribeAmenities, NumberFloors";
 
@@ -86,14 +83,12 @@ public class ReadWriteFileCSV {
     }
 
 
-    public static Room room = new Room();
-
     // nhap thong tin dich vu room tu du lieu nguoi dung & ghi thong tin dich vu room vao file room.csv dang character
     public static void addInForRoom() {
-        CheckInputDataAddNewServices.checkDataRoom();
-
+        Room room = CheckDataAddNewServices.checkDataRoom();
         final String PATH_ROOM = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\Room.csv";
 //        final String FILE_HEADER = "Id, ServiceName, AreaUse, RentalCosts, MaxAmountPeople, RentalType, FreeServiceIncluded";
+
         FileWriter fileWriter = null;
         BufferedWriter bufferedWriter = null;
         try {

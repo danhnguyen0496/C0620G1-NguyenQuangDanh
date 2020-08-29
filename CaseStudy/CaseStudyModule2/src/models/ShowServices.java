@@ -3,7 +3,6 @@ package models;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class ShowServices {
 
@@ -91,7 +90,5 @@ public class ShowServices {
             System.out.println(room.showInfo());
         }
     }
-
-    //
 }
 
