@@ -1,13 +1,11 @@
 package models;
 
-import commons.Validate;
+import commons.ValidateException;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
-public class Customer {
+public class Customer implements Comparator<Customer> {
     private String name;
     private String birthday;
     private String gender;
@@ -124,11 +122,12 @@ public class Customer {
         Scanner scanner = new Scanner(System.in);
         Customer customer = new Customer();
 
-        customer.setName(Validate.nameException());
-        customer.setBirthday(Validate.birthdayException());
-        customer.setGender(Validate.genderException());
-        customer.setIdentityCardNumber(Validate.idCardException());
-        customer.setEmail(Validate.emailException());
+        customer.setName(ValidateException.nameException());
+        customer.setBirthday(ValidateException.birthdayException());
+        customer.setGender(ValidateException.genderException());
+        customer.setIdentityCardNumber(ValidateException.idCardException());
+        customer.setNumberPhone(ValidateException.numberPhoneException());
+        customer.setEmail(ValidateException.emailException());
 
         System.out.print("Enter the customer type: ");
         String customerType = scanner.nextLine();
@@ -150,13 +149,13 @@ public class Customer {
     public static void addNewCustomer() {
         Customer customer = addInForCustomer();
         try {
-            FileWriter fileWriter = new FileWriter(new File(PATH_CUSTOMER));
+            FileWriter fileWriter = new FileWriter(new File(PATH_CUSTOMER), true);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append(customer.getName()).append(COMMA).append(customer.getBirthday()).append(COMMA).
                     append(customer.getGender()).append(COMMA).append(customer.getIdentityCardNumber()).append(COMMA).
                     append(customer.getNumberPhone()).append(COMMA).append(customer.getEmail()).append(COMMA).
-                    append(customer.getCustomerType()).append(COMMA).append(customer.getAddress()).append(COMMA).append(DOWN);
+                    append(customer.getCustomerType()).append(COMMA).append(customer.getAddress()).append(DOWN);
             bufferedWriter.write(stringBuilder.toString());
             bufferedWriter.close();
         } catch (IOException e) {
@@ -183,8 +182,22 @@ public class Customer {
             e.printStackTrace();
         }
 
+        // ????????????
+        customerList.sort(new Customer());
         for (Customer customer : customerList) {
             System.out.println(customer.showInfo());
+        }
+    }
+
+    // ?????????
+    @Override
+    public int compare(Customer customer1, Customer customer2) {
+        int result = customer1.getName().compareTo(customer2.getName());
+        if (result != 0) {
+            return result;
+        } else {
+            int answers = Integer.parseInt(customer1.getBirthday().substring(6)) - Integer.parseInt(customer2.getBirthday().substring(6));
+            return Integer.compare(answers, 0);
         }
     }
 }

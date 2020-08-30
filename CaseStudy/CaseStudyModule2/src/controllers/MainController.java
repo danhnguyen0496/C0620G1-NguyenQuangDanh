@@ -1,8 +1,8 @@
 package controllers;
 
 import models.Customer;
-import models.WriteFileCSV;
-import models.ShowServices;
+import models.WriteFileServices;
+import models.ShowInfoServices;
 
 import java.util.Scanner;
 
@@ -69,13 +69,13 @@ public class MainController {
 
             switch (choice) {
                 case 1:
-                    WriteFileCSV.addInForVilla();
+                    WriteFileServices.addInForVilla();
                     break;
                 case 2:
-                    WriteFileCSV.addInForHouse();
+                    WriteFileServices.addInForHouse();
                     break;
                 case 3:
-                    WriteFileCSV.addInForRoom();
+                    WriteFileServices.addInForRoom();
                     break;
                 case 4:
                     addNewServices();
@@ -105,13 +105,13 @@ public class MainController {
 
             switch (choice) {
                 case 1:
-                    ShowServices.showAllVilla();
+                    ShowInfoServices.showAllVilla();
                     break;
                 case 2:
-                    ShowServices.showAllHouse();
+                    ShowInfoServices.showAllHouse();
                     break;
                 case 3:
-                    ShowServices.showAllRoom();
+                    ShowInfoServices.showAllRoom();
                     break;
 //            case 4:
 //                showAllNameVillaNotDuplicate();
@@ -130,4 +130,6 @@ public class MainController {
             }
         } while (choice < 1 || choice > 8);
     }
+
+    // menu
 }

@@ -5,7 +5,7 @@ import commons.CheckDataAddNewServices;
 import java.io.*;
 import java.util.Scanner;
 
-public class WriteFileCSV {
+public class WriteFileServices {
 
     public static Scanner scanner = new Scanner(System.in);
     public static final String COMMA = ", ";

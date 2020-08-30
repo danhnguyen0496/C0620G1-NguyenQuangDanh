@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShowServices {
+public class ShowInfoServices {
 
     // hien thi thong tin villa trong file villa.csv
     public static void showAllVilla() {

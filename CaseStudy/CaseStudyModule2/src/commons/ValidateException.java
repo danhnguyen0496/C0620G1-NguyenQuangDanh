@@ -5,7 +5,8 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Validate {
+public class ValidateException {
+
     public static String nameException() {
         Scanner scanner = new Scanner(System.in);
         String NAME_REGEX = "^[A-Z][aàảãáạăằẳẵắặâầẩẫấậbcdđeèẻẽéẹêềểễếệfghiìỉĩíịjklmnoòỏõóọôồổỗốộơờởỡớợpqrstuùủũúụưừửữứựvwxyỳỷỹýỵ]+(\\s[A-Z][aàảãáạăằẳẵắặâầẩẫấậbcdđeèẻẽéẹêềểễếệfghiìỉĩíịjklmnoòỏõóọôồổỗốộơờởỡớợpqrstuùủũúụưừửữứựvwxyỳỷỹýỵ]+)*$";
@@ -84,7 +85,7 @@ public class Validate {
 
     public static String birthdayException() {
         Scanner scanner = new Scanner(System.in);
-        String BIRTHDAY_REGEX = "^\\d{2}\\/\\d{2}\\/(19[0-9][1-9]|20[0-1]{2})$";
+        String BIRTHDAY_REGEX = "^(0[1-9]|1[0-9]|2[0-9]|3[0-1])\\/(0[1-9]|1[0-2])\\/((190[1-9])|(19[1-9][0-9])|20[0-1]{2})$";
         String birthday;
         boolean isBirthday;
         System.out.print("Enter the birthday: ");
@@ -96,6 +97,23 @@ public class Validate {
             } else {
                 System.out.print("The year of birth must be more 1900 and 18 years less than the current year," +
                         " must be correct format dd/mm/yyyy, enter again: " + "\n");
+            }
+        } while (true);
+    }
+
+    public static String numberPhoneException() {
+        Scanner scanner = new Scanner(System.in);
+        String NUMBER_PHONE_REGEX = "^\\d{10,11}$";
+        String numberPhone;
+        boolean isNumberPhone;
+        System.out.print("Enter the number phone: ");
+        do {
+            numberPhone = scanner.nextLine();
+            isNumberPhone = Pattern.matches(NUMBER_PHONE_REGEX, numberPhone);
+            if (isNumberPhone) {
+                return numberPhone;
+            } else {
+                System.out.print("Enter number phone is not format, enter again: " + "\n");
             }
         } while (true);
     }
