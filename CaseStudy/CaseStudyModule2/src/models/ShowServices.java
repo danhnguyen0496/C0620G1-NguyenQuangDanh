@@ -29,8 +29,7 @@ public class ShowServices {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        List<Villa> list = villaList;
-        for (Villa villa : list) {
+        for (Villa villa : villaList) {
             System.out.println(villa.showInfo());
         }
     }
@@ -58,7 +57,7 @@ public class ShowServices {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        List<House> list = houseList;
+
         for (House house : houseList) {
             System.out.println(house.showInfo());
         }
@@ -85,7 +84,7 @@ public class ShowServices {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        List<Room> list = roomList;
+
         for (Room room : roomList) {
             System.out.println(room.showInfo());
         }

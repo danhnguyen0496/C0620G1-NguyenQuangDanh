@@ -1,5 +1,6 @@
 package controllers;
 
+import models.Customer;
 import models.WriteFileCSV;
 import models.ShowServices;
 
@@ -22,8 +23,7 @@ public class MainController {
                 "\n5. Add New Booking " +
                 "\n6. Show Information Of Employee " +
                 "\n7. Exit");
-
-        int choice = 0;
+        int choice;
         do {
             System.out.print("\nEnter your choice: ");
             choice = scanner.nextInt();
@@ -35,12 +35,12 @@ public class MainController {
                 case 2:
                     showServices();
                     break;
-//            case 3:
-//                addNewCustomer();
-//                break;
-//            case 4:
-//                showInformationCustomers();
-//                break;
+                case 3:
+                    Customer.addNewCustomer();
+                    break;
+                case 4:
+                    Customer.showInformationCustomers();
+                    break;
 //            case 5:
 //                addNewBooking();
 //                break;
@@ -62,7 +62,7 @@ public class MainController {
                 "\n4. Back to menu " +
                 "\n5. Exit");
 
-        int choice = 0;
+        int choice;
         do {
             System.out.print("\nEnter your choice: ");
             choice = scanner.nextInt();
@@ -98,7 +98,7 @@ public class MainController {
                 "\n7. Back to menu " +
                 "\n8. Exit");
 
-        int choice = 0;
+        int choice;
         do {
             System.out.print("\nEnter the choice: ");
             choice = scanner.nextInt();
