@@ -105,15 +105,15 @@ public class Customer implements Comparator<Customer> {
 
     public String showInfo() {
 
-        return "Information customer: " +
-                "\nName: " + getName() +
-                "\nBirthday: " + getBirthday() +
-                "\nGender: " + getGender() +
-                "\nIdentity Card Number: " + getIdentityCardNumber() +
-                "\nNumber Phone: " + getNumberPhone() +
-                "\nEmail: " + getEmail() +
-                "\nCustomerType: " + getCustomerType() +
-                "\nAddress: " + getAddress();
+        return "Information customer " +
+                " - Name: " + getName() +
+                " - Birthday: " + getBirthday() +
+                " - Gender: " + getGender() +
+                " - Identity Card Number: " + getIdentityCardNumber() +
+                " - Number Phone: " + getNumberPhone() +
+                " - Email: " + getEmail() +
+                " - CustomerType: " + getCustomerType() +
+                " - Address: " + getAddress();
     }
 
 
@@ -137,8 +137,6 @@ public class Customer implements Comparator<Customer> {
         String address = scanner.nextLine();
         customer.setAddress(address);
 
-//        System.out.print("Enter the services: ");
-//        String services = scanner.nextLine();
         return customer;
     }
 
@@ -163,7 +161,7 @@ public class Customer implements Comparator<Customer> {
         }
     }
 
-    public static void showInformationCustomers() {
+    public static List<Customer> showInformationCustomers() {
         List<Customer> customerList = new ArrayList<>();
 
         try {
@@ -183,10 +181,14 @@ public class Customer implements Comparator<Customer> {
         }
 
         // ????????????
+
         customerList.sort(new Customer());
+        int i = 1;
         for (Customer customer : customerList) {
-            System.out.println(customer.showInfo());
+            System.out.println("Customer " + i + " : " + customer.showInfo());
+            i++;
         }
+        return customerList;
     }
 
     // ?????????
@@ -196,7 +198,7 @@ public class Customer implements Comparator<Customer> {
         if (result != 0) {
             return result;
         } else {
-            int answers = Integer.parseInt(customer1.getBirthday().substring(6)) - Integer.parseInt(customer2.getBirthday().substring(6));
+            int answers = - Integer.parseInt(customer1.getBirthday().substring(6)) + Integer.parseInt(customer2.getBirthday().substring(6));
             return Integer.compare(answers, 0);
         }
     }

@@ -28,9 +28,9 @@ public class Room extends Services implements Serializable {
 
     @Override
     String showInfo() {
-        return ("Information Room: " + "\nId: " + super.getId() + "\nServiceName: " + super.getServiceName() +
-                "\nArea Use: " + super.getAreaUse() + "\nRentalCosts: " + super.getRentalCosts() +
-                "\nMaxAmountPeople: " + super.getMaxAmountPeople() + "\nRentalType: " + super.getRentalType() +
-                "\nFreeServiceIncluded: " + freeServiceIncluded);
+        return ("Information: " + " - Id: " + super.getId() + " - ServiceName: " + super.getServiceName() +
+                " - Area Use: " + super.getAreaUse() + " - RentalCosts: " + super.getRentalCosts() +
+                " - MaxAmountPeople: " + super.getMaxAmountPeople() + " - RentalType: " + super.getRentalType() +
+                " - FreeServiceIncluded: " + freeServiceIncluded);
     }
 }

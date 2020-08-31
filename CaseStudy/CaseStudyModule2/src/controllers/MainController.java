@@ -1,5 +1,6 @@
 package controllers;
 
+import models.Booking;
 import models.Customer;
 import models.WriteFileServices;
 import models.ShowInfoServices;
@@ -41,9 +42,9 @@ public class MainController {
                 case 4:
                     Customer.showInformationCustomers();
                     break;
-//            case 5:
-//                addNewBooking();
-//                break;
+                case 5:
+                    Booking.addNewBooking();
+                    break;
 //            case 6:
 //                showInformationOfEmployee();
 //                break;
@@ -130,6 +131,4 @@ public class MainController {
             }
         } while (choice < 1 || choice > 8);
     }
-
-    // menu
 }

@@ -50,10 +50,10 @@ public class House extends Services implements Serializable {
 
     @Override
     String showInfo() {
-        return ("Information House: " + "\nId: " + super.getId() + "\nServiceName: " + super.getServiceName() +
-                "\nArea Use: " + super.getAreaUse() + "\nRentalCosts: " + super.getRentalCosts() +
-                "\nMaxAmountPeople: " + super.getMaxAmountPeople() + "\nRentalType: " + super.getRentalType() +
-                "\nStandardRoom: " + standardRoom + "\nDescribe Amenities: " + describeAmenities +
-                "\nNumber Floors: " + numberFloors);
+        return ("Information: " + " - Id: " + super.getId() + " - ServiceName: " + super.getServiceName() +
+                " - Area Use: " + super.getAreaUse() + " - RentalCosts: " + super.getRentalCosts() +
+                " - MaxAmountPeople: " + super.getMaxAmountPeople() + " - RentalType: " + super.getRentalType() +
+                " - StandardRoom: " + standardRoom + " - Describe Amenities: " + describeAmenities +
+                " - Number Floors: " + numberFloors);
     }
 }

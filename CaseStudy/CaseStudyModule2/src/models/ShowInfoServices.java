@@ -7,7 +7,7 @@ import java.util.List;
 public class ShowInfoServices {
 
     // hien thi thong tin villa trong file villa.csv
-    public static void showAllVilla() {
+    public static List<Villa> showAllVilla() {
         List<Villa> villaList = new ArrayList<>();
 
         final String PATH_VILLA = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\Villa.csv";
@@ -29,13 +29,16 @@ public class ShowInfoServices {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        int i = 1;
         for (Villa villa : villaList) {
-            System.out.println(villa.showInfo());
+            System.out.println("Services villa " + i + " : " + villa.showInfo());
+            i++;
         }
+        return villaList;
     }
 
     // hien thi thong tin house trong file house.csv
-    public static void showAllHouse() {
+    public static List<House> showAllHouse() {
         List<House> houseList = new ArrayList<>();
 
         final String PATH_HOUSE = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\House.csv";
@@ -57,14 +60,16 @@ public class ShowInfoServices {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        int i = 1;
         for (House house : houseList) {
-            System.out.println(house.showInfo());
+            System.out.println("Services house " + i + " : " + house.showInfo());
+            i++;
         }
+        return houseList;
     }
 
     // hien thi thong tin room trong file room.csv
-    public static void showAllRoom() {
+    public static List<Room> showAllRoom() {
         List<Room> roomList = new ArrayList<>();
 
         final String PATH_ROOM = "D:\\C0620G1-NguyenQuangDanh\\CaseStudy\\CaseStudyModule2\\src\\data\\Room.csv";
@@ -85,9 +90,12 @@ public class ShowInfoServices {
             e.printStackTrace();
         }
 
+        int i = 1;
         for (Room room : roomList) {
-            System.out.println(room.showInfo());
+            System.out.println("Services room " + i + " : " + room.showInfo());
+            i++;
         }
+        return roomList;
     }
 }
 
