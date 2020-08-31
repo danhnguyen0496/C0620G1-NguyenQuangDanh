@@ -2,30 +2,19 @@ package models;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
 public class Booking {
 
     public static Scanner scanner = new Scanner(System.in);
-    public static List<Customer> customerList = Customer.showInformationCustomers();
-
-    public static int choiceCustomer() {
-        // hien thi danh sach khach hang can chon dich vu
-        int choice = -1;
-        while (choice < 0 || choice > customerList.size()) {
-            System.out.print("Select the customer to booking services: \nCustomer ");
-            choice = scanner.nextInt();
-        }
-        for (int i = 1; i <= customerList.size(); i++) {
-            if (i == choice) {
-                System.out.println(customerList.get(i - 1).showInfo());
-            }
-        }
-        return choice;
-    }
+    public static List<Customer> customerList = Customer.readInformationCustomers();
 
     public static void addNewBooking() {
+        for (int i = 0; i < customerList.size(); i++) {
+            System.out.println(customerList.get(i).showInfo());
+        }
         choiceCustomer();
         int choice;
         System.out.print("Enter the select booking: " +
@@ -49,8 +38,23 @@ public class Booking {
         } while (choice > 3 || choice < 1);
     }
 
+    public static void choiceCustomer() {
+        // hien thi danh sach khach hang can chon dich vu
+        int choice = -1;
+        while (choice < 1 || choice > customerList.size()) {
+            System.out.print("Select the customer to booking services: \nCustomer ");
+            choice = scanner.nextInt();
+        }
+        for (int i = 1; i <= customerList.size(); i++) {
+            if (i == choice) {
+                System.out.println(customerList.get(i - 1).showInfo());
+            }
+        }
+    }
+
     public static void bookingVilla() {
-        ArrayList arrayList = (ArrayList) ShowInfoServices.showAllVilla();
+        ArrayList arrayList = (ArrayList) ShowInfoServices.readInfoAllVilla();
+        ShowInfoServices.showAllVilla();
         System.out.print("Select villa to booking, villa ");
         int choiceVilla = scanner.nextInt();
         Customer customer = customerList.get(choiceVilla - 1);
@@ -80,7 +84,8 @@ public class Booking {
     }
 
     public static void bookingHouse() {
-        ArrayList arrayList = (ArrayList) ShowInfoServices.showAllHouse();
+        ArrayList arrayList = (ArrayList) ShowInfoServices.readInfoAllHouse();
+        ShowInfoServices.showAllHouse();
         System.out.print("Select villa to booking, house ");
         int choiceHouse = scanner.nextInt();
         Customer customer = customerList.get(choiceHouse - 1);
@@ -110,7 +115,8 @@ public class Booking {
     }
 
     public static void bookingRoom() {
-        ArrayList arrayList = (ArrayList) ShowInfoServices.showAllRoom();
+        ArrayList arrayList = (ArrayList) ShowInfoServices.readInfoAllRoom();
+        ShowInfoServices.showAllRoom();
         System.out.print("Select villa to booking, room ");
         int choiceRoom = scanner.nextInt();
         Customer customer = customerList.get(choiceRoom - 1);

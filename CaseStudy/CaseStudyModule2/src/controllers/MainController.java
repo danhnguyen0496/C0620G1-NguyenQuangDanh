@@ -40,6 +40,7 @@ public class MainController {
                     Customer.addNewCustomer();
                     break;
                 case 4:
+                    Customer.readInformationCustomers();
                     Customer.showInformationCustomers();
                     break;
                 case 5:
@@ -106,23 +107,26 @@ public class MainController {
 
             switch (choice) {
                 case 1:
+                    ShowInfoServices.readInfoAllVilla();
                     ShowInfoServices.showAllVilla();
                     break;
                 case 2:
+                    ShowInfoServices.readInfoAllHouse();
                     ShowInfoServices.showAllHouse();
                     break;
                 case 3:
+                    ShowInfoServices.readInfoAllRoom();
                     ShowInfoServices.showAllRoom();
                     break;
-//            case 4:
-//                showAllNameVillaNotDuplicate();
-//                break;
-//            case 5:
-//                showAllNameHouseNotDuplicate();
-//                break;
-//            case 6:
-//                showAllNameRoomNotDuplicate();
-//                break;
+                case 4:
+                    ShowInfoServices.showAllNameVillaNotDuplicate();
+                    break;
+                case 5:
+                    ShowInfoServices.showAllNameHouseNotDuplicate();
+                    break;
+                case 6:
+                    ShowInfoServices.showAllNameRoomNotDuplicate();
+                    break;
                 case 7:
                     showServices();
                     break;

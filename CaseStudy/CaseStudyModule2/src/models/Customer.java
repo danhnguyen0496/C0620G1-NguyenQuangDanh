@@ -161,9 +161,9 @@ public class Customer implements Comparator<Customer> {
         }
     }
 
-    public static List<Customer> showInformationCustomers() {
-        List<Customer> customerList = new ArrayList<>();
+    public static List<Customer> customerList = new ArrayList<>();
 
+    public static List<Customer> readInformationCustomers() {
         try {
             FileReader fileReader = new FileReader(new File(PATH_CUSTOMER));
             BufferedReader bufferedReader = new BufferedReader(fileReader);
@@ -179,26 +179,25 @@ public class Customer implements Comparator<Customer> {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return customerList;
+    }
 
-        // ????????????
-
+    public static void showInformationCustomers() {
         customerList.sort(new Customer());
         int i = 1;
         for (Customer customer : customerList) {
             System.out.println("Customer " + i + " : " + customer.showInfo());
             i++;
         }
-        return customerList;
     }
 
-    // ?????????
     @Override
     public int compare(Customer customer1, Customer customer2) {
         int result = customer1.getName().compareTo(customer2.getName());
         if (result != 0) {
             return result;
         } else {
-            int answers = - Integer.parseInt(customer1.getBirthday().substring(6)) + Integer.parseInt(customer2.getBirthday().substring(6));
+            int answers = -Integer.parseInt(customer1.getBirthday().substring(6)) + Integer.parseInt(customer2.getBirthday().substring(6));
             return Integer.compare(answers, 0);
         }
     }
