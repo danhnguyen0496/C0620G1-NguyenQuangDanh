@@ -15,7 +15,7 @@ public class Booking {
         for (int i = 0; i < customerList.size(); i++) {
             System.out.println(customerList.get(i).showInfo());
         }
-        choiceCustomer();
+        Customer customer = choiceCustomer();
         int choice;
         System.out.print("Enter the select booking: " +
                 "\n1. Booking Villa" +
@@ -26,43 +26,46 @@ public class Booking {
             choice = scanner.nextInt();
             switch (choice) {
                 case 1:
-                    bookingVilla();
+                    bookingVilla(customer);
                     break;
                 case 2:
-                    bookingHouse();
+                    bookingHouse(customer);
                     break;
                 case 3:
-                    bookingRoom();
+                    bookingRoom(customer);
                     break;
             }
         } while (choice > 3 || choice < 1);
     }
 
-    public static void choiceCustomer() {
+    public static Customer choiceCustomer() {
         // hien thi danh sach khach hang can chon dich vu
         int choice = -1;
+        Customer customer = null;
         while (choice < 1 || choice > customerList.size()) {
             System.out.print("Select the customer to booking services: \nCustomer ");
             choice = scanner.nextInt();
         }
         for (int i = 1; i <= customerList.size(); i++) {
             if (i == choice) {
+                customer = customerList.get(i - 1);
                 System.out.println(customerList.get(i - 1).showInfo());
             }
         }
+        return customer;
     }
 
-    public static void bookingVilla() {
+    public static String PATH_BOOKING = "src/data/Booking.csv";
+
+    public static void bookingVilla(Customer customer) {
         ArrayList arrayList = (ArrayList) ShowInfoServices.readInfoAllVilla();
         ShowInfoServices.showAllVilla();
         System.out.print("Select villa to booking, villa ");
         int choiceVilla = scanner.nextInt();
-        Customer customer = customerList.get(choiceVilla - 1);
         Services services = (Services) arrayList.get(choiceVilla - 1);
         customer.setServices(services);
         final String DOWN = "\n";
         final String COMMA = ", ";
-        String PATH_BOOKING = "src/data/BookVilla.csv";
         try {
             FileWriter fileWriter = new FileWriter(new File(PATH_BOOKING), true);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
@@ -73,8 +76,8 @@ public class Booking {
                     append(customer.getCustomerType()).append(COMMA).append(customer.getAddress()).append(COMMA).
                     append(COMMA).append(customer.getServices().getId()).append(COMMA).append(customer.getServices().getServiceName()).
                     append(COMMA).append(customer.getServices().getAreaUse()).append(COMMA).append(customer.getServices().getRentalCosts()).
-                    append(COMMA).append(customer.getServices().getMaxAmountPeople()).append(COMMA).append(customer.getServices().getRentalType()).
-                    append(COMMA).append(customer.getServices().showInfo()).append(DOWN);
+                    append(COMMA).append(customer.getServices().getMaxAmountPeople()).append(COMMA).append(customer.getServices().getRentalType())
+                    .append(DOWN);
 
             bufferedWriter.write(stringBuilder.toString());
             bufferedWriter.close();
@@ -83,17 +86,15 @@ public class Booking {
         }
     }
 
-    public static void bookingHouse() {
+    public static void bookingHouse(Customer customer) {
         ArrayList arrayList = (ArrayList) ShowInfoServices.readInfoAllHouse();
         ShowInfoServices.showAllHouse();
         System.out.print("Select villa to booking, house ");
         int choiceHouse = scanner.nextInt();
-        Customer customer = customerList.get(choiceHouse - 1);
         Services services = (Services) arrayList.get(choiceHouse - 1);
         customer.setServices(services);
         final String DOWN = "\n";
         final String COMMA = ", ";
-        String PATH_BOOKING = "src/data/BookHouse.csv";
         try {
             FileWriter fileWriter = new FileWriter(new File(PATH_BOOKING), true);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
@@ -105,7 +106,7 @@ public class Booking {
                     append(COMMA).append(customer.getServices().getId()).append(COMMA).append(customer.getServices().getServiceName()).
                     append(COMMA).append(customer.getServices().getAreaUse()).append(COMMA).append(customer.getServices().getRentalCosts()).
                     append(COMMA).append(customer.getServices().getMaxAmountPeople()).append(COMMA).append(customer.getServices().getRentalType()).
-                    append(COMMA).append(customer.getServices().showInfo()).append(DOWN);
+                    append(DOWN);
 
             bufferedWriter.write(stringBuilder.toString());
             bufferedWriter.close();
@@ -114,17 +115,15 @@ public class Booking {
         }
     }
 
-    public static void bookingRoom() {
+    public static void bookingRoom(Customer customer) {
         ArrayList arrayList = (ArrayList) ShowInfoServices.readInfoAllRoom();
         ShowInfoServices.showAllRoom();
         System.out.print("Select villa to booking, room ");
         int choiceRoom = scanner.nextInt();
-        Customer customer = customerList.get(choiceRoom - 1);
         Services services = (Services) arrayList.get(choiceRoom - 1);
         customer.setServices(services);
         final String DOWN = "\n";
         final String COMMA = ", ";
-        String PATH_BOOKING = "src/data/BookRoom.csv";
         try {
             FileWriter fileWriter = new FileWriter(new File(PATH_BOOKING), true);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
@@ -136,7 +135,7 @@ public class Booking {
                     append(COMMA).append(customer.getServices().getId()).append(COMMA).append(customer.getServices().getServiceName()).
                     append(COMMA).append(customer.getServices().getAreaUse()).append(COMMA).append(customer.getServices().getRentalCosts()).
                     append(COMMA).append(customer.getServices().getMaxAmountPeople()).append(COMMA).append(customer.getServices().getRentalType()).
-                    append(COMMA).append(customer.getServices().showInfo()).append(DOWN);
+                    append(DOWN);
 
             bufferedWriter.write(stringBuilder.toString());
             bufferedWriter.close();

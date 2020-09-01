@@ -1,9 +1,6 @@
 package controllers;
 
-import models.Booking;
-import models.Customer;
-import models.WriteFileServices;
-import models.ShowInfoServices;
+import models.*;
 
 import java.util.Scanner;
 
@@ -46,9 +43,9 @@ public class MainController {
                 case 5:
                     Booking.addNewBooking();
                     break;
-//            case 6:
-//                showInformationOfEmployee();
-//                break;
+                case 6:
+                    Employee.showInformationOfEmployee();
+                    break;
                 case 7:
                     break;
             }
@@ -120,12 +117,15 @@ public class MainController {
                     break;
                 case 4:
                     ShowInfoServices.showAllNameVillaNotDuplicate();
+                    displayMainMenu();
                     break;
                 case 5:
                     ShowInfoServices.showAllNameHouseNotDuplicate();
+                    displayMainMenu();
                     break;
                 case 6:
                     ShowInfoServices.showAllNameRoomNotDuplicate();
+                    displayMainMenu();
                     break;
                 case 7:
                     showServices();
