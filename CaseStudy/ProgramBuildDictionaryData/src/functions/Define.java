@@ -17,11 +17,12 @@ public class Define {
 
         List<Dictionary> dictionaryList = ReadFileDictionary.readFileCSVDictionary();
 
+
         // tim tu can bo sung dinh nghia
         boolean checkKey = false;
         for (Dictionary dictionary : dictionaryList) {
             if (keyWord.equals(dictionary.getKeyWord())) {
-                AdditionalDefinition.additionalDefinition();
+                AdditionalDefinition.additionalDefinition(dictionaryList);
                 checkKey = true;
                 break;
             }

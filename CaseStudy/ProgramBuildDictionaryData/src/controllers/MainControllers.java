@@ -1,6 +1,8 @@
 package controllers;
 
 import functions.Define;
+import functions.Drop;
+import functions.Export;
 import functions.LookUp;
 
 import java.util.Scanner;
@@ -23,10 +25,10 @@ public class MainControllers {
                     Define.define();
                     break;
                 case 3:
-//                drop();
+                    Drop.drop();
                     break;
                 case 4:
-//                export ();
+                    Export.export();
                     break;
             }
         } while (selectAction < 1 || selectAction > 4);

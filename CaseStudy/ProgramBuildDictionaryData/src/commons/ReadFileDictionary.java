@@ -28,6 +28,7 @@ public class ReadFileDictionary {
                 dictionaryList.add(dictionary);
             }
             bufferedReader.close();
+            fileReader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -35,9 +36,8 @@ public class ReadFileDictionary {
     }
 
     public static void displayFileCSVDictionary() {
-        readFileCSVDictionary();
         for (Dictionary dictionary : dictionaryList) {
-            System.out.println(dictionary);
+            System.out.println(dictionary.display());
         }
     }
 }

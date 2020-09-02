@@ -14,13 +14,9 @@ import java.util.Scanner;
 
 public class AdditionalDefinition {
 
-    public static Scanner scanner = new Scanner(System.in);
-
-    public static List<Dictionary> dictionaryList = ReadFileDictionary.readFileCSVDictionary();
-
     // chon loai tu (adj/n) can bo sung dinh nghia
-    public static void additionalDefinition() {
-
+    public static void additionalDefinition(List<Dictionary> dictionaryList) {
+        Scanner scanner = new Scanner(System.in);
         int typeWord;
         System.out.println("Enter the word type to add define: \n1. Adjective \n2. Noun");
         do {
@@ -28,48 +24,82 @@ public class AdditionalDefinition {
             typeWord = scanner.nextInt();
             switch (typeWord) {
                 case 1:
-                    additionalDefinitionAdj();
+                    additionalDefinitionAdj(dictionaryList);
                     break;
                 case 2:
-                    //
+                    additionalDefinitionNoun(dictionaryList);
                     break;
             }
         } while (typeWord < 1 || typeWord > 3);
     }
 
     // bo sung dinh nghia cho adj
-    public static void additionalDefinitionAdj() {
-
-        List<Dictionary> dictionaryListNew = new ArrayList<>();
+    public static void additionalDefinitionAdj(List<Dictionary> dictionaryList) {
+        Scanner scanner = new Scanner(System.in);
+        List<Dictionary> dictionaryListAdjective = new ArrayList<>();
 
         for (Dictionary dictionary : dictionaryList) {
             if (Define.keyWord.equals(dictionary.getKeyWord())) {
-                System.out.println("Enter content add define: ");
-                scanner.skip("\\R");
+                System.out.println("Enter content add define adjective: ");
                 String content = scanner.nextLine();
                 dictionary.setAdjective(content);
-                break;
             }
-            dictionaryListNew.add(dictionary);
+            dictionaryListAdjective.add(dictionary);
         }
         final String DOWN = "\n";
         final String COMMA = ", ";
         String pathDictionary = Constants.PATH_DICTIONARY;
-
-        for (Dictionary dictionaryNew : dictionaryListNew) {
-            try {
-                FileWriter fileWriter = new FileWriter(new File(pathDictionary));
-                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-                StringBuilder stringBuilder = new StringBuilder();
-                stringBuilder.append(dictionaryNew.getKeyWord()).append(COMMA).append(dictionaryNew.getPronounce()).append(COMMA).
-                        append(dictionaryNew.getAdjective()).append(COMMA).append(dictionaryNew.getExample()).append(COMMA).
-                        append(dictionaryNew.getNoun()).append(COMMA).append(dictionaryNew.getSimilar()).append(DOWN);
-                bufferedWriter.write(stringBuilder.toString());
-                bufferedWriter.close();
-            } catch (IOException e) {
-                e.printStackTrace();
+        FileWriter fileWriter = null;
+        try {
+            fileWriter = new FileWriter(new File(pathDictionary));
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            for (Dictionary dictionaryNew : dictionaryListAdjective) {
+                try {
+                    String stringBuilder = dictionaryNew.getKeyWord() + COMMA + dictionaryNew.getPronounce() + COMMA +
+                            dictionaryNew.getAdjective() + COMMA + dictionaryNew.getExample() + COMMA +
+                            dictionaryNew.getNoun() + COMMA + dictionaryNew.getSimilar() + DOWN;
+                    bufferedWriter.write(stringBuilder);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
+            bufferedWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // bo sung dinh nghia cho noun
+    public static void additionalDefinitionNoun(List<Dictionary> dictionaryList) {
+        Scanner scanner = new Scanner(System.in);
+        List<Dictionary> dictionaryListNoun = new ArrayList<>();
+
+        for (Dictionary dictionary : dictionaryList) {
+            if (Define.keyWord.equals(dictionary.getKeyWord())) {
+                System.out.println("Enter content add define noun: ");
+                String content = scanner.nextLine();
+                dictionary.setNoun(content);
+            }
+            dictionaryListNoun.add(dictionary);
         }
 
+        final String DOWN = "\n";
+        final String COMMA = ", ";
+        String pathDictionary = Constants.PATH_DICTIONARY;
+        try {
+            FileWriter fileWriter = new FileWriter(new File(pathDictionary));
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            for (Dictionary dictionaryNoun : dictionaryListNoun) {
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.append(dictionaryNoun.getKeyWord()).append(COMMA).append(dictionaryNoun.getPronounce()).append(COMMA).
+                        append(dictionaryNoun.getAdjective()).append(COMMA).append(dictionaryNoun.getExample()).append(COMMA).
+                        append(dictionaryNoun.getNoun()).append(COMMA).append(dictionaryNoun.getSimilar()).append(DOWN);
+                bufferedWriter.write(stringBuilder.toString());
+            }
+            bufferedWriter.close();
+            fileWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -69,7 +69,16 @@ public class Dictionary {
     }
 
     public String display() {
-        return  "* Pronounce = " + pronounce +
+        return "* Pronounce = " + pronounce +
+                "\n* Adjective = " + adjective +
+                "\n- Example = " + example +
+                "\n* Noun = " + noun +
+                "\n* Similar = " + similar;
+    }
+
+    public String displayTxt() {
+        return  "@ Keyword = " + keyWord +
+                "\n* Pronounce = " + pronounce +
                 "\n* Adjective = " + adjective +
                 "\n- Example = " + example +
                 "\n* Noun = " + noun +
@@ -79,6 +88,6 @@ public class Dictionary {
     @Override
     public String toString() {
         return "Keyword = " + keyWord + ", Pronounce = " + pronounce + ", Adjective = " + adjective +
-                ", Example = " + example + ", Noun = " + noun + ", Similar = " + similar;
+                ", Example = " + example + ", Noun = " + noun + ", Similar = " + similar + "\n";
     }
 }

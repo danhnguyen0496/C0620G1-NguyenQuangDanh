@@ -1,0 +1,12 @@
+@ Keyword = positive
+* Pronounce = /'pɔzətiv/
+* Adjective = xác thực - rõ ràng
+- Example = a positive proof + một chứng cớ rõ ràng
+* Noun = điều xác thực
+* Similar = sure - certain
+@ Keyword = record
+* Pronounce = /´rekɔ:d/
+* Adjective = thu âm - ghi âm
+- Example = record the proceeding of an assembly + ghi biên bản hội nghị
+* Noun = hồ sơ
+* Similar = sure - certainname
