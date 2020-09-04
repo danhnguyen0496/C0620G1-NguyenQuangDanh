@@ -42,7 +42,7 @@ public class AdditionalDefinition {
             if (Define.keyWord.equals(dictionary.getKeyWord())) {
                 System.out.println("Enter content add define adjective: ");
                 String content = scanner.nextLine();
-                dictionary.setAdjective(content);
+                dictionary.setAdjective(dictionary.getAdjective() + " - " + content);
             }
             dictionaryListAdjective.add(dictionary);
         }

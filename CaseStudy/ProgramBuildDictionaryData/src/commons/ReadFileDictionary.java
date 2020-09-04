@@ -8,10 +8,11 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ReadFileDictionary {
-    public static List<Dictionary> dictionaryList = new ArrayList<>();
+    public static List<Dictionary> dictionaryList = new LinkedList<>();
 
     public static List<Dictionary> readFileCSVDictionary() {
         String pathDictionary = Constants.PATH_DICTIONARY;

@@ -23,10 +23,12 @@ public class Drop {
 
         for (int i = 0; i < dictionaryList.size(); i++) {
             if (word.equals(dictionaryList.get(i).getKeyWord())) {
+                System.out.println("List dictionary remove:\n" + dictionaryList.get(i).display());
                 dictionaryList.remove(dictionaryList.get(i));
                 break;
             }
         }
+
         List<Dictionary> dictionaryListRemove = new ArrayList<>(dictionaryList);
 
         final String DOWN = "\n";
@@ -47,7 +49,5 @@ public class Drop {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("List dictionary: ");
-        ReadFileDictionary.displayFileCSVDictionary();
     }
 }

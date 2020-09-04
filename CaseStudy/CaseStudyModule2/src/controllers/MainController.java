@@ -2,6 +2,7 @@ package controllers;
 
 import models.*;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class MainController {
@@ -22,34 +23,37 @@ public class MainController {
                 "\n6. Show Information Of Employee " +
                 "\n7. Exit");
         int choice;
-        do {
-            System.out.print("\nEnter your choice: ");
-            choice = scanner.nextInt();
-
-            switch (choice) {
-                case 1:
-                    addNewServices();
-                    break;
-                case 2:
-                    showServices();
-                    break;
-                case 3:
-                    Customer.addNewCustomer();
-                    break;
-                case 4:
-                    Customer.readInformationCustomers();
-                    Customer.showInformationCustomers();
-                    break;
-                case 5:
-                    Booking.addNewBooking();
-                    break;
-                case 6:
-                    Employee.showInformationOfEmployee();
-                    break;
-                case 7:
-                    break;
-            }
-        } while (choice < 1 || choice > 7);
+        try {
+            do {
+                System.out.print("\nEnter your choice: ");
+                choice = scanner.nextInt();
+                switch (choice) {
+                    case 1:
+                        addNewServices();
+                        break;
+                    case 2:
+                        showServices();
+                        break;
+                    case 3:
+                        Customer.addNewCustomer();
+                        break;
+                    case 4:
+                        Customer.readInformationCustomers();
+                        Customer.showInformationCustomers();
+                        break;
+                    case 5:
+                        Booking.addNewBooking();
+                        break;
+                    case 6:
+                        Employee.showInformationOfEmployee();
+                        break;
+                    case 7:
+                        break;
+                }
+            } while (choice < 1 || choice > 7);
+        } catch (InputMismatchException e) {
+            System.err.println("Input value is not format number");
+        }
     }
 
     // menu nhap thong tin cho 1 dich vu thue bat ky (Villa, House, Room)
@@ -62,27 +66,31 @@ public class MainController {
                 "\n5. Exit");
 
         int choice;
-        do {
-            System.out.print("\nEnter your choice: ");
-            choice = scanner.nextInt();
+        try {
+            do {
+                System.out.print("\nEnter your choice: ");
+                choice = scanner.nextInt();
 
-            switch (choice) {
-                case 1:
-                    WriteFileServices.addInForVilla();
-                    break;
-                case 2:
-                    WriteFileServices.addInForHouse();
-                    break;
-                case 3:
-                    WriteFileServices.addInForRoom();
-                    break;
-                case 4:
-                    addNewServices();
-                    break;
-                case 5:
-                    break;
-            }
-        } while (choice > 5 || choice < 1);
+                switch (choice) {
+                    case 1:
+                        WriteFileServices.addInForVilla();
+                        break;
+                    case 2:
+                        WriteFileServices.addInForHouse();
+                        break;
+                    case 3:
+                        WriteFileServices.addInForRoom();
+                        break;
+                    case 4:
+                        addNewServices();
+                        break;
+                    case 5:
+                        break;
+                }
+            } while (choice > 5 || choice < 1);
+        } catch (InputMismatchException e) {
+            System.err.println("Input value is not format number");
+        }
     }
 
     // menu hien thi thong tin dich vu
@@ -98,41 +106,45 @@ public class MainController {
                 "\n8. Exit");
 
         int choice;
-        do {
-            System.out.print("\nEnter the choice: ");
-            choice = scanner.nextInt();
+        try {
+            do {
+                System.out.print("\nEnter the choice: ");
+                choice = scanner.nextInt();
 
-            switch (choice) {
-                case 1:
-                    ShowInfoServices.readInfoAllVilla();
-                    ShowInfoServices.showAllVilla();
-                    break;
-                case 2:
-                    ShowInfoServices.readInfoAllHouse();
-                    ShowInfoServices.showAllHouse();
-                    break;
-                case 3:
-                    ShowInfoServices.readInfoAllRoom();
-                    ShowInfoServices.showAllRoom();
-                    break;
-                case 4:
-                    ShowInfoServices.showAllNameVillaNotDuplicate();
-                    displayMainMenu();
-                    break;
-                case 5:
-                    ShowInfoServices.showAllNameHouseNotDuplicate();
-                    displayMainMenu();
-                    break;
-                case 6:
-                    ShowInfoServices.showAllNameRoomNotDuplicate();
-                    displayMainMenu();
-                    break;
-                case 7:
-                    showServices();
-                    break;
-                case 8:
-                    break;
-            }
-        } while (choice < 1 || choice > 8);
+                switch (choice) {
+                    case 1:
+                        ShowInfoServices.readInfoAllVilla();
+                        ShowInfoServices.showAllVilla();
+                        break;
+                    case 2:
+                        ShowInfoServices.readInfoAllHouse();
+                        ShowInfoServices.showAllHouse();
+                        break;
+                    case 3:
+                        ShowInfoServices.readInfoAllRoom();
+                        ShowInfoServices.showAllRoom();
+                        break;
+                    case 4:
+                        ShowInfoServices.showAllNameVillaNotDuplicate();
+                        displayMainMenu();
+                        break;
+                    case 5:
+                        ShowInfoServices.showAllNameHouseNotDuplicate();
+                        displayMainMenu();
+                        break;
+                    case 6:
+                        ShowInfoServices.showAllNameRoomNotDuplicate();
+                        displayMainMenu();
+                        break;
+                    case 7:
+                        showServices();
+                        break;
+                    case 8:
+                        break;
+                }
+            } while (choice < 1 || choice > 8);
+        } catch (InputMismatchException e) {
+            System.err.println("Input value is not format number");
+        }
     }
 }

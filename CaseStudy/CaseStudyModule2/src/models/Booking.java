@@ -73,7 +73,7 @@ public class Booking {
             stringBuilder.append(customer.getName()).append(COMMA).append(customer.getBirthday()).append(COMMA).
                     append(customer.getGender()).append(COMMA).append(customer.getIdentityCardNumber()).append(COMMA).
                     append(customer.getNumberPhone()).append(COMMA).append(customer.getEmail()).append(COMMA).
-                    append(customer.getCustomerType()).append(COMMA).append(customer.getAddress()).append(COMMA).
+                    append(customer.getCustomerType()).append(COMMA).append(customer.getAddress()).
                     append(COMMA).append(customer.getServices().getId()).append(COMMA).append(customer.getServices().getServiceName()).
                     append(COMMA).append(customer.getServices().getAreaUse()).append(COMMA).append(customer.getServices().getRentalCosts()).
                     append(COMMA).append(customer.getServices().getMaxAmountPeople()).append(COMMA).append(customer.getServices().getRentalType())
