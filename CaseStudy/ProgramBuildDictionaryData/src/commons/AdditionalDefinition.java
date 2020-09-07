@@ -78,7 +78,7 @@ public class AdditionalDefinition {
             if (Define.keyWord.equals(dictionary.getKeyWord())) {
                 System.out.println("Enter content add define noun: ");
                 String content = scanner.nextLine();
-                dictionary.setNoun(content);
+                dictionary.setNoun(dictionary.getNoun() + " - " + content);
             }
             dictionaryListNoun.add(dictionary);
         }
