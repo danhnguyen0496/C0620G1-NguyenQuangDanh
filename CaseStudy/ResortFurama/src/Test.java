@@ -1,14 +1,14 @@
+import commons.Validates;
 import controllers.MainController;
 
-import java.util.Arrays;
-
+import java.util.Scanner;
 
 public class Test {
-    //    public static void main(String[] args) {
-    double method(int x) {
-        if (x > 5) {
-            return 3;
-        }
-        return 2;
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the name: ");
+        scanner.nextLine();
+        String name = Validates.nameException();
     }
 }

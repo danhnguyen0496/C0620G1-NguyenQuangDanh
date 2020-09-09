@@ -23,19 +23,19 @@ public class Room extends Services {
     @Override
     public String toString() {
         return "Room{" +
-                ", id='" + id + '\'' +
+                "id='" + id + '\'' +
                 ", nameService='" + nameService + '\'' +
                 ", areaUse=" + areaUse +
                 ", rentCost=" + rentCost +
                 ", maxNumberPeople=" + maxNumberPeople +
                 ", rentType='" + rentType + '\'' +
-                "extraServices=" + extraServices +
+                ", extraServices=" + extraServices +
                 '}';
     }
 
     @Override
-    public String showInfo() {
-        return this.toString();
+    public void showInfo() {
+        System.out.println(this.toString());
     }
 
 }
