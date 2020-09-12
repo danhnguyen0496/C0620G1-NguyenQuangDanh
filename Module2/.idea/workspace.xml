@@ -23,45 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5ca74d-0493-4f21-8a26-7c9fdcc93788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/commons/Validates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/data/Customer.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/exceptions/BirthdayException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/exceptions/EmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/exceptions/GenderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/exceptions/IdCardException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/exceptions/NameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manage_contact/commons/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manage_contact/commons/Validates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manage_contact/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manage_contact/models/ManageContact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manage_contact/views/Views.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product_management/commons/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product_management/commons/Validates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product_management/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product_management/modules/ExportProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product_management/modules/ImportedProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product_management/modules/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product_management/views/Views.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thi/commons/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thi/commons/Validates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thi/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thi/models/ContactManage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thi/views/Views.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/out/production/CaseStudyModule2/data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/out/production/CaseStudyModule2/data/Villa.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/CaseStudyModule2/src/data/Villa.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/ResortFurama/out/production/ResortFurama/data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/out/production/ResortFurama/data/Villa.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/data/Villa.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/models/ExtraServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/models/ExtraServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/models/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/models/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/models/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/models/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/ResortFurama/src/models/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy/ProductManagement/ProductManagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy/ProductManagement/src/Exceptions/NotFoundProductException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy/ProductManagement/src/commons/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy/ProductManagement/src/commons/Validates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy/ProductManagement/src/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy/ProductManagement/src/models/ExportProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy/ProductManagement/src/models/ImportedProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy/ProductManagement/src/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy/ProductManagement/src/views/Views.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/bai_19_string_and_regex/bai_tap/crawl_news/CrawlNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/bai_19_string_and_regex/bai_tap/crawl_news/CrawlNews.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Module2/case_study/CG-DN CaseStudy Furama Resort Module 2_v2.0.docx" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/case_study/CG-DN CaseStudy Furama Resort Module 2_v2.0.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Module2/product_management/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Module2/product_management/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product_management/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/product_management/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +120,7 @@
       <recent name="D:\C0620G1-NguyenQuangDanh\Module2\src\bai_5_access_modifier_static_method_static_property\thuc_hanh\access_modifer\mypack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Views (2)">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BubbleSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_14_thuat_toan_sap_xep.thuc_hanh.foam_bubble_sort_algorithm_illustration.BubbleSortByStep" />
       <module name="Module2" />
@@ -185,8 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Views (2)" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Views (2)" />
         <item itemvalue="Application.Views (1)" />
         <item itemvalue="Application.Views" />
         <item itemvalue="Application.BubbleSortByStep" />
@@ -309,7 +282,10 @@
       <workItem from="1599609351375" duration="3695000" />
       <workItem from="1599617966139" duration="9524000" />
       <workItem from="1599641991190" duration="617000" />
-      <workItem from="1599647862676" duration="22059000" />
+      <workItem from="1599647862676" duration="22144000" />
+      <workItem from="1599698274792" duration="3355000" />
+      <workItem from="1599702003916" duration="6086000" />
+      <workItem from="1599710677721" duration="748000" />
     </task>
     <servers />
   </component>
@@ -413,42 +389,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="107" y="125" width="1146" height="488" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1598260753366" />
-    <state x="460" y="107" key="FileChooserDialogImpl" timestamp="1598449005563">
+    <state x="460" y="107" key="FileChooserDialogImpl" timestamp="1599702668827">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598449005563" />
-    <state width="1323" height="310" key="GridCell.Tab.0.bottom" timestamp="1599671487716">
+    <state x="460" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599702668827" />
+    <state width="1323" height="278" key="GridCell.Tab.0.bottom" timestamp="1599701649371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="310" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599671487716" />
-    <state width="1323" height="310" key="GridCell.Tab.0.center" timestamp="1599671487716">
+    <state width="1323" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599701649371" />
+    <state width="1323" height="278" key="GridCell.Tab.0.center" timestamp="1599701649370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="310" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599671487716" />
-    <state width="1323" height="310" key="GridCell.Tab.0.left" timestamp="1599671487716">
+    <state width="1323" height="278" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599701649370" />
+    <state width="1323" height="278" key="GridCell.Tab.0.left" timestamp="1599701649370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="310" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599671487716" />
-    <state width="1323" height="310" key="GridCell.Tab.0.right" timestamp="1599671487716">
+    <state width="1323" height="278" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599701649370" />
+    <state width="1323" height="278" key="GridCell.Tab.0.right" timestamp="1599701649371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="310" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599671487716" />
-    <state width="1323" height="197" key="GridCell.Tab.1.bottom" timestamp="1599667984366">
+    <state width="1323" height="278" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599701649371" />
+    <state width="1323" height="278" key="GridCell.Tab.1.bottom" timestamp="1599701649372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599667984366" />
-    <state width="1323" height="197" key="GridCell.Tab.1.center" timestamp="1599667984366">
+    <state width="1323" height="278" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599701649372" />
+    <state width="1323" height="278" key="GridCell.Tab.1.center" timestamp="1599701649371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599667984366" />
-    <state width="1323" height="197" key="GridCell.Tab.1.left" timestamp="1599667984366">
+    <state width="1323" height="278" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599701649371" />
+    <state width="1323" height="278" key="GridCell.Tab.1.left" timestamp="1599701649371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599667984366" />
-    <state width="1323" height="197" key="GridCell.Tab.1.right" timestamp="1599667984366">
+    <state width="1323" height="278" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599701649371" />
+    <state width="1323" height="278" key="GridCell.Tab.1.right" timestamp="1599701649372">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599667984366" />
+    <state width="1323" height="278" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599701649372" />
     <state x="498" y="296" key="ReplaceDuplicatesPrompt" timestamp="1597114609044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -461,10 +437,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="673" height="344" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1598432152238" />
-    <state x="384" y="188" width="609" height="351" key="com.intellij.ide.util.TipDialog" timestamp="1599647869610">
+    <state x="384" y="188" width="609" height="351" key="com.intellij.ide.util.TipDialog" timestamp="1599702007355">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="188" width="609" height="351" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599647869610" />
+    <state x="384" y="188" width="609" height="351" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599702007355" />
     <state x="387" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597110946949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -489,10 +465,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1597549119095" />
-    <state x="63" y="0" key="new project wizard" timestamp="1598448950333">
+    <state x="63" y="0" key="new project wizard" timestamp="1599702901243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="63" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1598448950333" />
+    <state x="63" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1599702901243" />
     <state x="386" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1598292783895">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -516,26 +492,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/product_management/Test.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/product_management/Test.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/product_management/Test.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/product_management/Test.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
