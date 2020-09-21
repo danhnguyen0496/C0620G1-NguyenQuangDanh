@@ -64,9 +64,10 @@ ten_loai_dich_vu varchar (45)
 
 create table dich_vu (
 id_dich_vu int primary key,
+ten_dich_vu varchar (45),
 dien_tich int,
 so_tang int,
-so_nguoi_toi_da varchar (45),
+so_nguoi_toi_da int,
 chi_phi_thue int,
 id_kieu_thue int,
 id_loai_dich_vu int,
@@ -84,9 +85,9 @@ ngay_lam_hop_dong date,
 ngay_ket_thuc date,
 tien_dat_coc int,
 tong_tien int,
-foreign key (id_nhan_vien) references nhan_vien (id_nhan_vien),
-foreign key (id_khach_hang) references khach_hang (id_khach_hang),
-foreign key (id_dich_vu) references dich_vu (id_dich_vu)
+constraint fk_nhan_vien foreign key (id_nhan_vien) references nhan_vien (id_nhan_vien) on delete cascade on update cascade,
+constraint fk_khach_hang foreign key (id_khach_hang) references khach_hang (id_khach_hang) on delete cascade on update cascade,
+constraint fk_dich_vu foreign key (id_dich_vu) references dich_vu (id_dich_vu) on delete cascade on update cascade
 );
 
 create table dich_vu_di_kem (
@@ -102,6 +103,6 @@ id_hop_dong_chi_tiet int primary key,
 id_hop_dong int,
 id_dich_vu_di_kem int,
 so_luong int,
-foreign key (id_hop_dong) references hop_dong (id_hop_dong),
-foreign key (id_dich_vu_di_kem) references dich_vu_di_kem (id_dich_vu_di_kem)
+constraint fk_hop_dong foreign key (id_hop_dong) references hop_dong (id_hop_dong) on delete cascade on update cascade,
+constraint fk_dich_vu_di_kem foreign key (id_dich_vu_di_kem) references dich_vu_di_kem (id_dich_vu_di_kem) on delete cascade on update cascade
 );

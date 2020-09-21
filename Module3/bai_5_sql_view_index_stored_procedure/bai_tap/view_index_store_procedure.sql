@@ -102,7 +102,7 @@ call add_new_product();
 select *from products;
 
 delimiter //
-create procedure add_new_product( 
+create procedure add_new_products( 
 id int,
 product_code varchar (45),
 product_name varchar (45),
@@ -125,7 +125,7 @@ set
 @product_amount = 12,
 @product_description = 'vip',
 @product_status  ='Het hang';
-call add_new_product(@id,@product_code,@product_name,@product_price,@product_amount,@product_description,@product_status);
+call add_new_products(@id,@product_code,@product_name,@product_price,@product_amount,@product_description,@product_status);
 select * from products;
 
 -- store procedure sửa thông tin sản phẩm theo id
@@ -161,7 +161,7 @@ set @id = 3;
 call edit_information_product(@id);
 select *from products
 where id = 3;
-
+select *from products;
 -- tạo store procedure xoá sản phẩm theo id
 delimiter //
 create procedure delete_product (in id_product int)
