@@ -1,0 +1,19 @@
+p {
+    text-align: justify;
+    font-size: larger;
+    text-indent: 40px;
+    line-height: 1.9;
+
+}
+#head {
+    text-align: justify;
+    font-size: medium;
+}
+
+div {
+    width: 1290px;
+    height: 500px;
+    border: solid 1px;
+    padding: 20px;
+    margin-left: 10px;
+}

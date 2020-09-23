@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c6432-2cfc-4601-8253-5cc85aaeb3cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Module3/case_study_furama/furama_resort.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/case_study_furama/furama_resort.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/case_study_furama/chuc_nang_furama_resort.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Module3/case_study_furama/chuc_nang_furama_resort.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +171,7 @@
       <workItem from="1600164729124" duration="600000" />
       <workItem from="1600482113736" duration="28000" />
       <workItem from="1600510195465" duration="601000" />
+      <workItem from="1600676620733" duration="175000" />
     </task>
     <servers />
   </component>
@@ -190,10 +191,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594046846036" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1595823283862">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1600676793222">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595823283862" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600676793222" />
     <state width="1345" height="236" key="GridCell.Tab.0.bottom" timestamp="1595409675907">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

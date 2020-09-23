@@ -1,0 +1,53 @@
+#main {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+#head {
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    float: left;
+    /*margin: 10px auto 10px;*/
+}
+
+#head_link {
+    height: 50px;
+    width: 100%;
+    background-color: chartreuse;
+    float: left;
+    /*margin: 0 auto 10px;*/
+}
+
+#left {
+    height: 200px;
+    width: 30%;
+    background-color: brown;
+    float: left;
+}
+
+#content {
+    height: 200px;
+    width: 50%;
+    background-color: chocolate;
+    float: left;
+}
+
+#right {
+    height: 200px;
+    width: 20%;
+    background-color: cornflowerblue;
+    float: left;
+}
+
+#footer {
+    height: 100px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    float: left;
+    /*margin: 10px auto 10px;*/
+}
+
+
+
+
