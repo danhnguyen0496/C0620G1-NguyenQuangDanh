@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo layout trong Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <style>
+        header {
+            position: relative;
+        }
+
+        .shopping-mall {
+            margin-top: auto;
+            font-variant: small-caps;
+        }
+
+        .shopping-mall > h1 {
+            font-family: Impact;
+            font-size: 50px;
+            color: white;
+            letter-spacing: 0.3px;
+            text-shadow: 0 0 2px black;
+            padding-bottom: 0px;
+            border-bottom: 1px dotted gray;
+            margin: 0px;
+            width: 49%;
+        }
+
+        .shopping-mall > h5 {
+            margin-top: 5px;
+            letter-spacing: 0.5px;
+            font-size: small;
+        }
+
+        .poly-cart {
+            margin-top: 5px;
+        }
+
+        .poly-cart ul {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            font-variant: small-caps;
+        }
+
+        .poly-cart .panel-heading strong {
+            font-variant: small-caps;
+            font-size: larger;
+            text-shadow: 0 0 2px darkgray;
+        }
+
+        .poly-prod {
+            text-align: center;
+            padding: 5px;
+        }
+
+        .poly-prod .panel-body img {
+            height: 150px;
+            max-width: 95%;
+        }
+
+        .card-title {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 16px;
+            color: inherit;
+        }
+
+        a.list-group-item, button.list-group-item {
+            color: #555;
+        }
+    </style>
+<body>
+
+<div class="container" style="height: auto">
+    <header class="row">
+        <div class="col-sm-8 shopping-mall">
+            <h1>Online shopping mall</h1>
+            <h5>The center point of the professional programming</h5>
+        </div>
+        <img class="col-sm-4" src="https://demo.codegym.vn/web/15/layout-bootstrap/images/header-object.png"/>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="nav-item" href="#">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                      d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            </svg>
+            Trang chủ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-journal-x" fill="currentColor"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                            <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                            <path fill-rule="evenodd"
+                                  d="M6.146 6.146a.5.5 0 0 1 .708 0L8 7.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 8l1.147 1.146a.5.5 0 0 1-.708.708L8 8.707 6.854 9.854a.5.5 0 0 1-.708-.708L7.293 8 6.146 6.854a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                        Giới thiệu
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill"
+                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                        </svg>
+                        Liên hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                        </svg>
+                        Góp ý</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-quote" fill="currentColor"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                            <path d="M7.468 7.667c0 .92-.776 1.666-1.734 1.666S4 8.587 4 7.667C4 6.747 4.776 6 5.734 6s1.734.746 1.734 1.667z"/>
+                            <path fill-rule="evenodd"
+                                  d="M6.157 6.936a.438.438 0 0 1-.56.293.413.413 0 0 1-.274-.527c.08-.23.23-.44.477-.546a.891.891 0 0 1 .698.014c.387.16.72.545.923.997.428.948.393 2.377-.942 3.706a.446.446 0 0 1-.612.01.405.405 0 0 1-.011-.59c1.093-1.087 1.058-2.158.77-2.794-.152-.336-.354-.514-.47-.563zm-.035-.012h-.001.001z"/>
+                            <path d="M11.803 7.667c0 .92-.776 1.666-1.734 1.666-.957 0-1.734-.746-1.734-1.666 0-.92.777-1.667 1.734-1.667.958 0 1.734.746 1.734 1.667z"/>
+                            <path fill-rule="evenodd"
+                                  d="M10.492 6.936a.438.438 0 0 1-.56.293.413.413 0 0 1-.274-.527c.08-.23.23-.44.477-.546a.891.891 0 0 1 .698.014c.387.16.72.545.924.997.428.948.392 2.377-.942 3.706a.446.446 0 0 1-.613.01.405.405 0 0 1-.011-.59c1.093-1.087 1.058-2.158.77-2.794-.152-.336-.354-.514-.469-.563zm-.034-.012h-.002.002z"/>
+                        </svg>
+                        Hỏi đáp</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-person-fill"
+                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+                        </svg>
+                        Tài khoản</a>
+                </li>
+
+            </ul>
+            <span class="navbar-text ">English</span>
+            <span class="navbar-text" style="margin-left: 20px">Tiếng Việt</span>
+        </div>
+
+    </nav>
+    <div class="row">
+        <article class="col-sm-9">
+            <div class="row">
+                <div class=" col-sm-4 poly-prod">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h4 class="card-title">Nokia</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="https://demo.codegym.vn/web/15/layout-bootstrap/images/computer.png" height="180"
+                                 width="170"/></div>
+                        <div class="card-footer">
+                            $ 100.25
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-4 poly-prod">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h4 class="card-title">Nokia</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="https://demo.codegym.vn/web/15/layout-bootstrap/images/computer.png" height="180"
+                                 width="170"/></div>
+                        <div class="card-footer">
+                            $ 100.25
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-4 poly-prod">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h4 class="card-title">Nokia</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="https://demo.codegym.vn/web/15/layout-bootstrap/images/computer.png" height="180"
+                                 width="170"/></div>
+                        <div class="card-footer">
+                            $ 100.25
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class=" col-sm-4 poly-prod">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h4 class="card-title">Nokia</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="https://demo.codegym.vn/web/15/layout-bootstrap/images/computer.png" height="180"
+                                 width="170"/></div>
+                        <div class="card-footer">
+                            $ 100.25
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-4 poly-prod">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h4 class="card-title">Nokia</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="https://demo.codegym.vn/web/15/layout-bootstrap/images/computer.png" height="180"
+                                 width="170"/></div>
+                        <div class="card-footer">
+                            $ 100.25
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col-sm-4 poly-prod">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            <h4 class="card-title">Nokia</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="https://demo.codegym.vn/web/15/layout-bootstrap/images/computer.png" height="180"
+                                 width="170"/></div>
+                        <div class="card-footer">
+                            $ 100.25
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <aside class="col-sm-3">
+            <div class="poly-cart">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="col-sm-5"
+                             src="https://demo.codegym.vn/web/15/layout-bootstrap/images/shoppingcart.gif"/>
+                        <ul class="col-sm-7">
+                            <li>100 items</li>
+                            <li>$56.8</li>
+                            <li><a href="#">Xem giỏ hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card card-default">
+                    <div class="card-body">
+                        <form>
+                            <input placeholder="Keywords" class="form-control"/>
+                        </form>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <span class="glyphicon glyphicon-th-list"></span>
+                        <strong>Chủng Loại</strong>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">Điện thoại di động</a>
+                        <a href="#" class="list-group-item">Máy tính xách tay</a>
+                        <a href="#" class="list-group-item">Máy tính để bàn</a>
+                        <a href="#" class="list-group-item">Quạt máy</a>
+                        <a href="#" class="list-group-item">Tivi</a>
+                        <a href="#" class="list-group-item">Tủ lạnh</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+    </div>
+    <footer class="card">
+        <div class="card-heading text-center">
+            <p>CodeGym &copy; 2017</p>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
