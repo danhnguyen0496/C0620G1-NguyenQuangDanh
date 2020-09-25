@@ -9,14 +9,6 @@ values
 (5, 'Quản lý'),
 (6, 'Giám đốc');
 
--- select *from vi_tri;
--- select *from trinh_do;
--- select *from bo_phan;
--- select *from nhan_vien;
--- delete from vi_tri;
--- delete from trinh_do;
--- delete from bo_phan;
-
 insert into trinh_do 
 values 
 (1, 'Trung cấp'),
@@ -42,7 +34,6 @@ values
 (7,'Bích Phương',1,3,4,'2010-05-05','333666999','90001000','0977255799','bichphuong@gmail.com','Vinh');
 
 -- select *from nhan_vien;
--- delete from nhan_vien;
 
 insert into loai_khach 
 values 
@@ -64,6 +55,7 @@ values
 (6,1,'Đường Ấn','1995-05-06','222444666','0966543678','sin@gmail.com','Quảng Ngãi'),
 (7,3,'Văn Đô','1995-05-06','283742398','0989777888','do@gmail.com','Quảng Nam'),
 (8,2,'Mai Trường','1990-01-06','283712378','0989788888','truong@gmail.com','Quảng Ninh');
+
 --  select *from khach_hang;
 
 insert into kieu_thue 
@@ -72,6 +64,7 @@ values
 (2,'Tháng',200000),
 (3,'Ngày',30000),
 (4,'Giờ',4000);
+
 --  select *from kieu_thue;
 
 insert into loai_dich_vu 
@@ -80,6 +73,7 @@ values
 (2,'House'),
 (3,'Phòng'),
 (4,'Dịch vụ đi kèm');
+
 --  select *from loai_dich_vu;
  
 insert into dich_vu 
@@ -89,6 +83,7 @@ values
 (3,'House',80,2,30,2000000,2,2,'Còn dịch vụ'),
 (4,'House',30,5,80,7000000,1,1,'Hết dịch vụ'),
 (5,'Villa',90,8,100,90000000,4,4,'Còn dịch vụ');
+
 -- select *from dich_vu;
 
 insert into hop_dong 
@@ -105,7 +100,7 @@ values
 (10,2,3,1,'2019-10-01','2019-12-30',230000,16000000),
 (11,6,1,2,'2014-10-01','2014-12-30',233200,2660870),
 (12,7,3,4,'2015-05-01','2015-06-10',133200,12560870);
--- delete from hop_dong;
+
 -- select *from hop_dong;
 
 insert into dich_vu_di_kem 
@@ -115,6 +110,7 @@ values
 (3,'Thức ăn',100000,15,'Còn dịch vụ'),
 (4,'Nước uống',20000,7,'Còn dịch vụ'),
 (5,'Thuê xe',90000,12,'Còn dịch vụ');
+
 -- select *from dich_vu_di_kem;
 
 insert into hop_dong_chi_tiet 
@@ -126,4 +122,5 @@ values
 (5,5,5,8),
 (6,4,2,5),
 (7,9,1,20);
+
 -- select *from hop_dong_chi_tiet;

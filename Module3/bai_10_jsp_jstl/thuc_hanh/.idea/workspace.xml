@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fffc3f25-3bc2-4f87-b807-fd3a4f4df7cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_tap/hien_thi_danh_sach_khach_hang/src/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_tap/hien_thi_danh_sach_khach_hang/src/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai_9_tong_quan_ung_dung_web/bai_tap/product_discount_calculator/src/CharsetFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/Module3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/Module3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_9_tong_quan_ung_dung_web/bai_tap/product_discount_calculator/out/artifacts/product_discount_calculator_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_9_tong_quan_ung_dung_web/bai_tap/product_discount_calculator/out/artifacts/product_discount_calculator_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_9_tong_quan_ung_dung_web/bai_tap/product_discount_calculator/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_9_tong_quan_ung_dung_web/bai_tap/product_discount_calculator/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_furama/them_thong_tin_furama_resort.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study_furama/them_thong_tin_furama_resort.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\C0620G1-NguyenQuangDanh\Module3\bai_10_jsp_jstl\thuc_hanh\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hzDBadE3DbgYZdcC2cklZn9sDV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.38" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="ung-dung-chuyen-doi-tien-te:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ung_dung_chuyen_doi_tien_te_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ung-dung-chuyen-doi-tien-te:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fffc3f25-3bc2-4f87-b807-fd3a4f4df7cb" name="Default Changelist" comment="" />
+      <created>1601004892706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601004892706</updated>
+      <workItem from="1601004895784" duration="73000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1601004966516">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601004966516" />
+    <state x="65" y="0" key="new project wizard" timestamp="1601004969766">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1601004969766" />
+  </component>
+</project>
