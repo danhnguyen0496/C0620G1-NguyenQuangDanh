@@ -24,12 +24,13 @@
 
             <tr>
                 <td>Operator</td>
-                <td><select name="operator">
-                    <option value="+">Addition</option>
-                    <option value="-">Subtraction</option>
-                    <option value="*">Multiplication</option>
-                    <option value="/">Division</option>
-                </select>
+                <td>
+                    <select name="operator">
+                        <option value="+">Addition</option>
+                        <option value="-">Subtraction</option>
+                        <option value="*">Multiplication</option>
+                        <option value="/">Division</option>
+                    </select>
                 </td>
             </tr>
             </tr>

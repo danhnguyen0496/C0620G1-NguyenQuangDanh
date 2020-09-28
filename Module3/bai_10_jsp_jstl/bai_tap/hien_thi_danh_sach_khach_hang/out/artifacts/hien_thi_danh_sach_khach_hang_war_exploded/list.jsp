@@ -37,9 +37,7 @@
     <jsp:useBean id="listCustomer" scope="request" type="java.util.List"/>
     <c:forEach var="customer" items="${listCustomer}">
         <tr>
-            <td colspan="4">
-                <hr>
-            </td>
+            <td colspan="4"><hr></td>
         </tr>
         <tr>
             <td>${customer.name}</td>

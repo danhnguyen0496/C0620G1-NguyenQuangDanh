@@ -62,3 +62,29 @@ body {
     font-family: Verdana, sans-serif;
     font-size: 0.9em;
 }
+
+
+.col-1 {
+    position: relative;
+
+}
+
+.col-7 {
+    position: relative;
+
+}
+
+.col-2 img {
+    position: relative;
+
+}
+
+.row {
+    background-color: #e9ebee;
+    position: relative;
+}
+
+.col-12 {
+    background-color: #4267b2;
+    position: relative;
+}
