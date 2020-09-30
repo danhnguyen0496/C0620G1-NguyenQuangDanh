@@ -22,5 +22,5 @@ public interface ProductService {
     void remove(int id);
 
     // Tìm kiếm sản phẩm theo tên
-    Product findByName(String name);
+    List<Product> findByName(String name);
 }

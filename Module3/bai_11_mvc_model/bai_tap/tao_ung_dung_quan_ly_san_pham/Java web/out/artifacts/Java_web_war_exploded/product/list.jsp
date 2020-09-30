@@ -26,7 +26,7 @@
         <td>Edit</td>
         <td>Delete</td>
     </tr>
-    <c:forEach var="product" items='${requestScope["products"]}'>
+    <c:forEach var="product" items='${products}'>
         <tr>
             <td><a href="/products?action=view&id=${product.getId()}">${product.getName()}</a></td>
             <td>${product.getPrice()}</td>
@@ -37,5 +37,10 @@
         </tr>
     </c:forEach>
 </table>
+<form method="post">
+    <p>Enter the name product you want to find</p>
+    <input type="text" name="nameProduct" placeholder="Enter the name product">
+    <input type="submit" value="Search">
+</form>
 </body>
 </html>

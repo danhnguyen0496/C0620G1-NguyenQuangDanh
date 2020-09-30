@@ -34,10 +34,8 @@ public class ProductServlet extends HttpServlet {
             case "delete":
                 deleteProduct(request, response);
                 break;
-            case "view-name":
-                viewNameProduct(request, response);
-                break;
             default:
+                viewProductName(request, response);
                 break;
         }
 
@@ -62,32 +60,22 @@ public class ProductServlet extends HttpServlet {
             case "view":
                 viewProduct(request, response);
                 break;
-            case "viewName":
-                viewProductName(request, response);
-                break;
             default:
                 listProducts(request, response);
                 break;
         }
     }
 
-    private void viewNameProduct(HttpServletRequest request, HttpServletResponse response){
-        String nameProduct = request.getParameter("name-product");
-        Product product = this.productService.findByName(nameProduct);
-
-
-    }
-
     private void viewProductName(HttpServletRequest request, HttpServletResponse response) {
-        String name = request.getParameter("name");
-        Product product = this.productService.findByName(name);
-
+        String nameProduct = request.getParameter("nameProduct");
+        List<Product> product = this.productService.findByName(nameProduct);
         RequestDispatcher dispatcher;
-        if (product == null) {
+
+        if (product.isEmpty()) {
             dispatcher = request.getRequestDispatcher("error-404.jsp");
         } else {
-            request.setAttribute("product", product);
-            dispatcher = request.getRequestDispatcher("product/view-name.jsp");
+            request.setAttribute("products", product);
+            dispatcher = request.getRequestDispatcher("product/list.jsp");
         }
         try {
             dispatcher.forward(request, response);
