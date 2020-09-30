@@ -19,11 +19,17 @@
         <a href="/users?action=create">Add New User</a>
     </h2>
 </center>
-
 <form method="post">
     <center>
+        <input type="hidden" name="action" value="sort" />
+        <input type="submit" value="Sort">
+    </center>
+</form>
+<form method="post">
+    <center>
+        <input type="hidden" name="action" value="search" />
         <input type="text" placeholder="Enter the country" name="country">
-        <input type="submit" name="search" value="Search">
+        <input type="submit" value="Search" >
     </center>
 </form>
 
@@ -38,18 +44,6 @@
             <th>Actions</th>
         </tr>
         <c:forEach var="user" items="${listUser}">
-            <tr>
-                <td><c:out value="${user.id}"/></td>
-                <td><c:out value="${user.name}"/></td>
-                <td><c:out value="${user.email}"/></td>
-                <td><c:out value="${user.country}"/></td>
-                <td>
-                    <a href="/users?action=edit&id=${user.id}">Edit</a>
-                    <a href="/users?action=delete&id=${user.id}">Delete</a>
-                </td>
-            </tr>
-        </c:forEach>
-        <c:forEach var="user" items="${countryList}">
             <tr>
                 <td><c:out value="${user.id}"/></td>
                 <td><c:out value="${user.name}"/></td>

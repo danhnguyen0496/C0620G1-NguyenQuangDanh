@@ -14,10 +14,11 @@ public class UserDAO implements IUserDAO {
 
     private static final String INSERT_USERS_SQL = "insert into users" + " (`name`, email, country) values " + " (?, ?, ?);";
     private static final String SELECT_USER_BY_ID = "select id,`name`,email,country from users where id =?";
-    private static final String SELECT_USER_BY_COUNTRY = "select id,`name`,email,country from users where country =?;";
+    private static final String SELECT_USER_BY_COUNTRY = "select * from users where country =?;";
     private static final String SELECT_ALL_USERS = "select * from users";
     private static final String DELETE_USERS_SQL = "delete from users where id = ?;";
     private static final String UPDATE_USERS_SQL = "update users set `name` = ?,email= ?, country =? where id = ?;";
+    private static final String SORT_NAME_SQL = "select * from users order by name";
 
     public UserDAO() {
     }
@@ -88,6 +89,26 @@ public class UserDAO implements IUserDAO {
             }
         } catch (
                 SQLException e) {
+            e.printStackTrace();
+        }
+        return userList;
+    }
+
+    @Override
+    public List<User> sortByName() {
+        List<User> userList = new ArrayList<>();
+        try (Connection connection = getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(SORT_NAME_SQL)) {
+            System.out.println(preparedStatement);
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String name = rs.getString("name");
+                String email = rs.getString("email");
+                String country = rs.getString("country");
+                userList.add(new User(id, name, email, country));
+            }
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return userList;
