@@ -1,0 +1,183 @@
+package controller;
+
+import dao.CustomerDAO;
+import dao.ICustomerDAO;
+import model.Customer;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.sql.ResultSet;
+import java.util.List;
+
+@WebServlet(name = "CustomerServlet", urlPatterns = {"", "/customers"})
+public class CustomerServlet extends HttpServlet {
+
+    private ICustomerDAO customerDAO = new CustomerDAO();
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String action = request.getParameter("action");
+        if (action == null) {
+            action = "";
+        }
+        switch (action) {
+            case "create":
+                addNewCustomers(request, response);
+                break;
+            case "delete":
+                deleteCustomers(request, response);
+                break;
+            case "edit":
+                editCustomers(request, response);
+                break;
+            default:
+                findCustomerByName(request, response);
+                break;
+        }
+    }
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String action = request.getParameter("action");
+        if (action == null) {
+            action = "";
+        }
+        switch (action) {
+            case "create":
+                showCreateFormCustomers(request, response);
+                break;
+            case "view":
+                showViewFormCustomers(request, response);
+                break;
+            default:
+                homePage(request, response);
+                break;
+        }
+    }
+
+    // chỉnh sửa thông tin khách hàng
+    private void editCustomers(HttpServletRequest request, HttpServletResponse response) {
+        String customerName = request.getParameter("customerName");
+        String customerBirthday = request.getParameter("customerBirthday");
+        String customerGender = request.getParameter("customerGender");
+        String customerIdCard = request.getParameter("customerIdCard");
+        String customerPhone = request.getParameter("customerPhone");
+        String customerEmail = request.getParameter("customerEmail");
+        String customerTypeId = request.getParameter("customerTypeId");
+        String customerAddress = request.getParameter("customerAddress");
+        String id = request.getParameter("idEditCustomerHidden");
+        Customer customer = new Customer(id, customerName, customerBirthday, customerGender, customerIdCard,
+                customerPhone, customerEmail, customerTypeId, customerAddress);
+        this.customerDAO.edit(id, customer);
+        showViewFormCustomers(request, response);
+
+        // nhảy trang delete
+//        List<Customer> customerList = this.customerDAO.findAll();
+//        request.setAttribute("customerList", customerList);
+//        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/edit.jsp");
+//        try {
+//            dispatcher.forward(request, response);
+//        } catch (ServletException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+    }
+
+    // xóa khách hàng theo id
+    private void deleteCustomers(HttpServletRequest request, HttpServletResponse response) {
+        String id = request.getParameter("idCustomerHidden");
+        this.customerDAO.deleteById(id);
+        showViewFormCustomers(request, response);
+
+        // nhảy trang delete
+//        List<Customer> customerList = this.customerDAO.findAll();
+//        request.setAttribute("customerList", customerList);
+//        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/delete.jsp");
+//        try {
+//            dispatcher.forward(request, response);
+//        } catch (ServletException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+    }
+
+    // tim kiem khach hang theo ten
+    private void findCustomerByName(HttpServletRequest request, HttpServletResponse response) {
+        List<Customer> customerList = this.customerDAO.findByName(request.getParameter("nameCustomer"));
+        request.setAttribute("customerList", customerList);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/view.jsp");
+        try {
+            dispatcher.forward(request, response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // hien thi view tong quan danh sach khach hang
+    private void showViewFormCustomers(HttpServletRequest request, HttpServletResponse response) {
+        List<Customer> customerList = this.customerDAO.findAll();
+        request.setAttribute("customerList", customerList);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/view.jsp");
+        try {
+            dispatcher.forward(request, response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // them moi mot khach hang
+    private void addNewCustomers(HttpServletRequest request, HttpServletResponse response) {
+        String id = request.getParameter("id");
+        String customerName = request.getParameter("customerName");
+        String customerBirthday = request.getParameter("customerBirthday");
+        String customerGender = request.getParameter("customerGender");
+        String customerIdCard = request.getParameter("customerIdCard");
+        String customerPhone = request.getParameter("customerPhone");
+        String customerEmail = request.getParameter("customerEmail");
+        String customerTypeId = request.getParameter("customerTypeId");
+        String customerAddress = request.getParameter("customerAddress");
+
+        Customer customer = new Customer(id, customerName, customerBirthday, customerGender,
+                customerIdCard, customerPhone, customerEmail, customerTypeId, customerAddress);
+
+        this.customerDAO.addNewCustomer(customer);
+
+        try {
+            response.sendRedirect("customers?action=view");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // hien thi bang tao moi danh sach khach hang
+    private void showCreateFormCustomers(HttpServletRequest request, HttpServletResponse response) {
+        List<Customer> customerList = this.customerDAO.findAll();
+        request.setAttribute("customerList", customerList);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/create.jsp");
+        try {
+            dispatcher.forward(request, response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // hien thi trang chu furama
+    private void homePage(HttpServletRequest request, HttpServletResponse response) {
+        try {
+            response.sendRedirect("homepage.jsp");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
