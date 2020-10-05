@@ -289,6 +289,8 @@
     </style>
 
 <body>
+<a href="/customers"><h3 style="color: darkblue; margin-left: 30px"><strong><u>Home Page</u></strong></h3></a>
+<h3 style="color: darkblue; margin-left: 30px">${message}</h3>
 <div class="container">
     <div class="table-wrapper">
         <div class="table-title">
@@ -317,35 +319,22 @@
             </tr>
             <c:forEach var="customer" items="${customerList}">
                 <tr>
-                    <td>${customer.id}</td>
-                    <td>${customer.customerName}</td>
-                    <td>${customer.customerBirthday}</td>
-                    <td>${customer.customerGender}</td>
-                    <td>${customer.customerIdCard}</td>
-                    <td>${customer.customerPhone}</td>
-                    <td>${customer.customerEmail}</td>
-                    <td>${customer.customerTypeId}</td>
-                    <td>${customer.customerAddress}</td>
+                    <td><c:out value="${customer.id}"></c:out></td>
+                    <td><c:out value="${customer.customerName}"></c:out></td>
+                    <td><c:out value="${customer.customerBirthday}"></c:out></td>
+                    <td><c:out value="${customer.customerGender}"></c:out></td>
+                    <td><c:out value="${customer.customerIdCard}"></c:out></td>
+                    <td><c:out value="${customer.customerPhone}"></c:out></td>
+                    <td><c:out value="${customer.customerEmail}"></c:out></td>
+                    <td><c:out value="${customer.customerTypeId}"></c:out></td>
+                    <td><c:out value="${customer.customerAddress}"></c:out></td>
                 </tr>
             </c:forEach>
         </table>
-
-        <div class="clearfix">
-            <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
-            <ul class="pagination">
-                <li class="page-item disabled"><a href="#">Previous</a></li>
-                <li class="page-item"><a href="#" class="page-link">1</a></li>
-                <li class="page-item"><a href="#" class="page-link">2</a></li>
-                <li class="page-item active"><a href="#" class="page-link">3</a></li>
-                <li class="page-item"><a href="#" class="page-link">4</a></li>
-                <li class="page-item"><a href="#" class="page-link">5</a></li>
-                <li class="page-item"><a href="#" class="page-link">Next</a></li>
-            </ul>
-        </div>
     </div>
 </div>
 
-<!-- Edit Modal HTML -->
+<!-- Add Modal HTML -->
 <form method="post">
     <div id="addCustomerModal" class="modal fade">
         <div class="modal-dialog">
@@ -393,7 +382,6 @@
                             <label>Address</label>
                             <textarea class="form-control" name="customerAddress" required></textarea>
                         </div>
-
                     </div>
 
                     <div class="modal-footer">

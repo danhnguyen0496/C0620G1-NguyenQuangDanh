@@ -291,6 +291,8 @@
     </style>
 
 <body>
+<a href="/customers"><h3 style="color: darkblue; margin-left: 30px"><strong><u>Home Page</u></strong></h3></a>
+<h4 style="color: darkblue; margin-left: 60px">${message}</h4>
 <form method="post">
     <div class="container">
         <div class="table-wrapper">

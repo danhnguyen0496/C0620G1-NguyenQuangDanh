@@ -1,5 +1,6 @@
-package dao;
+package dao.customer;
 
+import dao.BaseDAO;
 import model.Customer;
 
 import java.sql.PreparedStatement;
@@ -46,7 +47,7 @@ public class CustomerDAO implements ICustomerDAO {
     }
 
     @Override
-    public void addNewCustomer(Customer customer) {
+    public String addNewCustomer(Customer customer) {
         try {
             PreparedStatement preparedStatement = this.baseDAO.getConnection().
                     prepareStatement("insert into customer (customer_id, customer_name, customer_birthday, " +
@@ -66,6 +67,7 @@ public class CustomerDAO implements ICustomerDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return "Add new customer successful";
     }
 
     @Override
@@ -101,7 +103,7 @@ public class CustomerDAO implements ICustomerDAO {
     }
 
     @Override
-    public void deleteById(String id) {
+    public String deleteById(String id) {
         try {
             PreparedStatement preparedStatement = this.baseDAO.getConnection().
                     prepareStatement("delete from customer where customer_id = ?");
@@ -110,10 +112,11 @@ public class CustomerDAO implements ICustomerDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return "Deleted successfully";
     }
 
     @Override
-    public void edit(String id, Customer customer) {
+    public String edit(String id, Customer customer) {
         try {
             String query = "update customer set customer_name = ?, customer_birthday = ?, customer_gender = ?, " +
                     "customer_id_card = ?, customer_phone = ?, customer_email = ?, customer_type_id = ?," +
@@ -133,5 +136,6 @@ public class CustomerDAO implements ICustomerDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return "Edit successfully";
     }
 }

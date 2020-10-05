@@ -58,12 +58,12 @@
                         Customer
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/customers?action=create">Create</a>
+                        <a class="dropdown-item" href="/customers?action=create">Add New Customer</a>
                         <a class="dropdown-item" href="/customers?action=view">List Customer</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Service</a>
+                    <a class="nav-link" href="/services?action=create">Service</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contract</a>

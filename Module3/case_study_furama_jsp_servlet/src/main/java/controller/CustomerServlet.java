@@ -1,7 +1,7 @@
 package controller;
 
-import dao.CustomerDAO;
-import dao.ICustomerDAO;
+import dao.customer.CustomerDAO;
+import dao.customer.ICustomerDAO;
 import model.Customer;
 
 import javax.servlet.RequestDispatcher;
@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.ResultSet;
 import java.util.List;
 
 @WebServlet(name = "CustomerServlet", urlPatterns = {"", "/customers"})
@@ -71,39 +70,41 @@ public class CustomerServlet extends HttpServlet {
         String id = request.getParameter("idEditCustomerHidden");
         Customer customer = new Customer(id, customerName, customerBirthday, customerGender, customerIdCard,
                 customerPhone, customerEmail, customerTypeId, customerAddress);
-        this.customerDAO.edit(id, customer);
-        showViewFormCustomers(request, response);
+        String message = this.customerDAO.edit(id, customer);
+        request.setAttribute("message", message);
+//        showViewFormCustomers(request, response);
 
-        // nhảy trang delete
-//        List<Customer> customerList = this.customerDAO.findAll();
-//        request.setAttribute("customerList", customerList);
-//        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/edit.jsp");
-//        try {
-//            dispatcher.forward(request, response);
-//        } catch (ServletException e) {
-//            e.printStackTrace();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+        // nhảy trang edit
+        List<Customer> customerList = this.customerDAO.findAll();
+        request.setAttribute("customerList", customerList);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/edit.jsp");
+        try {
+            dispatcher.forward(request, response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     // xóa khách hàng theo id
     private void deleteCustomers(HttpServletRequest request, HttpServletResponse response) {
         String id = request.getParameter("idCustomerHidden");
-        this.customerDAO.deleteById(id);
-        showViewFormCustomers(request, response);
+        String message = this.customerDAO.deleteById(id);
+        request.setAttribute("message", message);
+//        showViewFormCustomers(request, response);
 
         // nhảy trang delete
-//        List<Customer> customerList = this.customerDAO.findAll();
-//        request.setAttribute("customerList", customerList);
-//        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/delete.jsp");
-//        try {
-//            dispatcher.forward(request, response);
-//        } catch (ServletException e) {
-//            e.printStackTrace();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+        List<Customer> customerList = this.customerDAO.findAll();
+        request.setAttribute("customerList", customerList);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/delete.jsp");
+        try {
+            dispatcher.forward(request, response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     // tim kiem khach hang theo ten
@@ -149,13 +150,22 @@ public class CustomerServlet extends HttpServlet {
         Customer customer = new Customer(id, customerName, customerBirthday, customerGender,
                 customerIdCard, customerPhone, customerEmail, customerTypeId, customerAddress);
 
-        this.customerDAO.addNewCustomer(customer);
+        String message = this.customerDAO.addNewCustomer(customer);
+        request.setAttribute("message", message);
+        // hiện thị sang trang view
+        showViewFormCustomers(request, response);
 
-        try {
-            response.sendRedirect("customers?action=view");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        // hiện thị tại trang create
+//        List<Customer> customerList = this.customerDAO.findAll();
+//        customerList.add(customer); ------
+//        request.setAttribute("customerList", customerList);
+//        try {
+//            request.getRequestDispatcher("customer/create.jsp").forward(request, response);
+//        } catch (ServletException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
 
     // hien thi bang tao moi danh sach khach hang

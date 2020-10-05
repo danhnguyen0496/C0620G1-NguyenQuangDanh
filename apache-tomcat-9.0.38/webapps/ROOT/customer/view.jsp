@@ -18,10 +18,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <%--    DataTables 1.10.21 support bootstrap <= 4.1.3--%>
+    <link rel="stylesheet" href="bootstrap413/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="datatables/css/dataTables.bootstrap4.min.css"/>
 
     <style>
         body {
@@ -291,6 +293,8 @@
     </style>
 
 <body>
+<a href="/customers"><h3 style="color: darkblue; margin-left: 30px"><strong><u>Home Page</u></strong></h3></a>
+<h4 style="color: darkblue; margin-left: 60px">${message}</h4>
 <form method="post">
     <div class="container">
         <div class="table-wrapper">
@@ -306,7 +310,7 @@
                     </div>
                 </div>
             </div>
-            <table class="table table-striped table-hover">
+            <table id="tableStudent" class="table table-striped table-hover" style="width:100%">
                 <thead>
                 <tr>
                     <th>Id</th>
@@ -323,15 +327,15 @@
                 <tbody>
                 <c:forEach var="customer" items="${customerList}">
                     <tr>
-                        <td>${customer.id}</td>
-                        <td>${customer.customerName}</td>
-                        <td>${customer.customerBirthday}</td>
-                        <td>${customer.customerGender}</td>
-                        <td>${customer.customerIdCard}</td>
-                        <td>${customer.customerPhone}</td>
-                        <td>${customer.customerEmail}</td>
-                        <td>${customer.customerTypeId}</td>
-                        <td>${customer.customerAddress}</td>
+                        <td><c:out value="${customer.id}"></c:out></td>
+                        <td><c:out value="${customer.customerName}"></c:out></td>
+                        <td><c:out value="${customer.customerBirthday}"></c:out></td>
+                        <td><c:out value="${customer.customerGender}"></c:out></td>
+                        <td><c:out value="${customer.customerIdCard}"></c:out></td>
+                        <td><c:out value="${customer.customerPhone}"></c:out></td>
+                        <td><c:out value="${customer.customerEmail}"></c:out></td>
+                        <td><c:out value="${customer.customerTypeId}"></c:out></td>
+                        <td><c:out value="${customer.customerAddress}"></c:out></td>
                         <td>
                             <a href="#" onclick="setCustomerId('${customer.id}')" class="edit"
                                data-toggle="modal" data-target="#editCustomerModal">
@@ -345,18 +349,6 @@
                 </c:forEach>
                 </tbody>
             </table>
-            <div class="clearfix">
-                <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
-                <ul class="pagination">
-                    <li class="page-item disabled"><a href="#">Previous</a></li>
-                    <li class="page-item"><a href="#" class="page-link">1</a></li>
-                    <li class="page-item"><a href="#" class="page-link">2</a></li>
-                    <li class="page-item active"><a href="#" class="page-link">3</a></li>
-                    <li class="page-item"><a href="#" class="page-link">4</a></li>
-                    <li class="page-item"><a href="#" class="page-link">5</a></li>
-                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
-                </ul>
-            </div>
         </div>
     </div>
 </form>
@@ -376,35 +368,43 @@
 
                     <div class="form-group">
                         <label>Name</label>
-                        <input type="text" name="customerName" class="form-control" required>
+                        <input type="text" name="customerName" value="${customer.customerName}" class="form-control"
+                               required>
                     </div>
                     <div class="form-group">
                         <label>Birthday</label>
-                        <input type="text" name="customerBirthday" class="form-control" required>
+                        <input type="text" name="customerBirthday" value="${customer.customerBirthday}"
+                               class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Gender</label>
-                        <input type="text" name="customerGender" class="form-control" required>
+                        <input type="text" name="customerGender" value="${customer.customerGender}" class="form-control"
+                               required>
                     </div>
                     <div class="form-group">
                         <label>Id Card</label>
-                        <input type="text" name="customerIdCard" class="form-control" required>
+                        <input type="text" name="customerIdCard" value="${customer.customerIdCard}" class="form-control"
+                               required>
                     </div>
                     <div class="form-group">
                         <label>Phone</label>
-                        <input type="text" name="customerPhone" class="form-control" required>
+                        <input type="text" name="customerPhone" value="${customer.customerPhone}" class="form-control"
+                               required>
                     </div>
                     <div class="form-group">
                         <label>Email</label>
-                        <input type="email" name="customerEmail" class="form-control" required>
+                        <input type="email" name="customerEmail" value="${customer.customerEmail}" class="form-control"
+                               required>
                     </div>
                     <div class="form-group">
                         <label>Type Id</label>
-                        <input type="text" name="customerTypeId" class="form-control" required>
+                        <input type="text" name="customerTypeId" value="${customer.customerTypeId}" class="form-control"
+                               required>
                     </div>
                     <div class="form-group">
                         <label>Address</label>
-                        <textarea class="form-control" name="customerAddress" required></textarea>
+                        <textarea class="form-control" name="customerAddress" value="${customer.customerAddress}"
+                                  required></textarea>
                     </div>
 
                 </div>
@@ -442,89 +442,24 @@
 </div>
 
 <script>
+    $(document).ready(function () {
+        $('#tableStudent').dataTable({
+            "dom": 'lrtip',
+            "lengthChange": false,
+            "pageLength": 2
+        });
+    });
+</script>
+
+<script src="jquery/jquery-3.5.1.min.js"></script>
+<script src="datatables/js/jquery.dataTables.min.js"></script>
+<script src="datatables/js/dataTables.bootstrap4.min.js"></script>
+
+<script>
     function setCustomerId(id) {
         document.getElementById("idCustomerHidden").value = id;
         document.getElementById("idEditCustomerHidden").value = id;
     }
-    // function submitFormDelete() {
-    //     let formDelete = document.getElementById("formDelete");
-    //     formDelete.submit();
-    // }
 </script>
 </body>
 </html>
-
-
-<%--<form action="/customers" method="post" id="formDelete">--%>
-<%--    <input type="hidden" name="action" value="delete"/>--%>
-<%--    <input type="hidden" id="idCustomerHidden" name="idCustomerHidden"/>--%>
-<%--</form>--%>
-
-
-<%--<script>--%>
-<%--    $(document).ready(function () {--%>
-<%--        // Activate tooltip--%>
-<%--        $('[data-toggle="tooltip"]').tooltip();--%>
-
-<%--        // Select/Deselect checkboxes--%>
-<%--        var checkbox = $('table tbody input[type="checkbox"]');--%>
-<%--        $("#selectAll").click(function () {--%>
-<%--            if (this.checked) {--%>
-<%--                checkbox.each(function () {--%>
-<%--                    this.checked = true;--%>
-<%--                });--%>
-<%--            } else {--%>
-<%--                checkbox.each(function () {--%>
-<%--                    this.checked = false;--%>
-<%--                });--%>
-<%--            }--%>
-<%--        });--%>
-<%--        checkbox.click(function () {--%>
-<%--            if (!this.checked) {--%>
-<%--                $("#selectAll").prop("checked", false);--%>
-<%--            }--%>
-<%--        });--%>
-<%--    });--%>
-<%--</script>--%>
-
-
-
-
-
-<!-- Edit Modal HTML -->
-<%--<div id="searchCustomerModal" class="modal fade">--%>
-<%--    <div class="modal-dialog">--%>
-<%--        <div class="modal-content">--%>
-<%--            <form>--%>
-<%--                <div class="modal-header">--%>
-<%--                    <h4 class="modal-title">Add Employee</h4>--%>
-<%--                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>--%>
-<%--                </div>--%>
-<%--                <div class="modal-body">--%>
-<%--                    <div class="form-group">--%>
-<%--                        <label>Name</label>--%>
-<%--                        <input type="text" class="form-control" required>--%>
-<%--                    </div>--%>
-<%--                    <div class="form-group">--%>
-<%--                        <label>Email</label>--%>
-<%--                        <input type="email" class="form-control" required>--%>
-<%--                    </div>--%>
-<%--                    <div class="form-group">--%>
-<%--                        <label>Address</label>--%>
-<%--                        <textarea class="form-control" required></textarea>--%>
-<%--                    </div>--%>
-<%--                    <div class="form-group">--%>
-<%--                        <label>Phone</label>--%>
-<%--                        <input type="text" class="form-control" required>--%>
-<%--                    </div>--%>
-<%--                </div>--%>
-<%--                <div class="modal-footer">--%>
-<%--                    <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">--%>
-<%--                    <input type="submit" class="btn btn-success" value="Add">--%>
-<%--                </div>--%>
-<%--            </form>--%>
-<%--        </div>--%>
-<%--    </div>--%>
-<%--</div>--%>
-
-
