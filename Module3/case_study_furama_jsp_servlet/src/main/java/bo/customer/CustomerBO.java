@@ -3,7 +3,7 @@ package bo.customer;
 import common.ValidateName;
 import dao.customer.CustomerDAO;
 import dao.customer.ICustomerDAO;
-import model.Customer;
+import model.customer.Customer;
 
 import java.util.List;
 

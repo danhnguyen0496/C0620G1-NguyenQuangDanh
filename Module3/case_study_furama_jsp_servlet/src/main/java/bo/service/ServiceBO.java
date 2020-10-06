@@ -3,7 +3,7 @@ package bo.service;
 import common.ValidateName;
 import dao.service.IServiceDAO;
 import dao.service.ServiceDAO;
-import model.Service;
+import model.service.Service;
 
 import java.util.List;
 

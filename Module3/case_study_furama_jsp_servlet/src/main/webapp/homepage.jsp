@@ -49,19 +49,29 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Employee</a>
-                </li>
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Customer
+                        Employee
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/employees?action=create">Add New Employee</a>
+                        <a class="dropdown-item" href="/employees?action=view">List Employee</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Customer
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
                         <a class="dropdown-item" href="/customers?action=create">Add New Customer</a>
                         <a class="dropdown-item" href="/customers?action=view">List Customer</a>
                     </div>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="/services?action=create">Service</a>
                 </li>

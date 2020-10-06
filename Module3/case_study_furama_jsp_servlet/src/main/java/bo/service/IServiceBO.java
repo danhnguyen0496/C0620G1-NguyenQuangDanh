@@ -1,6 +1,6 @@
 package bo.service;
 
-import model.Service;
+import model.service.Service;
 
 import java.util.List;
 

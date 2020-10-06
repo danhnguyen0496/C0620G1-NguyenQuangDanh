@@ -1,9 +1,10 @@
 package controller;
 
+import bo.service.IServiceBO;
+import bo.service.ServiceBO;
 import dao.service.IServiceDAO;
 import dao.service.ServiceDAO;
-import model.Customer;
-import model.Service;
+import model.service.Service;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -17,7 +18,7 @@ import java.util.List;
 @WebServlet(name = "ServiceServlet", urlPatterns = {"/services"})
 public class ServiceServlet extends HttpServlet {
 
-    private IServiceDAO serviceDAO = new ServiceDAO();
+    private IServiceBO serviceBO = new ServiceBO();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");
@@ -52,11 +53,11 @@ public class ServiceServlet extends HttpServlet {
         Service service = new Service(id, serviceName, serviceArea, serviceCost, serviceMaxPeople, standardRoom,
                 descriptionOtherConvenience, poolArea, numberOfFloors, rentTypeId, serviceTypeId);
 
-        String message = this.serviceDAO.addNewService(service);
+        String message = this.serviceBO.addNewService(service);
 
         request.setAttribute("message", message);
 
-        List<Service> serviceList = this.serviceDAO.findAll();
+        List<Service> serviceList = this.serviceBO.findAll();
 
         request.setAttribute("serviceList", serviceList);
         try {
@@ -69,7 +70,7 @@ public class ServiceServlet extends HttpServlet {
     }
 
     private void showCreateFormService(HttpServletRequest request, HttpServletResponse response) {
-        List<Service> serviceList = this.serviceDAO.findAll();
+        List<Service> serviceList = this.serviceBO.findAll();
         request.setAttribute("serviceList", serviceList);
 //        request.getParameter("action");
         RequestDispatcher dispatcher = request.getRequestDispatcher("service/create.jsp");

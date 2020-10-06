@@ -14,17 +14,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>View Customer</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<%--    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>--%>
+<%--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>--%>
+
+<%--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">--%>
+<%--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>--%>
 
     <%--    DataTables 1.10.21 support bootstrap <= 4.1.3--%>
-    <link rel="stylesheet" href="bootstrap413/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="datatables/css/dataTables.bootstrap4.min.css"/>
+<%--    <link rel="stylesheet" href="bootstrap413/css/bootstrap.min.css"/>--%>
+<%--    <link rel="stylesheet" href="datatables/css/dataTables.bootstrap4.min.css"/>--%>
 
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <style>
         body {
             color: #566787;
@@ -33,11 +41,15 @@
             font-size: 13px;
         }
 
+        .table-responsive {
+            margin: 30px 0;
+        }
+
         .table-wrapper {
             background: #fff;
             padding: 20px 25px;
-            margin: 30px 0;
             border-radius: 3px;
+            min-width: 1000px;
             box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
         }
 
@@ -46,6 +58,7 @@
             background: #435d7d;
             color: #fff;
             padding: 16px 30px;
+            min-width: 100%;
             margin: -20px -25px 10px;
             border-radius: 3px 3px 0 0;
         }
@@ -261,6 +274,7 @@
 
         .modal .modal-content {
             border-radius: 3px;
+            font-size: 14px;
         }
 
         .modal .modal-footer {
@@ -291,6 +305,41 @@
             font-weight: normal;
         }
     </style>
+    <script>
+        $(document).ready(function () {
+            // Activate tooltip
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Select/Deselect checkboxes
+            var checkbox = $('table tbody input[type="checkbox"]');
+            $("#selectAll").click(function () {
+                if (this.checked) {
+                    checkbox.each(function () {
+                        this.checked = true;
+                    });
+                } else {
+                    checkbox.each(function () {
+                        this.checked = false;
+                    });
+                }
+            });
+            checkbox.click(function () {
+                if (!this.checked) {
+                    $("#selectAll").prop("checked", false);
+                }
+            });
+        });
+    </script>
+
+<%--    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap.min.css">--%>
+<%--    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>--%>
+<%--    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap.min.js"></script>--%>
+
+<%--    <script>--%>
+<%--        $(document).ready( function () {--%>
+<%--            $('#tableStudent').DataTable();--%>
+<%--        } );--%>
+<%--    </script>--%>
 
 <body>
 <a href="/customers"><h3 style="color: darkblue; margin-left: 30px"><strong><u>Home Page</u></strong></h3></a>
@@ -306,7 +355,6 @@
                     <div class="col-sm-6">
                         <input class="btn" type="text" name="nameCustomer" placeholder="Search" style="color: black">
                         <input class="btn btn-success" type="submit" value="Search">
-
                     </div>
                 </div>
             </div>
@@ -397,9 +445,13 @@
                                required>
                     </div>
                     <div class="form-group">
-                        <label>Type Id</label>
-                        <input type="text" name="customerTypeId" value="${customer.customerTypeId}" class="form-control"
-                               required>
+                        <input type="hidden" name="action" value="view">
+                        <label>Type Of Customer</label>
+                        <select name="typeCustomerId" class="form-control">
+                            <c:forEach var="typeCustomer" items="${typeCustomerList}">
+                                <option value="${typeCustomer.customerTypeId}">${typeCustomer.customerTypeName}</option>
+                            </c:forEach>
+                        </select>
                     </div>
                     <div class="form-group">
                         <label>Address</label>
@@ -461,5 +513,12 @@
         document.getElementById("idEditCustomerHidden").value = id;
     }
 </script>
+
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
+
 </body>
 </html>

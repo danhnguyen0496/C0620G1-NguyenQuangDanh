@@ -1,7 +1,7 @@
 package dao.service;
 
 import dao.BaseDAO;
-import model.Service;
+import model.service.Service;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

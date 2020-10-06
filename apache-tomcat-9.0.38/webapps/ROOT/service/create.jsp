@@ -296,7 +296,7 @@
         <div class="table-title">
             <div class="row">
                 <div class="col-sm-6">
-                    <h2>Manage <b>Customers</b></h2>
+                    <h2>Manage <b>Service</b></h2>
                 </div>
                 <div class="col-sm-6">
                     <a href="#addCustomerModal" class="btn btn-success" data-toggle="modal">
@@ -345,7 +345,7 @@
             <div class="modal-content">
                 <form>
                     <div class="modal-header">
-                        <h4 class="modal-title">Add Customer</h4>
+                        <h4 class="modal-title">Add Service</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     </div>
 
@@ -406,5 +406,10 @@
         </div>
     </div>
 </form>
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
 </body>
 </html>

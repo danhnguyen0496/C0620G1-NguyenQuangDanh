@@ -1,8 +1,14 @@
 package controller;
 
-import dao.customer.CustomerDAO;
-import dao.customer.ICustomerDAO;
-import model.Customer;
+import bo.customer.CustomerBO;
+import bo.customer.ICustomerBO;
+import bo.customer.ITypeCustomerBO;
+import bo.customer.TypeCustomerBO;
+import bo.employee.DivisionBO;
+import bo.employee.IDivisionBO;
+import model.customer.Customer;
+import model.customer.TypeCustomer;
+import model.employee.Division;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -16,7 +22,10 @@ import java.util.List;
 @WebServlet(name = "CustomerServlet", urlPatterns = {"", "/customers"})
 public class CustomerServlet extends HttpServlet {
 
-    private ICustomerDAO customerDAO = new CustomerDAO();
+    private ICustomerBO customerBO = new CustomerBO();
+
+    private ITypeCustomerBO typeCustomerBO = new TypeCustomerBO();
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");
@@ -70,12 +79,12 @@ public class CustomerServlet extends HttpServlet {
         String id = request.getParameter("idEditCustomerHidden");
         Customer customer = new Customer(id, customerName, customerBirthday, customerGender, customerIdCard,
                 customerPhone, customerEmail, customerTypeId, customerAddress);
-        String message = this.customerDAO.edit(id, customer);
+        String message = this.customerBO.edit(id, customer);
         request.setAttribute("message", message);
 //        showViewFormCustomers(request, response);
 
         // nhảy trang edit
-        List<Customer> customerList = this.customerDAO.findAll();
+        List<Customer> customerList = this.customerBO.findAll();
         request.setAttribute("customerList", customerList);
         RequestDispatcher dispatcher = request.getRequestDispatcher("customer/edit.jsp");
         try {
@@ -90,12 +99,12 @@ public class CustomerServlet extends HttpServlet {
     // xóa khách hàng theo id
     private void deleteCustomers(HttpServletRequest request, HttpServletResponse response) {
         String id = request.getParameter("idCustomerHidden");
-        String message = this.customerDAO.deleteById(id);
+        String message = this.customerBO.deleteById(id);
         request.setAttribute("message", message);
 //        showViewFormCustomers(request, response);
 
         // nhảy trang delete
-        List<Customer> customerList = this.customerDAO.findAll();
+        List<Customer> customerList = this.customerBO.findAll();
         request.setAttribute("customerList", customerList);
         RequestDispatcher dispatcher = request.getRequestDispatcher("customer/delete.jsp");
         try {
@@ -109,7 +118,7 @@ public class CustomerServlet extends HttpServlet {
 
     // tim kiem khach hang theo ten
     private void findCustomerByName(HttpServletRequest request, HttpServletResponse response) {
-        List<Customer> customerList = this.customerDAO.findByName(request.getParameter("nameCustomer"));
+        List<Customer> customerList = this.customerBO.findByName(request.getParameter("nameCustomer"));
         request.setAttribute("customerList", customerList);
         RequestDispatcher dispatcher = request.getRequestDispatcher("customer/view.jsp");
         try {
@@ -123,8 +132,12 @@ public class CustomerServlet extends HttpServlet {
 
     // hien thi view tong quan danh sach khach hang
     private void showViewFormCustomers(HttpServletRequest request, HttpServletResponse response) {
-        List<Customer> customerList = this.customerDAO.findAll();
+        List<Customer> customerList = this.customerBO.findAll();
         request.setAttribute("customerList", customerList);
+
+        List<TypeCustomer> typeCustomerList = this.typeCustomerBO.findAllTypeCustomer();
+        request.setAttribute("typeCustomerList", typeCustomerList);
+
         RequestDispatcher dispatcher = request.getRequestDispatcher("customer/view.jsp");
         try {
             dispatcher.forward(request, response);
@@ -144,19 +157,19 @@ public class CustomerServlet extends HttpServlet {
         String customerIdCard = request.getParameter("customerIdCard");
         String customerPhone = request.getParameter("customerPhone");
         String customerEmail = request.getParameter("customerEmail");
-        String customerTypeId = request.getParameter("customerTypeId");
+        String customerTypeId = request.getParameter("typeCustomerId");
         String customerAddress = request.getParameter("customerAddress");
 
         Customer customer = new Customer(id, customerName, customerBirthday, customerGender,
                 customerIdCard, customerPhone, customerEmail, customerTypeId, customerAddress);
 
-        String message = this.customerDAO.addNewCustomer(customer);
+        String message = this.customerBO.addNewCustomer(customer);
         request.setAttribute("message", message);
         // hiện thị sang trang view
         showViewFormCustomers(request, response);
 
         // hiện thị tại trang create
-//        List<Customer> customerList = this.customerDAO.findAll();
+//        List<Customer> customerList = this.customerBO.findAll();
 //        customerList.add(customer); ------
 //        request.setAttribute("customerList", customerList);
 //        try {
@@ -170,8 +183,14 @@ public class CustomerServlet extends HttpServlet {
 
     // hien thi bang tao moi danh sach khach hang
     private void showCreateFormCustomers(HttpServletRequest request, HttpServletResponse response) {
-        List<Customer> customerList = this.customerDAO.findAll();
+        List<Customer> customerList = this.customerBO.findAll();
         request.setAttribute("customerList", customerList);
+
+        List<TypeCustomer> typeCustomerList = this.typeCustomerBO.findAllTypeCustomer();
+        request.setAttribute("typeCustomerList", typeCustomerList);
+
+
+
         RequestDispatcher dispatcher = request.getRequestDispatcher("customer/create.jsp");
         try {
             dispatcher.forward(request, response);

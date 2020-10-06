@@ -1,4 +1,4 @@
-package model;
+package model.customer;
 
 public class Customer {
     protected String id;

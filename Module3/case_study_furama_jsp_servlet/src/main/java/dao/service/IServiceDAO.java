@@ -1,7 +1,6 @@
 package dao.service;
 
-import model.Customer;
-import model.Service;
+import model.service.Service;
 
 import java.util.List;
 
