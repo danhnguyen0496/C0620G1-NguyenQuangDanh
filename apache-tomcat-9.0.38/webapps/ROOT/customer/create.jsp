@@ -19,9 +19,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
     <style>
         body {
             color: #566787;
@@ -294,31 +292,31 @@
             font-weight: normal;
         }
     </style>
-    <script>
-        $(document).ready(function () {
-            // Activate tooltip
-            $('[data-toggle="tooltip"]').tooltip();
+<%--    <script>--%>
+<%--        $(document).ready(function () {--%>
+<%--            // Activate tooltip--%>
+<%--            $('[data-toggle="tooltip"]').tooltip();--%>
 
-            // Select/Deselect checkboxes
-            var checkbox = $('table tbody input[type="checkbox"]');
-            $("#selectAll").click(function () {
-                if (this.checked) {
-                    checkbox.each(function () {
-                        this.checked = true;
-                    });
-                } else {
-                    checkbox.each(function () {
-                        this.checked = false;
-                    });
-                }
-            });
-            checkbox.click(function () {
-                if (!this.checked) {
-                    $("#selectAll").prop("checked", false);
-                }
-            });
-        });
-    </script>
+<%--            // Select/Deselect checkboxes--%>
+<%--            var checkbox = $('table tbody input[type="checkbox"]');--%>
+<%--            $("#selectAll").click(function () {--%>
+<%--                if (this.checked) {--%>
+<%--                    checkbox.each(function () {--%>
+<%--                        this.checked = true;--%>
+<%--                    });--%>
+<%--                } else {--%>
+<%--                    checkbox.each(function () {--%>
+<%--                        this.checked = false;--%>
+<%--                    });--%>
+<%--                }--%>
+<%--            });--%>
+<%--            checkbox.click(function () {--%>
+<%--                if (!this.checked) {--%>
+<%--                    $("#selectAll").prop("checked", false);--%>
+<%--                }--%>
+<%--            });--%>
+<%--        });--%>
+<%--    </script>--%>
 
 <body>
 <a href="/customers"><h3 style="color: darkblue; margin-left: 30px"><strong><u>Home Page</u></strong></h3></a>
@@ -337,7 +335,8 @@
                 </div>
             </div>
         </div>
-        <table class="table table-striped table-hover">
+        <table id="tableStudent" class="table table-striped table-hover">
+            <thead>
             <tr>
                 <th>Id</th>
                 <th>Name</th>
@@ -349,6 +348,8 @@
                 <th>Type Id</th>
                 <th>Address</th>
             </tr>
+            </thead>
+            <tbody>
             <c:forEach var="customer" items="${customerList}">
                 <tr>
                     <td><c:out value="${customer.id}"></c:out></td>
@@ -362,6 +363,7 @@
                     <td><c:out value="${customer.customerAddress}"></c:out></td>
                 </tr>
             </c:forEach>
+            </tbody>
         </table>
     </div>
 </div>
@@ -431,6 +433,22 @@
         </div>
     </div>
 </form>
+
+<script src="../jquery/jquery-3.5.1.min.js"></script>
+<script src="../datatables/js/jquery.dataTables.min.js"></script>
+<script src="../datatables/js/dataTables.bootstrap4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#tableStudent').dataTable({
+            "dom": 'lrtip',
+            "lengthChange": false,
+            "pageLength": 5
+        });
+    });
+</script>
+
 <script>
     if ( window.history.replaceState ) {
         window.history.replaceState( null, null, window.location.href );

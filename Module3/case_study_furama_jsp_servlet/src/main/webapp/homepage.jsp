@@ -75,10 +75,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/services?action=create">Service</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contract</a>
-                </li>
 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contract
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                        <a class="dropdown-item" href="/contracts?action=create">Add New Contract</a>
+                        <a class="dropdown-item" href="/contractDetails?action=create">Contract Detail</a>
+                    </div>
+                </li>
 
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -91,11 +98,11 @@
         <div class="row">
             <div class="col-3 px-0  vh-100 ">
                 <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Primary item</a>
-                    <a href="#" class="list-group-item list-group-item-action ">Primary item</a>
-                    <a href="#" class="list-group-item list-group-item-action ">Primary item</a>
-                    <a href="#" class="list-group-item list-group-item-action ">Primary item</a>
-                    <a href="#" class="list-group-item list-group-item-action ">Primary item</a>
+                    <a href="https://furamavietnam.com/vi/" class="list-group-item list-group-item-action list-group-item-primary">Wellcomer Furama Resort</a>
+                    <a href="#" class="list-group-item list-group-item-action ">Chào mừng bạn</a>
+                    <a href="#" class="list-group-item list-group-item-action ">đến tham quan</a>
+                    <a href="#" class="list-group-item list-group-item-action ">khu nghỉ dưỡng</a>
+                    <a href="#" class="list-group-item list-group-item-action ">của chúng tôi</a>
                 </div>
             </div>
         </div>

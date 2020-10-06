@@ -15,24 +15,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>View Customer</title>
 
-<%--    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>--%>
-<%--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>--%>
-
-<%--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">--%>
-<%--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>--%>
-
     <%--    DataTables 1.10.21 support bootstrap <= 4.1.3--%>
-<%--    <link rel="stylesheet" href="bootstrap413/css/bootstrap.min.css"/>--%>
-<%--    <link rel="stylesheet" href="datatables/css/dataTables.bootstrap4.min.css"/>--%>
-
+    <%--    <link rel="stylesheet" href="bootstrap413/css/bootstrap.min.css"/>--%>
+    <%--    <link rel="stylesheet" href="datatables/css/dataTables.bootstrap4.min.css"/>--%>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
     <style>
         body {
             color: #566787;
@@ -305,41 +296,6 @@
             font-weight: normal;
         }
     </style>
-    <script>
-        $(document).ready(function () {
-            // Activate tooltip
-            $('[data-toggle="tooltip"]').tooltip();
-
-            // Select/Deselect checkboxes
-            var checkbox = $('table tbody input[type="checkbox"]');
-            $("#selectAll").click(function () {
-                if (this.checked) {
-                    checkbox.each(function () {
-                        this.checked = true;
-                    });
-                } else {
-                    checkbox.each(function () {
-                        this.checked = false;
-                    });
-                }
-            });
-            checkbox.click(function () {
-                if (!this.checked) {
-                    $("#selectAll").prop("checked", false);
-                }
-            });
-        });
-    </script>
-
-<%--    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap.min.css">--%>
-<%--    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>--%>
-<%--    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap.min.js"></script>--%>
-
-<%--    <script>--%>
-<%--        $(document).ready( function () {--%>
-<%--            $('#tableStudent').DataTable();--%>
-<%--        } );--%>
-<%--    </script>--%>
 
 <body>
 <a href="/customers"><h3 style="color: darkblue; margin-left: 30px"><strong><u>Home Page</u></strong></h3></a>
@@ -370,6 +326,7 @@
                     <th>Email</th>
                     <th>Type Id</th>
                     <th>Address</th>
+                    <th></th>
                 </tr>
                 </thead>
                 <tbody>
@@ -493,20 +450,47 @@
     </div>
 </div>
 
+
+<script src="../jquery/jquery-3.5.1.min.js"></script>
+<script src="../datatables/js/jquery.dataTables.min.js"></script>
+<script src="../datatables/js/dataTables.bootstrap4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script>
     $(document).ready(function () {
         $('#tableStudent').dataTable({
             "dom": 'lrtip',
             "lengthChange": false,
-            "pageLength": 2
+            "pageLength": 5
         });
     });
 </script>
 
-<script src="jquery/jquery-3.5.1.min.js"></script>
-<script src="datatables/js/jquery.dataTables.min.js"></script>
-<script src="datatables/js/dataTables.bootstrap4.min.js"></script>
+<%--<script>--%>
+<%--    $(document).ready(function () {--%>
+<%--        // Activate tooltip--%>
+<%--        $('[data-toggle="tooltip"]').tooltip();--%>
 
+<%--        // Select/Deselect checkboxes--%>
+<%--        var checkbox = $('table tbody input[type="checkbox"]');--%>
+<%--        $("#selectAll").click(function () {--%>
+<%--            if (this.checked) {--%>
+<%--                checkbox.each(function () {--%>
+<%--                    this.checked = true;--%>
+<%--                });--%>
+<%--            } else {--%>
+<%--                checkbox.each(function () {--%>
+<%--                    this.checked = false;--%>
+<%--                });--%>
+<%--            }--%>
+<%--        });--%>
+<%--        checkbox.click(function () {--%>
+<%--            if (!this.checked) {--%>
+<%--                $("#selectAll").prop("checked", false);--%>
+<%--            }--%>
+<%--        });--%>
+<%--    });--%>
+<%--</script>--%>
 <script>
     function setCustomerId(id) {
         document.getElementById("idCustomerHidden").value = id;
@@ -515,8 +499,8 @@
 </script>
 
 <script>
-    if ( window.history.replaceState ) {
-        window.history.replaceState( null, null, window.location.href );
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
     }
 </script>
 
