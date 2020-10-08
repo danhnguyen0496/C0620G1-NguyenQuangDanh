@@ -1,6 +1,6 @@
 package bo.employee;
 
-import common.ValidateName;
+import common.Validate;
 import dao.employee.EmployeeDAO;
 import dao.employee.IEmployeeDAO;
 import model.employee.Employee;
@@ -21,8 +21,6 @@ public class EmployeeBO implements IEmployeeBO {
         String message = "";
         if (employee.getEmployeeName() == null || employee.getEmployeeName().equals("")) {
             message = "Please input name";
-        } else if (!ValidateName.isValidName(employee.getEmployeeName())) {
-            message = "Please do not input digit and special characters";
         } else {
             message = employeeDAO.addNewEmployee(employee);
         }
@@ -34,8 +32,6 @@ public class EmployeeBO implements IEmployeeBO {
         String message = "";
         if (employee.getEmployeeName() == null || employee.getEmployeeName().equals("")) {
             message = "Please input name";
-        } else if (!ValidateName.isValidName(employee.getEmployeeName())) {
-            message = "Please do not input digit and special characters";
         } else {
             message = employeeDAO.edit(id, employee);
         }

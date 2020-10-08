@@ -39,7 +39,7 @@ public class EmployeeServlet extends HttpServlet {
             case "edit":
                 editEmployee(request, response);
                 break;
-                case "delete":
+            case "delete":
                 deleteEmployee(request, response);
                 break;
         }
@@ -79,7 +79,7 @@ public class EmployeeServlet extends HttpServlet {
         String divisionId = request.getParameter("divisionId");
         String id = request.getParameter("idEditEmployeeHidden");
         Employee employee = new Employee(id, employeeName, employeeBirthday, employeeIdCard, employeeSalary,
-                employeePhone, employeeEmail, customerAddress, positionId, educationDegreeId,divisionId);
+                employeePhone, employeeEmail, customerAddress, positionId, educationDegreeId, divisionId);
         String message = this.employeeBO.edit(id, employee);
 
         request.setAttribute("message", message);
@@ -136,7 +136,7 @@ public class EmployeeServlet extends HttpServlet {
 
         request.setAttribute("employeeList", employeeList);
 
-
+//        showViewListEmployee(request, response);
         try {
             request.getRequestDispatcher("employee/create.jsp").forward(request, response);
         } catch (ServletException e) {

@@ -309,7 +309,8 @@
                         <h2>Manage <b>Customer</b></h2>
                     </div>
                     <div class="col-sm-6">
-                        <input class="btn" type="text" name="nameCustomer" placeholder="Search" style="color: black">
+                        <input class="btn" type="text" name="nameCustomer" placeholder="Search"
+                               style="color: black; background-color: white">
                         <input class="btn btn-success" type="submit" value="Search">
                     </div>
                 </div>
@@ -324,7 +325,7 @@
                     <th>Id Card</th>
                     <th>Phone</th>
                     <th>Email</th>
-                    <th>Type Id</th>
+                    <th>Customer Type</th>
                     <th>Address</th>
                     <th></th>
                 </tr>
@@ -339,10 +340,29 @@
                         <td><c:out value="${customer.customerIdCard}"></c:out></td>
                         <td><c:out value="${customer.customerPhone}"></c:out></td>
                         <td><c:out value="${customer.customerEmail}"></c:out></td>
-                        <td><c:out value="${customer.customerTypeId}"></c:out></td>
+
+                        <td>
+
+                            <c:forEach var="typeCustomer" items="${typeCustomerList}">
+                                <c:if test="${typeCustomer.getCustomerTypeId().equals(customer.getCustomerTypeId())}">
+                                    <c:out value="${typeCustomer.getCustomerTypeName()}"></c:out>
+                                </c:if>
+                            </c:forEach>
+
+                        </td>
+
                         <td><c:out value="${customer.customerAddress}"></c:out></td>
                         <td>
-                            <a href="#" onclick="setCustomerId('${customer.id}')" class="edit"
+                                <%--                            <a href="#" onclick="setCustomerId('${customer.id}')" class="edit"--%>
+                                <%--                               data-toggle="modal" data-target="#editCustomerModal">--%>
+                                <%--                                <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>--%>
+
+
+                            <a href="#" onclick="setCustomer('${customer.id}','${customer.customerName}',
+                                    '${customer.customerBirthday}','${customer.customerGender}','${customer.customerIdCard}',
+                                    '${customer.customerPhone}','${customer.customerEmail}',${customer.customerTypeId},
+                                    '${customer.customerAddress}')"
+                               class="edit"
                                data-toggle="modal" data-target="#editCustomerModal">
                                 <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
 
@@ -371,40 +391,35 @@
                 </div>
                 <div class="modal-body">
 
+
                     <div class="form-group">
                         <label>Name</label>
-                        <input type="text" name="customerName" value="${customer.customerName}" class="form-control"
-                               required>
+                        <input type="text" id="customerName" name="customerName" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Birthday</label>
-                        <input type="text" name="customerBirthday" value="${customer.customerBirthday}"
-                               class="form-control" required>
+                        <input type="text" id="customerBirthday" name="customerBirthday" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Gender</label>
-                        <input type="text" name="customerGender" value="${customer.customerGender}" class="form-control"
-                               required>
+                        <input type="text" id="customerGender" name="customerGender" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Id Card</label>
-                        <input type="text" name="customerIdCard" value="${customer.customerIdCard}" class="form-control"
-                               required>
+                        <input type="text" id="customerIdCard" name="customerIdCard" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Phone</label>
-                        <input type="text" name="customerPhone" value="${customer.customerPhone}" class="form-control"
-                               required>
+                        <input type="text" id="customerPhone" name="customerPhone" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Email</label>
-                        <input type="email" name="customerEmail" value="${customer.customerEmail}" class="form-control"
-                               required>
+                        <input type="email" id="customerEmail" name="customerEmail" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <input type="hidden" name="action" value="view">
                         <label>Type Of Customer</label>
-                        <select name="typeCustomerId" class="form-control">
+                        <select name="typeCustomerId" id="typeCustomerId" class="form-control">
                             <c:forEach var="typeCustomer" items="${typeCustomerList}">
                                 <option value="${typeCustomer.customerTypeId}">${typeCustomer.customerTypeName}</option>
                             </c:forEach>
@@ -412,8 +427,7 @@
                     </div>
                     <div class="form-group">
                         <label>Address</label>
-                        <textarea class="form-control" name="customerAddress" value="${customer.customerAddress}"
-                                  required></textarea>
+                        <textarea class="form-control" id="customerAddress" name="customerAddress" required></textarea>
                     </div>
 
                 </div>
@@ -466,31 +480,21 @@
     });
 </script>
 
-<%--<script>--%>
-<%--    $(document).ready(function () {--%>
-<%--        // Activate tooltip--%>
-<%--        $('[data-toggle="tooltip"]').tooltip();--%>
+<script>
+    function setCustomer(id, customerName, customerBirthday, customerGender, customerIdCard,
+                         customerPhone, customerEmail, typeCustomerId, customerAddress) {
+        document.getElementById("idEditCustomerHidden").value = customerName;
+        document.getElementById("customerBirthday").value = customerBirthday;
+        document.getElementById("customerGender").value = customerGender;
+        document.getElementById("customerIdCard").value = customerIdCard;
+        document.getElementById("customerPhone").value = customerPhone;
+        document.getElementById("customerEmail").value = customerEmail;
+        document.getElementById("typeCustomerId").value = typeCustomerId;
+        document.getElementById("customerAddress").value = customerAddress;
 
-<%--        // Select/Deselect checkboxes--%>
-<%--        var checkbox = $('table tbody input[type="checkbox"]');--%>
-<%--        $("#selectAll").click(function () {--%>
-<%--            if (this.checked) {--%>
-<%--                checkbox.each(function () {--%>
-<%--                    this.checked = true;--%>
-<%--                });--%>
-<%--            } else {--%>
-<%--                checkbox.each(function () {--%>
-<%--                    this.checked = false;--%>
-<%--                });--%>
-<%--            }--%>
-<%--        });--%>
-<%--        checkbox.click(function () {--%>
-<%--            if (!this.checked) {--%>
-<%--                $("#selectAll").prop("checked", false);--%>
-<%--            }--%>
-<%--        });--%>
-<%--    });--%>
-<%--</script>--%>
+    }
+</script>
+
 <script>
     function setCustomerId(id) {
         document.getElementById("idCustomerHidden").value = id;

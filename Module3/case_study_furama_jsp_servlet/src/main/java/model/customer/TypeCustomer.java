@@ -1,23 +1,23 @@
 package model.customer;
 
 public class TypeCustomer {
-    private Integer customerTypeId;
+    private String customerTypeId;
     private String customerTypeName;
 
 
     public TypeCustomer() {
     }
 
-    public TypeCustomer(Integer customerTypeId, String customerTypeName) {
+    public TypeCustomer(String customerTypeId, String customerTypeName) {
         this.customerTypeId = customerTypeId;
         this.customerTypeName = customerTypeName;
     }
 
-    public Integer getCustomerTypeId() {
+    public String getCustomerTypeId() {
         return customerTypeId;
     }
 
-    public void setCustomerTypeId(Integer customerTypeId) {
+    public void setCustomerTypeId(String customerTypeId) {
         this.customerTypeId = customerTypeId;
     }
 

@@ -7,6 +7,8 @@
 --%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -292,35 +294,37 @@
             font-weight: normal;
         }
     </style>
-<%--    <script>--%>
-<%--        $(document).ready(function () {--%>
-<%--            // Activate tooltip--%>
-<%--            $('[data-toggle="tooltip"]').tooltip();--%>
+    <%--    <script>--%>
+    <%--        $(document).ready(function () {--%>
+    <%--            // Activate tooltip--%>
+    <%--            $('[data-toggle="tooltip"]').tooltip();--%>
 
-<%--            // Select/Deselect checkboxes--%>
-<%--            var checkbox = $('table tbody input[type="checkbox"]');--%>
-<%--            $("#selectAll").click(function () {--%>
-<%--                if (this.checked) {--%>
-<%--                    checkbox.each(function () {--%>
-<%--                        this.checked = true;--%>
-<%--                    });--%>
-<%--                } else {--%>
-<%--                    checkbox.each(function () {--%>
-<%--                        this.checked = false;--%>
-<%--                    });--%>
-<%--                }--%>
-<%--            });--%>
-<%--            checkbox.click(function () {--%>
-<%--                if (!this.checked) {--%>
-<%--                    $("#selectAll").prop("checked", false);--%>
-<%--                }--%>
-<%--            });--%>
-<%--        });--%>
-<%--    </script>--%>
+    <%--            // Select/Deselect checkboxes--%>
+    <%--            var checkbox = $('table tbody input[type="checkbox"]');--%>
+    <%--            $("#selectAll").click(function () {--%>
+    <%--                if (this.checked) {--%>
+    <%--                    checkbox.each(function () {--%>
+    <%--                        this.checked = true;--%>
+    <%--                    });--%>
+    <%--                } else {--%>
+    <%--                    checkbox.each(function () {--%>
+    <%--                        this.checked = false;--%>
+    <%--                    });--%>
+    <%--                }--%>
+    <%--            });--%>
+    <%--            checkbox.click(function () {--%>
+    <%--                if (!this.checked) {--%>
+    <%--                    $("#selectAll").prop("checked", false);--%>
+    <%--                }--%>
+    <%--            });--%>
+    <%--        });--%>
+    <%--    </script>--%>
 
 <body>
 <a href="/customers"><h3 style="color: darkblue; margin-left: 30px"><strong><u>Home Page</u></strong></h3></a>
-<h3 style="color: darkblue; margin-left: 30px">${message}</h3>
+<label>
+    <input type="hidden" id="messageID" style="color: red; margin-left: 30px" value="${message}">
+</label>
 <div class="container">
     <div class="table-wrapper">
         <div class="table-title">
@@ -329,7 +333,7 @@
                     <h2>Manage <b>Customers</b></h2>
                 </div>
                 <div class="col-sm-6">
-                    <a href="#addCustomerModal" class="btn btn-success" data-toggle="modal">
+                    <a href="#addCustomerModal" id="onlickkk" class="btn btn-success" data-toggle="modal">
                         <i class="material-icons">&#xE147;</i>
                         <span>Add New Customer</span></a>
                 </div>
@@ -369,11 +373,10 @@
 </div>
 
 <!-- Add Modal HTML -->
-<form method="post">
     <div id="addCustomerModal" class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
-                <form>
+                <form method="post">
                     <div class="modal-header">
                         <h4 class="modal-title">Add Customer</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -382,31 +385,32 @@
                     <div class="modal-body">
                         <div class="form-group">
                             <label>Id</label>
-                            <input type="text" name="id" class="form-control" required>
+                            <input type="text" name="id" class="form-control">
+                            <p id="idMessage">${message}</p>
                         </div>
                         <div class="form-group">
                             <label>Name</label>
-                            <input type="text" name="customerName" class="form-control" required>
+                            <input type="text" name="customerName" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>Birthday</label>
-                            <input type="text" name="customerBirthday" class="form-control" required>
+                            <input type="date" name="customerBirthday" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>Gender</label>
-                            <input type="text" name="customerGender" class="form-control" required>
+                            <input type="text" name="customerGender" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>Id Card</label>
-                            <input type="text" name="customerIdCard" class="form-control" required>
+                            <input type="text" name="customerIdCard" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>Phone</label>
-                            <input type="text" name="customerPhone" class="form-control" required>
+                            <input type="text" name="customerPhone" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>Email</label>
-                            <input type="email" name="customerEmail" class="form-control" required>
+                            <input type="email" name="customerEmail" class="form-control">
                         </div>
                         <div class="form-group">
                             <input type="hidden" name="action" value="create">
@@ -419,7 +423,7 @@
                         </div>
                         <div class="form-group">
                             <label>Address</label>
-                            <textarea class="form-control" name="customerAddress" required></textarea>
+                            <textarea class="form-control" name="customerAddress"></textarea>
                         </div>
                     </div>
 
@@ -432,7 +436,7 @@
             </div>
         </div>
     </div>
-</form>
+
 
 <script src="../jquery/jquery-3.5.1.min.js"></script>
 <script src="../datatables/js/jquery.dataTables.min.js"></script>
@@ -450,8 +454,16 @@
 </script>
 
 <script>
-    if ( window.history.replaceState ) {
-        window.history.replaceState( null, null, window.location.href );
+    let message = document.getElementById("messageID").value;
+    if (message !== "") {
+        alert(message);
+        document.getElementById("onlickkk").click();
+    }
+</script>
+
+<script>
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
     }
 </script>
 </body>

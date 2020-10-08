@@ -1,6 +1,5 @@
 package bo.contract;
 
-import common.ValidateName;
 import dao.contract.ContractDAO;
 import dao.contract.IContractDAO;
 import model.contract.Contract;

@@ -1,6 +1,6 @@
 package bo.service;
 
-import common.ValidateName;
+import common.Validate;
 import dao.service.IServiceDAO;
 import dao.service.ServiceDAO;
 import model.service.Service;
@@ -21,8 +21,6 @@ public class ServiceBO implements IServiceBO {
         String message = "";
         if (service.getServiceName() == null || service.getServiceName().equals("")) {
             message = "Please input name";
-        } else if (!ValidateName.isValidName(service.getServiceName())) {
-            message = "Please do not input digit and special characters";
         } else {
             message = serviceDAO.addNewService(service);
         }

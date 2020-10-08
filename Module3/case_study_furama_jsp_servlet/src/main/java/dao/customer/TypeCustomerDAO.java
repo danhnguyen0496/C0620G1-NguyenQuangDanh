@@ -22,7 +22,7 @@ public class TypeCustomerDAO implements ITypeCustomerDAO {
             ResultSet rs = preparedStatement.executeQuery();
             TypeCustomer typeCustomer;
             while (rs.next()) {
-                Integer customerTypeId = rs.getInt("customer_type_id");
+                String customerTypeId = rs.getString("customer_type_id");
                 String customerTypeName = rs.getString("customer_type_name");
 
                 typeCustomer = new TypeCustomer(customerTypeId, customerTypeName);

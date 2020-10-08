@@ -1,6 +1,6 @@
 package bo.customer;
 
-import common.ValidateName;
+import common.Validate;
 import dao.customer.CustomerDAO;
 import dao.customer.ICustomerDAO;
 import model.customer.Customer;
@@ -19,10 +19,12 @@ public class CustomerBO implements ICustomerBO {
     @Override
     public String addNewCustomer(Customer customer) {
         String message = "";
-        if (customer.getCustomerName() == null || customer.getCustomerName().equals("")) {
-            message = "Please input name";
-        } else if (!ValidateName.isValidName(customer.getCustomerName())) {
-            message = "Please do not input digit and special characters";
+        if (!Validate.isValidCustomerID(customer.getId())) {
+            message = "Mã Khách hàng có định dạng là KH-XXXX (X là số từ 0-9)";
+        } else if (!Validate.isValidPhone(customer.getCustomerPhone())) {
+            message = "Số điện thoại phải đúng định dạng 090xxxxxxx hoặc 091xxxxxxx hoặc (84)+90xxxxxxx hoặc (84)+91xxxxxxx";}
+        else if (!Validate.isValidEmail(customer.getCustomerEmail())) {
+            message = "Email phải đúng định dạng ^[\\w.]+@[a-zA-Z0-9]+(\\.[a-zA-Z0-9]+){1,2}$";
         } else {
             message = customerDAO.addNewCustomer(customer);
         }
@@ -44,12 +46,11 @@ public class CustomerBO implements ICustomerBO {
         String message = "";
         if (customer.getCustomerName() == null || customer.getCustomerName().equals("")) {
             message = "Please input name";
-        } else if (!ValidateName.isValidName(customer.getCustomerName())) {
-            message = "Please do not input digit and special characters";
         } else {
             message = customerDAO.edit(id, customer);
         }
         return message;
     }
+
 
 }

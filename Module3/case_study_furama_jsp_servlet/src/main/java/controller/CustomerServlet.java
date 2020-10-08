@@ -26,7 +26,6 @@ public class CustomerServlet extends HttpServlet {
 
     private ITypeCustomerBO typeCustomerBO = new TypeCustomerBO();
 
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");
         if (action == null) {
@@ -77,23 +76,27 @@ public class CustomerServlet extends HttpServlet {
         String customerTypeId = request.getParameter("customerTypeId");
         String customerAddress = request.getParameter("customerAddress");
         String id = request.getParameter("idEditCustomerHidden");
+
         Customer customer = new Customer(id, customerName, customerBirthday, customerGender, customerIdCard,
                 customerPhone, customerEmail, customerTypeId, customerAddress);
+
         String message = this.customerBO.edit(id, customer);
+
         request.setAttribute("message", message);
-//        showViewFormCustomers(request, response);
+//        request.setAttribute("customer",customer);
 
         // nhảy trang edit
         List<Customer> customerList = this.customerBO.findAll();
         request.setAttribute("customerList", customerList);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/edit.jsp");
-        try {
-            dispatcher.forward(request, response);
-        } catch (ServletException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        showViewFormCustomers(request,response);
+//        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/edit.jsp");
+//        try {
+//            dispatcher.forward(request, response);
+//        } catch (ServletException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
 
     // xóa khách hàng theo id
@@ -101,25 +104,27 @@ public class CustomerServlet extends HttpServlet {
         String id = request.getParameter("idCustomerHidden");
         String message = this.customerBO.deleteById(id);
         request.setAttribute("message", message);
-//        showViewFormCustomers(request, response);
+        showViewFormCustomers(request, response);
 
         // nhảy trang delete
-        List<Customer> customerList = this.customerBO.findAll();
-        request.setAttribute("customerList", customerList);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/delete.jsp");
-        try {
-            dispatcher.forward(request, response);
-        } catch (ServletException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        List<Customer> customerList = this.customerBO.findAll();
+//        request.setAttribute("customerList", customerList);
+//        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/delete.jsp");
+//        try {
+//            dispatcher.forward(request, response);
+//        } catch (ServletException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
 
     // tim kiem khach hang theo ten
     private void findCustomerByName(HttpServletRequest request, HttpServletResponse response) {
         List<Customer> customerList = this.customerBO.findByName(request.getParameter("nameCustomer"));
         request.setAttribute("customerList", customerList);
+        List<TypeCustomer> typeCustomerList = this.typeCustomerBO.findAllTypeCustomer();
+        request.setAttribute("typeCustomerList", typeCustomerList);
         RequestDispatcher dispatcher = request.getRequestDispatcher("customer/view.jsp");
         try {
             dispatcher.forward(request, response);
@@ -166,16 +171,15 @@ public class CustomerServlet extends HttpServlet {
         String message = this.customerBO.addNewCustomer(customer);
         request.setAttribute("message", message);
         // hiện thị sang trang view
-        showViewFormCustomers(request, response);
+//        showViewFormCustomers(request, response);
 
         // hiện thị tại trang create
-//        List<Customer> customerList = this.customerBO.findAll();
-//        customerList.add(customer); ------
-//        request.setAttribute("customerList", customerList);
+        List<Customer> customerList = this.customerBO.findAll();
+        customerList.add(customer);
+        request.setAttribute("customerList", customerList);
+        showCreateFormCustomers(request,response);
 //        try {
-//            request.getRequestDispatcher("customer/create.jsp").forward(request, response);
-//        } catch (ServletException e) {
-//            e.printStackTrace();
+//            response.sendRedirect("customers?action=create");
 //        } catch (IOException e) {
 //            e.printStackTrace();
 //        }
@@ -188,8 +192,6 @@ public class CustomerServlet extends HttpServlet {
 
         List<TypeCustomer> typeCustomerList = this.typeCustomerBO.findAllTypeCustomer();
         request.setAttribute("typeCustomerList", typeCustomerList);
-
-
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("customer/create.jsp");
         try {

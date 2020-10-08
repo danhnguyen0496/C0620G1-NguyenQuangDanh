@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-
     <style>
         body {
             color: #566787;
@@ -291,7 +290,7 @@
 
 <body>
 <a href="/customers"><h3 style="color: darkblue; margin-left: 30px"><strong><u>Home Page</u></strong></h3></a>
-<h4 style="color: darkblue; margin-left: 60px">${message}</h4>
+<h4 style="color: red; margin-left: 60px">${message}</h4>
 <form method="post">
     <div class="container">
         <div class="table-wrapper">
@@ -335,9 +334,14 @@
                         <td>${customer.customerTypeId}</td>
                         <td>${customer.customerAddress}</td>
                         <td>
-                            <a href="#" onclick="setCustomerId('${customer.id}')" class="edit"
+                            <a href="#" onclick="setCustomer('${customer.id}','${customer.customerName}',
+                                    '${customer.customerBirthday}','${customer.customerEmail}')" class="edit"
                                data-toggle="modal" data-target="#editCustomerModal">
                                 <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+
+                                <%--                            <a href="#" onclick="setCustomerId('${customer.id}')" class="edit"--%>
+                                <%--                               data-toggle="modal" data-target="#editCustomerModal">--%>
+                                <%--                                <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>--%>
 
                             <a href="#" onclick="setCustomerId('${customer.id}')" class="delete"
                                data-toggle="modal" data-target="#deleteCustomerModal">
@@ -378,35 +382,35 @@
 
                     <div class="form-group">
                         <label>Name</label>
-                        <input type="text" name="customerName" class="form-control" required>
+                        <input type="text" id="customerName" name="customerName" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Birthday</label>
-                        <input type="text" name="customerBirthday" class="form-control" required>
+                        <input type="text" id="customerBirthday" name="customerBirthday" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Gender</label>
-                        <input type="text" name="customerGender" class="form-control" required>
+                        <input type="text" id="customerGender" name="customerGender" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Id Card</label>
-                        <input type="text" name="customerIdCard" class="form-control" required>
+                        <input type="text" id="customerIdCard" name="customerIdCard" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Phone</label>
-                        <input type="text" name="customerPhone" class="form-control" required>
+                        <input type="text" id="customerPhone" name="customerPhone" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Email</label>
-                        <input type="email" name="customerEmail" class="form-control" required>
+                        <input type="email" id="customerEmail" name="customerEmail" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Type Id</label>
-                        <input type="text" name="customerTypeId" class="form-control" required>
+                        <input type="text" id="customerTypeId" name="customerTypeId" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Address</label>
-                        <textarea class="form-control" name="customerAddress" required></textarea>
+                        <textarea class="form-control" id="customerAddress" name="customerAddress" required></textarea>
                     </div>
 
                 </div>
@@ -434,10 +438,20 @@
 </script>
 
 <script>
+    function setCustomer(id, customerName, customerBirthday, customerEmail) {
+        alert(id);
+        document.getElementById("customerName").value = customerName;
+        document.getElementById("customerBirthday").value = customerBirthday;
+        document.getElementById("customerEmail").value = customerEmail;
+    }
+</script>
+
+<script>
     function setCustomerId(id) {
         document.getElementById("idCustomerHidden").value = id;
         document.getElementById("idEditCustomerHidden").value = id;
     }
+
     // function submitFormDelete() {
     //     let formDelete = document.getElementById("formDelete");
     //     formDelete.submit();
