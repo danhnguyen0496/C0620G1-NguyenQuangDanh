@@ -30,12 +30,15 @@ public class ProductServlet extends HttpServlet {
             action = "";
         }
         switch (action) {
-            case "create":
-                addNewContract(request, response);
-                break;
             case "delete":
                 deleteProduct(request, response);
                 break;
+            case "create":
+                addNewContract(request, response);
+                break;
+//            case "findPrice":
+//                findByPrice(request, response);
+//                break;
             case "edit":
                 editProduct(request, response);
                 break;
@@ -53,7 +56,7 @@ public class ProductServlet extends HttpServlet {
         }
         switch (action) {
             case "create":
-                showCreateForm(request, response); // hien thi chuyen trang
+//                showCreateForm(request, response); // hien thi chuyen trang
                 break;
             default:
                 listProduct(request, response);
@@ -61,21 +64,6 @@ public class ProductServlet extends HttpServlet {
         }
     }
 
-
-    private void editProduct(HttpServletRequest request, HttpServletResponse response) {
-        String productName = request.getParameter("productName");
-        String productPrice = request.getParameter("productPrice");
-        String productQuantity = request.getParameter("productQuantity");
-        String productColor = request.getParameter("productColor");
-        String productDescription = request.getParameter("productDescription");
-        String categoryId = request.getParameter("categoryId");
-        String id = request.getParameter("idEditHidden");
-        Product product = new Product(id, productName, productPrice, productQuantity, productColor, productDescription, categoryId);
-        String message = this.productBO.edit(id, product);
-        request.setAttribute("message", message);
-        listProduct(request, response);
-
-    }
 
     private void deleteProduct(HttpServletRequest request, HttpServletResponse response) {
         String id = request.getParameter("idDeleteHidden");
@@ -85,6 +73,23 @@ public class ProductServlet extends HttpServlet {
         listProduct(request, response);
     }
 
+    private void listProduct(HttpServletRequest request, HttpServletResponse response) {
+
+        List<Product> productList = this.productBO.findAll();
+        request.setAttribute("productList", productList);
+
+        List<Category> categoryList = this.categoryBO.findAll();
+        request.setAttribute("categoryList", categoryList);
+
+        RequestDispatcher dispatcher = request.getRequestDispatcher("list.jsp");
+        try {
+            dispatcher.forward(request, response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     private void findByName(HttpServletRequest request, HttpServletResponse response) {
         String name = request.getParameter("nameProduct");
@@ -105,19 +110,6 @@ public class ProductServlet extends HttpServlet {
         }
     }
 
-    // hiện thị thêm mới chuyển sang trang create
-    private void showCreateForm(HttpServletRequest request, HttpServletResponse response) {
-
-        List<Category> categoryList = this.categoryBO.findAll();
-        request.setAttribute("categoryList", categoryList);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("product/create.jsp");
-        try {
-            dispatcher.forward(request, response);
-        } catch (IOException | ServletException e) {
-            e.printStackTrace();
-        }
-    }
-
     private void addNewContract(HttpServletRequest request, HttpServletResponse response) {
         String productId = request.getParameter("productId");
         String productName = request.getParameter("productName");
@@ -130,27 +122,51 @@ public class ProductServlet extends HttpServlet {
         Product product = new Product(productId, productName, productPrice, productQuantity, productColor, productDescription, categoryId);
         String message = this.productBO.addNewProduct(product);
         request.setAttribute("message", message);
-
-        // hiện thị tại trang
         listProduct(request, response);
 
+//        if (Integer.parseInt(product.getProductPrice()) > 10000000){
+//            listProduct(request, response);
+//        }else {
+//            try {
+//                response.sendRedirect("/products");
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//
+//        }
     }
 
-    private void listProduct(HttpServletRequest request, HttpServletResponse response) {
+    //        private void findByPrice(HttpServletRequest request, HttpServletResponse response) {
+//            String price = request.getParameter("priceProduct");
+//
+//            List<Product> productList = this.productBO.findByName(price);
+//            request.setAttribute("productList", productList);
+//
+//            List<Category> categoryList = this.categoryBO.findAll();
+//            request.setAttribute("categoryList", categoryList);
+//
+//            RequestDispatcher dispatcher = request.getRequestDispatcher("list.jsp");
+//            try {
+//                dispatcher.forward(request, response);
+//            } catch (ServletException e) {
+//                e.printStackTrace();
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//        }
 
-        List<Product> productList = this.productBO.findAll();
-        request.setAttribute("productList", productList);
+        private void editProduct(HttpServletRequest request, HttpServletResponse response) {
+        String productName = request.getParameter("productName");
+        String productPrice = request.getParameter("productPrice");
+        String productQuantity = request.getParameter("productQuantity");
+        String productColor = request.getParameter("productColor");
+        String productDescription = request.getParameter("productDescription");
+        String categoryId = request.getParameter("categoryId");
+        String id = request.getParameter("idEditHidden");
+        Product product = new Product(id, productName, productPrice, productQuantity, productColor, productDescription, categoryId);
+        String message = this.productBO.edit(id, product);
+        request.setAttribute("message", message);
+        listProduct(request, response);
 
-        List<Category> categoryList = this.categoryBO.findAll();
-        request.setAttribute("categoryList", categoryList);
-
-        RequestDispatcher dispatcher = request.getRequestDispatcher("list.jsp");
-        try {
-            dispatcher.forward(request, response);
-        } catch (ServletException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }

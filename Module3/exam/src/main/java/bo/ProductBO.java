@@ -19,11 +19,12 @@ public class ProductBO implements IProductBO {
     @Override
     public String addNewProduct(Product product) {
         String message = "";
-        if (product.getProductName() == null || product.getProductName().equals("")) {
-            message = "Please input name";
-        } else if (!Validate.isValidName(product.getProductName())) {
-            message = "Please do not input digit and special characters";
-        } else {
+        if (!Validate.isValidQuantity(product.getProductQuantity())) {
+            message = "Vui lòng nhập số lượng là một số nguyên dương";}
+        else if (Validate.isValidPrice(product.getProductPrice())){
+            message = "Vui lòng nhập giá là một số nguyên dương và phải lớn hơn 10.000.000 VND";
+        }
+        else {
             message = productDAO.addNewProduct(product);
         }
         return message;
@@ -33,6 +34,11 @@ public class ProductBO implements IProductBO {
     public List<Product> findByName(String name) {
         return this.productDAO.findByName(name);
     }
+
+//    @Override
+//    public List<Product> findByPrice(String price) {
+//        return this.productDAO.findByPrice(price);
+//    }
 
     @Override
     public String deleteById(String id) {

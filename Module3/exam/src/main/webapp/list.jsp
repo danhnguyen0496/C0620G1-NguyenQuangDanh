@@ -297,15 +297,14 @@
 </head>
 <body>
 
-<p><h4 style="color: red; margin-left: 30px">${message}</h4></p>
 
 <form method="post">
 
     <div class="col-sm-2" style="text-align: center">
-        <a href="/products?action=''" class="btn btn-success"><i class="material-icons" style="font-size:30px;color:blue">list</i>
-            <span>List Product</span></a>
+        <a href="/products?action=''" class="btn btn-success">
+            <span>Management Product</span></a>
     </div>
-
+    <p><h4 style="color: red; margin-left: 30px">${message}</h4></p>
     <div class="container-xl">
         <div class="table-responsive">
             <div class="table-wrapper">
@@ -319,25 +318,26 @@
 
                         <!-- Thêm mới tại trang hiện thị danh sách -->
 
-                        <%--                                            <div class="col-sm-4">--%>
-                        <%--                                                <a href="#addModal" class="btn btn-success" data-toggle="modal"><i--%>
-                        <%--                                                        class="material-icons">&#xE147;</i> <span>Add New Product</span></a>--%>
-                        <%--                                            </div>--%>
-
-                        <!-- Thêm mới chuyển sang trang create -->
-
                         <div class="col-sm-4">
-                            <a href="/products?action=create" class="btn btn-success"><i
+                            <a href="#addModal" class="btn btn-success" data-toggle="modal"><i
                                     class="material-icons">&#xE147;</i> <span>Add New Product</span></a>
                         </div>
 
                         <!-- Tìm kiếm -->
 
                         <div class="col-sm-4">
-                            <input class="btn" type="text" name="nameProduct" placeholder="Search"
+                            <input class="btn" type="text" name="nameProduct" placeholder="Search Name"
                                    style="color: black;background-color: white">
-                            <input class="btn btn-success" type="submit" value="Search">
+                            <input class="btn btn-success" type="submit" value="Search Name" placeholder="Enter Name">
                         </div>
+
+<%--                        <div class="col-sm-4">--%>
+
+<%--                            <input class="btn" type="text" name="priceProduct" placeholder="Search Price"--%>
+<%--                                   style="color: black;background-color: white">--%>
+<%--                            <a href="/products?action=findPrice" class="btn btn-success"> <input class="btn btn-success" type="submit" value="Search Price" placeholder="Enter Price"></a>--%>
+<%--                        </div>--%>
+
                     </div>
                 </div>
                 <table id="table" class="table table-striped table-hover">
@@ -411,12 +411,12 @@
 
                         <div class="form-group">
                             <label>Name</label>
-                            <input type="text" name="productName" class="form-control">
+                            <input type="text" name="productName" class="form-control" required>
                         </div>
 
                         <div class="form-group">
                             <label>Price</label>
-                            <input type="text" name="productPrice" class="form-control">
+                            <input type="text" name="productPrice" class="form-control" required>
                         </div>
 
                         <div class="form-group">
@@ -426,7 +426,11 @@
 
                         <div class="form-group">
                             <label>Color</label>
-                            <input type="text" name="productColor" class="form-control">
+                            <select name="productColor" class="form-control">
+                                <option>Red</option>
+                                <option>Blue</option>
+                                <option>Black</option>
+                            </select>
                         </div>
 
                         <div class="form-group">
@@ -471,12 +475,6 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 </div>
                 <div class="modal-body">
-
-
-<%--                    <div class="form-group">--%>
-<%--                        <label>Id</label>--%>
-<%--                        <input type="text" name="productId" id="productId" class="form-control" disabled>--%>
-<%--                    </div>--%>
 
                     <div class="form-group">
                         <label>Name</label>
@@ -581,7 +579,7 @@
 <script>
     $(document).ready(function () {
         $('#table').dataTable({
-            "dom": 'lrtip',
+            // "dom": 'lrtip',
             "lengthChange": false,
             "pageLength": 5
         });

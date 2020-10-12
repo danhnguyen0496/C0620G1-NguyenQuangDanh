@@ -6,16 +6,19 @@ import java.util.regex.Pattern;
 public class Validate {
 
 
-    public static final String REGEX_NAME = "";
+    public static final String REGEX_QUANTITY = "^[1-9][\\d]*$";
 
 
+    public static boolean isValidQuantity(String quantity) {
 
-    public static boolean isValidName(String name) {
-
-        Pattern pattern = Pattern.compile("^[a-zA-Z]+(([a-zA-Z ])?[a-zA-Z]*)*$");
-        Matcher matcher = pattern.matcher(name);
+        Pattern pattern = Pattern.compile(REGEX_QUANTITY);
+        Matcher matcher = pattern.matcher(quantity);
 
         return matcher.matches();
+    }
+
+    public static boolean isValidPrice(String price) {
+        return !price.matches("\\d+([.]\\d+)?") || !(Float.parseFloat(price) > 10000000);
     }
 
 }

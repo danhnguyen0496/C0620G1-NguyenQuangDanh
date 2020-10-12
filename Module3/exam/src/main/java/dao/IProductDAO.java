@@ -14,5 +14,7 @@ public interface IProductDAO {
 
     String deleteById(String id);
 
+//    List<Product> findByPrice(String price);
+
     String edit(String id, Product product);
 }

@@ -315,7 +315,7 @@
                     </div>
                 </div>
             </div>
-            <table id="tableStudent" class="table table-striped table-hover" style="width:100%">
+            <table id="table" class="table table-striped table-hover" style="width:100%">
                 <thead>
                 <tr>
                     <th>Id</th>
@@ -472,7 +472,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script>
     $(document).ready(function () {
-        $('#tableStudent').dataTable({
+        $('#table').dataTable({
             "dom": 'lrtip',
             "lengthChange": false,
             "pageLength": 5
@@ -483,8 +483,7 @@
 <script>
     function setCustomer(id, customerName, customerBirthday, customerGender, customerIdCard,
                          customerPhone, customerEmail, typeCustomerId, customerAddress) {
-        document.getElementById("idEditCustomerHidden").value = id;
-        document.getElementById("customerName").value = customerName;
+        document.getElementById("idEditCustomerHidden").value = customerName;
         document.getElementById("customerBirthday").value = customerBirthday;
         document.getElementById("customerGender").value = customerGender;
         document.getElementById("customerIdCard").value = customerIdCard;

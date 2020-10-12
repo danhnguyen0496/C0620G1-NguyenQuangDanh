@@ -323,7 +323,7 @@
 <body>
 <a href="/customers"><h3 style="color: darkblue; margin-left: 30px"><strong><u>Home Page</u></strong></h3></a>
 <label>
-    <input type="hidden" id="messageID" style="color: red; margin-left: 30px" value="${message}">
+<%--    <input type="hidden" id="messageID" style="color: red; margin-left: 30px" value="${message}">--%>
 </label>
 <div class="container">
     <div class="table-wrapper">
@@ -454,9 +454,10 @@
 </script>
 
 <script>
-    let message = document.getElementById("messageID").value;
+    let message = '<%=request.getAttribute("message")%>';
+    // let message = document.getElementById("messageID").value;
     if (message !== "") {
-        alert(message);
+        // alert(message);
         document.getElementById("onlickkk").click();
     }
 </script>

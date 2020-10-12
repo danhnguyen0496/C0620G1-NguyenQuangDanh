@@ -13,6 +13,8 @@ public interface IProductBO {
 
     List<Product> findByName(String name);
 
+//    List<Product> findByPrice(String price);
+
     String deleteById(String id);
 
     String edit(String id, Product product);
