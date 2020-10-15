@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="099ba9c6-0f6e-460a-a6a3-5b31559023a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_email_hop_le_gradle/.idea/modules/kiem_tra_email_hop_le_gradle.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_email_hop_le_gradle/src/main/java/project/controller/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_email_hop_le_gradle/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_email_hop_le_gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_email_hop_le_gradle/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_email_hop_le_gradle/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xem_gio_hien_tai_cua_thanh_pho_the_gioi/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xem_gio_hien_tai_cua_thanh_pho_the_gioi/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xem_gio_hien_tai_cua_thanh_pho_the_gioi/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xem_gio_hien_tai_cua_thanh_pho_the_gioi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xem_gio_hien_tai_cua_thanh_pho_the_gioi/.idea/modules/xem_gio_hien_tai_cua_thanh_pho_the_gioi.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xem_gio_hien_tai_cua_thanh_pho_the_gioi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xem_gio_hien_tai_cua_thanh_pho_the_gioi/src/main/java/controller/TimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xem_gio_hien_tai_cua_thanh_pho_the_gioi/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xem_gio_hien_tai_cua_thanh_pho_the_gioi/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xem_gio_hien_tai_cua_thanh_pho_the_gioi/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/contract/AttachServiceBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/contract/ContractBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/contract/ContractDetailBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/contract/IAttachServiceBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/contract/IContractBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/contract/IContractDetailBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/customer/CustomerBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/customer/ICustomerBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/customer/ITypeCustomerBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/customer/TypeCustomerBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/employee/DivisionBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/employee/EducationDegreeBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/employee/EmployeeBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/employee/IDivisionBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/employee/IEducationDegreeBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/employee/IEmployeeBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/employee/IPositionBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/employee/PositionBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/service/IServiceBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/bo/service/ServiceBO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/common/Validate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/config/CharsetFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/controller/ContractDetailServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/controller/ContractServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/controller/CustomerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/controller/EmployeeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/controller/ServiceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/BaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/contract/AttachServiceDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/contract/ContractDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/contract/ContractDetailDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/contract/IAttachServiceDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/contract/IContractDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/contract/IContractDetailDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/customer/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/customer/ICustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/customer/ITypeCustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/customer/TypeCustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/employee/DivisionDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/employee/EducationDegreeDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/employee/EmployeeDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/employee/IDivisionDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/employee/IEducationDegreeDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/employee/IEmployeeDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/employee/IPositionDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/employee/PositionDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/service/IServiceDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/dao/service/ServiceDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/model/contract/AttachService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/model/contract/Contract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/model/contract/ContractDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/model/customer/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/model/customer/TypeCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/model/employee/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/model/employee/EducationDegree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/model/employee/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/model/employee/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/model/service/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/bootstrap-4.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/jquery-3.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/mysql-connector-java-8.0.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/popper.js-1.16.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/bootstrap413/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/contract/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/contract/createContractDetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/customer/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/customer/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/customer/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/customer/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/dataTables.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/dataTables.bootstrap4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/dataTables.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/dataTables.foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/dataTables.foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/dataTables.jqueryui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/dataTables.jqueryui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/dataTables.semanticui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/dataTables.semanticui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/jquery.dataTables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/css/jquery.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/dataTables.bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/dataTables.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/dataTables.foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/dataTables.foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/dataTables.jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/dataTables.jqueryui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/dataTables.semanticui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/dataTables.semanticui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/datatables/js/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/employee/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/employee/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/homepage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/jquery/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.38/webapps/ROOT/service/create.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\C0620G1-NguyenQuangDanh\Module4\bai_2_spring_mvc\thuc_hanh\quan_ly_danh_khach_hang\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1irOilTij1tr91AjvS2PI3NWltw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cms" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C0620G1-NguyenQuangDanh\Module4\bai_2_spring_mvc\thuc_hanh\quan_ly_danh_khach_hang\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="099ba9c6-0f6e-460a-a6a3-5b31559023a8" name="Default Changelist" comment="" />
+      <created>1602662373351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602662373351</updated>
+      <workItem from="1602662376726" duration="1085000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1602663472298">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602663472298" />
+  </component>
+</project>
