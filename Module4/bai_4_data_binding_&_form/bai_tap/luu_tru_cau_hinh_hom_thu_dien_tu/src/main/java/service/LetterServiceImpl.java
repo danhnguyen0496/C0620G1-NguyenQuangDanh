@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class LetterServiceImpl implements LetterService {
-    private static Letter letter = new Letter("english", "1", "Enable Spam Filter", "Thor King");
+    private static Letter letter = new Letter("Vietnamese", "1", "Enable Spam Filter", "Thor King");
 
 
     @Override
