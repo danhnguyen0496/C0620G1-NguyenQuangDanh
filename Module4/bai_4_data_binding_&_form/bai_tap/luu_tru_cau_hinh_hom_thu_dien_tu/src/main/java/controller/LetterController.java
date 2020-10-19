@@ -21,15 +21,16 @@ public class LetterController {
         model.addAttribute("letter", letterService.getLetter());
         return "letter";
     }
-    @GetMapping("/showletter")
-    public String getLetter(Model model) {
-        model.addAttribute("letter", letterService.getLetter());
-        return "show_letter";
-    }
 
     @GetMapping("/showInformation")
     public String showInformation(@ModelAttribute Letter letter, RedirectAttributes redirectAttributes) {
         letterService.update(letter);
         return "redirect:/showletter";
+    }
+
+    @GetMapping("/showletter")
+    public String getLetter(Model model) {
+        model.addAttribute("letter", letterService.getLetter());
+        return "show_letter";
     }
 }

@@ -19,6 +19,7 @@ public class ProductController {
     @Autowired
     ProductService productService;
 
+    // Home page
     @GetMapping("/")
     public String home(Model model, RedirectAttributes redirectAttributes) {
         List<Product> productList = productService.findAll();
@@ -27,12 +28,14 @@ public class ProductController {
         return "home";
     }
 
+    // Form create product
     @GetMapping("/product/create")
     public String create(Model model) {
         model.addAttribute("product", new Product());
         return "create";
     }
 
+    // Save product
     @PostMapping("/product/save")
     public String save(Product product, RedirectAttributes redirectAttributes) {
         product.setId((int) (Math.random() * 1000));
@@ -41,12 +44,14 @@ public class ProductController {
         return "redirect:/";
     }
 
+    // Form edit product
     @GetMapping("/product/{id}/edit")
     public String edit(@PathVariable int id, Model model) {
         model.addAttribute("product", productService.findById(id));
         return "edit";
     }
 
+    // Edit product
     @PostMapping("/product/update")
     public String update(Product product, RedirectAttributes redirectAttributes) {
         productService.update(product.getId(), product);
@@ -54,12 +59,14 @@ public class ProductController {
         return "redirect:/";
     }
 
+    // Form delete product
     @GetMapping("/product/{id}/delete")
     public String delete(@PathVariable int id, Model model) {
         model.addAttribute("product", productService.findById(id));
         return "delete";
     }
 
+    // Delete product
     @PostMapping("/product/delete")
     public String delete(Product product, RedirectAttributes redirectAttributes) {
         productService.remove(product.getId());
@@ -67,6 +74,7 @@ public class ProductController {
         return "redirect:/";
     }
 
+    // Display product
     @GetMapping("/product/{id}/view")
     public String view(@PathVariable int id, Model model) {
         model.addAttribute("product", productService.findById(id));
