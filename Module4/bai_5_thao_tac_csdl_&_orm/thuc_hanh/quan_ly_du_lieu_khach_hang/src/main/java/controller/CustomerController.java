@@ -20,9 +20,9 @@ public class CustomerController {
     private CustomerService customerService;
 
     @GetMapping("/")
-    public String index(Model model, RedirectAttributes redirect){
+    public String index(Model model, RedirectAttributes redirect) {
         List<Customer> customerList = customerService.findAll();
-        model.addAttribute("customers",customerList);
+        model.addAttribute("customers", customerList);
         redirect.addFlashAttribute("success", "");
         return "index";
     }

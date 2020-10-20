@@ -13,11 +13,11 @@ import java.util.Collections;
 import java.util.List;
 
 
-
 public class HibernateCustomerServiceImpl implements CustomerService {
 
     public static SessionFactory sessionFactory;
     public static EntityManager entityManager;
+
     static {
         try {
             SessionFactory sessionFactory = new Configuration()
