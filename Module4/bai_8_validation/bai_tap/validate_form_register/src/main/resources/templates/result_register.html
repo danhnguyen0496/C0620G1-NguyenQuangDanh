@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Result Register</title>
+</head>
+<body>
+<fieldset>
+
+    <legend>Register Success</legend>
+
+    <span><b>First Name: </b></span>
+    <span th:text="${user.firstName}"></span>
+    <br>
+    <span><b>Last Name: </b></span>
+    <span th:text="${user.lastName}"></span>
+    <br>
+    <span><b>Phone Number: </b></span>
+    <span th:text="${user.phoneNumber}"></span>
+    <br>
+    <span><b>Age: </b></span>
+    <span th:text="${user.age}"></span>
+    <br>
+    <span><b>Email: </b></span>
+    <span th:text="${user.email}"></span>
+
+</fieldset>
+</body>
+</html>
