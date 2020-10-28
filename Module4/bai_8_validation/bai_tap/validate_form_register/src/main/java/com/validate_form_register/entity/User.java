@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 @Entity(name = "user")
@@ -19,17 +20,22 @@ public class User implements Validator {
 
     private Integer id;
 
+    @NotBlank
     @Size(min = 5, max = 45)
     private String firstName;
 
+    @NotBlank
     @Size(min = 5, max = 45)
     private String lastName;
 
+    @NotBlank
     private String phoneNumber;
 
+    @NotBlank
     private String age;
 
     @Email
+    @NotBlank
     private String email;
 
     public User() {

@@ -12,25 +12,25 @@
         <legend>Register User</legend>
 
         <p>First Name</p>
-        <input type="text" th:field="*{firstName}" required/>
+        <input type="text" th:field="*{firstName}" />
         <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('firstName')}"
            th:errors="*{firstName}"></p>
 
         <p>Last Name</p>
-        <input type="text" th:field="*{lastName}" required/>
+        <input type="text" th:field="*{lastName}" />
                 <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"></p>
 
         <p>Phone Number</p>
-        <input type="text" th:field="*{phoneNumber}" required/>
+        <input type="text" th:field="*{phoneNumber}" />
         <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('phoneNumber')}"
            th:errors="*{phoneNumber}"></p>
 
         <p>Age</p>
-        <input type="text" th:field="*{age}" required/>
+        <input type="text" th:field="*{age}" />
         <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('age')}" th:errors="*{age}"></p>
 
         <p>Email</p>
-        <input type="text" th:field="*{email}" required/>
+        <input type="text" th:field="*{email}" />
                 <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>
         <br>
         <br>

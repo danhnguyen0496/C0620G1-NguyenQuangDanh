@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p><h3>Home Book</h3></p>
+
+<p><a href="/create/book"></a></p>
+
+<br>
+<br>
+<table border="1">
+    <tr>
+        <td>Id book</td>
+        <td>Name book</td>
+        <td>View book</td>
+    </tr>
+    <th:block th:each="book : ${listBook}">
+        <tr>
+            <td th:text="${book.idBook}"></td>
+            <td th:text="${book.nameBook}"></td>
+            <td><a th:href="@{/view/detail/{id}(id=${book.idBook})}">Detail</a></td>
+        </tr>
+    </th:block>
+</table>
+</body>
+</html>

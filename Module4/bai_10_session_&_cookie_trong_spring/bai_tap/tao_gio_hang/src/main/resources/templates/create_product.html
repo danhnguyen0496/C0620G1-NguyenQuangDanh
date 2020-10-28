@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Cart</title>
+</head>
+<body>
+<header th:replace="common::message"></header>
+<p><a href="/home">Back home</a></p>
+<form action="/create" method="post" th:object="${listProduct}">
+    <fieldset>
+        <legend>Product</legend>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" th:field="*{name}"/></td>
+            </tr>
+            <tr>
+                <td>Code:</td>
+                <td><input type="text" th:field="*{codeProduct}"/></td>
+            </tr>
+            <tr>
+                <td>Price:</td>
+                <td><input type="text" th:field="*{price}"/></td>
+            </tr>
+            <tr>
+                <td>Quantity:</td>
+                <td><input type="text" th:field="*{quantity}"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Create product"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
