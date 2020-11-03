@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Common</title>
+</head>
+<body>
+<header th:fragment="headerBlog">
+    <h2>Welcome, <span sec:authentication="principal.username"></span></h2>
+    <hr>
+</header>
+<footer th:fragment="footerBlog">
+    <hr>
+    @Nguyen Quang Danh
+</footer>
+
+</body>
+</html>

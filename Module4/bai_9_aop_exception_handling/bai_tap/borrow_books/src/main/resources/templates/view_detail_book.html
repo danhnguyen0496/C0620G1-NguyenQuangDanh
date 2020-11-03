@@ -6,7 +6,7 @@
 </head>
 <body>
 <p><a href="/">Back home book</a></p>
-<form action="#" method="post">
+<form>
 
     <table border="1">
         <tr>
@@ -19,7 +19,7 @@
             <td th:text="${book.idBook}"></td>
             <td th:text="${book.nameBook}"></td>
             <td th:text="${book.amountBook}"></td>
-            <td><a th:href="@{/borrow/book/{id}}">Borrow</a></td>
+            <td><a th:href="@{/borrow/book/{id}(id=${book.idBook})}">Borrow</a></td>
         </tr>
     </table>
 </form>

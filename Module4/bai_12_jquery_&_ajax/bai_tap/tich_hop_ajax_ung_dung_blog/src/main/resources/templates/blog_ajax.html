@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Blog</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Search form -->
+<form class="form-inline md-form mr-auto mb-4">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" id="searchName">
+    <button class="btn btn-elegant border btn-rounded btn-group-sm my-4" type="button" id="btnSearch">Search</button>
+</form>
+<!-- Table form -->
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Id blog</th>
+        <th scope="col">Name blog</th>
+    </tr>
+    </thead>
+    <tbody id="tableList"></tbody>
+</table>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        let data = "";
+        $.ajax({
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            type: "GET",
+            url: "http://localhost:8080/blogRest/viewAllListBlog",
+            success: function (listBlog) {
+                data = "";
+                for (let i = 0; i < listBlog.length; i++) {
+                    data +=
+                        '<tr>' +
+                        '<td>' + listBlog[i].id + '</td>' +
+                        '<td>' + listBlog[i].name + '</td>' +
+                        '</tr>';
+                }
+                $("#tableList").html(data);
+            },
+            error: function (content) {
+                console.log(content);
+            }
+        });
+
+        $("#btnSearch").click(function () {
+            data = "";
+            let searchName = $("#searchName").val();
+            console.log("a");
+            $.ajax({
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                type: "GET",
+                // data: JSON.stringify(objBlog),
+                url: "http://localhost:8080/blogRest/viewAllListBlog/" + searchName,
+                success: function (listBlog) {
+                    data = "";
+                    for (let i = 0; i < listBlog.length; i++) {
+                        data +=
+                            '<tr>' +
+                            '<td>' + listBlog[i].id + '</td>' +
+                            '<td>' + listBlog[i].name + '</td>' +
+                            '</tr>';
+                    }
+                    $("#tableList").html(data);
+                },
+                error: function (content) {
+                    console.log(content);
+                    console.log("b");
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

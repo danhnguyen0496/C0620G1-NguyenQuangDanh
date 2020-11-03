@@ -52,9 +52,9 @@ public class BookController {
         return "view_detail_book";
     }
 
-//    @PostMapping("/borrow/book/{id}")
-//    public String borrowBook (Book book, @PathVariable Integer id){
-//
-//    }
-
+    @GetMapping("/borrow/book/{id}")
+    public String borrowBook(@PathVariable Integer id, Model model, Book book) throws Exception {
+        model.addAttribute("borrowBook", this.bookService.borrowBook(book, id));
+        return "borrow_book";
+    }
 }

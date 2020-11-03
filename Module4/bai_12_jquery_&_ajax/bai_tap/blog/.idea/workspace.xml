@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe259f9d-8af3-4a3d-8f1f-e2d62870473d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/home_blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/fe/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/java/com/tich_hop_ajax_ung_dung_blog/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/java/com/tich_hop_ajax_ung_dung_blog/controller/BlogRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/java/com/tich_hop_ajax_ung_dung_blog/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/java/com/tich_hop_ajax_ung_dung_blog/entity/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/java/com/tich_hop_ajax_ung_dung_blog/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/java/com/tich_hop_ajax_ung_dung_blog/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/java/com/tich_hop_ajax_ung_dung_blog/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/java/com/tich_hop_ajax_ung_dung_blog/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/java/com/tich_hop_ajax_ung_dung_blog/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/java/com/tich_hop_ajax_ung_dung_blog/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/java/com/tich_hop_ajax_ung_dung_blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/blog/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/blog/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/blog/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/blog/home_blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/blog/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/blog/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/blog_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/category/create_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/category/delete_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/category/update_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/category/view_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tich_hop_ajax_ung_dung_blog/src/main/resources/templates/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_dien_thoai/src/main/java/com/quan_ly_dien_thoai/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_dien_thoai/src/main/java/com/quan_ly_dien_thoai/controller/SmartphoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_dien_thoai/src/main/java/com/quan_ly_dien_thoai/entity/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_dien_thoai/src/main/java/com/quan_ly_dien_thoai/repository/SmartphoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_dien_thoai/src/main/java/com/quan_ly_dien_thoai/service/SmartphoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_dien_thoai/src/main/java/com/quan_ly_dien_thoai/service/impl/SmartphoneServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_dien_thoai/src/main/resources/templates/views/all-phone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_dien_thoai/src/main/resources/templates/views/edit-phone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_dien_thoai/src/main/resources/templates/views/new-phone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/java/com/i18n_quan_ly_khach_hang/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/java/com/i18n_quan_ly_khach_hang/config/LogCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/java/com/i18n_quan_ly_khach_hang/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/java/com/i18n_quan_ly_khach_hang/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/java/com/i18n_quan_ly_khach_hang/entity/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/java/com/i18n_quan_ly_khach_hang/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/java/com/i18n_quan_ly_khach_hang/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/java/com/i18n_quan_ly_khach_hang/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/java/com/i18n_quan_ly_khach_hang/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/java/com/i18n_quan_ly_khach_hang/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/java/com/i18n_quan_ly_khach_hang/service/impl/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/resources/message/content_web_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/resources/message/content_web_vn.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/resources/templates/create_province.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/resources/templates/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/resources/templates/error_customer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/bai_tap/i18n_quan_ly_khach_hang/src/main/resources/templates/list_customer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/controller/BlogRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/entity/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/java/com/ung_dung_blog_quoc_te/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/message/content_web_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/message/content_web_vn.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/templates/blog/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/templates/blog/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/templates/blog/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/templates/blog/home_blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/templates/blog/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/templates/blog/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/templates/category/create_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/templates/category/delete_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/templates/category/update_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_13_i18n/thuc_hanh/ung_dung_blog_quoc_te/src/main/resources/templates/category/view_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_14_bao_mat_ung_dung_web_trong_spring/thuc_hanh/su_dung_spring_security/src/main/java/com/su_dung_spring_security/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_14_bao_mat_ung_dung_web_trong_spring/thuc_hanh/su_dung_spring_security/src/main/java/com/su_dung_spring_security/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_14_bao_mat_ung_dung_web_trong_spring/thuc_hanh/su_dung_spring_security/src/main/java/com/su_dung_spring_security/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_14_bao_mat_ung_dung_web_trong_spring/thuc_hanh/su_dung_spring_security/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/resources/templates/borrow_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/java/com/borrow_books/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/java/com/borrow_books/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/java/com/borrow_books/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/java/com/borrow_books/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/java/com/borrow_books/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/java/com/borrow_books/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/java/com/borrow_books/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/java/com/borrow_books/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/resources/templates/home_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/resources/templates/home_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/resources/templates/view_detail_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai_9_aop_exception_handling/bai_tap/borrow_books/src/main/resources/templates/view_detail_book.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1jihm7wunONeU0iTjXtasPlXeej" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe259f9d-8af3-4a3d-8f1f-e2d62870473d" name="Default Changelist" comment="" />
+      <created>1604292975567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604292975567</updated>
+      <workItem from="1604292976895" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
