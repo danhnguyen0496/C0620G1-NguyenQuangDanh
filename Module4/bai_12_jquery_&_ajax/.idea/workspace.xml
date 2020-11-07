@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81c94322-fd7b-4c18-9b1b-adba13b2b213" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/controller/BlogRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/entity/AppRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/entity/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/entity/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/repository/AppRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/repository/AppUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/repository/UserRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/service/AppUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/service/impl/AppUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/java/com/phan_quyen_ung_dung_blog/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/message/content_web_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/message/content_web_vn.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/blog/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/blog/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/blog/home_blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/blog/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/blog/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/category/create_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/category/delete_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/category/update_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/category/view_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/register/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai_15_phan_quyen_dua_tren_vai_tro/bai_tap/phan_quyen_ung_dung_blog/src/main/resources/templates/register/register_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/java/com/project_furama/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/java/com/project_furama/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/java/com/project_furama/entity/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/java/com/project_furama/entity/customer/TypeCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/java/com/project_furama/repository/customer_repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/java/com/project_furama/repository/customer_repository/CustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/java/com/project_furama/service/customer_service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/java/com/project_furama/service/customer_service/CustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/java/com/project_furama/service/customer_service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/java/com/project_furama/service/customer_service/impl/CustomerTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/bootstrap413/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/jquery/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/templates/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/templates/customer/create_customer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/templates/customer/home_customer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casestudy/project_furama_spring_boot/src/main/resources/templates/home_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/build/libs/case_study_furama_jsp_servlet-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/build/libs/case_study_furama_jsp_servlet-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/src/main/webapp/customer/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/case_study_furama_jsp_servlet/src/main/webapp/customer/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/exam/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/exam/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/exam/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/exam/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/exam/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/exam/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/exam/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/exam/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/exam/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/exam/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/exam/build/libs/products_management-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/exam/build/libs/products_management-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3/exam/src/main/webapp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3/exam/src/main/webapp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_14_bao_mat_ung_dung_web_trong_spring/bai_tap/create-user-role-userrole.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_14_bao_mat_ung_dung_web_trong_spring/bai_tap/create-user-role-userrole.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_14_bao_mat_ung_dung_web_trong_spring/bai_tap/security_ung_dung_blog/src/main/java/com/security_ung_dung_blog/entity/AppRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_14_bao_mat_ung_dung_web_trong_spring/bai_tap/security_ung_dung_blog/src/main/java/com/security_ung_dung_blog/entity/AppRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_14_bao_mat_ung_dung_web_trong_spring/bai_tap/security_ung_dung_blog/src/main/java/com/security_ung_dung_blog/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_14_bao_mat_ung_dung_web_trong_spring/bai_tap/security_ung_dung_blog/src/main/java/com/security_ung_dung_blog/entity/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/entity/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/service/Impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/classes/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/attoparser-2.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/ognl-3.1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/spring-aop-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/spring-beans-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/spring-context-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/spring-core-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/spring-expression-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/spring-web-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/spring-webmvc-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/thymeleaf-3.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/thymeleaf-layout-dialect-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/thymeleaf-spring4-3.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/lib/unbescape-1.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/views/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/views/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/views/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/views/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.38/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1juzhMlVN4oWRo4wKH11x6EK6Yz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81c94322-fd7b-4c18-9b1b-adba13b2b213" name="Default Changelist" comment="" />
+      <created>1604668882858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604668882858</updated>
+      <workItem from="1604668884499" duration="105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

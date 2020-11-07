@@ -1,0 +1,53 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{list.title}">Home Blog</title>
+</head>
+<body>
+
+<h2 th:text="#{title}"></h2>
+<p th:text="#{language.title}"></p>
+<a href="?lang=en" th:text="#{language.english}"></a>
+<a href="?lang=vn" th:text="#{language.vietnam}"></a>
+<br>
+<br>
+<a th:href="@{/logout}">Logout</a>
+<header th:replace="/common::headerBlog"></header>
+
+<a href="/create"><h4 th:text="#{h4.title}"></h4></a>
+<form action="/">
+    <input type="text" name="keyword" th:value="${keywordOld}">
+    <button type="submit" th:text="#{btn.title}"></button>
+</form>
+<a href="/view/category"><h4 th:text="#{h5.title}">View List Category</h4></a>
+<br>
+<table border="1" cellpadding="5" >
+    <tr>
+        <th th:text="#{id.title}"></th>
+        <th th:text="#{name.title}"></th>
+        <th th:text="#{category.title}"></th>
+        <th th:text="#{viewDescription.title}"></th>
+        <th th:text="#{date.title}"></th>
+        <th th:text="#{update.title}"></th>
+        <th th:text="#{delete.title}"></th>
+    </tr>
+
+    <th:block th:each="blog : ${listBlog}">
+        <tr>
+            <td th:text="${blog.id}"></td>
+            <td th:text="${blog.name}"></td>
+            <td><a th:text="${blog.category.name}">Category</a></td>
+            <td><a th:href="@{/blog/view/{id}(id=${blog.id})}">View</a></td>
+            <td><a th:text="${blog.localDateTime}"></a></td>
+            <td><a th:href="@{/blog/update/{id}(id=${blog.id})}">Update</a></td>
+            <td><a th:href="@{/blog/delete/{id}(id=${blog.id})}">Delete</a></td>
+        </tr>
+    </th:block>
+</table>
+<a th:if="${listBlog.hasPrevious()}" th:href="@{/(page = ${listBlog.number - 1}, keyword = ${keywordOld})}">Previous</a>
+<span th:text="${listBlog.number +1}"></span>/<span th:text="${listBlog.totalPages}"></span>
+<a th:if="${listBlog.hasNext()}" th:href="@{/(page=${listBlog.number +1}, keyword = ${keywordOld})}">Next</a>
+
+</body>
+</html>

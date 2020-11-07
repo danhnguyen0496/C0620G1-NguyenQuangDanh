@@ -404,7 +404,7 @@
                     </div>
                     <div class="modal-body">
 
-                        <div class="form-group">
+                            <div class="form-group">
                             <label>Id</label>
                             <input type="text" name="productId" class="form-control">
                         </div>

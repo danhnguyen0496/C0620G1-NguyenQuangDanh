@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Category</title>
+</head>
+<body>
+<header th:replace="/common::headerBlog"></header>
+<a href="/view/category"></a>
+
+<label>Delete Category</label>
+
+<form action="/delete/category" method="post" th:object="${category}">
+    <input type="hidden" th:field="*{id}" name="id"/>
+    <input type="text" th:field="*{name}"/>
+    <input type="submit" value="Delete Category"/>
+</form>
+</body>
+</html>

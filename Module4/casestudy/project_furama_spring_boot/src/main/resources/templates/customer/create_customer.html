@@ -1,0 +1,62 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Create customer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        p {
+            margin-top: 20px;
+            margin-bottom: 2px;
+            font-style: italic;
+            font-weight: bold;
+            color: #000003;
+        }
+    </style>
+</head>
+<body>
+<header th:replace="~{common::headerFurama}"></header>
+
+<th:block th:replace="~{common::menuFragment}"></th:block>
+
+<form action="/save-customer" method="post" th:object="${customer}">
+    <div class="container-fluid">
+        <p>Id</p>
+        <input class="col-3" type="text" th:field="*{id}"/>
+
+        <p>Customer Name</p>
+        <input class="col-3" type="text" th:field="*{customerName}"/>
+
+        <p>Customer Birthday</p>
+        <input class="col-3" type="date" th:field="*{customerBirthday}">
+
+        <p>Customer Gender</p>
+        <input class="col-3" type="text" th:field="*{customerGender}">
+
+        <p>Customer Id Card</p>
+        <input class="col-3" type="text" th:field="*{customerIdCard}">
+
+        <p>Customer Phone</p>
+        <input class="col-3" type="text" th:field="*{customerPhone}">
+
+        <p>Customer Email</p>
+        <input class="col-3" type="email" th:field="*{customerEmail}">
+
+        <p>Customer Address</p>
+        <input class="col-3" type="text" th:field="*{customerAddress}">
+
+        <p>Customer Type</p>
+        <select th:field="*{typeCustomer}" class="col-3">
+            <option th:each="customerType : ${listCustomerType}"
+                    th:value="${customerType.customerTypeId}" th:text="${customerType.customerTypeName}"></option>
+        </select>
+        <br>
+        <br>
+        <input class="col-1" type="submit" value="Save"/>
+
+    </div>
+</form>
+<footer th:replace="~{/common::footerFurama}"></footer>
+</body>
+</html>

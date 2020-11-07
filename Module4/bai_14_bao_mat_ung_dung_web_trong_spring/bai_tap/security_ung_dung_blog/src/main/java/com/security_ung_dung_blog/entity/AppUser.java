@@ -10,7 +10,7 @@ public class AppUser {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "User_Id", nullable = false)
+    @Column(name = "User_Id")
     private Long userId;
 
     @Column(name = "User_Name", length = 36, nullable = false)
@@ -21,6 +21,9 @@ public class AppUser {
 
     @Column(name = "Enabled", length = 1, nullable = false)
     private boolean enabled;
+
+    public AppUser() {
+    }
 
     public Long getUserId() {
         return userId;

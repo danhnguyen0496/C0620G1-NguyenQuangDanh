@@ -1,0 +1,22 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home Blog</title>
+</head>
+<body>
+
+<h2>Blog</h2>
+<br>
+<header th:replace="/common::headerBlog"></header>
+<a href="/home-blog">Back home</a>
+<br>
+<div>
+    <h4>Category: </h4>
+    <label th:text="${blog.category.name}"></label>
+    <h4>Description</h4>
+    <label th:text="${blog.description}"></label>
+</div>
+<!--<footer th:replace="common:: footerBlog"></footer>-->
+</body>
+</html>

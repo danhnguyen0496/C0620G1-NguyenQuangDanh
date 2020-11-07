@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('https://www.marry.vn/wp-content/uploads/2015/10/21/Furama-Resort-Danang.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+<header th:replace="~{common::headerFurama}"></header>
+
+<th:block th:replace="~{common::menuFragment}"></th:block>
+
+<div class="vh-100"></div>
+
+<footer th:replace="common::footerFurama"></footer>
+
+</body>
+
+</html>

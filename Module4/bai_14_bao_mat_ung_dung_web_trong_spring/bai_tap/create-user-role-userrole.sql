@@ -5,32 +5,29 @@ create database blog_security;
 use blog_security;
 
 create table APP_USER (
-	USER_ID bigint not null,
+	USER_ID bigint auto_increment,
 	USER_NAME varchar(36) not null,
 	ENCRYTED_PASSWORD varchar(128) not null,
-	ENABLED bit not null
+	ENABLED bit not null,
+    constraint APP_USER_PK primary key (USER_ID)
 );
-
-alter table APP_USER add constraint APP_USER_PK primary key (USER_ID);
 
 alter table APP_USER add constraint APP_USER_UK unique (USER_NAME);
 
 create table APP_ROLE (
-	ROLE_ID bigint not null,
-	ROLE_NAME varchar(30) not null
+	ROLE_ID bigint not null auto_increment,
+	ROLE_NAME varchar(30) not null,
+    constraint APP_ROLE_PK primary key (ROLE_ID)
 );
-
-alter table APP_ROLE add constraint APP_ROLE_PK primary key (ROLE_ID);
 
 alter table APP_ROLE add constraint APP_ROLE_UK unique (ROLE_NAME);
 
 create table USER_ROLE (
-	ID bigint not null,
+	ID bigint not null auto_increment,
 	USER_ID bigint not null,
-	ROLE_ID bigint not null
+	ROLE_ID bigint not null,
+    constraint USER_ROLE_PK primary key (ID)
 );
-
-alter table USER_ROLE add constraint USER_ROLE_PK primary key (ID);
 
 alter table USER_ROLE add constraint USER_ROLE_UK unique (USER_ID, ROLE_ID);
 
@@ -47,10 +44,10 @@ create table PERSISTENT_LOGINS (
 );
 
 insert into APP_USER (USER_ID, USER_NAME, ENCRYTED_PASSWORD, ENABLED)
-values (2, 'dbuser1', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu', 1);
+values (1, 'dbadmin1', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu', 1);
 
 insert into APP_USER (USER_ID, USER_NAME, ENCRYTED_PASSWORD, ENABLED)
-values (1, 'dbadmin1', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu', 1);
+values (2, 'dbuser1', '$2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu', 1);
 
 insert into APP_ROLE (ROLE_ID, ROLE_NAME)
 values (1, 'ROLE_ADMIN');
