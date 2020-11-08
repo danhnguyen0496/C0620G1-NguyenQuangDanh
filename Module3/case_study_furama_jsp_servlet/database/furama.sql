@@ -116,8 +116,11 @@ values
 	('Client', 'notok');
 
 create table user_role (
-	role_id int,
-    user_name varchar(255)
+	role_id int not null,
+    user_name varchar(255) not null,
+    primary key (role_id, user_name),
+    constraint user_role_fk1 foreign key (role_id) references `role`(role_id),
+    constraint user_role_fk2 foreign key (user_name) references `user`(user_name)
 );
 
 create table customer (

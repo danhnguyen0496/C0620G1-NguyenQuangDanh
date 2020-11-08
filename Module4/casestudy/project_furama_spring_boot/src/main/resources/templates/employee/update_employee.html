@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Update Customer</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: url('https://www.marry.vn/wp-content/uploads/2015/10/21/Furama-Resort-Danang.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+<header th:replace="~{common::headerFurama}"></header>
+
+<th:block th:replace="~{common::menuFragment}"></th:block>
+
+<!-- Edit Modal HTML -->
+<form th:action="@{/save-update-employee}" method="post" th:object="${employee}">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <input type="hidden" id="id" name="id" th:field="*{employeeId}">
+
+            <div class="modal-header">
+                <h4 class="modal-title">Edit Employee</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+
+                <div class="form-group">
+                    <label>Employee Name</label>
+                    <input type="text" th:field="*{employeeName}" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Employee Birthday</label>
+                    <input type="date" th:field="*{employeeBirthday}" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Employee Id Card</label>
+                    <input type="text" th:field="*{employeeIdCard}" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Employee Salary</label>
+                    <input type="text" th:field="*{employeeSalary}" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Employee Phone</label>
+                    <input type="text" th:field="*{employeePhone}" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Employee Email</label>
+                    <input type="email" th:field="*{employeeEmail}" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Employee Address</label>
+                    <input type="text" th:field="*{employeeAddress}" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Position</label>
+                    <select th:field="*{position}" class="form-control">
+                        <option th:each="position : ${listPosition}"
+                                th:value="${position.positionId}"
+                                th:text="${position.positionName}">
+
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>EducationDegree</label>
+                    <select th:field="*{educationDegree}" class="form-control">
+                        <option th:each="educationDegree : ${listEducationDegree}"
+                                th:value="${educationDegree.educationDegreeId}"
+                                th:text="${educationDegree.educationDegreeName}"></option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Division</label>
+                    <select th:field="*{division}" class="form-control">
+                        <option th:each="division : ${listDivision}"
+                                th:value="${division.divisionId}"
+                                th:text="${division.divisionName}"></option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>User</label>
+                    <label>
+                        <select th:field="*{user}" class="form-control">
+                            <option th:each="user : ${listUser}"
+                                    th:value="${user.username}"
+                                    th:text="${user.username}"></option>
+                        </select>
+                    </label>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                <input type="submit" class="btn btn-info" value="Save">
+            </div>
+
+        </div>
+    </div>
+
+</form>
+
+<footer th:replace="~{/common::footerFurama}"></footer>
+
+<script src="../../jquery/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,14 +1,13 @@
 package com.project_furama.entity.employee;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-//import com.project_furama.entity.account.AppUser;
 import com.project_furama.entity.contract.Contract;
 
 import javax.persistence.*;
 import java.util.List;
 
-@Entity(name = "employee")
+@Entity
+@Table(name = "employee")
 public class Employee {
 
     @Id
@@ -29,33 +28,35 @@ public class Employee {
     @Column(name = "employee_address")
     private String employeeAddress;
 
-    private String userName;
-
     public Employee() {
     }
 
     @OneToMany(mappedBy = "employee", cascade = CascadeType.ALL)
     private List<Contract> contractList;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name = "position_id", referencedColumnName = "position_id")
-    @JsonManagedReference
     private Position position;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name = "education_degree_id", referencedColumnName = "education_degree_id")
-    @JsonManagedReference
     private EducationDegree educationDegree;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name = "division_id", referencedColumnName = "division_id")
-    @JsonManagedReference
     private Division division;
 
-//    @OneToOne(cascade = CascadeType.ALL)
-//    @JoinColumn(name = "User_Id",referencedColumnName = "User_Id")
-//    @JsonManagedReference
-//    private AppUser appUser;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_name", referencedColumnName = "user_name")
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     public List<Contract> getContractList() {
         return contractList;
@@ -153,11 +154,4 @@ public class Employee {
         this.employeeAddress = employeeAddress;
     }
 
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
 }

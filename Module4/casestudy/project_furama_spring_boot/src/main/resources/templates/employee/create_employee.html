@@ -1,0 +1,78 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Create customer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        p {
+            margin-top: 20px;
+            margin-bottom: 2px;
+            font-style: italic;
+            font-weight: bold;
+            color: #000003;
+        }
+    </style>
+</head>
+<body>
+<header th:replace="~{common::headerFurama}"></header>
+
+<th:block th:replace="~{common::menuFragment}"></th:block>
+
+<form action="/save-employee" method="post" th:object="${employee}">
+    <div class="container-fluid">
+        <p>Id</p>
+        <input class="col-3" type="text" th:field="*{employeeId}"/>
+
+        <p>Employee Name</p>
+        <input class="col-3" type="text" th:field="*{employeeName}"/>
+
+        <p>Employee Birthday</p>
+        <input class="col-3" type="date" th:field="*{employeeBirthday}">
+
+        <p>Employee Id Card</p>
+        <input class="col-3" type="text" th:field="*{employeeIdCard}">
+
+        <p>Employee Salary</p>
+        <input class="col-3" type="text" th:field="*{employeeSalary}">
+
+        <p>Employee Phone</p>
+        <input class="col-3" type="text" th:field="*{employeePhone}">
+
+        <p>Employee Email</p>
+        <input class="col-3" type="email" th:field="*{employeeEmail}">
+
+        <p>Employee Address</p>
+        <input class="col-3" type="text" th:field="*{employeeAddress}">
+
+        <p>Position</p>
+        <select th:field="*{position}" class="col-3">
+            <option th:each="position : ${listPosition}"
+                    th:value="${position.positionId}" th:text="${position.positionName}"></option>
+        </select>
+        <p>EducationDegree</p>
+        <select th:field="*{educationDegree}" class="col-3">
+            <option th:each="educationDegree : ${listEducationDegree}"
+                    th:value="${educationDegree.educationDegreeId}"
+                    th:text="${educationDegree.educationDegreeName}"></option>
+        </select>
+        <p>Division</p>
+        <select th:field="*{division}" class="col-3">
+            <option th:each="division : ${listDivision}"
+                    th:value="${division.divisionId}" th:text="${division.divisionName}"></option>
+        </select>
+        <p>User</p>
+        <select th:field="*{user}" class="col-3">
+            <option th:each="user : ${listUser}"
+                    th:value="${user.username}" th:text="${user.username}"></option>
+        </select>
+        <br>
+        <br>
+        <input class="col-1" type="submit" value="Save"/>
+
+    </div>
+</form>
+<footer th:replace="~{/common::footerFurama}"></footer>
+</body>
+</html>

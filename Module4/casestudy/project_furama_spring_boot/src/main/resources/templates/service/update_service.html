@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Update Customer</title>
+    <title>Update Service</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -25,7 +25,7 @@
 <th:block th:replace="~{common::menuFragment}"></th:block>
 
 <!-- Edit Modal HTML -->
-<form th:action="@{/save-update-customer}" method="post" th:object="${customer}">
+<form th:action="@{/save-update-service}" method="post" th:object="${service}">
 
     <div class="modal-dialog">
         <div class="modal-content">
@@ -33,50 +33,64 @@
             <input type="hidden" id="id" name="id" th:field="*{id}">
 
             <div class="modal-header">
-                <h4 class="modal-title">Edit Product</h4>
+                <h4 class="modal-title">Edit Service</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             </div>
             <div class="modal-body">
 
                 <div class="form-group">
-                    <label>Customer Name</label>
-                    <input type="text" th:field="*{customerName}" class="form-control">
+                    <label>Service Name</label>
+                    <input type="text" th:field="*{serviceName}" class="form-control">
                 </div>
 
                 <div class="form-group">
-                    <label>Customer Birthday</label>
-                    <input type="date" th:field="*{customerBirthday}" class="form-control">
+                    <label>Area</label>
+                    <input type="text" th:field="*{serviceArea}" class="form-control">
                 </div>
 
                 <div class="form-group">
-                    <label>Customer Gender</label>
-                    <input type="text" th:field="*{customerGender}" class="form-control">
+                    <label>Cost</label>
+                    <input type="text" th:field="*{serviceCost}" class="form-control">
                 </div>
 
                 <div class="form-group">
-                    <label>Customer Id Card</label>
-                    <input type="text" th:field="*{customerIdCard}" class="form-control">
+                    <label>Max People</label>
+                    <input type="text" th:field="*{serviceMaxPeople}" class="form-control">
                 </div>
 
                 <div class="form-group">
-                    <label>Customer Phone</label>
-                    <input type="text" th:field="*{customerPhone}" class="form-control">
+                    <label>Standard Room</label>
+                    <input type="text" th:field="*{standardRoom}" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label>Customer Email</label>
-                    <input type="email" th:field="*{customerEmail}" class="form-control">
+                    <label>Description Other Convenience</label>
+                    <input type="text" th:field="*{descriptionOtherConvenience}" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label>Customer Address</label>
-                    <input type="text" th:field="*{customerAddress}" class="form-control">
+                    <label>Pool Area</label>
+                    <input type="text" th:field="*{poolArea}" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Number Of Floors</label>
+                    <input type="text" th:field="*{numberOfFloors}" class="form-control">
                 </div>
 
                 <div class="form-group">
-                    <label>Customer Type</label>
-                    <select th:field="*{typeCustomer}" class="form-control">
-                        <option th:each="customerType : ${listCustomerType}"
-                                th:value="${customerType.customerTypeId}"
-                                th:text="${customerType.customerTypeName}"></option>
+                    <label>Service Type</label>
+                    <select th:field="*{serviceType}" class="form-control">
+                        <option th:each="serviceType : ${listServiceType}"
+                                th:value="${serviceType.serviceTypeId}"
+                                th:text="${serviceType.serviceTypeName}"></option>
+                        </th:block>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Service Type</label>
+                    <select th:field="*{rentType}" class="form-control">
+                        <option th:each="rentType : ${listRentType}"
+                                th:value="${rentType.rentTypeId}"
+                                th:text="${rentType.rentTypeName}"></option>
+                        </th:block>
                     </select>
                 </div>
 

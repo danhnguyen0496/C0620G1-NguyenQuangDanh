@@ -2,10 +2,8 @@ package com.project_furama.entity.employee;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity(name = "division")
 public class Division {
@@ -19,16 +17,15 @@ public class Division {
     public Division() {
     }
 
-    @OneToOne(mappedBy = "division")
-    @JsonBackReference
-    private Employee employee;
+    @OneToMany(mappedBy = "division", cascade = CascadeType.ALL)
+    private List<Employee> employeeList;
 
-    public Employee getEmployee() {
-        return employee;
+    public List<Employee> getEmployeeList() {
+        return employeeList;
     }
 
-    public void setEmployee(Employee employee) {
-        this.employee = employee;
+    public void setEmployeeList(List<Employee> employeeList) {
+        this.employeeList = employeeList;
     }
 
     public String getDivisionId() {

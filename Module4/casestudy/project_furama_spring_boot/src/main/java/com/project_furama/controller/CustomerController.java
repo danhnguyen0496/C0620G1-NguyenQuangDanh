@@ -22,9 +22,8 @@ public class CustomerController {
     private CustomerTypeService customerTypeService;
 
     @GetMapping("/home-customer")
-
-    public String goHomeCustomer(    Model model, @PageableDefault(size = 5) Pageable pageable,
-                                     @RequestParam Optional<String> keyword) {
+    public String goHomeCustomer(Model model, @PageableDefault(size = 5) Pageable pageable,
+                                 @RequestParam Optional<String> keyword) {
         String keywordOld = "";
         if (keyword.isPresent()) {
             keywordOld = keyword.get();
