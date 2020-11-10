@@ -1,30 +1,44 @@
 package com.project_furama.entity.employee;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.project_furama.entity.contract.Contract;
+import com.project_furama.entity.login.AppUser;
+import org.springframework.validation.Errors;
+import org.springframework.validation.Validator;
+
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.PositiveOrZero;
 import java.util.List;
 
 @Entity
 @Table(name = "employee")
-public class Employee {
+public class Employee implements Validator {
 
     @Id
     @Column(name = "employee_id")
     private String employeeId;
+
     @Column(name = "employee_name")
     private String employeeName;
+
     @Column(name = "employee_birthday")
     private String employeeBirthday;
+
     @Column(name = "employee_id_card")
     private String employeeIdCard;
+
+    @PositiveOrZero(message = "Wages are positive and greater than or equal to 0")
     @Column(name = "employee_salary")
     private String employeeSalary;
+
     @Column(name = "employee_phone")
     private String employeePhone;
+
+    @Email
     @Column(name = "employee_email")
     private String employeeEmail;
+
     @Column(name = "employee_address")
     private String employeeAddress;
 
@@ -46,16 +60,16 @@ public class Employee {
     @JoinColumn(name = "division_id", referencedColumnName = "division_id")
     private Division division;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_name", referencedColumnName = "user_name")
-    private User user;
+    @OneToOne
+    @JoinColumn(name = "User_Id", referencedColumnName = "User_Id")
+    private AppUser appUser;
 
-    public User getUser() {
-        return user;
+    public AppUser getAppUser() {
+        return appUser;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setAppUser(AppUser appUser) {
+        this.appUser = appUser;
     }
 
     public List<Contract> getContractList() {
@@ -154,4 +168,25 @@ public class Employee {
         this.employeeAddress = employeeAddress;
     }
 
+
+    @Override
+    public boolean supports(Class<?> clazz) {
+        return false;
+    }
+
+    @Override
+    public void validate(Object target, Errors errors) {
+        Employee employee = (Employee) target;
+
+        String employeePhone = employee.getEmployeePhone();
+        String employeeIdCard = employee.getEmployeeIdCard();
+        String employeeSalary = employee.getEmployeeSalary();
+
+        if (!employeePhone.matches("((090[0-9]{7})|(091[0-9]{7})|(\\(84\\)\\+90[0-9]{7})|(\\(84\\)\\+91[0-9]{7}))")) {
+            errors.rejectValue("employeePhone", "employeePhone.matches");
+        }
+        if (!employeeIdCard.matches("([0-9]{9})|([0-9]{12})")) {
+            errors.rejectValue("employeeIdCard", "employeeIdCard.matches");
+        }
+    }
 }

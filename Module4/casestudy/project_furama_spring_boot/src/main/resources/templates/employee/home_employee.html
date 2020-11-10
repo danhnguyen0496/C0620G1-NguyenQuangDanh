@@ -279,7 +279,6 @@
             <th>Position</th>
             <th>EducationDegree</th>
             <th>Division</th>
-            <th>User</th>
             <th>Action</th>
         </tr>
         </thead>
@@ -298,7 +297,6 @@
                 <td th:text="${employee.position.positionName}"></td>
                 <td th:text="${employee.educationDegree.educationDegreeName}"></td>
                 <td th:text="${employee.division.divisionName}"></td>
-                <td th:text="${employee.user.username}"></td>
                 <td>
                     <a th:href="@{/update-employee/{id}(id=${employee.employeeId})}" class="edit">
                         <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>

@@ -103,10 +103,10 @@
                 <div class="form-group">
                     <label>User</label>
                     <label>
-                        <select th:field="*{user}" class="form-control">
+                        <select th:field="*{appUser}" class="form-control">
                             <option th:each="user : ${listUser}"
-                                    th:value="${user.username}"
-                                    th:text="${user.username}"></option>
+                                    th:value="${user.userName}"
+                                    th:text="${user.userName}"></option>
                         </select>
                     </label>
                 </div>

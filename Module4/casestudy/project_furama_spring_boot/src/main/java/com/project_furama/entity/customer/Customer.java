@@ -1,28 +1,42 @@
 package com.project_furama.entity.customer;
 
 import com.project_furama.entity.contract.Contract;
+import org.springframework.validation.Errors;
+import org.springframework.validation.Validator;
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Pattern;
+
 import java.util.List;
 
 @Entity(name = "customer")
-public class Customer {
+public class Customer implements Validator {
 
     @Id
     @Column(name = "customer_id")
     protected String id;
+
     @Column(name = "customer_name")
     protected String customerName;
+
     @Column(name = "customer_birthday")
     protected String customerBirthday;
+
     @Column(name = "customer_gender")
     protected String customerGender;
+
     @Column(name = "customer_id_card")
     protected String customerIdCard;
+
     @Column(name = "customer_phone")
     protected String customerPhone;
+
+    @Pattern(regexp = "^[A-Za-z0-9]+@[A-Za-z0-9]+.[A-Za-z0-9]+$",message = "Email must be in the correct format")
     @Column(name = "customer_email")
     protected String customerEmail;
+
     @Column(name = "customer_address")
     protected String customerAddress;
 
@@ -114,5 +128,30 @@ public class Customer {
 
     public void setCustomerAddress(String customerAddress) {
         this.customerAddress = customerAddress;
+    }
+
+    // Custom Validate
+    @Override
+    public boolean supports(Class<?> clazz) {
+        return false;
+    }
+
+    @Override
+    public void validate(Object target, Errors errors) {
+        Customer customer = (Customer) target;
+
+        String id = customer.getId();
+        String customerIdCard = customer.getCustomerIdCard();
+        String customerPhone = customer.getCustomerPhone();
+
+        if (!id.matches("^KH-[0-9]{4}$")) {
+            errors.rejectValue("id", "idCustomer.matches");
+        }
+        if (!customerPhone.matches("((090[0-9]{7})|(091[0-9]{7})|(\\(84\\)\\+90[0-9]{7})|(\\(84\\)\\+91[0-9]{7}))")) {
+            errors.rejectValue("customerPhone", "customerPhone.matches");
+        }
+        if (!customerIdCard.matches("([0-9]{9})|([0-9]{12})")) {
+            errors.rejectValue("customerIdCard", "customerIdCard.matches");
+        }
     }
 }

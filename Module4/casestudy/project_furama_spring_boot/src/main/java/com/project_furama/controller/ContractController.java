@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @Controller
+@SessionAttributes("userLogin")
 public class ContractController {
 
     @Autowired

@@ -33,12 +33,18 @@
 
         <p>Employee Id Card</p>
         <input class="col-3" type="text" th:field="*{employeeIdCard}">
+        <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('employeeIdCard')}"
+           th:errors="*{employeeIdCard}"></p>
 
         <p>Employee Salary</p>
         <input class="col-3" type="text" th:field="*{employeeSalary}">
+        <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('employeeSalary')}"
+           th:errors="*{employeeSalary}"></p>
 
         <p>Employee Phone</p>
         <input class="col-3" type="text" th:field="*{employeePhone}">
+        <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('employeePhone')}"
+           th:errors="*{employeePhone}"></p>
 
         <p>Employee Email</p>
         <input class="col-3" type="email" th:field="*{employeeEmail}">
@@ -63,9 +69,9 @@
                     th:value="${division.divisionId}" th:text="${division.divisionName}"></option>
         </select>
         <p>User</p>
-        <select th:field="*{user}" class="col-3">
+        <select th:field="*{appUser}" class="col-3">
             <option th:each="user : ${listUser}"
-                    th:value="${user.username}" th:text="${user.username}"></option>
+                    th:value="${user.userName}" th:text="${user.userName}"></option>
         </select>
         <br>
         <br>

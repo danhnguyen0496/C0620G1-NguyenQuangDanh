@@ -24,6 +24,8 @@
     <div class="container-fluid">
         <p>Id</p>
         <input class="col-3" type="text" th:field="*{id}"/>
+        <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('id')}"
+           th:errors="*{id}"></p>
 
         <p>Customer Name</p>
         <input class="col-3" type="text" th:field="*{customerName}"/>
@@ -36,12 +38,18 @@
 
         <p>Customer Id Card</p>
         <input class="col-3" type="text" th:field="*{customerIdCard}">
+        <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('customerIdCard')}"
+           th:errors="*{customerIdCard}"></p>
 
         <p>Customer Phone</p>
         <input class="col-3" type="text" th:field="*{customerPhone}">
+        <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('customerPhone')}"
+           th:errors="*{customerPhone}"></p>
 
         <p>Customer Email</p>
-        <input class="col-3" type="email" th:field="*{customerEmail}">
+        <input class="col-3" type="text" th:field="*{customerEmail}">
+                <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('customerEmail')}"
+                   th:errors="*{customerEmail}"></p>
 
         <p>Customer Address</p>
         <input class="col-3" type="text" th:field="*{customerAddress}">

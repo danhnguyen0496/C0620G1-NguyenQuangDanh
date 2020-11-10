@@ -34,7 +34,7 @@ public class User implements Validator {
     @NotBlank
     private String age;
 
-    @Email
+    @Email(message = "cat")
     @NotBlank
     private String email;
 
@@ -89,7 +89,7 @@ public class User implements Validator {
         this.email = email;
     }
 
-    // Customer Validation
+    // Custom Validation
     @Override
     public boolean supports(Class<?> clazz) {
         return false;

@@ -21,4 +21,5 @@ public interface EmployeeService {
     void save(Employee employee);
 
     void remove(String id);
+    List<Employee>findAll();
 }

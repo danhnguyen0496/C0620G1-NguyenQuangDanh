@@ -1,18 +1,21 @@
 package com.project_furama.controller;
 
 import com.project_furama.entity.employee.Employee;
-import com.project_furama.repository.employee_repository.EmployeeRepository;
 import com.project_furama.service.employee_service.*;
+import com.project_furama.service.login_service.AppUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
 @Controller
+@SessionAttributes("userLogin")
 public class EmployeeController {
 
     @Autowired
@@ -28,7 +31,7 @@ public class EmployeeController {
     private PositionService positionService;
 
     @Autowired
-    private UserService userService;
+    private AppUserService appUserService;
 
     @GetMapping("/home-employee")
     public String goHomeEmployee(Model model, @PageableDefault(size = 5) Pageable pageable,
@@ -50,13 +53,18 @@ public class EmployeeController {
         model.addAttribute("listDivision", this.divisionService.findAll());
         model.addAttribute("listPosition", this.positionService.findAll());
         model.addAttribute("listEducationDegree", this.educationDegreeService.findAll());
-        model.addAttribute("listUser", this.userService.findAll());
+        model.addAttribute("listUser", this.appUserService.findAll());
         return "employee/create_employee";
     }
 
     @PostMapping("/save-employee")
-    public String saveEmployee(@ModelAttribute Employee employee) {
-        this.employeeService.save(employee);
+    public String saveEmployee(@Validated @ModelAttribute Employee employee, BindingResult bindingResult) {
+        new Employee().validate(employee, bindingResult);
+        if (bindingResult.hasFieldErrors()) {
+            return "employee/create_employee";
+        } else {
+            this.employeeService.save(employee);
+        }
         return "redirect:/home-employee";
     }
 
@@ -66,7 +74,7 @@ public class EmployeeController {
         model.addAttribute("listDivision", this.divisionService.findAll());
         model.addAttribute("listPosition", this.positionService.findAll());
         model.addAttribute("listEducationDegree", this.educationDegreeService.findAll());
-        model.addAttribute("listUser", this.userService.findAll());
+        model.addAttribute("listUser", this.appUserService.findAll());
         return "employee/update_employee";
     }
 
