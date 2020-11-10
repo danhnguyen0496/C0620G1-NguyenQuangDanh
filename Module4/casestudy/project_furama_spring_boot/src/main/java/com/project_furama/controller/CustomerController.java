@@ -47,9 +47,11 @@ public class CustomerController {
     }
 
     @PostMapping("/save-customer")
-    public String saveCustomer(@Validated @ModelAttribute Customer customer, BindingResult bindingResult) {
+    public String saveCustomer(@Validated @ModelAttribute Customer customer, BindingResult bindingResult, Model model) {
         new Customer().validate(customer, bindingResult);
         if (bindingResult.hasFieldErrors()) {
+            model.addAttribute("customer", customer);
+            model.addAttribute("listCustomerType", this.customerTypeService.findAll());
             return "customer/create_customer";
         } else {
             this.customerService.save(customer);

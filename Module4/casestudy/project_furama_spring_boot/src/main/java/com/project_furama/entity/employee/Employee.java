@@ -1,13 +1,17 @@
 package com.project_furama.entity.employee;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.project_furama.entity.contract.Contract;
 import com.project_furama.entity.login.AppUser;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import javax.validation.constraints.PositiveOrZero;
 import java.util.List;
 
@@ -22,9 +26,12 @@ public class Employee implements Validator {
     @Column(name = "employee_name")
     private String employeeName;
 
+//    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
+//    @JsonFormat(pattern = "DD/MM/YYYY")
     @Column(name = "employee_birthday")
     private String employeeBirthday;
 
+    //    @Pattern(regexp = "^([0-9]{9})|([0-9]{12})$", message = "ID must be in correct 9 or 12 digit format")
     @Column(name = "employee_id_card")
     private String employeeIdCard;
 
@@ -35,7 +42,7 @@ public class Employee implements Validator {
     @Column(name = "employee_phone")
     private String employeePhone;
 
-    @Email
+    @Pattern(regexp = "^[A-Za-z0-9_]+@[A-Za-z0-9]+.[A-Za-z0-9]+$", message = "Email invalidate, example: abc@gmail.com")
     @Column(name = "employee_email")
     private String employeeEmail;
 
@@ -180,7 +187,6 @@ public class Employee implements Validator {
 
         String employeePhone = employee.getEmployeePhone();
         String employeeIdCard = employee.getEmployeeIdCard();
-        String employeeSalary = employee.getEmployeeSalary();
 
         if (!employeePhone.matches("((090[0-9]{7})|(091[0-9]{7})|(\\(84\\)\\+90[0-9]{7})|(\\(84\\)\\+91[0-9]{7}))")) {
             errors.rejectValue("employeePhone", "employeePhone.matches");

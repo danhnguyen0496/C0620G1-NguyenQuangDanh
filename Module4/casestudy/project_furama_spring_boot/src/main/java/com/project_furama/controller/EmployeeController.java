@@ -30,9 +30,6 @@ public class EmployeeController {
     @Autowired
     private PositionService positionService;
 
-    @Autowired
-    private AppUserService appUserService;
-
     @GetMapping("/home-employee")
     public String goHomeEmployee(Model model, @PageableDefault(size = 5) Pageable pageable,
                                  @RequestParam Optional<String> keyword) {
@@ -53,14 +50,17 @@ public class EmployeeController {
         model.addAttribute("listDivision", this.divisionService.findAll());
         model.addAttribute("listPosition", this.positionService.findAll());
         model.addAttribute("listEducationDegree", this.educationDegreeService.findAll());
-        model.addAttribute("listUser", this.appUserService.findAll());
         return "employee/create_employee";
     }
 
     @PostMapping("/save-employee")
-    public String saveEmployee(@Validated @ModelAttribute Employee employee, BindingResult bindingResult) {
+    public String saveEmployee(@Validated @ModelAttribute Employee employee, BindingResult bindingResult, Model model) {
         new Employee().validate(employee, bindingResult);
         if (bindingResult.hasFieldErrors()) {
+            model.addAttribute("employee", employee);
+            model.addAttribute("listDivision", this.divisionService.findAll());
+            model.addAttribute("listPosition", this.positionService.findAll());
+            model.addAttribute("listEducationDegree", this.educationDegreeService.findAll());
             return "employee/create_employee";
         } else {
             this.employeeService.save(employee);
@@ -73,8 +73,6 @@ public class EmployeeController {
         model.addAttribute("employee", this.employeeService.findById(id));
         model.addAttribute("listDivision", this.divisionService.findAll());
         model.addAttribute("listPosition", this.positionService.findAll());
-        model.addAttribute("listEducationDegree", this.educationDegreeService.findAll());
-        model.addAttribute("listUser", this.appUserService.findAll());
         return "employee/update_employee";
     }
 

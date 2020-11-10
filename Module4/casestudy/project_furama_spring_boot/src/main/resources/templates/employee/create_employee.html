@@ -47,7 +47,9 @@
            th:errors="*{employeePhone}"></p>
 
         <p>Employee Email</p>
-        <input class="col-3" type="email" th:field="*{employeeEmail}">
+        <input class="col-3" type="text" th:field="*{employeeEmail}">
+        <p style="font-style: italic; color: red" th:if="${#fields.hasErrors('employeeEmail')}"
+           th:errors="*{employeeEmail}"></p>
 
         <p>Employee Address</p>
         <input class="col-3" type="text" th:field="*{employeeAddress}">
@@ -67,11 +69,6 @@
         <select th:field="*{division}" class="col-3">
             <option th:each="division : ${listDivision}"
                     th:value="${division.divisionId}" th:text="${division.divisionName}"></option>
-        </select>
-        <p>User</p>
-        <select th:field="*{appUser}" class="col-3">
-            <option th:each="user : ${listUser}"
-                    th:value="${user.userName}" th:text="${user.userName}"></option>
         </select>
         <br>
         <br>
