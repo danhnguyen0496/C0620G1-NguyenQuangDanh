@@ -258,7 +258,7 @@
             <div class="col-sm-4">
                 <form action="/home-customer" method="get">
                     <input class="btn" type="text" name="keyword" th:value="${keywordOld}"
-                           placeholder="Search"
+                           placeholder="Search name"
                            style="color: black; background-color: white">
                     <input class="btn btn-success" type="submit" value="Search">
                 </form>
@@ -345,10 +345,6 @@
         document.getElementById("idDeleteCustomerHidden").value = id;
     }
 
-    // $(document).ready(function () {
-    //     // let idDeleteCustomer= $("#idDeleteCustomer").val();
-    //     $("#idDeleteCustomerHidden").val(this.id);
-    // })
 </script>
 
 <script src="../../jquery/jquery-3.5.1.min.js"></script>

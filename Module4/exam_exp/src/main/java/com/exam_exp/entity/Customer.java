@@ -1,16 +1,10 @@
-package com.project_furama.entity.customer;
+package com.exam_exp.entity;
 
-import com.project_furama.entity.contract.Contract;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 import javax.persistence.*;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Past;
 import javax.validation.constraints.Pattern;
-
-import java.util.List;
 
 @Entity(name = "customer")
 public class Customer implements Validator {
@@ -44,17 +38,6 @@ public class Customer implements Validator {
     @ManyToOne
     @JoinColumn(name = "customer_type_id", referencedColumnName = "customer_type_id")
     private TypeCustomer typeCustomer;
-
-    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
-    private List<Contract> contractList;
-
-    public List<Contract> getContractList() {
-        return contractList;
-    }
-
-    public void setContractList(List<Contract> contractList) {
-        this.contractList = contractList;
-    }
 
     public Customer() {
     }
