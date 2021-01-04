@@ -1,0 +1,23 @@
+h5 {
+  color: #435d7d;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+h6 {
+  color: #435d7d;
+  font-weight: bolder;
+}
+
+p {
+  color: #757677;
+}
+
+span {
+  color: #435d7d;
+}
+.integrated-statistics {
+  background-image: url("https://userscontent2.emaze.com/images/3fb92ced-e07c-43f9-a1e3-eed08d15eeca/611856779bb15f9361a0fa2865abd54b.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
